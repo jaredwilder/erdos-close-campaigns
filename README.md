@@ -1,59 +1,43 @@
-# erdos-close-campaigns
+# Exact Erdős values and formalized structural lemmas
 
-**The first exact values of Mathlib's own `rothNumberNat`: `rothNumberNat 14 = 8` and
-`rothNumberNat 15 = 8`**, with a supermultiplicativity lemma absent from Mathlib, no `sorryAx` and
-no `native_decide`.
+**The first exact values of Mathlib's canonical `rothNumberNat`: `rothNumberNat 14 = 8` and `rothNumberNat 15 = 8`**, together with a supermultiplicativity lemma absent from Mathlib, a formalized classical lower bound, and several structural reductions.
 
-The repository collects four Erdős campaigns and the mathematics they actually landed: exact
-values, Mathlib-shaped lemmas, a formalized classical bound, structural reductions, and explicit
-gap ledgers.
+Author: Jared Wilder. First public timestamp: 2026-09-10. Underlying research dated 2026-09-05.
 
-Author: Jared Wilder. First public timestamp: 2026-09-10. Campaigns dated 2026-09-05.
+## Erdős 142 — exact `rothNumberNat` values and structural lemmas
 
-## Erdős 142 — exact Mathlib values and structural lemmas
+All results below compile with **no `sorryAx` and no `native_decide`**:
 
-All results below are sealed at exit 0 with **no `sorryAx` and no `native_decide`**:
-
-| result | note |
+| result | significance |
 |---|---|
-| **`r3 n = rothNumberNat n`** | bridges the campaign definition to Mathlib's canonical one, closing the predecessor campaign's stated correspondence obligation |
-| **`rothNumberNat (p+1) * rothNumberNat (q+1) <= rothNumberNat (2pq+p+q+1)`** | supermultiplicativity, absent from Mathlib, the lower-side companion of `rothNumberNat_add_le` |
-| **`rothNumberNat 14 = 8` and `rothNumberNat 15 = 8`** | the **first exact values** of Mathlib's `rothNumberNat`, plus witnesses to n = 20 |
-| `2 * rothNumberNat (n+1) <= rothNumberNat (3n+2)` | tripling |
-| `2 * r3(n) <= n + 8` | a predecessor file written but never compiled before a crash, now sealed |
+| **`r3 n = rothNumberNat n`** | identifies the project's finite `r3` definition with Mathlib's canonical one |
+| **`rothNumberNat (p+1) * rothNumberNat (q+1) <= rothNumberNat (2pq+p+q+1)`** | supermultiplicativity, absent from Mathlib; a lower-side companion to `rothNumberNat_add_le` |
+| **`rothNumberNat 14 = 8` and `rothNumberNat 15 = 8`** | the first exact values of Mathlib's `rothNumberNat`; explicit witnesses are also supplied through `n=20` |
+| `2 * rothNumberNat (n+1) <= rothNumberNat (3n+2)` | tripling inequality |
+| `2 * r3(n) <= n + 8` | an elementary finite upper bound recovered and formally checked |
 
-The open asymptotic question for `r_k(N)` lies beyond these exact values and structural lemmas; the
-campaign's gap ledger records that separation explicitly.
+The asymptotic question for `r_k(N)` is separate from these exact finite values and structural lemmas.
 
-A useful repair in this lane was semantic rather than cosmetic: the predecessor built a private
-`r3` and hand-proved lemmas Mathlib already had while leaving the correspondence merely
-documented. This campaign proved the bridge and then worked in Mathlib's canonical vocabulary.
+One useful formal repair was proving the correspondence between the project's private `r3` definition and Mathlib's canonical `rothNumberNat`. Once that equivalence was formalized, subsequent statements could be written directly in the standard Mathlib vocabulary.
 
-## Erdős 89 — formalized lower bound and gap ledger
+## Erdős 89 — formalized lower bound
 
-The campaign banks a sorry-free elementary **Omega(sqrt n)** lower bound, corresponding to Erdős
-1946, together with a sorry-free gap ledger proving that rung is negligible against the Guth–Katz
-`n / log n` record.
+The repository includes a sorry-free elementary **`Omega(sqrt n)`** lower bound corresponding to Erdős 1946.
 
-It also records why finite configuration search cannot settle the asymptotic statement: the target
-quantifies over all sufficiently large `n` with a uniform constant. The grid computation therefore
-remains labelled as a construction measurement rather than evidence for a stronger universal
-lower bound.
+A companion comparison proves formally that this growth rate is asymptotically smaller than the Guth–Katz `n/log n` bound. The finite grid computations in this directory are therefore presented as constructions and checks, not as evidence for a stronger asymptotic theorem.
 
-## Additional packets
+## Additional formal material
 
-- `erdos143-close-2026-09-05` — Ramsey-number variants formalized and structural lemmas landed;
-- `eg411-omega67-2026-09-05` — the omega capstone kernel theorem for the EG411 balance law;
-- `erdos142-evidence/` — the exact-envelope campaign, novelty searches, and `k=3` citation corpus;
-- `srg-conway99/` — strongly regular graph transports, Brouwer ground truth, an SRG(5,2,0,1)
-  proof, and the SRG(99,14,1,2) open target preserved separately.
+- `erdos143-close-2026-09-05` — Ramsey-number variants and structural lemmas;
+- `eg411-omega67-2026-09-05` — an omega-bound formal theorem for the associated balance law;
+- `erdos142-evidence/` — exact finite data and literature notes for the `k=3` problem;
+- `srg-conway99/` — strongly regular graph transformations, reference data, an `SRG(5,2,0,1)` proof, and the separate `SRG(99,14,1,2)` target.
 
-## Scope
+Historical directory names are retained for provenance.
 
-These campaigns were launched at larger Erdős targets; the public mathematical contribution here
-is the exact values, lemmas, formalized bounds, structural reductions, and gap accounting listed
-above. The larger targets retain their own status rather than being inferred from the campaign
-names.
+## Mathematical scope
+
+The contribution of this repository is the exact values, formal lemmas, classical lower bound, structural reductions, and finite computations listed above. Each result should be read at the scope of its own theorem statement rather than by the size of the larger Erdős problem that originally motivated it.
 
 ## License
 
