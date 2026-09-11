@@ -1,8 +1,11 @@
 # erdos-close-campaigns
 
-Four Erdos close campaigns that **did not close their problems**, published for what they did land:
-Mathlib-shaped lemmas, first exact values, formalized classical bounds, and gap ledgers that
-measure how far short they fall.
+**The first exact values of Mathlib's own `rothNumberNat`: `rothNumberNat 14 = 8` and
+`rothNumberNat 15 = 8`**, with a supermultiplicativity lemma absent from Mathlib, no `sorryAx` and
+no `native_decide`.
+
+From four Erdos close campaigns. None of the four closed its problem, and each ships a gap ledger
+measuring how far short it falls.
 
 Author: Jared Wilder. First public timestamp: 2026-09-10. Campaigns dated 2026-09-05.
 
