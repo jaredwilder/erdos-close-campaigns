@@ -1,0 +1,95 @@
+{
+  "campaign": "erdos89-close-2026-09-05",
+  "target": "Erdos problem 89 (erdosproblems.com/89, $500, OPEN)",
+  "canonical_statement": "Does every set of n distinct points in R^2 determine >> n/sqrt(log n) many distinct distances?",
+  "verdict": "NOT CLOSED",
+  "what_was_proved": "an elementary Omega(sqrt n) lower bound (rung 1) plus a formal gap ledger; NOT the conjecture, NOT Guth-Katz",
+  "verification": {
+    "mode": "clean-room rebuild from the banked bytes",
+    "host": "root@51.158.234.15 (rented box)",
+    "lean": "Lean (version 4.31.0-rc1, x86_64-unknown-linux-gnu, commit fd009949156901e6cf15b6d9bf1122294b8e697a, Release)",
+    "toolchain": "leanprover/lean4:v4.31.0-rc1",
+    "mathlib_rev": "919544d4309104b3f19724b0e6e48c701d27948f",
+    "utc": "2026-09-05T17:21:05Z",
+    "receipt": "receipts/VERIFY.cleanroom.log"
+  },
+  "files": [
+    {
+      "path": "kernel/Erdos89Rung1.lean",
+      "sha256": "68c2bc5b9b21ab5fc078963f8e6baebc18acfb6c462b17b266c3bae63f5b589a",
+      "exit_code": 0,
+      "wall_seconds": 5.46,
+      "maxrss_kb": 6908272,
+      "sorry_free": true,
+      "native_decide": false,
+      "theorems": [
+        {
+          "name": "minimalDistinctDistances_eq_natSInf",
+          "axioms": ["propext", "Classical.choice", "Quot.sound"],
+          "role": "statement firewall: the R-cast inside the imported set-builder is inert"
+        },
+        {
+          "name": "fiber_card_le_two",
+          "role": "two circles with distinct centres meet in at most two points"
+        },
+        {
+          "name": "card_le_two_mul_distinctDistances_sq",
+          "axioms": ["propext", "Classical.choice", "Quot.sound"],
+          "statement": "for every finite P subset R^2, #P <= 2 * (distinctDistances P)^2 + 2"
+        },
+        {
+          "name": "le_two_mul_minimalDistinctDistances_sq",
+          "statement": "for every n, n <= 2 * (minimalDistinctDistances n)^2 + 2"
+        },
+        {
+          "name": "sqrt_le_two_mul_minimalDistinctDistances",
+          "statement": "for n >= 4, sqrt n <= 2 * minimalDistinctDistances n"
+        },
+        {
+          "name": "sqrt_isBigO_minimalDistinctDistances",
+          "axioms": ["propext", "Classical.choice", "Quot.sound"],
+          "statement": "(fun n => Real.sqrt n) =O[atTop] (fun n => (minimalDistinctDistances n : R))"
+        }
+      ]
+    },
+    {
+      "path": "kernel/Erdos89Gap.lean",
+      "sha256": "e0e9c9a20257db9f3b59aa2c841362faae0139a5e3aff6977b9711206d5f53f1",
+      "exit_code": 0,
+      "wall_seconds": 6.24,
+      "maxrss_kb": 6900912,
+      "sorry_free": true,
+      "native_decide": false,
+      "theorems": [
+        {
+          "name": "sqrt_isBigO_target",
+          "axioms": ["propext", "Classical.choice", "Quot.sound"],
+          "statement": "(fun n => Real.sqrt n) =O[atTop] (fun n => n / Real.sqrt (Real.log n))"
+        },
+        {
+          "name": "sqrt_isLittleO_target",
+          "axioms": ["propext", "Classical.choice", "Quot.sound"],
+          "statement": "(fun n => Real.sqrt n) =o[atTop] (fun n => n / Real.sqrt (Real.log n)) -- the gap is STRICT"
+        },
+        {
+          "name": "target_implies_rung1",
+          "axioms": ["propext", "Classical.choice", "Quot.sound"],
+          "statement": "for any g, (n/sqrt(log n)) =O[atTop] g -> (sqrt n) =O[atTop] g"
+        }
+      ]
+    }
+  ],
+  "semantic_binding": {
+    "source_of_definitions": "oracle/acquisition/formal-conjectures/FormalConjecturesForMathlib/Geometry/2d.lean",
+    "defs_transcribed_verbatim": ["distinctDistances", "minimalDistinctDistances"],
+    "elaboration_check_receipt": "receipts/probe1.definition-elaboration.log",
+    "elaborated_form": "fun n => sInf {x : Nat | exists points, exists (_ : #points = n), (distinctDistances points : R) = (x : R)}",
+    "firewall_theorem": "minimalDistinctDistances_eq_natSInf",
+    "note": "the imported definition returns Nat; the R-cast in the set-builder is discharged by Nat.cast injectivity and proved inert in-file"
+  },
+  "explicitly_not_proved": [
+    "erdos_89 : (fun n => n / sqrt(log n)) =O[atTop] minimalDistinctDistances  -- the OPEN conjecture",
+    "erdos_89.variants.n_dvd_log_n : Guth-Katz 2015 n/log n bound",
+    "erdos_89.variants.grid_upper_bound : the Erdos/Moser grid upper bound (needs Landau-Ramanujan)"
+  ]
+}

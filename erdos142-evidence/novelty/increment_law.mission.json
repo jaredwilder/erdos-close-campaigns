@@ -1,0 +1,16 @@
+{
+ "claim": "For 9<=n<=53 the exact increment r_3(n+1)-r_3(n) always lies in {0,1}, verified exhaustively.",
+ "domain": "additive combinatorics",
+ "novelty_target": "papers",
+ "facets": {
+  "mechanism": "adding one ground-set element cannot decrease the maximum nor raise it by more than one",
+  "method": "exhaustive increment audit over a proven exact window",
+  "outcome": "all 45 increments lie in {0,1}",
+  "entities": "3-AP-free subsets of the first n integers"
+ },
+ "constraints": {
+  "search_queries": [],
+  "patent_queries": []
+ },
+ "min_corpus": 10
+}

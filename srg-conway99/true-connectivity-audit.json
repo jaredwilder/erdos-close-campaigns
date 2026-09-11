@@ -1,0 +1,69 @@
+{
+  "kind": "true-connectivity-audit",
+  "mutatedDatabase": false,
+  "edgesKept": 7339383,
+  "edgesSkippedByType": 68083,
+  "edgesSkippedAsHubIncident": 3783,
+  "semanticLabelHubs": [
+    {
+      "id": 135224,
+      "label": "status:OPEN",
+      "degree": 1481
+    },
+    {
+      "id": 135195,
+      "label": "status:NONE",
+      "degree": 1157
+    },
+    {
+      "id": 135210,
+      "label": "status:EXISTS",
+      "degree": 701
+    },
+    {
+      "id": 214031,
+      "label": "status:UNDECIDED",
+      "degree": 267
+    },
+    {
+      "id": 135185,
+      "label": "status:EXISTS_UNIQUE",
+      "degree": 108
+    },
+    {
+      "id": 668260,
+      "label": "status:EXACT_PROVEN",
+      "degree": 69
+    }
+  ],
+  "materializedGiantComponent": {
+    "component": 668150,
+    "size": 527230,
+    "bladeNodes": 2891
+  },
+  "trueGiantComponent": {
+    "size": 524140,
+    "bladeNodes": 2
+  },
+  "trueBladeComponentsTop": [
+    {
+      "blades": 22
+    },
+    {
+      "blades": 18
+    },
+    {
+      "blades": 11
+    },
+    {
+      "blades": 10
+    },
+    {
+      "blades": 4
+    },
+    {
+      "blades": 4
+    }
+  ],
+  "totalBladeNodes": 6006
+}

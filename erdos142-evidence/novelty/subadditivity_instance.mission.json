@@ -1,0 +1,16 @@
+{
+ "claim": "r_3 is subadditive: r_3(m+n) <= r_3(m)+r_3(n), verified on 361 exact instances with 9<=m<=n and m+n<=54.",
+ "domain": "additive combinatorics",
+ "novelty_target": "papers",
+ "facets": {
+  "mechanism": "block decomposition of {1..m+n} into two intervals, each intersection 3-AP-free",
+  "method": "exhaustive verification of subadditivity across all exact-value pairs",
+  "outcome": "361/361 instances satisfy the subadditive inequality",
+  "entities": "3-AP-free subsets of the first n integers"
+ },
+ "constraints": {
+  "search_queries": [],
+  "patent_queries": []
+ },
+ "min_corpus": 10
+}

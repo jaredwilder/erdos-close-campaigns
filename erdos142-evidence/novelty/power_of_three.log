@@ -1,0 +1,2644 @@
+{
+  "adversarial_verdict": "NOVELTYFORGE_V1_ADVERSARIAL_REVIEW_GREEN",
+  "core_novelty": 0.691351,
+  "corpus_provenance": {
+    "acquired_utc": "2026-08-04T15:42:25Z",
+    "acquisition_output_file_sha256": "df0e76e77d2f6cc07d61cbb78193d9f9ed2d45befe8910a462249c48a0f5b440",
+    "acquisition_snapshot_sha256": "2f7ffeb5b3562a7ae160ba838534bf9b6face7e8c2fe714eba091c5272c10790",
+    "binding_receipt_sha256": "44e0eaa960b8443645f13e022e1da38ecb5258b15572d2fc768e8a04e653ae62",
+    "corpus_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\corpus_fa6f428cdae5f1aed6f15a0c034cfbb5.json",
+    "corpus_sha256": "8ff9d09556ad0ba064339a8d8ddfdb7015a7cb823b10546958722b760f3e13e2",
+    "family_summary": {
+      "double_count_prevented": 0,
+      "family_count": 68,
+      "patent_records": 68,
+      "receipt_sha256": "9526e341e2ec5110177e6f2bcb511c528dd4ce7c4b3812ce5eeccd49006ff654",
+      "unique_structure_count": 0
+    },
+    "independent_quotas": {
+      "paper_quota_met": true,
+      "patent_quota_met": true,
+      "required_papers": 0,
+      "required_patents": 0,
+      "status": "COMPLETE"
+    },
+    "paper_count": 30,
+    "paper_queries": [
+      "additive combinatorics",
+      "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers",
+      "base-3 digit-restricted digit construction avoids three-term progressions additive combinatorics",
+      "base-3 digit-restricted digit construction avoids three-term progressions independently verified witness sets powers three",
+      "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed",
+      "certified independently verified 3-ap-free witnesses",
+      "independently verified witness sets powers three 3-ap-free subsets first integers",
+      "independently verified witness sets powers three additive combinatorics",
+      "independently verified witness sets powers three lower bound confirmed",
+      "lower bound confirmed 3-ap-free subsets first integers",
+      "lower bound confirmed additive combinatorics"
+    ],
+    "paper_retrieval": {
+      "all_provider_attempts_succeeded": true,
+      "attempts": [
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 34387,
+            "body_sha256": "a7560babb89f30d80110376a9ea77ca9e77b320b3660bca4a32c51ffc9647a2a",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 600.717,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "7e010f70642c2c4097f3a28dcc98a9065e8345ce476680120beb9727b660e93e",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 313070,
+            "body_sha256": "c0ad39d6793c6d0af0c7601a161178eea93b5ca3b2d06bd5c28c1433cb198234",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1834.131,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "b13cdc420a7e27c1de703a46ff1f032e8a7c3bbdfce297cd0610c4e791cda189",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 124076,
+            "body_sha256": "1ed44f1b8fc8bfaac2c72d63ddf427660d0585f450dcc87a459d14b077b3c4b0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 492.741,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "066fc5545e669fb7e63f4b6c3e8c29c07900c63a3ca55775632d0900383b4575",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 25485,
+            "body_sha256": "d216022e65a2dba774b6c47bd4b0c9a12d3d4dbbbf79ec5b501a515567cdb027",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 650.764,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "1b57153b626ff88029504d3c5b2b01d658189e5620876bd27c44728ee6fb22f4",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 431671,
+            "body_sha256": "c4a47e386f346d5765be79749b4449a74ba6ec00a3509930d47119f5009f7703",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1637.241,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "f874b5ffee8a4936911a11671015f9a48139bd7ccafc878b70e935fc16f5db6f",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 269,
+            "body_sha256": "e75911104dc98a23ef7e23e19654e212cfa3fa3eb42a4d9f7f90b5ce486563a2",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 236.398,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "2c06ef56fb0abfafa25b9ef89b853105a43b44a489ed80183b2118de951efddb",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 22731,
+            "body_sha256": "08a3468857c67967e47d9236816cc689c16a120b32bc32cc66a78dc7e2d1e831",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 472.552,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "1c0d015c9af07598a2befdc17ace6afad2654d179007390b49d8d921acdf7891",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "openalex",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 409106,
+            "body_sha256": "e3f2dd0451f04336a5080915173cb20740a2cd46c4ea9d6d94d91038a308526a",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1523.746,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "485b4fbac212b903dcf8b0a46a605c0cbe6427ba25d603560cd940b237ae299b",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 259,
+            "body_sha256": "1e50e643160491833d730f368f7d0a9c35a749a21c158f56bd4ee906d08fa57b",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 227.496,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "641edc7e0a3123568be150c25cf2855e68883713e67a45c018cf7986fb3be413",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions independently verified witness sets powers three",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 68322,
+            "body_sha256": "8153d0554a677db521eea01807bcbf6a717ab552402c6fd3656fd573f9116cab",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 490.102,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "9e253c40dce9fbeb332acbc480933ebf129b2396ceddde54e11748f480e7ef00",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+independently+verified+witness+sets+powers+three&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions independently verified witness sets powers three",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 444998,
+            "body_sha256": "796e9dcabfb82d131981698f82be628fb43cc5291cb1d52ec651e39f1e32aadf",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1809.094,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "3d65c9fa6056ee27f4a18362591010be5ac3ea6e856ea702bdde62dc34c4d6b2",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+independently+verified+witness+sets+powers+three&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions independently verified witness sets powers three",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 285,
+            "body_sha256": "eaeeb1ddef6fbebdaf05793be501e0ee3531bd06e0b41ac5d3a3a133742aba4a",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 235.84,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "1df976da9852aeda42fbfc10b535da740389ebc70cfcc3961eb8f495e9cefae0",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+independently+verified+witness+sets+powers+three&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 22558,
+            "body_sha256": "cc31058f792bedb27219dbb394ff1843805713f8a8b2dffb67332de7345bd440",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 465.241,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "cd9094357222cef68cf77b86515254a90652cdfa7863ef752e715eb94d8784f2",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+lower+bound+confirmed&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 755617,
+            "body_sha256": "565940a83bbf1a10eccdbd698d5894aafc27802b72b8f33e08aafbca2ef9b500",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1651.514,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "73787d79bd0d64710288ffdf98e775ddf5201f5d716516602a94c85b9da89548",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+lower+bound+confirmed&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 17,
+          "provider": "europe_pmc",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 48158,
+            "body_sha256": "56a50f10f70ddd33f98307ece76bd74f0552415fddb45f09747764354d37c6e6",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 400.906,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "808aa5a0e023d198e129644ddb419e172f79e398a22c4a33770ab6da2f2911d3",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=base-3+digit-restricted+digit+construction+avoids+three-term+progressions+lower+bound+confirmed&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "certified independently verified 3-ap-free witnesses",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 19810,
+            "body_sha256": "dff1734f86db28331f8c1316dc015d06ce3de01d92793a12c3df65d086c5c2b2",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 394.863,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "51fec2c075e7e5642df320eec65033ca3eda23d2c67c84fdb51b9efea90db64e",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=certified+independently+verified+3-ap-free+witnesses&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "certified independently verified 3-ap-free witnesses",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 678173,
+            "body_sha256": "5dd65f0490149ab37475d399998bf8fd880fe4ecb0142148f1c6a01dfb4289e4",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1212.699,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "1e3fcb346e31fe10ead823b5fccb409c6738e1fb509132e51f196b1b8a4560f8",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=certified+independently+verified+3-ap-free+witnesses&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "certified independently verified 3-ap-free witnesses",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 67593,
+            "body_sha256": "f42c72cf3b2c6fcae84b03349d981515f2750f8f531cc9f8f46b452b168e4b77",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 390.316,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "0fb1955b7d4a352a8bd5d7031a037fd0927fb7d321cae5d36bf70ad1de87e4bb",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=certified+independently+verified+3-ap-free+witnesses&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "independently verified witness sets powers three 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 23839,
+            "body_sha256": "b4ca7a3801b2ae12bcd368f6193640d1d79526fdb348bdd3c88fcfdea5158803",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 443.78,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "e94c80b21d3bd6acaefef6aa36198d2d486734a58b2f57b7bd6af13db50d4662",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=independently+verified+witness+sets+powers+three+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "independently verified witness sets powers three 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 539309,
+            "body_sha256": "0349616ebfe0841a5330a188f9f67ecbfc88eafe18fe7c6a55f38ef1489bff8c",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1092.201,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "6c4c465247261c9c28c789333ea5955a8c374d650e438fe30eb3b119ae168cba",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=independently+verified+witness+sets+powers+three+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 2,
+          "provider": "europe_pmc",
+          "query": "independently verified witness sets powers three 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 157883,
+            "body_sha256": "ad280b191301d7760ac92ed9f78902e4b45f5504a4749ee70aeca897d0e2ef50",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 323.188,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "f01a4ef713a47a3bf5254d292866781efc7750258cc58373daefbd0eee8940ca",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=independently+verified+witness+sets+powers+three+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "independently verified witness sets powers three additive combinatorics",
+          "receipt": {
+            "attempt": 2,
+            "body_bytes": 21283,
+            "body_sha256": "fcb2b5b1b373dfecf105a379bd1a1e34f5fc7e9c684fd11146e26f5515c51e69",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 445.968,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "d562e0870facf62fc34b3ac65c6bfbfccbc543a528e3a8578ed6d11ece572d36",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=independently+verified+witness+sets+powers+three+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "independently verified witness sets powers three additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 502286,
+            "body_sha256": "d03f6b96ef788ea94b433cc51bf7d75aeb20d668f134934e0b4242f223db5b13",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 967.128,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "96d4860b4bc8723c7564b564399a050ee117098f8ccce9cc6982deba8cf325dc",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=independently+verified+witness+sets+powers+three+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "independently verified witness sets powers three additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 234,
+            "body_sha256": "a4e69868b220e5eb849fea941c1256a2b6ef1bd849ec68d8767adbef52e18fbf",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 164.458,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "22ebd420f19fb6e9f73a9773be58ac3b8f48a6f22e6b689e330ef60cf033d4ce",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=independently+verified+witness+sets+powers+three+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "independently verified witness sets powers three lower bound confirmed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 29303,
+            "body_sha256": "78e492bacc6628760c32c617811773da224b1c9f20d30cda51047fcdb9f9c447",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 446.741,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "184ffe310091f514157ef7c3c7a55e7718772cbc39f282e7cc5cf6e95f95d691",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=independently+verified+witness+sets+powers+three+lower+bound+confirmed&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "independently verified witness sets powers three lower bound confirmed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 953008,
+            "body_sha256": "eb3a953143e53541d15525c5f91ccd68493ccf993d5bb84769d199f44166713e",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1198.18,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "8c7e19335bc1db78927e3afddf467ff733f4474f25fe0d39bb7f7c0961cc4322",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=independently+verified+witness+sets+powers+three+lower+bound+confirmed&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "independently verified witness sets powers three lower bound confirmed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 90471,
+            "body_sha256": "839f79c3ddd4cc36f0a3cbc0c443c4220f28d3ff382bb7cad4166423a8f167ee",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 402.005,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "df300741895bcb44ebe918c2425bd6c14cf2808466d8a474b83c1bf1571ef48c",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=independently+verified+witness+sets+powers+three+lower+bound+confirmed&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "lower bound confirmed 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 36313,
+            "body_sha256": "c1fadb27f6337d337637ffe8256c216fdfeb860004d63758fa152fe502d75db2",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 471.066,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "5715b6d2fa57787133caada2c08283a2baa8523551781badb5a6f46f843f23d7",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=lower+bound+confirmed+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "lower bound confirmed 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 951054,
+            "body_sha256": "ee22662852bb58b5c544e25a5d1c48541aaa063b82ebe91d7ca350fa05118f54",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1317.715,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "75477e6224f37c6cb2fb277ca407d7e485f223dd913bdedefb19ed17e2c0552e",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=lower+bound+confirmed+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "europe_pmc",
+          "query": "lower bound confirmed 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 378450,
+            "body_sha256": "0a2a72a326908a7a66a4c6396e8d01f53363ab29860f74d6c5fefeeff79122b5",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 414.936,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "6fc57a049cae125ad48c83b18130cef3a29266bbed8d706c3088565def8e19de",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=lower+bound+confirmed+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "lower bound confirmed additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 36694,
+            "body_sha256": "0e36f5210b93256dfc547b7cf52dc632c685b923aec2fa4a39a5d32ad67428b5",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 419.138,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "bb5aa1f56f3f40fc5117d62ae97e93ae09e1eff39cb5c10da89acb073bb5aaa0",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=lower+bound+confirmed+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "lower bound confirmed additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 494599,
+            "body_sha256": "e97169782156e7e1350a741fc99b8b41d235ee8710d493e341bd496380167605",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1270.342,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "6a9d1baab3998da1eac4d41f3c9ac566e99cd330a0f867bf2547282ae620b69e",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=lower+bound+confirmed+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "lower bound confirmed additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 189251,
+            "body_sha256": "01f9941cfe811c6f5e7891daa4c6f00d9979310dccca1699d8b94d59ec1e2c93",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 545.578,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "1ee784ab5ae0a783a89f1788adc015e2b2acab147f3f45b2550ad9d28484abcf",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=lower+bound+confirmed+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        }
+      ],
+      "math_domain_detected": false,
+      "math_scholarly_providers": {
+        "status": "not_applicable"
+      },
+      "paper_count": 30,
+      "provider_error_count": 0,
+      "provider_success_count": 33,
+      "providers_attempted": [
+        "crossref",
+        "openalex",
+        "europe_pmc"
+      ],
+      "providers_with_hits": [
+        "crossref",
+        "europe_pmc",
+        "openalex"
+      ],
+      "query_count": 11,
+      "relevance_floor": {
+        "admitted": 376,
+        "all_candidates_excluded": false,
+        "candidates": 615,
+        "excluded": 239,
+        "excluded_rows": [
+          {
+            "cited_by_count": 4997,
+            "doi": "10.1561/2200000083",
+            "retrieval_citation_prior": 1.447855,
+            "title": "Advances and Open Problems in Federated Learning"
+          },
+          {
+            "cited_by_count": 4125,
+            "doi": "10.1016/j.nima.2016.06.125",
+            "retrieval_citation_prior": 1.415261,
+            "title": "Recent developments in Geant4"
+          },
+          {
+            "cited_by_count": 2645,
+            "doi": "10.1017/s0140525x0999094x",
+            "retrieval_citation_prior": 1.339737,
+            "title": "The myth of language universals: Language diversity and its importance for cognitive science"
+          },
+          {
+            "cited_by_count": 2255,
+            "doi": "10.1257/jel.52.3.740",
+            "retrieval_citation_prior": 1.312629,
+            "title": "What Do We Learn from the Weather? The New Climate-Economy Literature"
+          },
+          {
+            "cited_by_count": 2029,
+            "doi": "10.1161/cir.0000000000001209",
+            "retrieval_citation_prior": 1.294684,
+            "title": "2024 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association."
+          },
+          {
+            "cited_by_count": 1893,
+            "doi": "10.1109/comst.2015.2477041",
+            "retrieval_citation_prior": 1.282896,
+            "title": "Network Function Virtualization: State-of-the-Art and Research Challenges"
+          },
+          {
+            "cited_by_count": 1740,
+            "doi": "10.1146/annurev-psych-010814-015331",
+            "retrieval_citation_prior": 1.268577,
+            "title": "The Science of Mind Wandering: Empirically Navigating the Stream of Consciousness"
+          },
+          {
+            "cited_by_count": 1562,
+            "doi": "10.48550/arxiv.2303.12712",
+            "retrieval_citation_prior": 1.250242,
+            "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+          },
+          {
+            "cited_by_count": 1507,
+            "doi": "10.1038/nrdp.2018.26",
+            "retrieval_citation_prior": 1.244152,
+            "title": "Invasive candidiasis"
+          },
+          {
+            "cited_by_count": 1441,
+            "doi": "10.4324/9781315211985-5",
+            "retrieval_citation_prior": 1.236544,
+            "title": "Learning, Remembering, and Understanding"
+          },
+          {
+            "cited_by_count": 1208,
+            "doi": "10.2139/ssrn.3144139",
+            "retrieval_citation_prior": 1.206583,
+            "title": "Social Media, Political Polarization, and Political Disinformation: A Review of the Scientific Literature"
+          },
+          {
+            "cited_by_count": 1173,
+            "doi": "10.1016/s0140-6736(23)01859-7",
+            "retrieval_citation_prior": 1.201589,
+            "title": "The 2023 report of the Lancet Countdown on health and climate change: the imperative for a health-centred response in a world facing irreversible harms"
+          },
+          {
+            "cited_by_count": 1137,
+            "doi": "10.1016/j.jacc.2009.04.011",
+            "retrieval_citation_prior": 1.196295,
+            "title": "Diagnosis and Assessment of Pulmonary Arterial Hypertension"
+          },
+          {
+            "cited_by_count": 1125,
+            "doi": "10.1109/access.2020.2992341",
+            "retrieval_citation_prior": 1.194493,
+            "title": "A Comprehensive Review of the COVID-19 Pandemic and the Role of IoT, Drones, AI, Blockchain, and 5G in Managing its Impact"
+          },
+          {
+            "cited_by_count": 954,
+            "doi": "10.1017/s0140525x14001356",
+            "retrieval_citation_prior": 1.166491,
+            "title": "The cultural evolution of prosocial religions"
+          },
+          {
+            "cited_by_count": 886,
+            "doi": "10.1038/nature17953",
+            "retrieval_citation_prior": 1.153934,
+            "title": "Ion-induced nucleation of pure biogenic particles"
+          },
+          {
+            "cited_by_count": 880,
+            "doi": "10.1101/gr.193474.115",
+            "retrieval_citation_prior": 1.15278,
+            "title": "Chromosome-scale shotgun assembly using an in vitro method for long-range linkage"
+          },
+          {
+            "cited_by_count": 848,
+            "doi": "10.1016/j.physrep.2016.11.002",
+            "retrieval_citation_prior": 1.14649,
+            "title": "Multiquark resonances"
+          },
+          {
+            "cited_by_count": 829,
+            "doi": "10.1002/eji.201970107",
+            "retrieval_citation_prior": 1.142642,
+            "title": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (second edition)."
+          },
+          {
+            "cited_by_count": 748,
+            "doi": "10.1161/cir.0000000000001303",
+            "retrieval_citation_prior": 1.125186,
+            "title": "2025 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association."
+          },
+          {
+            "cited_by_count": 722,
+            "doi": "10.1146/annurev-conmatphys-031214-014501",
+            "retrieval_citation_prior": 1.11918,
+            "title": "Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials"
+          },
+          {
+            "cited_by_count": 632,
+            "doi": "10.1007/s12532-011-0029-5",
+            "retrieval_citation_prior": 1.09658,
+            "title": "Templates for convex cone problems with applications to sparse signal recovery"
+          },
+          {
+            "cited_by_count": 555,
+            "doi": "10.1145/237814.238015",
+            "retrieval_citation_prior": 1.074531,
+            "title": "Adaptively secure multi-party computation"
+          },
+          {
+            "cited_by_count": 528,
+            "doi": "10.1146/annurev-conmatphys-031218-013401",
+            "retrieval_citation_prior": 1.066068,
+            "title": "A Field Guide to Spin Liquids"
+          },
+          {
+            "cited_by_count": 525,
+            "doi": "10.3389/fmed.2022.911861",
+            "retrieval_citation_prior": 1.065101,
+            "title": "Advances and Trends in Omics Technology Development"
+          },
+          {
+            "cited_by_count": 514,
+            "doi": "10.1016/j.worlddev.2018.05.025",
+            "retrieval_citation_prior": 1.061508,
+            "title": "Transparency and sustainability in global commodity supply chains"
+          },
+          {
+            "cited_by_count": 506,
+            "doi": "10.1016/j.cosrev.2020.100270",
+            "retrieval_citation_prior": 1.058847,
+            "title": "A survey of safety and trustworthiness of deep neural networks: Verification, testing, adversarial attack and defence, and interpretability"
+          },
+          {
+            "cited_by_count": 497,
+            "doi": "10.1186/s40878-015-0015-6",
+            "retrieval_citation_prior": 1.055802,
+            "title": "African migration: trends, patterns, drivers"
+          },
+          {
+            "cited_by_count": 426,
+            "doi": "10.1002/eji.201646632",
+            "retrieval_citation_prior": 1.029653,
+            "title": "Guidelines for the use of flow cytometry and cell sorting in immunological studies."
+          },
+          {
+            "cited_by_count": 413,
+            "doi": "10.1038/ncomms14485",
+            "retrieval_citation_prior": 1.024397,
+            "title": "Demonstration of qubit operations below a rigorous fault tolerance threshold with gate set tomography"
+          },
+          {
+            "cited_by_count": 346,
+            "doi": "",
+            "retrieval_citation_prior": 0.994385,
+            "title": "Feature selection via dependence maximization"
+          },
+          {
+            "cited_by_count": 345,
+            "doi": "10.1007/s00440-013-0482-3",
+            "retrieval_citation_prior": 0.993895,
+            "title": "Macdonald processes"
+          },
+          {
+            "cited_by_count": 332,
+            "doi": "10.3390/cancers15143608",
+            "retrieval_citation_prior": 0.987384,
+            "title": "Deep Learning for Medical Image-Based Cancer Diagnosis"
+          },
+          {
+            "cited_by_count": 323,
+            "doi": "10.1007/s00521-019-04095-y",
+            "retrieval_citation_prior": 0.982726,
+            "title": "Big data analytics for preventive medicine"
+          },
+          {
+            "cited_by_count": 305,
+            "doi": "10.1038/s41467-020-18037-z",
+            "retrieval_citation_prior": 0.973009,
+            "title": "Different scaling of linear models and deep learning in UKBiobank brain images versus machine-learning datasets"
+          },
+          {
+            "cited_by_count": 301,
+            "doi": "10.3115/1654494.1654500",
+            "retrieval_citation_prior": 0.970773,
+            "title": "Better k -best parsing"
+          },
+          {
+            "cited_by_count": 295,
+            "doi": "10.1103/physrevd.54.6620",
+            "retrieval_citation_prior": 0.967361,
+            "title": "Deep inelastic scattering of polarized electrons by polarized He 3 and the study of the neutron spin structure"
+          },
+          {
+            "cited_by_count": 288,
+            "doi": "10.1016/j.neuroimage.2010.12.039",
+            "retrieval_citation_prior": 0.963293,
+            "title": "Network discovery with DCM"
+          },
+          {
+            "cited_by_count": 275,
+            "doi": "10.1145/1749608.1749612",
+            "retrieval_citation_prior": 0.955468,
+            "title": "WYSINWYX"
+          },
+          {
+            "cited_by_count": 258,
+            "doi": "10.1103/revmodphys.95.025002",
+            "retrieval_citation_prior": 0.944661,
+            "title": "Toward the discovery of matter creation with neutrinoless \u03b2 \u03b2 decay"
+          },
+          {
+            "cited_by_count": 233,
+            "doi": "",
+            "retrieval_citation_prior": 0.927405,
+            "title": "Early Intervention, The Next Steps: An Independent Report to Her Majesty's Government"
+          },
+          {
+            "cited_by_count": 232,
+            "doi": "10.1172/jci99538",
+            "retrieval_citation_prior": 0.926677,
+            "title": "Neoantigen identification strategies enable personalized immunotherapy in refractory solid tumors"
+          },
+          {
+            "cited_by_count": 222,
+            "doi": "10.1002/cncr.31630",
+            "retrieval_citation_prior": 0.919219,
+            "title": "Quantitative imaging of cancer in the postgenomic era: Radio(geno)mics, deep learning, and habitats"
+          },
+          {
+            "cited_by_count": 221,
+            "doi": "10.1103/physrevx.9.041042",
+            "retrieval_citation_prior": 0.918455,
+            "title": "Overcoming Noise in Entanglement Distribution"
+          },
+          {
+            "cited_by_count": 221,
+            "doi": "10.3386/w21913",
+            "retrieval_citation_prior": 0.918455,
+            "title": "The Gender Wage Gap: Extent, Trends, and Explanations"
+          },
+          {
+            "cited_by_count": 211,
+            "doi": "10.1016/s0304-3975(01)00303-6",
+            "retrieval_citation_prior": 0.91062,
+            "title": "Searching games with errors\u2014fifty years of coping with liars"
+          },
+          {
+            "cited_by_count": 198,
+            "doi": "10.1371/journal.pone.0052528",
+            "retrieval_citation_prior": 0.899862,
+            "title": "Reduced Visual Cortex Gray Matter Volume and Thickness in Young Adults Who Witnessed Domestic Violence during Childhood"
+          },
+          {
+            "cited_by_count": 195,
+            "doi": "10.1038/s41392-021-00825-8",
+            "retrieval_citation_prior": 0.897279,
+            "title": "Insights into the post-translational modification and its emerging role in shaping the tumor microenvironment"
+          },
+          {
+            "cited_by_count": 191,
+            "doi": "10.1016/s0195-6698(84)80037-2",
+            "retrieval_citation_prior": 0.893774,
+            "title": "Bruhat Lattices, Plane Partition Generating Functions, and Minuscule Representations"
+          },
+          {
+            "cited_by_count": 173,
+            "doi": "10.1016/s0377-0427(00)00336-8",
+            "retrieval_citation_prior": 0.877039,
+            "title": "Computational strategies for the Riemann zeta function"
+          },
+          {
+            "cited_by_count": 168,
+            "doi": "",
+            "retrieval_citation_prior": 0.872083,
+            "title": "Implementation of symbolic model checking for probabilistic systems"
+          },
+          {
+            "cited_by_count": 161,
+            "doi": "",
+            "retrieval_citation_prior": 0.864891,
+            "title": "How designers work - making sense of authentic cognitive activities"
+          },
+          {
+            "cited_by_count": 150,
+            "doi": "10.3389/fmed.2021.646506",
+            "retrieval_citation_prior": 0.852938,
+            "title": "Digital Technology-Based Telemedicine for the COVID-19 Pandemic"
+          },
+          {
+            "cited_by_count": 149,
+            "doi": "10.2307/j.ctv15d81f7",
+            "retrieval_citation_prior": 0.851808,
+            "title": "Decolonizing Diasporas"
+          },
+          {
+            "cited_by_count": 148,
+            "doi": "10.3758/brm.41.4.991",
+            "retrieval_citation_prior": 0.850671,
+            "title": "A comparative quantitative analysis of Greek orthographic transparency"
+          },
+          {
+            "cited_by_count": 145,
+            "doi": "10.3390/ph17010104",
+            "retrieval_citation_prior": 0.847213,
+            "title": "Recent Advances in Pyrimidine-Based Drugs"
+          },
+          {
+            "cited_by_count": 144,
+            "doi": "10.1016/j.ffa.2005.05.012",
+            "retrieval_citation_prior": 0.846045,
+            "title": "On the classification and enumeration of self-dual codes"
+          },
+          {
+            "cited_by_count": 141,
+            "doi": "10.1021/acs.chemrev.1c00380",
+            "retrieval_citation_prior": 0.842491,
+            "title": "Mass Spectrometry-Based Techniques to Elucidate the Sugar Code."
+          },
+          {
+            "cited_by_count": 133,
+            "doi": "10.1109/comst.2023.3329472",
+            "retrieval_citation_prior": 0.832633,
+            "title": "Navigating Industry 5.0: A Survey of Key Enabling Technologies, Trends, Challenges, and Opportunities"
+          },
+          {
+            "cited_by_count": 133,
+            "doi": "10.1103/prxquantum.2.010201",
+            "retrieval_citation_prior": 0.832633,
+            "title": "Theory of Quantum System Certification"
+          },
+          {
+            "cited_by_count": 124,
+            "doi": "10.7554/elife.64740",
+            "retrieval_citation_prior": 0.820813,
+            "title": "Global epistasis emerges from a generic model of a complex trait."
+          },
+          {
+            "cited_by_count": 111,
+            "doi": "10.1016/0022-0000(93)90024-q",
+            "retrieval_citation_prior": 0.802145,
+            "title": "The alternating fixpoint of logic programs with negation"
+          },
+          {
+            "cited_by_count": 108,
+            "doi": "10.1007/s10999-023-09692-3",
+            "retrieval_citation_prior": 0.797529,
+            "title": "Towards vibration-based damage detection of civil engineering structures: overview, challenges, and future prospects"
+          },
+          {
+            "cited_by_count": 107,
+            "doi": "",
+            "retrieval_citation_prior": 0.795962,
+            "title": "Automatic detection and verification of rumors on Twitter"
+          },
+          {
+            "cited_by_count": 105,
+            "doi": "10.48550/arxiv.math/0406514",
+            "retrieval_citation_prior": 0.792785,
+            "title": "The Elementary Theory of the Frobenius Automorphisms"
+          },
+          {
+            "cited_by_count": 103,
+            "doi": "10.1109/jbhi.2022.3181205",
+            "retrieval_citation_prior": 0.789546,
+            "title": "5G in Healthcare: From COVID-19 to Future Challenges"
+          },
+          {
+            "cited_by_count": 103,
+            "doi": "10.3389/fimmu.2014.00013",
+            "retrieval_citation_prior": 0.789546,
+            "title": "Theories and Quantification of Thymic Selection"
+          },
+          {
+            "cited_by_count": 99,
+            "doi": "10.3390/e13061076",
+            "retrieval_citation_prior": 0.782879,
+            "title": "A Philosophical Treatise of Universal Induction"
+          },
+          {
+            "cited_by_count": 90,
+            "doi": "10.7554/elife.73783",
+            "retrieval_citation_prior": 0.766846,
+            "title": "Structure and function of axo-axonic inhibition."
+          },
+          {
+            "cited_by_count": 79,
+            "doi": "10.1016/j.ydbio.2004.12.015",
+            "retrieval_citation_prior": 0.744945,
+            "title": "Candidate downstream regulated genes of HOX group 13 transcription factors with and without monomeric DNA binding capability"
+          },
+          {
+            "cited_by_count": 77,
+            "doi": "10.1145/3457606",
+            "retrieval_citation_prior": 0.740641,
+            "title": "Algebraic Approach to Promise Constraint Satisfaction"
+          },
+          {
+            "cited_by_count": 70,
+            "doi": "10.48550/arxiv.1309.6825",
+            "retrieval_citation_prior": 0.724656,
+            "title": "Advances in Bayesian Network Learning using Integer Programming"
+          },
+          {
+            "cited_by_count": 70,
+            "doi": "10.1021/jacs.9b10066",
+            "retrieval_citation_prior": 0.724656,
+            "title": "Protein Network Structure Enables Switching between Liquid and Gel States."
+          },
+          {
+            "cited_by_count": 69,
+            "doi": "10.1016/j.disc.2007.08.039",
+            "retrieval_citation_prior": 0.722244,
+            "title": "Thue type problems for graphs, points, and numbers"
+          },
+          {
+            "cited_by_count": 65,
+            "doi": "10.1007/s41019-020-00118-0",
+            "retrieval_citation_prior": 0.712241,
+            "title": "Provenance-Aware Knowledge Representation: A Survey of Data Models and Contextualized Knowledge Graphs"
+          },
+          {
+            "cited_by_count": 64,
+            "doi": "10.22331/q-2023-03-02-932",
+            "retrieval_citation_prior": 0.709646,
+            "title": "Security of device-independent quantum key distribution protocols: a review"
+          },
+          {
+            "cited_by_count": 60,
+            "doi": "10.1137/1.9781611974331.ch89",
+            "retrieval_citation_prior": 0.698849,
+            "title": "Higher Lower Bounds from the 3SUM Conjecture"
+          },
+          {
+            "cited_by_count": 59,
+            "doi": "10.1016/0012-365x(94)00118-3",
+            "retrieval_citation_prior": 0.696039,
+            "title": "Binomial identities \u2014 combinatorial and algorithmic aspects"
+          },
+          {
+            "cited_by_count": 59,
+            "doi": "10.1145/320211.320213",
+            "retrieval_citation_prior": 0.696039,
+            "title": "Primality testing using elliptic curves"
+          },
+          {
+            "cited_by_count": 57,
+            "doi": "10.1007/978-3-642-25385-0_23",
+            "retrieval_citation_prior": 0.690275,
+            "title": "Efficient Zero-Knowledge Arguments from Two-Tiered Homomorphic Commitments"
+          },
+          {
+            "cited_by_count": 57,
+            "doi": "10.52214/cjal.v14i1.13664",
+            "retrieval_citation_prior": 0.690275,
+            "title": "Judicial Psychiatry In China And Its Political Abuses"
+          },
+          {
+            "cited_by_count": 54,
+            "doi": "10.48550/arxiv.1812.08342",
+            "retrieval_citation_prior": 0.681247,
+            "title": "A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability"
+          },
+          {
+            "cited_by_count": 54,
+            "doi": "10.48550/arxiv.1406.0440",
+            "retrieval_citation_prior": 0.681247,
+            "title": "Software-Defined Networking: A Comprehensive Survey"
+          },
+          {
+            "cited_by_count": 52,
+            "doi": "10.4310/acta.2021.v227.n2.a3",
+            "retrieval_citation_prior": 0.67495,
+            "title": "Planar orthogonal polynomials and boundary universality in the random normal matrix model"
+          },
+          {
+            "cited_by_count": 50,
+            "doi": "10.1080/1360081032000111751",
+            "retrieval_citation_prior": 0.66841,
+            "title": "Civil Society as Idea and Civil Society as Process: The Case of Ghana"
+          },
+          {
+            "cited_by_count": 49,
+            "doi": "",
+            "retrieval_citation_prior": 0.665044,
+            "title": "Security in Key Agreement: Two-Party Certificateless Schemes"
+          },
+          {
+            "cited_by_count": 46,
+            "doi": "10.7554/elife.57180",
+            "retrieval_citation_prior": 0.654525,
+            "title": "Controlling protein function by fine-tuning conformational flexibility."
+          },
+          {
+            "cited_by_count": 45,
+            "doi": "10.6100/ir416309",
+            "retrieval_citation_prior": 0.650869,
+            "title": "A theory of delay-insensitive systems"
+          },
+          {
+            "cited_by_count": 45,
+            "doi": "10.1186/s13570-015-0035-8",
+            "retrieval_citation_prior": 0.650869,
+            "title": "Promises and realities of community-based pasture management approaches: Observations from Kyrgyzstan"
+          },
+          {
+            "cited_by_count": 44,
+            "doi": "10.1090/s0025-5718-06-01786-8",
+            "retrieval_citation_prior": 0.647133,
+            "title": "Proving primality in essentially quartic random time"
+          },
+          {
+            "cited_by_count": 44,
+            "doi": "10.3390/e19030124",
+            "retrieval_citation_prior": 0.647133,
+            "title": "Witnessing Multipartite Entanglement by Detecting Asymmetry"
+          },
+          {
+            "cited_by_count": 42,
+            "doi": "10.1039/c4sm00508b",
+            "retrieval_citation_prior": 0.639404,
+            "title": "Stretching and folding of 2-nanometer hydrocarbon rods"
+          },
+          {
+            "cited_by_count": 41,
+            "doi": "10.1515/crelle-2016-0067",
+            "retrieval_citation_prior": 0.635404,
+            "title": "Homotopy techniques for tensor decomposition and perfect identifiability"
+          },
+          {
+            "cited_by_count": 39,
+            "doi": "10.1016/j.cosrev.2022.100492",
+            "retrieval_citation_prior": 0.62711,
+            "title": "Blockchain verification and validation: Techniques, challenges, and research directions"
+          },
+          {
+            "cited_by_count": 38,
+            "doi": "",
+            "retrieval_citation_prior": 0.722805,
+            "title": "Bearing Witness: The Art and Science of Human Rights Fact-Finding"
+          },
+          {
+            "cited_by_count": 38,
+            "doi": "10.1515/jmc.2007.008",
+            "retrieval_citation_prior": 0.622805,
+            "title": "Perfect Hash Families: Constructions and Existence"
+          },
+          {
+            "cited_by_count": 35,
+            "doi": "10.1515/popets-2015-0016",
+            "retrieval_citation_prior": 0.609198,
+            "title": "Optimal Rate Private Information Retrieval from Homomorphic Encryption"
+          },
+          {
+            "cited_by_count": 34,
+            "doi": "10.1002/rsa.20981",
+            "retrieval_citation_prior": 0.604409,
+            "title": "Tilings in randomly perturbed graphs: Bridging the gap between Hajnal\u2010Szemer\u00e9di and Johansson\u2010Kahn\u2010Vu"
+          },
+          {
+            "cited_by_count": 32,
+            "doi": "10.1145/3009837.3009860",
+            "retrieval_citation_prior": 0.594406,
+            "title": "A short counterexample property for safety and liveness verification of fault-tolerant distributed algorithms"
+          },
+          {
+            "cited_by_count": 32,
+            "doi": "10.1016/s0006-3495(02)75402-7",
+            "retrieval_citation_prior": 0.594406,
+            "title": "The calculated in vitro and in vivo chlorophyll a absorption bandshape."
+          },
+          {
+            "cited_by_count": 29,
+            "doi": "10.1145/3276534",
+            "retrieval_citation_prior": 0.578204,
+            "title": "Safe replication through bounded concurrency verification"
+          },
+          {
+            "cited_by_count": 29,
+            "doi": "10.5962/bhl.title.167361",
+            "retrieval_citation_prior": 0.578204,
+            "title": "Thomas Henry Huxley"
+          },
+          {
+            "cited_by_count": 25,
+            "doi": "10.58837/chula.rarebook.2798",
+            "retrieval_citation_prior": 0.553876,
+            "title": "Science and Hebrew tradition : essays"
+          },
+          {
+            "cited_by_count": 25,
+            "doi": "10.5962/bhl.title.56062",
+            "retrieval_citation_prior": 0.553876,
+            "title": "The descent of man : and selection in relation to sex /"
+          },
+          {
+            "cited_by_count": 24,
+            "doi": "10.22331/q-2019-08-19-176",
+            "retrieval_citation_prior": 0.547209,
+            "title": "Semi-device-independent certification of indefinite causal order"
+          },
+          {
+            "cited_by_count": 22,
+            "doi": "10.4324/9781003388418",
+            "retrieval_citation_prior": 0.533034,
+            "title": "Global Digital Data Governance"
+          },
+          {
+            "cited_by_count": 22,
+            "doi": "10.1002/qute.202100118",
+            "retrieval_citation_prior": 0.533034,
+            "title": "Quantum Verification and Estimation with Few Copies"
+          },
+          {
+            "cited_by_count": 18,
+            "doi": "",
+            "retrieval_citation_prior": 0.500555,
+            "title": "Independent broadcasting in Ghana: implications and challenges"
+          },
+          {
+            "cited_by_count": 15,
+            "doi": "10.25959/23242532",
+            "retrieval_citation_prior": 0.47134,
+            "title": "Reduction types and intensionality in the lambda-calculus"
+          },
+          {
+            "cited_by_count": 14,
+            "doi": "10.4230/lipics.itcs.2017.39",
+            "retrieval_citation_prior": 0.460369,
+            "title": "A Hierarchy Theorem for Interactive Proofs of Proximity"
+          },
+          {
+            "cited_by_count": 13,
+            "doi": "10.1186/s40635-020-00354-8",
+            "retrieval_citation_prior": 0.44864,
+            "title": "ESICM LIVES 2020."
+          },
+          {
+            "cited_by_count": 13,
+            "doi": "",
+            "retrieval_citation_prior": 0.44864,
+            "title": "Exemplary mathematics teachers, subject conceptions and instructional practices"
+          },
+          {
+            "cited_by_count": 12,
+            "doi": "10.1007/s11606-017-4028-8",
+            "retrieval_citation_prior": 0.436041,
+            "title": "Abstracts from the 2017 Society of General Internal Medicine Annual Meeting."
+          },
+          {
+            "cited_by_count": 11,
+            "doi": "10.1007/s11606-021-06830-5",
+            "retrieval_citation_prior": 0.422434,
+            "title": "Abstracts from the 2021 Annual Meeting of the Society of General Internal Medicine."
+          },
+          {
+            "cited_by_count": 10,
+            "doi": "10.1186/s40635-017-0151-4",
+            "retrieval_citation_prior": 0.407642,
+            "title": "ESICM LIVES 2017 : 30th ESICM Annual Congress. September 23-27, 2017."
+          },
+          {
+            "cited_by_count": 10,
+            "doi": "10.1152/jn.00551.2014",
+            "retrieval_citation_prior": 0.407642,
+            "title": "Voltage gating by molecular subunits of Na+ and K+ ion channels: higher-dimensional cubic kinetics, rate constants, and temperature."
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.1002/eji.201970400",
+            "retrieval_citation_prior": 0.391439,
+            "title": "17th International Congress of Immunology, 19-23 October 2019, Beijing, China."
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.1007/s11606-019-05007-5",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Abstracts from the 2019 Annual Meeting of the Society of General Internal Medicine."
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.1007/s10623-020-00769-0",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Caps and progression-free sets in Z m n ."
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.1371/journal.pcbi.1012824",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Interpreting the CTCF-mediated sequence grammar of genome folding with AkitaV2."
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.1371/journal.pbio.3002126",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Monosynaptic trans-collicular pathways link mouse whisker circuits to integrate somatosensory and motor cortical signals."
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.48550/arxiv.2310.18318",
+            "retrieval_citation_prior": 0.491439,
+            "title": "OpenCog Hyperon: A Framework for AGI at the Human Level and Beyond"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.3390/mi12091122",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Recapitulating the Cancer Microenvironment Using Bioprinting Technology for Precision Medicine."
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "10.1002/pbc.25314",
+            "retrieval_citation_prior": 0.373528,
+            "title": "46(th) Congress of The International Society of Paediatric Oncology (SIOP) 2014 Toronto, Canada, 22(nd) -25(th) October, 2014 SIOP Abstracts."
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "10.1007/s11606-020-05890-3",
+            "retrieval_citation_prior": 0.373528,
+            "title": "Abstracts from the 2020 Annual Meeting of the Society of General Internal Medicine."
+          },
+          {
+            "cited_by_count": 7,
+            "doi": "10.1038/094144b0",
+            "retrieval_citation_prior": 0.353505,
+            "title": "Memorabilia Mathematica, or the Philomath's Quotation Book"
+          },
+          {
+            "cited_by_count": 7,
+            "doi": "10.1007/s12551-024-01207-4",
+            "retrieval_citation_prior": 0.353505,
+            "title": "Navigating the complexity of p53-DNA binding: implications for cancer therapy."
+          },
+          {
+            "cited_by_count": 7,
+            "doi": "10.1134/s2079978013040031",
+            "retrieval_citation_prior": 0.353505,
+            "title": "Revisiting the Fundamentals in the Design and Control of Nanoparticulate Colloids in the Frame of Soft Chemistry."
+          },
+          {
+            "cited_by_count": 7,
+            "doi": "10.1109/sp40000.2020.00052",
+            "retrieval_citation_prior": 0.353505,
+            "title": "Transparent Polynomial Delegation and Its Applications to Zero Knowledge Proof"
+          },
+          {
+            "cited_by_count": 6,
+            "doi": "10.1145/1057517.1057518",
+            "retrieval_citation_prior": 0.330805,
+            "title": "Numerical computations"
+          },
+          {
+            "cited_by_count": 6,
+            "doi": "10.1016/j.jscai.2023.101181",
+            "retrieval_citation_prior": 0.330805,
+            "title": "PICS/AEPC/APPCS/CSANZ/SCAI/SOLACI: Expert Consensus Statement on Cardiac Catheterization for Pediatric Patients and Adults With Congenital Heart Disease."
+          },
+          {
+            "cited_by_count": 6,
+            "doi": "10.1186/s12919-024-00289-y",
+            "retrieval_citation_prior": 0.330805,
+            "title": "Proceedings of the 2023 International Maternal Newborn Health Conference."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "",
+            "retrieval_citation_prior": 0.304599,
+            "title": "A methodology for the allocation of police patrol vehicles"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1007/s10334-021-00947-8",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Book of Abstracts ESMRMB 2021 Online 38th Annual Scientific Meeting 7-9 October 2021."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1186/s13244-019-0713-y",
+            "retrieval_citation_prior": 0.304599,
+            "title": "ECR 2019: Book of Abstracts : Vienna, Austria. February 27 - March 3, 2019."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1038/s41551-025-01437-1",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Integrated in vivo combinatorial functional genomics and spatial transcriptomics of tumours to decode genotype-to-phenotype relationships."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1016/j.fsisyn.2022.100313",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Interpol review of digital evidence for 2019-2022."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.7554/elife.85439",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Local generation and efficient evaluation of numerous drug combinations in a single sample."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1111/trf.14286",
+            "retrieval_citation_prior": 0.273604,
+            "title": "A Supplement to TRANSFUSION Abstract Presentations from the AABB Annual Meeting San Diego, CA, October 7-10, 2017."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1038/s41431-020-00739-z",
+            "retrieval_citation_prior": 0.373604,
+            "title": "Abstracts from the 53rd European Society of Human Genetics (ESHG) Conference: Interactive e-Posters."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.3389/fimmu.2022.1028789",
+            "retrieval_citation_prior": 0.273604,
+            "title": "I\u03baB NS -deficiency protects mice from fatal Listeria monocytogenes infection by blunting pro-inflammatory signature in Ly6C high monocytes and preventing exaggerated innate immune responses."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1098/rstb.2023.0304",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Shape parameters of evolutionary trees in theoretical computer science."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "",
+            "retrieval_citation_prior": 0.273604,
+            "title": "The power & politics of naming: literary onomastics within dystopian fiction"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1186/s13054-019-2358-0",
+            "retrieval_citation_prior": 0.23567,
+            "title": "39th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium, 19-22 March 2019."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1007/s10072-022-06531-9",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Abstracts of the 52nd Annual Conference of the Italian Society of Neurology."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1007/s11538-022-01088-2",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Algebra, Geometry and Topology of ERK Kinetics."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Broadening the scope of Gaussian processes for large-scale learning"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1186/s40635-022-00469-0",
+            "retrieval_citation_prior": 0.23567,
+            "title": "ESICM LIVES 2022: part 2."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Information system design for the rationalisation of fungicide use : the control of Puccinia hordei Otth"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1523/jneurosci.0383-23.2023",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Perturbed Information Processing Complexity in Experimental Epilepsy."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1126/science.adw9154",
+            "retrieval_citation_prior": 0.23567,
+            "title": "The evolution of gene regulation in mammalian cerebellum development."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1126/sciadv.adu3693",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Autocatalytic assembly of a chimeric aminoacyl-RNA synthetase ribozyme."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Coverage of new genetic technologies: what matters to insurers?"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s13244-017-0546-5",
+            "retrieval_citation_prior": 0.186764,
+            "title": "ECR 2017 - BOOK OF ABSTRACTS."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s13244-018-0603-8",
+            "retrieval_citation_prior": 0.186764,
+            "title": "ECR 2018 - BOOK OF ABSTRACTS."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Genetic algorithm-neural network : feature extraction for bioinformatics data"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.4230/lipics.esa.2016.45",
+            "retrieval_citation_prior": 0.186764,
+            "title": "How Hard is it to Find (Honest) Witnesses?"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Poster Abstracts"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "SIOP 2015 Scientific Programme + Index"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "UEG Week 2018 Poster Presentations"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "XLI Annual Meeting of the Indian Academy of Neurosciences and International Conference on BRAIN: CHEMISTRY TO COGNITION"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.1007/s00428-022-03379-4",
+            "retrieval_citation_prior": 0.117835,
+            "title": "34 th European Congress of Pathology - Abstracts."
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.3390/e22070790",
+            "retrieval_citation_prior": 0.117835,
+            "title": "A Protocol Design Paradigm for Batched Sparse Codes."
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "AES 2014 Annual Meeting - Online Abstract Supplement"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.4230/lipics.fsttcs.2024.1",
+            "retrieval_citation_prior": 0.117835,
+            "title": "An Introduction to the Theory of Linear Integer Arithmetic (Invited Paper)"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.5962/bhl.title.19355",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Darwin and after Darwin : an exposition of the Darwinian theory and a discussion of post-Darwinian questions / by George John Romanes."
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.6028/nbs.ir.76-1015",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Management of data elements in information processing :"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Rotation and dynamics for simple solenoidal maps of Tori"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.1007/s40879-018-0278-1",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Set theory and the analyst"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.1016/j.ejc.2013.05.025",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Some remarks on barycentric-sum problems over cyclic groups"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "14th Congress of the European Hematology Association, Berlin, Germany, June 4\u20137, 2009"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "18th Congress of the European Hematology Association, Stockholm, Sweden, June 13\u201316, 2013"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "19th Congress of the European Hematology Association, Milan, Italy, June 12\u201315, 2014"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2139/ssrn.4186101",
+            "retrieval_citation_prior": 0.0,
+            "title": "2022 Supplement to Stephen H. Legomsky & David B. Thronson, Immigration and Refugee Law and Policy"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2139/ssrn.4529328",
+            "retrieval_citation_prior": 0.0,
+            "title": "2023 Supplement to Stephen H. Legomsky & David B. Thronson, Immigration and Refugee Law and Policy"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "25th Congress of the World Association for Sexual Health (WAS) and SASHA (South African Sexual Health Association)"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e28050544",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Complex Tension Origin for Dilaton Gravity: Jordan Stiffness and Logarithmic Einstein Dynamics."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e27070756",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Max-Flow Approach to Random Tensor Networks."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41386-022-01484-1",
+            "retrieval_citation_prior": 0.0,
+            "title": "ACNP 61 st Annual Meeting: Poster Abstracts P1 - P270."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ACNP 63rd Annual Meeting: Poster Abstracts P305-P608"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ACNP 63rd Annual Meeting: Poster Abstracts P609-P914"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Abstract Book for the 27th Congress of the European Hematology Association"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Abstract Supplement Abstracts from AIDS 2024, the 25th International AIDS Conference, 22 \u2013 26 July, Munich, Germany & Virtual"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Abstracts from the 2024 Annual Meeting of the Society of General Internal Medicine"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.1,
+            "title": "Abstracts from the 51st European Society of Human Genetics Conference: Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.1,
+            "title": "Abstracts from the 57th European Society of Human Genetics (ESHG) Conference: Hybrid Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s41999-020-00428-6",
+            "retrieval_citation_prior": 0.0,
+            "title": "Abstracts of the 16th International E-Congress of the European Geriatric Medicine Society : 7-9 October 2020."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2139/ssrn.4605201",
+            "retrieval_citation_prior": 0.1,
+            "title": "Achieving the Human Right to a Caring Society in an Aging America"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.010",
+            "retrieval_citation_prior": 0.0,
+            "title": "Algebraic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Algebraic, analytic, and geometric notions of largeness for subsets of Zd and their applications"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.6028/nist.ir.7994",
+            "retrieval_citation_prior": 0.0,
+            "title": "Applied and Computational Mathematics Division : summary of activities for fiscal year 2013"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.014",
+            "retrieval_citation_prior": 0.0,
+            "title": "Bibliography"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpls.2026.1864496",
+            "retrieval_citation_prior": 0.0,
+            "title": "Cis-regulatory elements in CAMTA-mediated stress signalling: mechanisms and prospects for CRISPR-based crop improvement."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s00454-023-00622-w",
+            "retrieval_citation_prior": 0.0,
+            "title": "Counting Arcs in F q 2."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "E-Poster Viewing"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ECR 2005 \u2013 Scientific Programme \u2013 Abstracts"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "EHA2024 Hybrid Congress"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ESICM LIVES 2025"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ESOC 2022 Abstract Book"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Examples of Risk Information Concealment Practice"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1371/journal.pone.0348356",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fault diagnosis of aero-engines using transfer dispersion entropy and dispersion patterns."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.7554/elife.17280.004",
+            "retrieval_citation_prior": 0.0,
+            "title": "Figure 1\u2014source data 1. Data presented in Figure 1B."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.7554/elife.42974.013",
+            "retrieval_citation_prior": 0.0,
+            "title": "Figure 5\u2014figure supplement 1. Further quantification of stimulus-evoked variability, model evaluation, and CGF structure."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.005",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fourier-analytic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1073/pnas.2510881123",
+            "retrieval_citation_prior": 0.0,
+            "title": "Free quantum computing."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Full GSA 2024 Abstract Book PDF"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Full GSA 2025 Abstract Book PDF"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41467-026-73634-8",
+            "retrieval_citation_prior": 0.0,
+            "title": "Genome-wide modelling of plant transcription factor binding captures regulatory variants associated with phenotypic traits."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.007",
+            "retrieval_citation_prior": 0.0,
+            "title": "Graph-theoretic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.1010.5772",
+            "retrieval_citation_prior": 0.0,
+            "title": "Highly nonrepetitive sequences: winning strategies from the local lemma"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.009",
+            "retrieval_citation_prior": 0.0,
+            "title": "Incidence geometry"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Inference, prediction and optimization of non-pharmaceutical interventions using compartment models: the PyRoss library"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.006",
+            "retrieval_citation_prior": 0.0,
+            "title": "Inverse sum set theorems"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpsyt.2026.1727711",
+            "retrieval_citation_prior": 0.0,
+            "title": "Mitochondrial dysfunction in EEG: high-beta specific metabolic/oxidative coupling with lactate in mania-predominant polarity."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41598-025-27113-7",
+            "retrieval_citation_prior": 0.0,
+            "title": "Novel representation of complexity of investment casting using injective coloring and graph adaptive consensus mechanism."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Poster Presentations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1162/opmi.a.275",
+            "retrieval_citation_prior": 0.0,
+            "title": "Predictability of the Retrieval Site Does Not Modulate Interference: Evidence From Reflexive Attraction."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.22215/etd/2018-13355",
+            "retrieval_citation_prior": 0.0,
+            "title": "Problems on Permutation and Irreducible Polynomials Over Finite Fields"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1093/geroni/igab046",
+            "retrieval_citation_prior": 0.0,
+            "title": "Program Abstracts from The GSA 2021 Annual Scientific Meeting, \"Disruption to Transformation: Aging in the \"New Normal\"\"."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Program Abstracts from the GSA 2019 Annual Scientific Meeting \u201cStrength in Age\u2014Harnessing the Power of Networks\u201d"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Program Schedule and Abstracts"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.001",
+            "retrieval_citation_prior": 0.0,
+            "title": "Prologue"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2105.03086",
+            "retrieval_citation_prior": 0.0,
+            "title": "Pseudorandom sequences derived from automatic sequences"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Publication Only"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e26100870",
+            "retrieval_citation_prior": 0.0,
+            "title": "Remarks on Limit Theorems for the Free Quadratic Forms."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1016/j.celrep.2025.116870",
+            "retrieval_citation_prior": 0.0,
+            "title": "SNAP-25 disease variants affect synaptic transmission by destabilizing SNARE complexes within a multimeric SNARE ring."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Scoring Originality in Mathematical Problem-Solving: Comparison of Criterion-Referenced Scoring with Alternate Measures"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Some aspects of the probability sampling technique of controlled selection."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.003",
+            "retrieval_citation_prior": 0.0,
+            "title": "Sum set estimates"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.011",
+            "retrieval_citation_prior": 0.0,
+            "title": "Szemer\u00e9di' theorem for k = 3"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.008",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Littlewood\u2013Offord problem"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s11207-022-02011-7",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Privileged Life of a Theoretical Observer."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.26434/chemrxiv.15001278/v1",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Syntax of Matter: Synthesis Planning as the Foundation of Generative Chemistry"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.002",
+            "retrieval_citation_prior": 0.0,
+            "title": "The probabilistic method"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "UEG Week 2024 Oral Presentations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1177/15910199241285197",
+            "retrieval_citation_prior": 0.0,
+            "title": "WFITN 2024 - 17th Congress of World Federation of Interventional and Therapeutic Neuroradiology - October 6-10, 2024 - New York, USA."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ePosters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s00508-020-01749-z",
+            "retrieval_citation_prior": 0.0,
+            "title": "\u00d6sterreichische Kardiologische Gesellschaft Jahrestagung 2020."
+          }
+        ],
+        "rule": "retrieval_relevance > 0.0 (shares >=1 non-stopword token with >=1 grounding query)"
+      },
+      "retrieval_receipt_sha256": "6f248cc7d6b737749efabf0835514e9cba4cc5776d2b111a9529977648c8f47d",
+      "retrieval_state": "hits",
+      "saturation": {
+        "curve": [
+          {
+            "cumulative_unique": 68,
+            "new_records": 68,
+            "query": "additive combinatorics"
+          },
+          {
+            "cumulative_unique": 117,
+            "new_records": 49,
+            "query": "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 157,
+            "new_records": 40,
+            "query": "base-3 digit-restricted digit construction avoids three-term progressions additive combinatorics"
+          },
+          {
+            "cumulative_unique": 198,
+            "new_records": 41,
+            "query": "base-3 digit-restricted digit construction avoids three-term progressions independently verified witness sets powers three"
+          },
+          {
+            "cumulative_unique": 247,
+            "new_records": 49,
+            "query": "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed"
+          },
+          {
+            "cumulative_unique": 320,
+            "new_records": 73,
+            "query": "certified independently verified 3-ap-free witnesses"
+          },
+          {
+            "cumulative_unique": 369,
+            "new_records": 49,
+            "query": "independently verified witness sets powers three 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 408,
+            "new_records": 39,
+            "query": "independently verified witness sets powers three additive combinatorics"
+          },
+          {
+            "cumulative_unique": 477,
+            "new_records": 69,
+            "query": "independently verified witness sets powers three lower bound confirmed"
+          },
+          {
+            "cumulative_unique": 544,
+            "new_records": 67,
+            "query": "lower bound confirmed 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 615,
+            "new_records": 71,
+            "query": "lower bound confirmed additive combinatorics"
+          }
+        ],
+        "is_saturated": false,
+        "total_queries": 11,
+        "total_unique_works": 615
+      },
+      "status": "success",
+      "worker_count": 12
+    },
+    "patent_application_count": 0,
+    "patent_claim_grounded_count": 15,
+    "patent_count": 68,
+    "patent_granted_count": 68,
+    "patent_official_claim_grounded_count": 15,
+    "patent_official_provider_record_count": 68,
+    "patent_official_search_complete": false,
+    "patent_provider": "uspto_odp_keyed",
+    "patent_queries": [
+      "3-ap-free subsets first integers independently verified digit-restricted construction",
+      "3-ap-free subsets first integers independently verified digit-restricted construction base-3 digit avoids three-term progressions",
+      "3-ap-free subsets first integers independently verified digit-restricted construction lower bound confirmed",
+      "3-ap-free subsets first integers independently verified digit-restricted construction witness sets powers three",
+      "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers compound",
+      "base-3 digit-restricted digit construction avoids three-term progressions composition compound treatment",
+      "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed compound composition",
+      "independently verified witness sets powers three additive combinatorics composition",
+      "lower bound confirmed 3-ap-free subsets first integers additive combinatorics treatment composition"
+    ],
+    "patent_retrieval": {
+      "attempts": [
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers independently verified digit-restricted construction",
+            "receipt_sha256": "626bdf50cd12e142a0e6f906ebd582e71dc6c39d2be57d5aa8301ad14a5bc85c",
+            "records_sha256": "d2ca65c3578dcf462b1b894d189e5199f332033995d03944280d5f02ec7a78ad"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction base-3 digit avoids three-term progressions",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction base-3 digit avoids three-term progressions",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers independently verified digit-restricted construction base-3 digit avoids three-term progressions",
+            "receipt_sha256": "e7c791933de385ac54c154d51bff8eebbf1c696762018628dec769daa16403b5",
+            "records_sha256": "c88466385a1bdbe5bffa92999f60cd7b47686a986d41c45a5d6ba0a183696d65"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction base-3 digit avoids three-term progressions",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction lower bound confirmed",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction lower bound confirmed",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers independently verified digit-restricted construction lower bound confirmed",
+            "receipt_sha256": "0cd8b896d3b54ba4d56d52023d54e8695c0125b51365967036d678c0784f26cb",
+            "records_sha256": "f8c04f62d8cb53b4c2502625b063941ac81856dbf80f79f7ffb220ef55efd6f9"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction lower bound confirmed",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction witness sets powers three",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction witness sets powers three",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers independently verified digit-restricted construction witness sets powers three",
+            "receipt_sha256": "c5cb666d1aea2d08b8e49f85d85c63c5ef74f0550cca173e45fce8b5c71a1e77",
+            "records_sha256": "de05722531fcec5d8710fd11ebf2a1703519e0a888d93a85a6789483e8c57781"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers independently verified digit-restricted construction witness sets powers three",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers compound",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers compound",
+            "receipt_sha256": "a928ab594cf385df6649fc2ebd32f6ce534e24e8b8fcf51d0795b5d071063dec",
+            "records_sha256": "47e7a5d27341a35426895ace2f0777b54e670b887593a79a648a13fc72cdd06c"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions composition compound treatment",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions composition compound treatment",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "base-3 digit-restricted digit construction avoids three-term progressions composition compound treatment",
+            "receipt_sha256": "74a16f0b27c39c6d08aad0f09aef5fc993384df5d024d99657d50edfa07a1391",
+            "records_sha256": "73cb90532542331a373cb249cbb42b65687a9282f074eda07737723b817c90c6"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions composition compound treatment",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed compound composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed compound composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed compound composition",
+            "receipt_sha256": "ab7514bd50d20c3b4a7d88a2bd2e3e1453b1ffadc8df9f99e0a55f1c12a36bb4",
+            "records_sha256": "07ef3d20834b2bef8a4f9e1b7cfc6a8d2bbf130831c0a127be67894005d4b485"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed compound composition",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "independently verified witness sets powers three additive combinatorics composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "independently verified witness sets powers three additive combinatorics composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "independently verified witness sets powers three additive combinatorics composition",
+            "receipt_sha256": "7ac014672a83cc315330ab1417d2b0b63d55faaa903ef928421c40117877ca4e",
+            "records_sha256": "73cbf6886a5dfd85bd887d8f49963511cb772761a42e9abd6b72c3d6a2af4041"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "independently verified witness sets powers three additive combinatorics composition",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "lower bound confirmed 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "lower bound confirmed 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "lower bound confirmed 3-ap-free subsets first integers additive combinatorics treatment composition",
+            "receipt_sha256": "d74fd197a5b1c2edceca796ca8eed9de5bf32307a5c37bc968fa83c7a6fee1f4",
+            "records_sha256": "2c34386fc8a54e1bbc1c9b6417f158c4b45b270a82ab8c54c00a9d39f63acc14"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "lower bound confirmed 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        }
+      ],
+      "candidate_budget": 80,
+      "claim_grounded_count": 15,
+      "configured_official_providers": [
+        "epo_ops",
+        "uspto_odp_keyed"
+      ],
+      "coverage_status": "INCOMPLETE_PROVIDER_COVERAGE",
+      "family_diversity_reserve": 0,
+      "granted_count": 68,
+      "hydration_config": {
+        "allow_network": true,
+        "hydration_jobs": 12,
+        "hydration_workers": 4,
+        "patent_hydrate_limit": 12,
+        "structure_hydrate_limit": 4
+      },
+      "hydration_workers": 4,
+      "official_claim_grounded_count": 15,
+      "official_coverage_scope": "partial_or_missing_official_rails",
+      "official_coverage_status": "INCOMPLETE_OFFICIAL_PROVIDER_COVERAGE",
+      "official_provider_record_count": 68,
+      "official_search_complete": false,
+      "optional_provider_errors": [
+        "google_patents_search"
+      ],
+      "patent_count": 68,
+      "provider": "uspto_odp_keyed",
+      "provider_health": [
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 9,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_403",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed \u2014 the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": true,
+          "provider": "epo_ops",
+          "required_for_clear_novelty": true,
+          "status": "ERROR"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 0,
+          "hit_count": 135,
+          "official": true,
+          "provider": "uspto_odp_keyed",
+          "required_for_clear_novelty": true,
+          "status": "HIT"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 9,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_503",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed \u2014 the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": false,
+          "provider": "google_patents_search",
+          "required_for_clear_novelty": false,
+          "status": "ERROR"
+        }
+      ],
+      "provider_request_limit": 15,
+      "providers_attempted": [
+        "epo_ops",
+        "uspto_odp_keyed",
+        "google_patents_search"
+      ],
+      "providers_with_hits": [
+        "uspto_odp_keyed"
+      ],
+      "query_count": 9,
+      "requested_retrieval_floor": 135,
+      "required_provider_errors": [
+        "epo_ops"
+      ],
+      "retrieval_receipt_sha256": "7f7e0691acd23d9f8113d5960ef40706dce374e568543467303e781bd55f04a6",
+      "search_complete": false,
+      "selected_family_count": 68,
+      "status": "success",
+      "structure_grounded_count": 0,
+      "unavailable_official_providers": []
+    },
+    "patent_search_complete": false,
+    "provider_lineage_sha256": "e76120e50603f87d2a413dbda08d7e702345cb51bce14eaaae8481bd5c99e54c",
+    "query_coverage": {
+      "paper": {
+        "mechanism": [
+          "base-3 digit-restricted digit construction avoids three-term progressions additive combinatorics",
+          "base-3 digit-restricted digit construction avoids three-term progressions independently verified witness sets powers three",
+          "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed",
+          "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers"
+        ],
+        "method": [
+          "independently verified witness sets powers three additive combinatorics",
+          "certified independently verified 3-ap-free witnesses",
+          "base-3 digit-restricted digit construction avoids three-term progressions independently verified witness sets powers three",
+          "independently verified witness sets powers three lower bound confirmed",
+          "independently verified witness sets powers three 3-ap-free subsets first integers"
+        ],
+        "outcome": [
+          "lower bound confirmed additive combinatorics",
+          "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed",
+          "independently verified witness sets powers three lower bound confirmed",
+          "lower bound confirmed 3-ap-free subsets first integers"
+        ],
+        "problem": [
+          "base-3 digit-restricted digit construction avoids three-term progressions additive combinatorics",
+          "independently verified witness sets powers three additive combinatorics",
+          "lower bound confirmed additive combinatorics",
+          "additive combinatorics"
+        ]
+      },
+      "patent": {
+        "mechanism": [
+          "3-ap-free subsets first integers independently verified digit-restricted construction base-3 digit avoids three-term progressions",
+          "3-ap-free subsets first integers independently verified digit-restricted construction witness sets powers three",
+          "3-ap-free subsets first integers independently verified digit-restricted construction lower bound confirmed",
+          "3-ap-free subsets first integers independently verified digit-restricted construction",
+          "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed compound composition",
+          "base-3 digit-restricted digit construction avoids three-term progressions 3-ap-free subsets first integers compound",
+          "base-3 digit-restricted digit construction avoids three-term progressions composition compound treatment"
+        ],
+        "method": [
+          "3-ap-free subsets first integers independently verified digit-restricted construction base-3 digit avoids three-term progressions",
+          "3-ap-free subsets first integers independently verified digit-restricted construction witness sets powers three",
+          "3-ap-free subsets first integers independently verified digit-restricted construction lower bound confirmed",
+          "independently verified witness sets powers three additive combinatorics composition",
+          "3-ap-free subsets first integers independently verified digit-restricted construction"
+        ],
+        "outcome": [
+          "3-ap-free subsets first integers independently verified digit-restricted construction lower bound confirmed",
+          "base-3 digit-restricted digit construction avoids three-term progressions lower bound confirmed compound composition",
+          "lower bound confirmed 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ],
+        "problem": [
+          "independently verified witness sets powers three additive combinatorics composition",
+          "lower bound confirmed 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ]
+      },
+      "uncovered_paper_facets": [],
+      "uncovered_patent_facets": []
+    },
+    "query_plan_sha256": "7dc6376de4bbceb4eaa8b6a3804f098ebdb6988931ea4a62513ea5e3bc6e9148",
+    "spec_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\spec_fa6f428cdae5f1aed6f15a0c034cfbb5.json"
+  },
+  "corpus_size": 98,
+  "corpus_source": "auto_acquired_litacq_patents",
+  "ip_verdict": "PAPER_AND_PATENT_PATH_OPEN",
+  "novelty_band": "NOVEL",
+  "pivot_restores_novelty": true,
+  "receipt_hash": "c9ec6db74a925413783d0db1de242bd366f39920caca76710f4dd98e2ea3a7b1",
+  "recommended_pivot": "Claim the outcome only in combination with the novel mechanism ('base-3 digit-restricted (no digit 2) construction avoids thr').",
+  "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+  "top_collision": "10.4171/jems/802"
+}

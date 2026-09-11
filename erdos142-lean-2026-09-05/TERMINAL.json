@@ -1,0 +1,29 @@
+{
+  "status": "SEALED — Erdos #142 ($10,000) partials formalized in Lean 4 / Mathlib (pin 919544d4, toolchain leanprover/lean4:v4.31.0-rc1). r_3(n) reconstructed FAITHFULLY as the k=3 case of Erdos142.r = Set.IsAPOfLengthFree.maxCard over an explicit Finset ground set {1..n} (FormalConjecturesUtil absent on this toolchain, so the object is reconstructed and its correspondence documented, not imported). Exact r_3(n) KERNEL-PROVEN for n=1..14; monotonicity and subadditivity proven abstractly. Every axiom line is [propext, Classical.choice, Quot.sound] — NO sorryAx, NO native/ofReduceBool. The genuine open asymptotic (erdos_142 / variants.three, an answer(sorry) hole) was NOT targeted.",
+  "definition": "def AP3Free (s:Finset Nat) : Prop := forall a in s, forall b in s, forall c in s, a+c=2*b -> a=c.  def r3 (n:Nat) : Nat := ((Finset.Icc 1 n).powerset.filter AP3Free).sup Finset.card.  r3 n == Erdos142.r 3 n (largest 3-AP-free subset of {1..n}).",
+  "sealed": [
+    "Erdos142Attack.r3_mono : {m n} m <= n -> r3 m <= r3 n | axioms [propext, Classical.choice, Quot.sound]",
+    "Erdos142Attack.r3_le_succ : (n) r3 n <= r3 (n+1) | axioms [propext, Classical.choice, Quot.sound]",
+    "Erdos142Sub.r3_subadd : (a b) r3 (a+b) <= r3 a + r3 b | axioms [propext, Classical.choice, Quot.sound]",
+    "Erdos142Attack.AP3Free.subset : t subset s -> AP3Free s -> AP3Free t | proof term, no extra axioms",
+    "Erdos142Attack.r3_ge_of_witness : W subset Icc 1 n -> AP3Free W -> W.card <= r3 n | proof term",
+    "EXACT r3(1)=1 r3(2)=2 r3(3)=2 r3(4)=3 r3(5)=4 r3(6)=4  (Attack01, kernel decide) | [propext, Classical.choice, Quot.sound]",
+    "EXACT r3(6)=4 r3(7)=4 r3(8)=4 r3(9)=5 r3(10)=5  (Attack02, kernel decide, maxRecDepth 1e5) | [propext, Classical.choice, Quot.sound]",
+    "EXACT r3(11)=6 r3(12)=6 r3(13)=7 r3(14)=8  (Attack03, kernel decide, maxRecDepth 4e5) | [propext, Classical.choice, Quot.sound]",
+    "LOWER r3(9)>=5 r3(11)>=6 r3(13)>=7 r3(14)>=8 (Attack01, explicit extremal witnesses; superseded by EXACT but independently sealed) | [propext, Classical.choice, Quot.sound]"
+  ],
+  "files": {
+    "Attack01.lean": "abstract lemmas (r3_mono, r3_le_succ, AP3Free.subset, r3_ge_of_witness) + exact r3(1..6) + 4 witness lower bounds. exit 0.",
+    "Attack02.lean": "exact r3(6..10) via kernel decide. exit 0, ~24s.",
+    "Attack03.lean": "exact r3(11..14) via kernel decide. exit 0, 12m09s wall, 31GB peak RSS.",
+    "Attack04.lean": "r3_subadd (subadditivity), abstract block-split + translation proof. exit 0."
+  },
+  "open": [
+    "erdos_142 (k) : (fun N => r k N) =Theta[atTop] answer(sorry) — GENUINE OPEN asymptotic, not targeted (Roth/Behrend territory).",
+    "erdos_142.variants.lower (k>1) : r k N =o[atTop] N/log N — open; not derivable from a finite exact table.",
+    "erdos_142.variants.three : r_3 asymptotic — open.",
+    "exact r_3(n) for n>=15 by kernel decide — feasible but 2^n cost (n=14 = 12m/31GB); n>=15 needs >20min wall and >40GB RAM per value.",
+    "machine-checked identity r3 == Set.IsAPOfLengthFree.maxCard 3 — correspondence is documented/faithful, not proven (util file unavailable on toolchain)."
+  ],
+  "next_command": "ssh root@51.158.234.15 'cd /root/formalizer/proofs && export PATH=/root/.elan/bin:$PATH && nice -n 10 lake env lean /root/peer/sub-142/Attack04.lean'  # or extend: add theorem r3_15 : r3 15 = 8 := by decide (raise maxRecDepth, budget >20min wall + >40GB RAM)"
+}

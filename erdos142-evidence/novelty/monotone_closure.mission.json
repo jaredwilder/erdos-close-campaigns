@@ -1,0 +1,16 @@
+{
+ "claim": "The certified lower-bound set for r_3 (max size of a 3-AP-free subset of {1..n}) is not closed under monotonicity, so taking the running maximum strictly improves banked bounds, e.g. r_3(80)>=19 supersedes r_3(80)>=15.",
+ "domain": "additive combinatorics",
+ "novelty_target": "papers",
+ "facets": {
+  "mechanism": "monotone closure of a certified bound ledger for an extremal function",
+  "method": "running-maximum sweep over certified lower bounds indexed by n",
+  "outcome": "strictly improved lower bounds obtained with no new search",
+  "entities": "3-AP-free subsets of the first n integers"
+ },
+ "constraints": {
+  "search_queries": [],
+  "patent_queries": []
+ },
+ "min_corpus": 10
+}

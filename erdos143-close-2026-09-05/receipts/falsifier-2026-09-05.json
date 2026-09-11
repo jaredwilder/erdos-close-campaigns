@@ -1,0 +1,79 @@
+{
+ "arms": [
+  {
+   "arm": "SHARPNESS",
+   "family": "A_N = {N,...,2N-1}, q=1, N in [2,120]",
+   "verified_well_separated": true,
+   "max_count_over_2N": "1/2",
+   "note": "equals 1/2 exactly, so the constant 1/2 in the theorem is optimal",
+   "sample": [
+    [
+     2,
+     2,
+     "1/2"
+    ],
+    [
+     3,
+     3,
+     "1/2"
+    ],
+    [
+     4,
+     4,
+     "1/2"
+    ],
+    [
+     5,
+     5,
+     "1/2"
+    ],
+    [
+     6,
+     6,
+     "1/2"
+    ],
+    [
+     118,
+     118,
+     "1/2"
+    ],
+    [
+     119,
+     119,
+     "1/2"
+    ],
+    [
+     120,
+     120,
+     "1/2"
+    ]
+   ]
+  },
+  {
+   "arm": "FALSIFIER",
+   "measure": "max over constructed well-separated sets of |S cap (1,Y)| - (Y/2 + 1)",
+   "dead_if": "> 0",
+   "trials": 200,
+   "max_excess": "-1",
+   "verdict": "SURVIVED",
+   "worst_config": {
+    "q": 1,
+    "Y": 12,
+    "count": 6,
+    "bound": "7",
+    "set_scaled": [
+     11,
+     10,
+     9,
+     8,
+     7,
+     6
+    ]
+   }
+  },
+  {
+   "arm": "NOTE",
+   "text": "Arm 3 intentionally absent: the log-sum corollary is analytic, not a finite computation, and is NOT receipted here."
+  }
+ ]
+}

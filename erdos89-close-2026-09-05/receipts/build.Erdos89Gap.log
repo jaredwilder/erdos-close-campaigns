@@ -1,0 +1,6 @@
+START E89Gap 2026-09-05T17:15:28Z
+EXIT_CODE 0
+'sqrt_isBigO_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'sqrt_isLittleO_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'target_implies_rung1' depends on axioms: [propext, Classical.choice, Quot.sound]
+WALL 6.10 s  MAXRSS 6904952 KB

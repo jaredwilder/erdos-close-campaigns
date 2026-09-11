@@ -1,0 +1,18 @@
+START probe1 2026-09-05T17:20:18Z
+EXIT_CODE 0
+def minimalDistinctDistances : ℕ → ℕ :=
+fun n => sInf {x | ∃ points, ∃ (_ : #points = n), ↑(distinctDistances points) = ↑x}
+@card_le_mul_card_image_of_maps_to : ∀ {α : Type u_1} {β : Type u_2} [inst : DecidableEq β] {f : α → β} {s : Finset α}
+  {t : Finset β}, (∀ a ∈ s, f a ∈ t) → ∀ (n : ℕ), (∀ b ∈ t, #({a ∈ s | f a = b}) ≤ n) → #s ≤ n * #t
+@two_lt_card_iff : ∀ {α : Type u_1} {s : Finset α}, 2 < #s ↔ ∃ a b c, a ∈ s ∧ b ∈ s ∧ c ∈ s ∧ a ≠ b ∧ a ≠ c ∧ b ≠ c
+@eq_of_dist_eq_of_dist_eq_of_finrank_eq_two : ∀ {V : Type u_1} {P : Type u_2} [inst : NormedAddCommGroup V]
+  [inst_1 : InnerProductSpace ℝ V] [inst_2 : MetricSpace P] [NormedAddTorsor V P] [FiniteDimensional ℝ V],
+  Module.finrank ℝ V = 2 →
+    ∀ {c₁ c₂ p₁ p₂ p : P} {r₁ r₂ : ℝ},
+      c₁ ≠ c₂ →
+        p₁ ≠ p₂ →
+          dist p₁ c₁ = r₁ →
+            dist p₂ c₁ = r₁ → dist p c₁ = r₁ → dist p₁ c₂ = r₂ → dist p₂ c₂ = r₂ → dist p c₂ = r₂ → p = p₁ ∨ p = p₂
+Infinite.exists_subset_card_eq : ∀ (α : Type u_1) [Infinite α] (n : ℕ), ∃ s, #s = n
+@Nat.sInf_mem : ∀ {s : Set ℕ}, s.Nonempty → sInf s ∈ s
+WALL 5.60 s  MAXRSS 6858360 KB

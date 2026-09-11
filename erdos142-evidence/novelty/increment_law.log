@@ -1,0 +1,2652 @@
+{
+  "adversarial_verdict": "NOVELTYFORGE_V1_ADVERSARIAL_REVIEW_GREEN",
+  "core_novelty": 0.784338,
+  "corpus_provenance": {
+    "acquired_utc": "2026-08-04T15:45:35Z",
+    "acquisition_output_file_sha256": "0237dceb411a16a6006664bde2bc336b8e3a540d475482ff2b261ef7e9a42fac",
+    "acquisition_snapshot_sha256": "9953851026e80ce10ef556d73e1b06907464d2f46def10813c3efafa51acfccb",
+    "binding_receipt_sha256": "743b124a040efcc2f50c27551ae7ff838a8417c18412424eb242e4f6d9b9718a",
+    "corpus_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\corpus_b89d5c53b95e51c51c6741f36f8e6d9a.json",
+    "corpus_sha256": "4e5cb009df0ecedb4b4e44920a1bfdcad8ac0e2a456e227eb1ddfbcad36e91b1",
+    "family_summary": {
+      "double_count_prevented": 0,
+      "family_count": 69,
+      "patent_records": 69,
+      "receipt_sha256": "2bb3f71664669fb171bf0d07c303277aadb4251264495bfee7d9e2370f116c67",
+      "unique_structure_count": 0
+    },
+    "independent_quotas": {
+      "paper_quota_met": true,
+      "patent_quota_met": true,
+      "required_papers": 0,
+      "required_patents": 0,
+      "status": "COMPLETE"
+    },
+    "paper_count": 30,
+    "paper_queries": [
+      "45 increments lie 3-ap-free subsets first integers",
+      "45 increments lie additive combinatorics",
+      "53 exact increment n+1 always lies verified exhaustively",
+      "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers",
+      "adding one ground-set element cannot decrease maximum nor raise 45 increments lie",
+      "adding one ground-set element cannot decrease maximum nor raise additive combinatorics",
+      "adding one ground-set element cannot decrease maximum nor raise exhaustive increment audit proven exact window",
+      "additive combinatorics",
+      "exhaustive increment audit proven exact window 3-ap-free subsets first integers",
+      "exhaustive increment audit proven exact window 45 increments lie",
+      "exhaustive increment audit proven exact window additive combinatorics"
+    ],
+    "paper_retrieval": {
+      "all_provider_attempts_succeeded": true,
+      "attempts": [
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "45 increments lie 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32387,
+            "body_sha256": "92df86d033cd71497d97cf061acc9987f214d646cb0231b53325f5d58e74b4e0",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 832.284,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "e3fcaa967bd1d5951f8967abc2e0494ba49a4c765803949214d5627948aef949",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=45+increments+lie+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "45 increments lie 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 650512,
+            "body_sha256": "bb8994c69eee04276158f05bc2a5336aa7a2a6a41896903806dc23fdbb236525",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1825.439,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "2812403a06c43ca44edbd7e91aab6087d59b333e0a94994cb604e3045a51d1a8",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=45+increments+lie+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 3,
+          "provider": "europe_pmc",
+          "query": "45 increments lie 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 8610,
+            "body_sha256": "da5c09b6dde6fd60ac41184900b9501cc8aeb2778a5a14a11569f6d211fa15c5",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 475.667,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "068afc89c7486eb70fe5022eb014dc2f9f2953d23d2575ba020d9da4d2fa553a",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=45+increments+lie+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "45 increments lie additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 12947,
+            "body_sha256": "ae30a7e55bb7523ba1f9015c582d2f53dbfd1cb0cf5ee1d0fdee86ae62bfc71d",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 834.492,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "e1d3cb314db84e25089560c7e7a3c4b762930b4f4c403a22e5d4c275f11ddd83",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=45+increments+lie+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "45 increments lie additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 494355,
+            "body_sha256": "51ca8ee3bc707b04ef21823308edd13db347d8dcce6f1ebd37328a04334c96b3",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 2040.535,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "6043028655a276fe962488bed5b580e4b2a74954aca1e806c816662cc46993d5",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=45+increments+lie+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 2,
+          "provider": "europe_pmc",
+          "query": "45 increments lie additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 28897,
+            "body_sha256": "b417750dd99cac046c0e870891af377f572f79e0978ef44a552927d9150e5a1f",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 403.347,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "f74a3d79f07514e5ff2cc9234ed63486aeba5928077e031905690beab697a6d9",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=45+increments+lie+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "53 exact increment n+1 always lies verified exhaustively",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 16608,
+            "body_sha256": "82bc80692f720d8fbddfc7b8c08d6122d52cf59e423ab998083ef298ace2eac2",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 653.961,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "d0c79486628539424aef9e4208c42326a776c26f071ce183bb728d6665143710",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=53+exact+increment+n%2B1+always+lies+verified+exhaustively&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "53 exact increment n+1 always lies verified exhaustively",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 749395,
+            "body_sha256": "d04daaf9b22aef1b01f0346464b676dadc437000ddf6fc25fba672eb2f486d6e",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1679.275,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "1068fe61a51a7cba6f14299d33fe7d3d2d0c316b68a8efbef0b5e8b9f991122c",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=53+exact+increment+n%2B1+always+lies+verified+exhaustively&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "53 exact increment n+1 always lies verified exhaustively",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 332303,
+            "body_sha256": "f044106f29551d30b783dd551ad5dd2d7432e5cef20c150211cf8c92a464aeed",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 676.097,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "170ea1e69c9505210a9fbc12dd52c37b837e7f93f518f47907aecc95446c543d",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=53+exact+increment+n%2B1+always+lies+verified+exhaustively&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 22829,
+            "body_sha256": "c8172dd1951f70c82f0d6074fb0b6bd64639a98a895480c0e0f745722643cf47",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 649.139,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "0519f7fe81d2e91673e523759f03f55483bc50faff49e41602824e25ba28ac74",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 801178,
+            "body_sha256": "4b369836814cfb1e54664ab38abd5f54bf6ec496550650febd67513ba078147b",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1787.783,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "7ef7435af0a537263742d5974463931720af62bca592c32cf2bd8404fdfe0a63",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 8,
+          "provider": "europe_pmc",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 27007,
+            "body_sha256": "48031701bcbfcce160d946d8789587551538d14bb5b16ab143e0ffac4c50e85e",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 485.953,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "e204c482758caaf370d6ebf77822de2e827132f9d2a28729967ec2df6d3536b1",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 45 increments lie",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 21186,
+            "body_sha256": "8cbd830eed254ae0057c14bd4e8e94db6e45e7cfc4fd38af4d5acc1003edf914",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 634.692,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "77afacdb62484ac80e85adfa2a7b98ce0c64620c8ff775199346b0204793ca83",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+45+increments+lie&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 45 increments lie",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 736359,
+            "body_sha256": "300c5d1c69ef54a0028c0ca26c6bd8d04280adda70a6a7913e54824261662f2b",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1210.993,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "30fcb1432d81eaa496b838140341f0a70392e85cfe945b22111addc9fcb7faee",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+45+increments+lie&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 45 increments lie",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 117220,
+            "body_sha256": "7ba2b404fdca6564b92ea5be8e85939685961dffa98ea2a6b98a5c0dcecc8056",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 522.325,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "d9af6a727132623e6a88a987894064292d7d61024ff66ecab95132b8981fc861",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+45+increments+lie&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "adding one ground-set element cannot decrease maximum nor raise additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 20832,
+            "body_sha256": "f5d15503e46c5b13845d550cf3edce8850c00a231c1c378b37c3cf79af81f332",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 660.263,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "d1b5bfaf4aef0648af49ad0b7307160c0128c1b1e2d679a9d55f38fa20fbcdc1",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "adding one ground-set element cannot decrease maximum nor raise additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 483267,
+            "body_sha256": "5619db178cbc67efcb4bdac149b872b4e3192fb22b78b2916703cdb5a2b95608",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 801.493,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "53f207894924a1f8b930ce0e7b490c5804bfbad4431576fdbeb9f74107f27e42",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "europe_pmc",
+          "query": "adding one ground-set element cannot decrease maximum nor raise additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 2125,
+            "body_sha256": "b527db6f14c0b21648e194ee64162d47c8eb5a6969f25b1540701bb5216cb5ee",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 189.283,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "e018884ec38a56620b5743db52a009fe276c9261361f37f7a6e005050f118413",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "adding one ground-set element cannot decrease maximum nor raise exhaustive increment audit proven exact window",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 27438,
+            "body_sha256": "92553ef17016a9b23a19024eae231b7fdb8ba4a2f56628bb3247adf6fb3eea53",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 620.74,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "2bb5f3989bc4630dcf909481bc85c4859f7e202322a6b1a5b5cf4d2397a38a6e",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+exhaustive+increment+audit+proven+exact+window&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "adding one ground-set element cannot decrease maximum nor raise exhaustive increment audit proven exact window",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 428261,
+            "body_sha256": "252c8905abc5a48db0e0505513a1d874b0acde3c2ae5df0152b3b12333f8c996",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 841.711,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "86608c805a3faf0a075d0a9b77acfd57b33d11df353e05d19b2ba93cd63c7ede",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+exhaustive+increment+audit+proven+exact+window&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "adding one ground-set element cannot decrease maximum nor raise exhaustive increment audit proven exact window",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 65535,
+            "body_sha256": "66e88b36f1628fd5c022c64dc2d90368625059ffade515188ca322aba072145c",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 484.034,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "c9de8c0904b6efeca6414ccd7ee965f54ff44bcf9c1ecdc42fd150d9021c6607",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+exhaustive+increment+audit+proven+exact+window&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 34387,
+            "body_sha256": "a7560babb89f30d80110376a9ea77ca9e77b320b3660bca4a32c51ffc9647a2a",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 575.684,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "260c5550911da5404fe42aa827e447fa65856f1ef7783ec025e21ea57c1b8ab1",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 313069,
+            "body_sha256": "f682c2a73a8977d9a94e7a5553b51b4f8b9a3a20543c41999ba8ed1ed4169a2f",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 788.676,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "7d9cdee20d39fcbb13591ca2b6ab1ef61da3b3ffb9049985ff8f09235595f9f2",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 124076,
+            "body_sha256": "c834c34a7a26fe511f5964e9208179735cf098563dbf4c2ee052c92631ec452c",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 357.551,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "f46834c43c1c720b063d5f44c2a2a46ee97cc32cd2fcccbf7fc39a9b3466107e",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "crossref",
+          "query": "exhaustive increment audit proven exact window 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 30841,
+            "body_sha256": "c478b928d5f72aea649947619e858dd1aa43285d95cee2cf33286d7205eca946",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 805.171,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "887d906d3a5ee201ab49311595130cce551ddb85d416a8186dcbdfcffc4b3a44",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+increment+audit+proven+exact+window+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 20,
+          "provider": "openalex",
+          "query": "exhaustive increment audit proven exact window 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 327268,
+            "body_sha256": "c2a516e10d66e02281bca6e103bdcfd20dcf25b886fc558ec6eacce6e0185438",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 740.101,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "e87127f48bc9a91fe581a54017083ded9cec09eed54b07fd75ebb0d5ecdb83a1",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+increment+audit+proven+exact+window+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 4,
+          "provider": "europe_pmc",
+          "query": "exhaustive increment audit proven exact window 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 163884,
+            "body_sha256": "625a66d037d3729305caba45214e73353bcb6fb8b6f1d485d8c531c2638a1f80",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 298.671,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "bea8c38773474866f0474535ee633ab5e7e7f634d358932973640e373ce53af6",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+increment+audit+proven+exact+window+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exhaustive increment audit proven exact window 45 increments lie",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 29937,
+            "body_sha256": "6064c413a53e356d60a3e4c5e4088526b002629b58ef43fa15688b0e1f2a60a1",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 867.52,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "89018d74ab29bb466d36e703b582bc574ee14d117dcf4afd3771e25f6b275684",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+increment+audit+proven+exact+window+45+increments+lie&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "exhaustive increment audit proven exact window 45 increments lie",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 493117,
+            "body_sha256": "c6fbaa6df82ee9b137d453883b889c716aa411f6808a256375cea4c5017930f3",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1112.596,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "b9c3af5477e37f3c9aeef1630a2fc1fab3db509d027e21a161679abdc51e6482",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+increment+audit+proven+exact+window+45+increments+lie&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "exhaustive increment audit proven exact window 45 increments lie",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 94857,
+            "body_sha256": "ae7950d424df2eb1991678b9f8b7b4bae49c48d205f32815ae95d65d38ed0535",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 475.118,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "abe5d02da79aeba97a778c12275b867431edb451ffde2a4bf46ab7c83fc1a164",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+increment+audit+proven+exact+window+45+increments+lie&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exhaustive increment audit proven exact window additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 35889,
+            "body_sha256": "776aad31881554bb57c2f2e74db533296d119c5b032a6a65633b637bed4569e2",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 596.082,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "9c7f5fa3fc83bb5a64afeaf43861f32b054da22f945d5dbc4893b659e0c3a0c1",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+increment+audit+proven+exact+window+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "openalex",
+          "query": "exhaustive increment audit proven exact window additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 573,
+            "body_sha256": "eb7ac77f2e96f6a61465b9c91afe479c647ba2c9b9379a8a91cdcc5a4054d4d8",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 315.001,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "a1ac447a0ea01a0e2869b8e3e4a1ab8f0a81594948aa4c7676651426fddd364a",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+increment+audit+proven+exact+window+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exhaustive increment audit proven exact window additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 232,
+            "body_sha256": "365097370cc7200b102c82af352f06accb84c16fd704f71c716d3b2322c2206d",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 335.806,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "7f5c9a0709a45017926869a57af1bfdf501e774e0c5de86d54eee9198854ab76",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+increment+audit+proven+exact+window+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        }
+      ],
+      "math_domain_detected": false,
+      "math_scholarly_providers": {
+        "status": "not_applicable"
+      },
+      "paper_count": 30,
+      "provider_error_count": 0,
+      "provider_success_count": 33,
+      "providers_attempted": [
+        "crossref",
+        "openalex",
+        "europe_pmc"
+      ],
+      "providers_with_hits": [
+        "crossref",
+        "europe_pmc",
+        "openalex"
+      ],
+      "query_count": 11,
+      "relevance_floor": {
+        "admitted": 309,
+        "all_candidates_excluded": false,
+        "candidates": 540,
+        "excluded": 231,
+        "excluded_rows": [
+          {
+            "cited_by_count": 5491,
+            "doi": "10.1016/j.clinph.2009.08.016",
+            "retrieval_citation_prior": 1.463878,
+            "title": "Safety, ethical considerations, and application guidelines for the use of transcranial magnetic stimulation in clinical practice and research"
+          },
+          {
+            "cited_by_count": 5318,
+            "doi": "10.59327/ipcc/ar5-9789291691432",
+            "retrieval_citation_prior": 1.458437,
+            "title": "Climate Change 2014 - Synthesis Report"
+          },
+          {
+            "cited_by_count": 3396,
+            "doi": "10.59327/ipcc/ar6-9789291691647",
+            "retrieval_citation_prior": 1.38221,
+            "title": "IPCC, 2023: Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland."
+          },
+          {
+            "cited_by_count": 3244,
+            "doi": "10.1093/forestscience/26.3.435",
+            "retrieval_citation_prior": 1.374428,
+            "title": "Adaptive Environmental Assessment and Management"
+          },
+          {
+            "cited_by_count": 3096,
+            "doi": "10.1038/s42254-021-00348-9",
+            "retrieval_citation_prior": 1.366492,
+            "title": "Variational quantum algorithms"
+          },
+          {
+            "cited_by_count": 2929,
+            "doi": "10.1016/j.isprsjprs.2014.02.013",
+            "retrieval_citation_prior": 1.357069,
+            "title": "Unmanned aerial systems for photogrammetry and remote sensing: A review"
+          },
+          {
+            "cited_by_count": 2660,
+            "doi": "10.1016/0005-1098(94)90209-7",
+            "retrieval_citation_prior": 1.340698,
+            "title": "A survey of models, analysis tools and compensation methods for the control of machines with friction"
+          },
+          {
+            "cited_by_count": 2194,
+            "doi": "10.1002/jrsm.1378",
+            "retrieval_citation_prior": 1.307969,
+            "title": "Which academic search systems are suitable for systematic reviews or meta\u2010analyses? Evaluating retrieval qualities of Google Scholar, PubMed, and 26 other resources"
+          },
+          {
+            "cited_by_count": 2026,
+            "doi": "10.1016/j.jbusres.2016.08.001",
+            "retrieval_citation_prior": 1.294433,
+            "title": "Critical analysis of Big Data challenges and analytical methods"
+          },
+          {
+            "cited_by_count": 1655,
+            "doi": "10.3847/2041-8213/ab481c",
+            "retrieval_citation_prior": 1.260067,
+            "title": "A NICER View of PSR J0030+0451: Millisecond Pulsar Parameter Estimation"
+          },
+          {
+            "cited_by_count": 1562,
+            "doi": "10.48550/arxiv.2303.12712",
+            "retrieval_citation_prior": 1.250242,
+            "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4"
+          },
+          {
+            "cited_by_count": 1550,
+            "doi": "10.1016/j.envsoft.2012.09.011",
+            "retrieval_citation_prior": 1.248931,
+            "title": "Characterising performance of environmental models"
+          },
+          {
+            "cited_by_count": 1530,
+            "doi": "10.1016/0016-0032(61)90246-0",
+            "retrieval_citation_prior": 1.246725,
+            "title": "Classical electricity and magnetism"
+          },
+          {
+            "cited_by_count": 1462,
+            "doi": "10.1109/comst.2020.2970550",
+            "retrieval_citation_prior": 1.239002,
+            "title": "Convergence of Edge Computing and Deep Learning: A Comprehensive Survey"
+          },
+          {
+            "cited_by_count": 1386,
+            "doi": "10.1109/comst.2020.3028247",
+            "retrieval_citation_prior": 1.229933,
+            "title": "Satellite Communications in the New Space Era: A Survey and Future Challenges"
+          },
+          {
+            "cited_by_count": 1360,
+            "doi": "10.12681/eadd/3778",
+            "retrieval_citation_prior": 1.226716,
+            "title": "PROBLEMS IN DECENTRALIZED DECISION MAKING AND COMPUTATION"
+          },
+          {
+            "cited_by_count": 1349,
+            "doi": "10.1016/j.echo.2013.07.009",
+            "retrieval_citation_prior": 1.225336,
+            "title": "Guidelines for Performing a Comprehensive Transesophageal Echocardiographic Examination: Recommendations from the American Society of Echocardiography and the Society of Cardiovascular Anesthesiologists"
+          },
+          {
+            "cited_by_count": 1345,
+            "doi": "10.1016/j.rser.2016.09.107",
+            "retrieval_citation_prior": 1.224832,
+            "title": "The wood from the trees: The use of timber in construction"
+          },
+          {
+            "cited_by_count": 1267,
+            "doi": "10.12942/lrsp-2013-2",
+            "retrieval_citation_prior": 1.214683,
+            "title": "The Solar Wind as a Turbulence Laboratory"
+          },
+          {
+            "cited_by_count": 1043,
+            "doi": "10.1145/2893356",
+            "retrieval_citation_prior": 1.181639,
+            "title": "A Survey of Techniques for Approximate Computing"
+          },
+          {
+            "cited_by_count": 1023,
+            "doi": "10.1103/revmodphys.79.353",
+            "retrieval_citation_prior": 1.17835,
+            "title": "Scanning tunneling spectroscopy of high-temperature superconductors"
+          },
+          {
+            "cited_by_count": 884,
+            "doi": "10.1017/9781009157964.012",
+            "retrieval_citation_prior": 1.15355,
+            "title": "Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities"
+          },
+          {
+            "cited_by_count": 871,
+            "doi": "",
+            "retrieval_citation_prior": 1.151034,
+            "title": "FUNDAMENTAL DESIGN PROBLEMS OF DISTRIBUTED SYSTEMS FOR THE HARD-REAL-TIME ENVIRONMENT"
+          },
+          {
+            "cited_by_count": 829,
+            "doi": "10.1002/eji.201970107",
+            "retrieval_citation_prior": 1.142642,
+            "title": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (second edition)."
+          },
+          {
+            "cited_by_count": 776,
+            "doi": "10.1145/358923.358929",
+            "retrieval_citation_prior": 1.131425,
+            "title": "An updated survey of GA-based multiobjective optimization techniques"
+          },
+          {
+            "cited_by_count": 745,
+            "doi": "10.1016/s0004-3702(99)00036-3",
+            "retrieval_citation_prior": 1.124503,
+            "title": "Coalition structure generation with worst case guarantees"
+          },
+          {
+            "cited_by_count": 725,
+            "doi": "10.1016/s0747-7171(87)80022-6",
+            "retrieval_citation_prior": 1.119884,
+            "title": "Termination of rewriting"
+          },
+          {
+            "cited_by_count": 675,
+            "doi": "10.1103/revmodphys.87.593",
+            "retrieval_citation_prior": 1.107753,
+            "title": "Macroscopic fluctuation theory"
+          },
+          {
+            "cited_by_count": 663,
+            "doi": "10.1145/2663716.2663755",
+            "retrieval_citation_prior": 1.104708,
+            "title": "The Matter of Heartbleed"
+          },
+          {
+            "cited_by_count": 525,
+            "doi": "10.1023/a:1005105831781",
+            "retrieval_citation_prior": 1.065101,
+            "title": "Particle acceleration at the Sun and in the heliosphere"
+          },
+          {
+            "cited_by_count": 514,
+            "doi": "10.1523/jneurosci.12-08-03139.1992",
+            "retrieval_citation_prior": 1.061508,
+            "title": "Orientation selectivity, preference, and continuity in monkey striate cortex"
+          },
+          {
+            "cited_by_count": 509,
+            "doi": "10.1002/nag.645",
+            "retrieval_citation_prior": 1.05985,
+            "title": "Effective stress concept in unsaturated soils: Clarification and validation of a unified framework"
+          },
+          {
+            "cited_by_count": 508,
+            "doi": "10.3233/sw-160217",
+            "retrieval_citation_prior": 1.059516,
+            "title": "Ontop: Answering SPARQL queries over relational databases"
+          },
+          {
+            "cited_by_count": 506,
+            "doi": "10.1016/j.cosrev.2020.100270",
+            "retrieval_citation_prior": 1.058847,
+            "title": "A survey of safety and trustworthiness of deep neural networks: Verification, testing, adversarial attack and defence, and interpretability"
+          },
+          {
+            "cited_by_count": 483,
+            "doi": "10.3758/s13423-018-1451-8",
+            "retrieval_citation_prior": 1.050954,
+            "title": "Small is beautiful: In defense of the small-N design"
+          },
+          {
+            "cited_by_count": 437,
+            "doi": "10.1145/382192.383004",
+            "retrieval_citation_prior": 1.033977,
+            "title": "Concepts and paradigms of object-oriented programming"
+          },
+          {
+            "cited_by_count": 430,
+            "doi": "10.14279/depositonce-2978",
+            "retrieval_citation_prior": 1.031238,
+            "title": "lp-Norm Multiple Kernel Learning"
+          },
+          {
+            "cited_by_count": 371,
+            "doi": "10.2307/796417",
+            "retrieval_citation_prior": 1.006212,
+            "title": "Anticompetitive Exclusion: Raising Rivals' Costs to Achieve Power over Price"
+          },
+          {
+            "cited_by_count": 358,
+            "doi": "10.1145/258533.258657",
+            "retrieval_citation_prior": 1.000165,
+            "title": "Incremental clustering and dynamic information retrieval"
+          },
+          {
+            "cited_by_count": 348,
+            "doi": "10.1103/physrevd.93.074505",
+            "retrieval_citation_prior": 0.995362,
+            "title": "Domain wall QCD with physical quark masses"
+          },
+          {
+            "cited_by_count": 345,
+            "doi": "10.1007/s00440-013-0482-3",
+            "retrieval_citation_prior": 0.993895,
+            "title": "Macdonald processes"
+          },
+          {
+            "cited_by_count": 343,
+            "doi": "10.1007/s10462-022-10351-w",
+            "retrieval_citation_prior": 0.992909,
+            "title": "A survey of Bayesian Network structure learning"
+          },
+          {
+            "cited_by_count": 339,
+            "doi": "10.1017/9781009157964.006",
+            "retrieval_citation_prior": 0.990921,
+            "title": "Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities"
+          },
+          {
+            "cited_by_count": 318,
+            "doi": "10.6028/nist.sp.500-235",
+            "retrieval_citation_prior": 0.980082,
+            "title": "Structured testing :"
+          },
+          {
+            "cited_by_count": 312,
+            "doi": "10.3758/bf03200759",
+            "retrieval_citation_prior": 0.976855,
+            "title": "Perceptual-cognitive universals as reflections of the world"
+          },
+          {
+            "cited_by_count": 307,
+            "doi": "",
+            "retrieval_citation_prior": 0.974117,
+            "title": "Regular variation, extensions and Tauberian theorems"
+          },
+          {
+            "cited_by_count": 297,
+            "doi": "10.1088/0004-637x/783/1/10",
+            "retrieval_citation_prior": 0.968506,
+            "title": "THE COMPACTNESS OF PRESUPERNOVA STELLAR CORES"
+          },
+          {
+            "cited_by_count": 264,
+            "doi": "10.1007/s10270-004-0058-x",
+            "retrieval_citation_prior": 0.948554,
+            "title": "The KeY tool"
+          },
+          {
+            "cited_by_count": 261,
+            "doi": "10.1145/299917.299918",
+            "retrieval_citation_prior": 0.946619,
+            "title": "Efficient algorithms for geometric optimization"
+          },
+          {
+            "cited_by_count": 250,
+            "doi": "10.1016/s0004-3702(99)00015-6",
+            "retrieval_citation_prior": 0.939327,
+            "title": "Preferred answer sets for extended logic programs"
+          },
+          {
+            "cited_by_count": 233,
+            "doi": "10.1007/bf00265077",
+            "retrieval_citation_prior": 0.927405,
+            "title": "Revised report on the algorithmic language ALGOL 68"
+          },
+          {
+            "cited_by_count": 232,
+            "doi": "10.1016/s0304-3975(99)00206-6",
+            "retrieval_citation_prior": 0.926677,
+            "title": "Specification and proof in membership equational logic"
+          },
+          {
+            "cited_by_count": 211,
+            "doi": "10.1016/s0304-3975(01)00303-6",
+            "retrieval_citation_prior": 0.91062,
+            "title": "Searching games with errors\u2014fifty years of coping with liars"
+          },
+          {
+            "cited_by_count": 193,
+            "doi": "10.1371/journal.pcbi.1010492",
+            "retrieval_citation_prior": 0.895536,
+            "title": "RNA velocity unraveled"
+          },
+          {
+            "cited_by_count": 170,
+            "doi": "10.1109/tsp.2014.2338077",
+            "retrieval_citation_prior": 0.874083,
+            "title": "Optimal Algorithms for $L_{1}$ -subspace Signal Processing"
+          },
+          {
+            "cited_by_count": 163,
+            "doi": "10.1016/s0304-3975(01)00149-9",
+            "retrieval_citation_prior": 0.866977,
+            "title": "Statistical mechanics methods and phase transitions in optimization problems"
+          },
+          {
+            "cited_by_count": 158,
+            "doi": "10.1051/0004-6361/202243919",
+            "retrieval_citation_prior": 0.861714,
+            "title": "Gaia Data Release 3"
+          },
+          {
+            "cited_by_count": 157,
+            "doi": "10.4007/annals.2012.176.2.11",
+            "retrieval_citation_prior": 0.860641,
+            "title": "An inverse theorem for the Gowers U^(s+1)[N]-norm"
+          },
+          {
+            "cited_by_count": 144,
+            "doi": "10.1021/acs.chemrev.4c00572",
+            "retrieval_citation_prior": 0.846045,
+            "title": "Data Generation for Machine Learning Interatomic Potentials and Beyond"
+          },
+          {
+            "cited_by_count": 137,
+            "doi": "10.2741/1187",
+            "retrieval_citation_prior": 0.837633,
+            "title": "Macroscopic electrostatic models for protonation states in proteins"
+          },
+          {
+            "cited_by_count": 135,
+            "doi": "10.1613/jair.3608",
+            "retrieval_citation_prior": 0.835151,
+            "title": "COLIN: Planning with Continuous Linear Numeric Change"
+          },
+          {
+            "cited_by_count": 132,
+            "doi": "",
+            "retrieval_citation_prior": 0.831359,
+            "title": "SIMULATION TOOLS FOR DIGITAL LSI DESIGN"
+          },
+          {
+            "cited_by_count": 97,
+            "doi": "10.1021/acs.chemrev.2c00155",
+            "retrieval_citation_prior": 0.779444,
+            "title": "Fluids and Electrolytes under Confinement in Single-Digit Nanopores."
+          },
+          {
+            "cited_by_count": 97,
+            "doi": "10.1002/alr.22929",
+            "retrieval_citation_prior": 0.779444,
+            "title": "International consensus statement on allergy and rhinology: Olfaction."
+          },
+          {
+            "cited_by_count": 88,
+            "doi": "10.1016/j.arcontrol.2020.10.008",
+            "retrieval_citation_prior": 0.763068,
+            "title": "Mixed-integer programming in motion planning"
+          },
+          {
+            "cited_by_count": 82,
+            "doi": "10.3233/sw-180293",
+            "retrieval_citation_prior": 0.751203,
+            "title": "OptiqueVQS: A visual query system over ontologies for industry"
+          },
+          {
+            "cited_by_count": 70,
+            "doi": "10.14639/0392-100x-suppl.1-39-2019",
+            "retrieval_citation_prior": 0.724656,
+            "title": "Surgery of the lateral skull base: a 50-year endeavour."
+          },
+          {
+            "cited_by_count": 67,
+            "doi": "10.1186/s40793-021-00375-0",
+            "retrieval_citation_prior": 0.717316,
+            "title": "Deep learning approaches for natural product discovery from plant endophytic microbiomes"
+          },
+          {
+            "cited_by_count": 66,
+            "doi": "10.1007/s10009-017-0454-5",
+            "retrieval_citation_prior": 0.714798,
+            "title": "First international Competition on Runtime Verification: rules, benchmarks, tools, and final results of CRV 2014"
+          },
+          {
+            "cited_by_count": 57,
+            "doi": "10.4324/9780429207914",
+            "retrieval_citation_prior": 0.690275,
+            "title": "Pseudo-Differential Equations and Stochastics Over Non-Archimedean Fields"
+          },
+          {
+            "cited_by_count": 52,
+            "doi": "10.46586/tches.v2019.i2.1-48",
+            "retrieval_citation_prior": 0.67495,
+            "title": "AuCPace: Efficient verifier-based PAKE protocol tailored for the IIoT"
+          },
+          {
+            "cited_by_count": 52,
+            "doi": "10.1016/s0743-1066(99)00028-x",
+            "retrieval_citation_prior": 0.67495,
+            "title": "Inductive synthesis of recursive logic programs: achievements and prospects"
+          },
+          {
+            "cited_by_count": 49,
+            "doi": "10.5772/intechopen.69336",
+            "retrieval_citation_prior": 0.665044,
+            "title": "Digital Transformation in Smart Manufacturing"
+          },
+          {
+            "cited_by_count": 45,
+            "doi": "10.1016/s0304-3975(03)00225-1",
+            "retrieval_citation_prior": 0.650869,
+            "title": "Graphs determined by polynomial invariants"
+          },
+          {
+            "cited_by_count": 44,
+            "doi": "10.1140/epja/i2019-12919-7",
+            "retrieval_citation_prior": 0.647133,
+            "title": "Status and future perspectives for lattice gauge theory calculations to the exascale and beyond"
+          },
+          {
+            "cited_by_count": 41,
+            "doi": "10.1016/j.jfa.2013.07.022",
+            "retrieval_citation_prior": 0.635404,
+            "title": "Free convolution operators and free Hall transform"
+          },
+          {
+            "cited_by_count": 41,
+            "doi": "10.4153/cjm-2009-007-4",
+            "retrieval_citation_prior": 0.635404,
+            "title": "On the Littlewood Problem Modulo a Prime"
+          },
+          {
+            "cited_by_count": 37,
+            "doi": "10.13140/rg.2.1.2197.4167",
+            "retrieval_citation_prior": 0.61839,
+            "title": "Analysing and evaluating flood risk governance in the Netherlands: Drowning in safety"
+          },
+          {
+            "cited_by_count": 36,
+            "doi": "10.1038/s41598-025-15416-8",
+            "retrieval_citation_prior": 0.613856,
+            "title": "\u201dMy AI is Lying to Me\u201d: User-reported LLM hallucinations in AI mobile apps reviews"
+          },
+          {
+            "cited_by_count": 34,
+            "doi": "10.3114/sim.2024.108.01",
+            "retrieval_citation_prior": 0.604409,
+            "title": "What are the 100 most cited fungal genera?"
+          },
+          {
+            "cited_by_count": 32,
+            "doi": "10.1016/j.aim.2023.108863",
+            "retrieval_citation_prior": 0.594406,
+            "title": "Likelihood degenerations"
+          },
+          {
+            "cited_by_count": 31,
+            "doi": "10.2903/j.efsa.2018.5125",
+            "retrieval_citation_prior": 0.589175,
+            "title": "Scientific Opinion on the state of the science on pesticide risk assessment for amphibians and reptiles."
+          },
+          {
+            "cited_by_count": 31,
+            "doi": "10.1007/978-3-031-37709-9_12",
+            "retrieval_citation_prior": 0.589175,
+            "title": "Verifying the Verifier: eBPF Range Analysis Verification"
+          },
+          {
+            "cited_by_count": 30,
+            "doi": "10.1007/s10207-024-00921-0",
+            "retrieval_citation_prior": 0.583778,
+            "title": "A review of time-series analysis for cyber security analytics: from intrusion detection to attack prediction"
+          },
+          {
+            "cited_by_count": 30,
+            "doi": "10.1002/pen.760351005",
+            "retrieval_citation_prior": 0.583778,
+            "title": "Dilatometric study of low profile unsaturated polyester resins"
+          },
+          {
+            "cited_by_count": 27,
+            "doi": "",
+            "retrieval_citation_prior": 0.566475,
+            "title": "National Surface Water Survey: National Stream Survey Phase I--Pilot Survey"
+          },
+          {
+            "cited_by_count": 26,
+            "doi": "10.2139/ssrn.4808469",
+            "retrieval_citation_prior": 0.560292,
+            "title": "Digitalization, Emerging Technologies, and Financial Stability: Challenges and Opportunities for the Indonesian Banking Sector and Beyond"
+          },
+          {
+            "cited_by_count": 25,
+            "doi": "10.1016/j.engappai.2024.109552",
+            "retrieval_citation_prior": 0.553876,
+            "title": "Data-driven drift detection and diagnosis framework for predictive maintenance of heterogeneous production processes: Application to a multiple tapping process"
+          },
+          {
+            "cited_by_count": 23,
+            "doi": "10.4324/9780429458781",
+            "retrieval_citation_prior": 0.540269,
+            "title": "Narratives of Low-Carbon Transitions"
+          },
+          {
+            "cited_by_count": 22,
+            "doi": "10.6100/ir553708",
+            "retrieval_citation_prior": 0.533034,
+            "title": "Combinatorial approximation algorithms : guaranteed versus experimental performance"
+          },
+          {
+            "cited_by_count": 22,
+            "doi": "",
+            "retrieval_citation_prior": 0.533034,
+            "title": "Open Access Indicators and Scholarly Communications in Latin America"
+          },
+          {
+            "cited_by_count": 21,
+            "doi": "10.1016/j.pmatsci.2024.101363",
+            "retrieval_citation_prior": 0.525477,
+            "title": "Mechanisms of aortic dissection: From pathological changes to experimental and in silico models."
+          },
+          {
+            "cited_by_count": 19,
+            "doi": "10.3390/info15080463",
+            "retrieval_citation_prior": 0.509274,
+            "title": "Evaluating the Efficiency of zk-SNARK, zk-STARK, and Bulletproof in Real-World Scenarios: A Benchmark Study"
+          },
+          {
+            "cited_by_count": 18,
+            "doi": "10.1016/j.jisa.2019.102375",
+            "retrieval_citation_prior": 0.500555,
+            "title": "Discovering and utilising expert knowledge from security event logs"
+          },
+          {
+            "cited_by_count": 16,
+            "doi": "10.36227/techrxiv.174681482.27435614/v1",
+            "retrieval_citation_prior": 0.481646,
+            "title": "A Review on Vibe Coding: Fundamentals, State-of-the-art, Challenges and Future Directions"
+          },
+          {
+            "cited_by_count": 16,
+            "doi": "10.1186/s40635-018-0201-6",
+            "retrieval_citation_prior": 0.481646,
+            "title": "ESICM LIVES 2018 : Paris, France. 20-24 October 2018."
+          },
+          {
+            "cited_by_count": 13,
+            "doi": "10.48550/arxiv.2303.10473",
+            "retrieval_citation_prior": 0.44864,
+            "title": "Report of the Medical Image De-Identification (MIDI) Task Group -- Best Practices and Recommendations"
+          },
+          {
+            "cited_by_count": 11,
+            "doi": "",
+            "retrieval_citation_prior": 0.422434,
+            "title": "Designing an Optimal Urban Community Mix for an Aquifer Thermal Energy Storage System"
+          },
+          {
+            "cited_by_count": 11,
+            "doi": "10.1515/9780820372662",
+            "retrieval_citation_prior": 0.422434,
+            "title": "The Geography of the Everyday"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Designing and Operating Safe and Secure Transit Systems: Assessing Current Practices in the United States and Abroad, MTI Report 04-05"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Linear Programming Tools and Approximation Algorithms for Combinatorial Optimization"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Search and retrieval in massive data collections"
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "",
+            "retrieval_citation_prior": 0.373528,
+            "title": "Kinetic model construction using chemoinformatics"
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "10.1016/j.infsof.2012.06.005",
+            "retrieval_citation_prior": 0.373528,
+            "title": "Trusted Product Lines"
+          },
+          {
+            "cited_by_count": 7,
+            "doi": "10.48550/arxiv.2412.05282",
+            "retrieval_citation_prior": 0.353505,
+            "title": "International Scientific Report on the Safety of Advanced AI (Interim Report)"
+          },
+          {
+            "cited_by_count": 6,
+            "doi": "10.1007/s00125-022-05755-w",
+            "retrieval_citation_prior": 0.330805,
+            "title": "58 th EASD Annual Meeting of the European Association for the Study of Diabetes : Stockholm, Sweden, 19 - 23 September 2022."
+          },
+          {
+            "cited_by_count": 6,
+            "doi": "10.1007/s00259-020-04988-4",
+            "retrieval_citation_prior": 0.330805,
+            "title": "European Association of Nuclear Medicine October 22 - 30, 2020 Virtual."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1111/vox.12792",
+            "retrieval_citation_prior": 0.304599,
+            "title": "29th Regional Congress of the ISBT, Basel, Switzerland, 22-26 June 2019."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1007/s11548-020-02171-6",
+            "retrieval_citation_prior": 0.304599,
+            "title": "CARS 2020-Computer Assisted Radiology and Surgery Proceedings of the 34th International Congress and Exhibition, Munich, Germany, June 23-27, 2020."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1186/s13244-019-0713-y",
+            "retrieval_citation_prior": 0.304599,
+            "title": "ECR 2019: Book of Abstracts : Vienna, Austria. February 27 - March 3, 2019."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1186/s40635-021-00415-6",
+            "retrieval_citation_prior": 0.304599,
+            "title": "ESICM LIVES 2021: Part 2."
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Free Form Structural Design: Schemes, systems and prototypes of structures for irregular shaped buildings"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Modeling brain responses to perceived speech with LSTM networks"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.13140/rg.2.2.19004.18562",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Theory and Simulation of Metal-Organic Materials and Biomolecules"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1177/2050640619854671",
+            "retrieval_citation_prior": 0.304599,
+            "title": "UEG Week 2019 Poster Presentations."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1007/s00259-017-3822-1",
+            "retrieval_citation_prior": 0.273604,
+            "title": "EANM'17."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.25560/5654",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Prevalence and treatment of health anxiety in genitourinary medicine"
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1186/s13613-022-01016-6",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Proceedings of Reanimation 2022, the French Intensive Care Society International Congress."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1098/rstb.2023.0304",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Shape parameters of evolutionary trees in theoretical computer science."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.7907/cn89-3127",
+            "retrieval_citation_prior": 0.273604,
+            "title": "The Application of Information Theory to Problems in Decision Tree Design and Rule-Based Expert Systems"
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "",
+            "retrieval_citation_prior": 0.273604,
+            "title": "UEG Week 2016 Poster Presentations"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "",
+            "retrieval_citation_prior": 0.23567,
+            "title": "A framework for design assurance in developing embedded systems"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1007/s41999-021-00585-2",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Abstracts of the 17th Congress of the European Geriatric Medicine Society : Live from Athens and Online, 11-13 October 2021."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1186/s44158-022-00070-7",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Abstracts of the ICARE 2022 76th SIAARTI National Congress : Milan, Italy. 28-30 October 2022."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1101/2023.10.23.563122",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Automated 3D multi-color single-molecule localization microscopy"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1063/5.0134792",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Axial vs equatorial: Capturing the intramolecular charge transfer state geometry in conformational polymorphic crystals of a donor-bridge-acceptor dyad in nanosecond-time-scale."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.2337/db13-859-1394",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Clinical Diabetes/Therapeutics."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1007/s13244-015-0387-z",
+            "retrieval_citation_prior": 0.33567,
+            "title": "ECR 2015 Book of Abstracts - B - Scientific Sessions and Late-Breaking Clinical Trials."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1186/s13244-021-01014-5",
+            "retrieval_citation_prior": 0.23567,
+            "title": "ECR 2021 Book of Abstracts."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Extraction of Audio Features Specific to Speech using Information Theory and Differential Evolution"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1016/j.cad.2023.103485",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Incremental Interval Assignment by Integer Linear Algebra with Improvements"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.7448/ias.19.8.21487",
+            "retrieval_citation_prior": 0.23567,
+            "title": "International Congress of Drug Therapy in HIV Infection 23-26 October 2016, Glasgow, UK."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.54337/aau696001045",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Orchestrating Motion: Real-Time Sonification Tools and Methods to Support Movement Rehabilitation"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Probabilistic leak detection and quantification using multi-output Gaussian processes"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1101/2025.03.14.643248",
+            "retrieval_citation_prior": 0.23567,
+            "title": "The evolution of gene regulation in mammalian cerebellum development"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1126/science.adw9154",
+            "retrieval_citation_prior": 0.23567,
+            "title": "The evolution of gene regulation in mammalian cerebellum development."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.24382/4007",
+            "retrieval_citation_prior": 0.186764,
+            "title": "A Distributed Security Architecture for Large Scale Systems"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s00134-014-3451-0",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Abstracts from the 27th Annual Congress, ESICM LIVES 2014, 27 September--1 October, 2014, Barcelona, Spain."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s10072-020-04753-3",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Abstracts of the 51st Annual Conference of the Italian Society of Neurology : November 28- 30, 2020."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s13244-017-0546-5",
+            "retrieval_citation_prior": 0.186764,
+            "title": "ECR 2017 - BOOK OF ABSTRACTS."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s13244-018-0603-8",
+            "retrieval_citation_prior": 0.186764,
+            "title": "ECR 2018 - BOOK OF ABSTRACTS."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1186/s13244-022-01337-x",
+            "retrieval_citation_prior": 0.186764,
+            "title": "ECR 2022 Book of Abstracts."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1186/s40635-023-00546-y",
+            "retrieval_citation_prior": 0.186764,
+            "title": "ESICM LIVES 2023."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Johnson Space Center's Role in a Sustainable Future"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Poster Abstracts"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Successful Strategies to Address Disruptive Innovation Technologies in the Digital-media Industry"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s00259-021-05356-6",
+            "retrieval_citation_prior": 0.186764,
+            "title": "The false myth of \"iodine allergy\" also in nuclear medicine."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "UEG Week 2018 Poster Presentations"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s40520-025-03119-z",
+            "retrieval_citation_prior": 0.186764,
+            "title": "World Congress on Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (WCO-IOF-ESCEO 2025)."
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.1007/s00428-022-03379-4",
+            "retrieval_citation_prior": 0.117835,
+            "title": "34 th European Congress of Pathology - Abstracts."
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.1186/s40635-024-00658-z",
+            "retrieval_citation_prior": 0.117835,
+            "title": "ESICM LIVES 2024. Barcelona, Spain. 5\u20139 October 2024."
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.34726/hss.2020.57122",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Fantastic voyage: an augmented reality approach to anatomical education for the general public"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Integrated Decision Support System for Infrastructure Privatization under Uncertainty using Conflict Resolution"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.5040/9780567662187.0005",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Introduction"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.6027/nord2023-031",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Nordic Network for Circular Construction"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "SAEM Abstracts, Plenary Session"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.1007/s00247-019-04376-7",
+            "retrieval_citation_prior": 0.117835,
+            "title": "SPR 2019."
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Thirty-ninth Annual Meeting February 12-16, 1995 Moscone Center San Francisco, California : Thursday Symposia and Posters, Part IV"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Towards accountable decision aiding : explanations for the aggregation of preferences"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "UEG Week 2014 Poster Presentations"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.2903/j.efsa.2025.9518",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Welfare of beef cattle."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2139/ssrn.4186101",
+            "retrieval_citation_prior": 0.0,
+            "title": "2022 Supplement to Stephen H. Legomsky & David B. Thronson, Immigration and Refugee Law and Policy"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2139/ssrn.4529328",
+            "retrieval_citation_prior": 0.0,
+            "title": "2023 Supplement to Stephen H. Legomsky & David B. Thronson, Immigration and Refugee Law and Policy"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "21st Congress of the European Hematology Association Copenhagen, Denmark, June 9\u201312, 2016"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1186/s12868-019-0538-0",
+            "retrieval_citation_prior": 0.0,
+            "title": "28th Annual Computational Neuroscience Meeting: CNS*2019."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "64th Annual Conference of Indian Society of Hematology & Blood Transfusion (ISHBT) November 2023"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e28050544",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Complex Tension Origin for Dilaton Gravity: Jordan Stiffness and Logarithmic Einstein Dynamics."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e27070756",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Max-Flow Approach to Random Tensor Networks."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1214/24-ba1462",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Tree Perspective on Stick-Breaking Models in Covariate-Dependent Mixtures (with Discussion)."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1002/jmrs.766",
+            "retrieval_citation_prior": 0.0,
+            "title": "ASMIRT 2024: Colours of Country - Community, Resilience, Innovation. Annual Scientific Meeting of Medical Imaging and Radiation Therapy - 18th National Conference."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Abstracts"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Abstracts from the 14th International Conference on Osteogenesis Imperfecta, Sheffield, UK, 30 August \u2013 2 September 2022"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Abstracts from the 2024 Annual Meeting of the Society of General Internal Medicine"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.1,
+            "title": "Abstracts from the 51st European Society of Human Genetics Conference: Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.1,
+            "title": "Abstracts from the 55th European Society of Human Genetics (ESHG) Conference: Hybrid Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.1,
+            "title": "Abstracts from the 56th European Society of Human Genetics (ESHG) Conference: Hybrid Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.1,
+            "title": "Abstracts from the 57th European Society of Human Genetics (ESHG) Conference: Hybrid Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Abstracts of the 18th Congress of the European Geriatric Medicine Society : Live from London and Online, 28\u201330 September 2022"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.010",
+            "retrieval_citation_prior": 0.0,
+            "title": "Algebraic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.014",
+            "retrieval_citation_prior": 0.0,
+            "title": "Bibliography"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.1,
+            "title": "Characterizing Resting Brain Activity to Predict the Amplitude of Pain-Evoked Potentials in the Human Insula"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpls.2026.1864496",
+            "retrieval_citation_prior": 0.0,
+            "title": "Cis-regulatory elements in CAMTA-mediated stress signalling: mechanisms and prospects for CRISPR-based crop improvement."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s00454-023-00622-w",
+            "retrieval_citation_prior": 0.0,
+            "title": "Counting Arcs in F q 2."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "E-Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "E-Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "E-Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1002/1878-0261.70070",
+            "retrieval_citation_prior": 0.0,
+            "title": "EACR 2025 Congress: Innovative Cancer Science, 16-19 June 2025."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "EHA2024 Hybrid Congress"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ESICM LIVES 2025"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ESOC 2022 Abstract Book"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ESPGHAN 56th Annual Meeting Abstracts"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "European Stroke Organisation Conference: Abstracts"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1371/journal.pone.0348356",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fault diagnosis of aero-engines using transfer dispersion entropy and dispersion patterns."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41598-025-27396-w",
+            "retrieval_citation_prior": 0.0,
+            "title": "Formal verification of safety properties of epoch processing in Beacon Chain."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.005",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fourier-analytic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1073/pnas.2510881123",
+            "retrieval_citation_prior": 0.0,
+            "title": "Free quantum computing."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Full GSA 2024 Abstract Book PDF"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Full GSA 2025 Abstract Book PDF"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.007",
+            "retrieval_citation_prior": 0.0,
+            "title": "Graph-theoretic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Have You Ever Seen Them? Entity-level Membership Inference through Interrogating Large Language Models"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.009",
+            "retrieval_citation_prior": 0.0,
+            "title": "Incidence geometry"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "International Conference on Prevention and Infection Control 2023"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.013",
+            "retrieval_citation_prior": 0.0,
+            "title": "Long arithmetic progressions in sum sets"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2307/j.ctt46nz5d.48",
+            "retrieval_citation_prior": 0.0,
+            "title": "MAGDALENE BATHING"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.7330/9780874214987.c046",
+            "retrieval_citation_prior": 0.0,
+            "title": "Magdalene Bathing"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpsyt.2026.1727711",
+            "retrieval_citation_prior": 0.0,
+            "title": "Mitochondrial dysfunction in EEG: high-beta specific metabolic/oxidative coupling with lactate in mania-predominant polarity."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41598-025-27113-7",
+            "retrieval_citation_prior": 0.0,
+            "title": "Novel representation of complexity of investment casting using injective coloring and graph adaptive consensus mechanism."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.22215/etd/2006-07711",
+            "retrieval_citation_prior": 0.0,
+            "title": "Parsing streaming network protocols"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Poster Presentations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Posters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1162/opmi.a.275",
+            "retrieval_citation_prior": 0.0,
+            "title": "Predictability of the Retrieval Site Does Not Modulate Interference: Evidence From Reflexive Attraction."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1186/s12969-023-00879-8",
+            "retrieval_citation_prior": 0.0,
+            "title": "Proceedings of the 29th European Paediatric Rheumatology Congress."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2139/ssrn.4186955",
+            "retrieval_citation_prior": 0.0,
+            "title": "Proceedings of the International Conference European Union\u2019s History, Culture and Citizenship, 13th Edition, 2021"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Program Abstracts from the GSA 2019 Annual Scientific Meeting \u201cStrength in Age\u2014Harnessing the Power of Networks\u201d"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.001",
+            "retrieval_citation_prior": 0.0,
+            "title": "Prologue"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/978-3-030-71522-9_363",
+            "retrieval_citation_prior": 0.0,
+            "title": "Propagation Characteristics of Boolean Functions"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Publication Only"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Publication Only"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Reexamining Operating System Support for Database Management"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e26100870",
+            "retrieval_citation_prior": 0.0,
+            "title": "Remarks on Limit Theorems for the Free Quadratic Forms."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Scientific Abstracts of 48th Annual conference of AOMSI, Kolkata, 2024"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Standard Poster Abstracts for the 17th Asia Pacific Heart Rhythm Society (APHRS) Scientific Sessions"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Supplement"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.011",
+            "retrieval_citation_prior": 0.0,
+            "title": "Szemer\u00e9di' theorem for k = 3"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "The 7th Congress of Biophysicists of Russia - conference proceedings : Abstracts"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.008",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Littlewood\u2013Offord problem"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.002",
+            "retrieval_citation_prior": 0.0,
+            "title": "The probabilistic method"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "UEG Week 2021 Poster Presentations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "UEG Week 2022 Poster Presentations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "UEG Week 2024 Poster Presentations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "UEG Week 2025 Poster Presentations"
+          }
+        ],
+        "rule": "retrieval_relevance > 0.0 (shares >=1 non-stopword token with >=1 grounding query)"
+      },
+      "retrieval_receipt_sha256": "ed0ede2ad9914d25743b1bc338d7d39a01bd261ec48b9637a6aa21a786d36c98",
+      "retrieval_state": "hits",
+      "saturation": {
+        "curve": [
+          {
+            "cumulative_unique": 53,
+            "new_records": 53,
+            "query": "45 increments lie 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 105,
+            "new_records": 52,
+            "query": "45 increments lie additive combinatorics"
+          },
+          {
+            "cumulative_unique": 180,
+            "new_records": 75,
+            "query": "53 exact increment n+1 always lies verified exhaustively"
+          },
+          {
+            "cumulative_unique": 232,
+            "new_records": 52,
+            "query": "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 305,
+            "new_records": 73,
+            "query": "adding one ground-set element cannot decrease maximum nor raise 45 increments lie"
+          },
+          {
+            "cumulative_unique": 343,
+            "new_records": 38,
+            "query": "adding one ground-set element cannot decrease maximum nor raise additive combinatorics"
+          },
+          {
+            "cumulative_unique": 406,
+            "new_records": 63,
+            "query": "adding one ground-set element cannot decrease maximum nor raise exhaustive increment audit proven exact window"
+          },
+          {
+            "cumulative_unique": 455,
+            "new_records": 49,
+            "query": "additive combinatorics"
+          },
+          {
+            "cumulative_unique": 481,
+            "new_records": 26,
+            "query": "exhaustive increment audit proven exact window 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 536,
+            "new_records": 55,
+            "query": "exhaustive increment audit proven exact window 45 increments lie"
+          },
+          {
+            "cumulative_unique": 540,
+            "new_records": 4,
+            "query": "exhaustive increment audit proven exact window additive combinatorics"
+          }
+        ],
+        "is_saturated": false,
+        "total_queries": 11,
+        "total_unique_works": 540
+      },
+      "status": "success",
+      "worker_count": 12
+    },
+    "patent_application_count": 0,
+    "patent_claim_grounded_count": 16,
+    "patent_count": 69,
+    "patent_granted_count": 69,
+    "patent_official_claim_grounded_count": 16,
+    "patent_official_provider_record_count": 69,
+    "patent_official_search_complete": false,
+    "patent_provider": "uspto_odp_keyed",
+    "patent_queries": [
+      "3-ap-free subsets first integers increment exact exhaustively exhaustive",
+      "3-ap-free subsets first integers increment exact exhaustively exhaustive 45 increments lie",
+      "3-ap-free subsets first integers increment exact exhaustively exhaustive adding one ground-set element cannot decrease",
+      "3-ap-free subsets first integers increment exact exhaustively exhaustive audit proven window",
+      "45 increments lie 3-ap-free subsets first integers additive combinatorics treatment composition",
+      "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers compound",
+      "adding one ground-set element cannot decrease maximum nor raise 45 increments lie compound composition",
+      "adding one ground-set element cannot decrease maximum nor raise composition compound treatment",
+      "exhaustive increment audit proven exact window additive combinatorics composition"
+    ],
+    "patent_retrieval": {
+      "attempts": [
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive",
+            "receipt_sha256": "4f61af459f5f8f400aaf09065005851deebaa9f9fcdf288675c7ac56e161ef2a",
+            "records_sha256": "357134499afd5ffb26dae7c1515f6937c03b85dfebd581e64c7aa7e5abc8885c"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive 45 increments lie",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 198.855,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "9af547d30e80c260fce5a1d8c36332cfe48bc6b37de9d57f59dc6eb4d7bf7e50",
+            "receipt_sha256": "9af547d30e80c260fce5a1d8c36332cfe48bc6b37de9d57f59dc6eb4d7bf7e50",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+increment+exact+exhaustively+exhaustive+45+increments+lie%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive 45 increments lie",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive 45 increments lie",
+            "receipt_sha256": "595305d2185265c0e20e017e7016ef177f1f7816c706fdad3c637b56485dafee",
+            "records_sha256": "3357e15898502fd8863746c819a4eb43152e1773226610ffbe11eec42a431949"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive 45 increments lie",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive adding one ground-set element cannot decrease",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive adding one ground-set element cannot decrease",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive adding one ground-set element cannot decrease",
+            "receipt_sha256": "d26eaaad99e6b17feedf8f459e5e0f3118a0ba0efd12f0ec322d1ec4e6918557",
+            "records_sha256": "64c2a334a904d5c65f28597cfc7b40d74ed8a1b2903df9af1caac93a672c4174"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive adding one ground-set element cannot decrease",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive audit proven window",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive audit proven window",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive audit proven window",
+            "receipt_sha256": "27a085f7c7e805cddf2e42c52387794d38bceef4e81a65c3f90ba6f5acf7c5dc",
+            "records_sha256": "2b823b3264145623cb619a15936e501efcacb956ad10ecf77e9455dd6adf68b3"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers increment exact exhaustively exhaustive audit proven window",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "45 increments lie 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 183.74,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "3133395091e9f644bb8506847f7ae5693c08cbae8fa6d1f4241d2d614a80da2c",
+            "receipt_sha256": "3133395091e9f644bb8506847f7ae5693c08cbae8fa6d1f4241d2d614a80da2c",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%2245+increments+lie+3-ap-free+subsets+first+integers+additive+combinatorics+treatment+composition%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "45 increments lie 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "45 increments lie 3-ap-free subsets first integers additive combinatorics treatment composition",
+            "receipt_sha256": "26896e9a0a909eb5318247c46a58f56609b82e221aef1a666247756ba2203ef7",
+            "records_sha256": "8918a9660e3fdad9bd58fb2c019f9a3a2f59a24d16302fb34d08c892f67fd763"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "45 increments lie 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers compound",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 210.033,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "331173b5c6c2c8151bbd33de220145a6e966c75b720deeddf730e9c1848c17b7",
+            "receipt_sha256": "331173b5c6c2c8151bbd33de220145a6e966c75b720deeddf730e9c1848c17b7",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22adding+one+ground-set+element+cannot+decrease+maximum+nor+raise+3-ap-free+subsets+first+integers+compound%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers compound",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers compound",
+            "receipt_sha256": "18d4bc96dc045056952892fcffe77741c679bd793f7090e9821f6f4296d71473",
+            "records_sha256": "63512480273e38ba2fabed04e20e60deb712c41d11de4deec6fcd8644c9bb71f"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 45 increments lie compound composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 45 increments lie compound composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "adding one ground-set element cannot decrease maximum nor raise 45 increments lie compound composition",
+            "receipt_sha256": "968e95653c25f6af6536662fcddada1a55a8b63e9bfb3fb190f20f1de41a0fd5",
+            "records_sha256": "cdabeed27eb04988d3e50f0744a6a12e7b82c73f03be4ae186da246063e1e280"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "adding one ground-set element cannot decrease maximum nor raise 45 increments lie compound composition",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "adding one ground-set element cannot decrease maximum nor raise composition compound treatment",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "adding one ground-set element cannot decrease maximum nor raise composition compound treatment",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "adding one ground-set element cannot decrease maximum nor raise composition compound treatment",
+            "receipt_sha256": "1465d5944f4eb4fd12785381981b355cb6cf83545927dc49561b0a11af58617c",
+            "records_sha256": "1283bab58be8eb99593511b02460eef891d8c8c65ffb79a350d6df2844d79642"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "adding one ground-set element cannot decrease maximum nor raise composition compound treatment",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "exhaustive increment audit proven exact window additive combinatorics composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "exhaustive increment audit proven exact window additive combinatorics composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "exhaustive increment audit proven exact window additive combinatorics composition",
+            "receipt_sha256": "8a78b2e0182f93c6a6e5c225c8c497da7dcf9caa561485b370ec6ce2e9fe82c5",
+            "records_sha256": "ee01773705ff0afd002c3ba6da87c891144e1207b25ca8ec05b06bf34aa16e2f"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "exhaustive increment audit proven exact window additive combinatorics composition",
+          "status": "error"
+        }
+      ],
+      "candidate_budget": 80,
+      "claim_grounded_count": 16,
+      "configured_official_providers": [
+        "epo_ops",
+        "uspto_odp_keyed"
+      ],
+      "coverage_status": "INCOMPLETE_PROVIDER_COVERAGE",
+      "family_diversity_reserve": 0,
+      "granted_count": 69,
+      "hydration_config": {
+        "allow_network": true,
+        "hydration_jobs": 12,
+        "hydration_workers": 4,
+        "patent_hydrate_limit": 12,
+        "structure_hydrate_limit": 4
+      },
+      "hydration_workers": 4,
+      "official_claim_grounded_count": 16,
+      "official_coverage_scope": "partial_or_missing_official_rails",
+      "official_coverage_status": "INCOMPLETE_OFFICIAL_PROVIDER_COVERAGE",
+      "official_provider_record_count": 69,
+      "official_search_complete": false,
+      "optional_provider_errors": [
+        "google_patents_search"
+      ],
+      "patent_count": 69,
+      "provider": "uspto_odp_keyed",
+      "provider_health": [
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 6,
+          "failure_diagnosis": {
+            "failure_class": "no_results_from_live_provider",
+            "probe_hits": 1,
+            "probe_ran": true,
+            "reason": "control phrase returned hits on the same credential, so the original query genuinely matched nothing \u2014 this is whitespace, not an outage"
+          },
+          "hit_count": 0,
+          "official": true,
+          "provider": "epo_ops",
+          "required_for_clear_novelty": true,
+          "status": "ERROR"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 0,
+          "hit_count": 135,
+          "official": true,
+          "provider": "uspto_odp_keyed",
+          "required_for_clear_novelty": true,
+          "status": "HIT"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 9,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_503",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed \u2014 the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": false,
+          "provider": "google_patents_search",
+          "required_for_clear_novelty": false,
+          "status": "ERROR"
+        }
+      ],
+      "provider_request_limit": 15,
+      "providers_attempted": [
+        "epo_ops",
+        "uspto_odp_keyed",
+        "google_patents_search"
+      ],
+      "providers_with_hits": [
+        "uspto_odp_keyed"
+      ],
+      "query_count": 9,
+      "requested_retrieval_floor": 135,
+      "required_provider_errors": [
+        "epo_ops"
+      ],
+      "retrieval_receipt_sha256": "7b71b999116e48a9a397d6dc9445eca3e97a919b1397868617ee25e7941cfcd0",
+      "search_complete": false,
+      "selected_family_count": 69,
+      "status": "success",
+      "structure_grounded_count": 0,
+      "unavailable_official_providers": []
+    },
+    "patent_search_complete": false,
+    "provider_lineage_sha256": "411184b1ac934defd3500c5f4db19d7bd5084e6e1a1b10310d2289c7d2ab31ba",
+    "query_coverage": {
+      "paper": {
+        "mechanism": [
+          "adding one ground-set element cannot decrease maximum nor raise additive combinatorics",
+          "adding one ground-set element cannot decrease maximum nor raise exhaustive increment audit proven exact window",
+          "adding one ground-set element cannot decrease maximum nor raise 45 increments lie",
+          "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers"
+        ],
+        "method": [
+          "exhaustive increment audit proven exact window additive combinatorics",
+          "53 exact increment n+1 always lies verified exhaustively",
+          "adding one ground-set element cannot decrease maximum nor raise exhaustive increment audit proven exact window",
+          "exhaustive increment audit proven exact window 45 increments lie",
+          "exhaustive increment audit proven exact window 3-ap-free subsets first integers"
+        ],
+        "outcome": [
+          "45 increments lie additive combinatorics",
+          "adding one ground-set element cannot decrease maximum nor raise 45 increments lie",
+          "exhaustive increment audit proven exact window 45 increments lie",
+          "45 increments lie 3-ap-free subsets first integers"
+        ],
+        "problem": [
+          "adding one ground-set element cannot decrease maximum nor raise additive combinatorics",
+          "exhaustive increment audit proven exact window additive combinatorics",
+          "45 increments lie additive combinatorics",
+          "additive combinatorics"
+        ]
+      },
+      "patent": {
+        "mechanism": [
+          "adding one ground-set element cannot decrease maximum nor raise 45 increments lie compound composition",
+          "3-ap-free subsets first integers increment exact exhaustively exhaustive adding one ground-set element cannot decrease",
+          "adding one ground-set element cannot decrease maximum nor raise 3-ap-free subsets first integers compound",
+          "adding one ground-set element cannot decrease maximum nor raise composition compound treatment"
+        ],
+        "method": [
+          "3-ap-free subsets first integers increment exact exhaustively exhaustive audit proven window",
+          "3-ap-free subsets first integers increment exact exhaustively exhaustive 45 increments lie",
+          "exhaustive increment audit proven exact window additive combinatorics composition",
+          "3-ap-free subsets first integers increment exact exhaustively exhaustive",
+          "3-ap-free subsets first integers increment exact exhaustively exhaustive adding one ground-set element cannot decrease"
+        ],
+        "outcome": [
+          "adding one ground-set element cannot decrease maximum nor raise 45 increments lie compound composition",
+          "3-ap-free subsets first integers increment exact exhaustively exhaustive 45 increments lie",
+          "45 increments lie 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ],
+        "problem": [
+          "exhaustive increment audit proven exact window additive combinatorics composition",
+          "45 increments lie 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ]
+      },
+      "uncovered_paper_facets": [],
+      "uncovered_patent_facets": []
+    },
+    "query_plan_sha256": "1974b89a7389abc2020d057b8164526cd41f7ddd6239274ca99fe74cbdb02fd7",
+    "spec_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\spec_b89d5c53b95e51c51c6741f36f8e6d9a.json"
+  },
+  "corpus_size": 99,
+  "corpus_source": "auto_acquired_litacq_patents",
+  "ip_verdict": "PAPER_AND_PATENT_PATH_OPEN",
+  "novelty_band": "NOVEL",
+  "pivot_restores_novelty": true,
+  "receipt_hash": "3e945b6892961d552e614b2f4075badc2f685df74ded828ab8705973579de408",
+  "recommended_pivot": "Claim the outcome only in combination with the novel method ('exhaustive increment audit over a proven exact window').",
+  "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+  "top_collision": "https://openalex.org/W2184347621"
+}

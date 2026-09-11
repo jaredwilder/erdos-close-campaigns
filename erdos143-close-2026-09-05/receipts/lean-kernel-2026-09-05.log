@@ -1,0 +1,31 @@
+E143.lean:64:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+E143.lean:93:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+E143.lean:132:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+E143.lean:112:13: warning: Variable name `hX` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'Erdos143Frag.one_le_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos143Frag.two_le_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos143Frag.ncard_inter_Iio_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos143Frag.ncard_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos143Frag.wellSeparated_ncard_le' depends on axioms: [propext, Classical.choice, Quot.sound]

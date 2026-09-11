@@ -1,0 +1,61 @@
+{
+ "schema": "oracle.erdos142.theorem-forge-novelty.v1",
+ "families": [
+  {
+   "family": "global_density_ceiling",
+   "band": "NOVEL",
+   "core_novelty": 0.735148,
+   "corpus_size": 97,
+   "corpus_source": "auto_acquired_litacq_patents",
+   "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+   "receipt_hash": "1af276af2498f13494e9d7d0bb170a7da59ea1058efa998d712100ae6c43fd95"
+  },
+  {
+   "family": "monotone_closure.paper",
+   "band": "NOVEL",
+   "core_novelty": 0.771307,
+   "corpus_size": 94,
+   "corpus_source": "auto_acquired_litacq_patents",
+   "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+   "receipt_hash": "285aa4953cae3685f13806f0d40b53fab2437c8fe1df7bc8b8db2ff5658e0b34"
+  },
+  {
+   "family": "monotone_closure",
+   "band": "NOVEL",
+   "core_novelty": 0.763242,
+   "corpus_size": 92,
+   "corpus_source": "auto_acquired_litacq_patents",
+   "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+   "receipt_hash": "eaa940deb12eea8ef06ced021a6583104d9e784912a52aae434addbadf2586b2"
+  },
+  {
+   "family": "plateau",
+   "band": "NOVEL",
+   "core_novelty": 0.815944,
+   "corpus_size": 98,
+   "corpus_source": "auto_acquired_litacq_patents",
+   "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+   "receipt_hash": "893eaa83f8e64251ee842ee2edea005b21cb7fd0c8fdc9c4264c2bb44982a395"
+  },
+  {
+   "family": "power_of_three",
+   "band": "NOVEL",
+   "core_novelty": 0.691351,
+   "corpus_size": 98,
+   "corpus_source": "auto_acquired_litacq_patents",
+   "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+   "receipt_hash": "c9ec6db74a925413783d0db1de242bd366f39920caca76710f4dd98e2ea3a7b1"
+  },
+  {
+   "family": "subadditivity_instance",
+   "band": "NOVEL",
+   "core_novelty": 0.70787,
+   "corpus_size": 90,
+   "corpus_source": "auto_acquired_litacq_patents",
+   "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+   "receipt_hash": "392f1b6b26c1c028351bb7b9da62753882b1efe1fef677cface4e3952dfee1c3"
+  }
+ ],
+ "all_bands_novel": true,
+ "all_terminal_not_discovery": true
+}

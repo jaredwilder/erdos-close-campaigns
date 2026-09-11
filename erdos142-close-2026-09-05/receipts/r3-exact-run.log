@@ -1,0 +1,56 @@
+n=  0  r3=  0  oeis=0  match=True     0.000s
+n=  1  r3=  1  oeis=1  match=True     0.000s
+n=  2  r3=  2  oeis=2  match=True     0.000s
+n=  3  r3=  2  oeis=2  match=True     0.000s
+n=  4  r3=  3  oeis=3  match=True     0.000s
+n=  5  r3=  4  oeis=4  match=True     0.000s
+n=  6  r3=  4  oeis=4  match=True     0.000s
+n=  7  r3=  4  oeis=4  match=True     0.000s
+n=  8  r3=  4  oeis=4  match=True     0.000s
+n=  9  r3=  5  oeis=5  match=True     0.000s
+n= 10  r3=  5  oeis=5  match=True     0.000s
+n= 11  r3=  6  oeis=6  match=True     0.000s
+n= 12  r3=  6  oeis=6  match=True     0.000s
+n= 13  r3=  7  oeis=7  match=True     0.000s
+n= 14  r3=  8  oeis=8  match=True     0.000s
+n= 15  r3=  8  oeis=8  match=True     0.000s
+n= 16  r3=  8  oeis=8  match=True     0.001s
+n= 17  r3=  8  oeis=8  match=True     0.001s
+n= 18  r3=  8  oeis=8  match=True     0.002s
+n= 19  r3=  8  oeis=8  match=True     0.004s
+n= 20  r3=  9  oeis=9  match=True     0.004s
+n= 21  r3=  9  oeis=9  match=True     0.006s
+n= 22  r3=  9  oeis=9  match=True     0.010s
+n= 23  r3=  9  oeis=9  match=True     0.016s
+n= 24  r3= 10  oeis=10  match=True     0.017s
+n= 25  r3= 10  oeis=10  match=True     0.029s
+n= 26  r3= 11  oeis=11  match=True     0.029s
+n= 27  r3= 11  oeis=11  match=True     0.048s
+n= 28  r3= 11  oeis=11  match=True     0.075s
+n= 29  r3= 11  oeis=12  match=False     0.124s
+n= 30  r3= 12  oeis=12  match=True     0.131s
+n= 31  r3= 12  oeis=13  match=False     0.201s
+n= 32  r3= 13  oeis=13  match=True     0.202s
+n= 33  r3= 13  oeis=13  match=True     0.325s
+n= 34  r3= 13  oeis=13  match=True     0.508s
+n= 35  r3= 13  oeis=14  match=False     0.843s
+n= 36  r3= 14  oeis=14  match=True     0.823s
+n= 37  r3= 14  oeis=14  match=True     1.278s
+n= 38  r3= 14  oeis=14  match=True     2.075s
+n= 39  r3= 14  oeis=14  match=True     3.109s
+n= 40  r3= 15  oeis=15  match=True     3.034s
+
+wrote receipts/r3-exact-A003002.json
+
+OEIS cross-check: FAIL  (3 mismatches)
+top product seeds (theta = ln r3(m) / ln(2m-1)):
+   m=  2 r3=  2 theta=0.63093
+   m=  5 r3=  4 theta=0.63093
+   m= 14 r3=  8 theta=0.63093
+   m= 40 r3= 15 theta=0.61977
+   m= 36 r3= 14 theta=0.61911
+   m= 32 r3= 13 theta=0.61908
+   m= 15 r3=  8 theta=0.61754
+   m= 37 r3= 14 theta=0.61510
+   m= 33 r3= 13 theta=0.61445
+   m= 38 r3= 14 theta=0.61125

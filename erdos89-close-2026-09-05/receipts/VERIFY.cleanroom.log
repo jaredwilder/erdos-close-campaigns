@@ -1,0 +1,16 @@
+=== Erdos89Rung1  sha256=68c2bc5b9b21ab5fc078963f8e6baebc18acfb6c462b17b266c3bae63f5b589a
+EXIT_CODE 0
+'sqrt_isBigO_minimalDistinctDistances' depends on axioms: [propext, Classical.choice, Quot.sound]
+'card_le_two_mul_distinctDistances_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'minimalDistinctDistances_eq_natSInf' depends on axioms: [propext, Classical.choice, Quot.sound]
+WALL 5.46 s MAXRSS 6908272 KB
+=== Erdos89Gap  sha256=e0e9c9a20257db9f3b59aa2c841362faae0139a5e3aff6977b9711206d5f53f1
+EXIT_CODE 0
+'sqrt_isBigO_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'sqrt_isLittleO_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'target_implies_rung1' depends on axioms: [propext, Classical.choice, Quot.sound]
+WALL 6.24 s MAXRSS 6900912 KB
+LEAN Lean (version 4.31.0-rc1, x86_64-unknown-linux-gnu, commit fd009949156901e6cf15b6d9bf1122294b8e697a, Release)
+TOOLCHAIN leanprover/lean4:v4.31.0-rc1
+MATHLIB_REV 919544d4309104b3f19724b0e6e48c701d27948f
+UTC 2026-09-05T17:21:05Z

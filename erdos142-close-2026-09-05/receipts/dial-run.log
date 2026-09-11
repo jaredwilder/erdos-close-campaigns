@@ -1,0 +1,7 @@
+bfile sha256      : 6efd1e6a5cb92fe76610b089d1b289628038e3b503873b52e4979cb1e499d971
+published n max   : 211
+lemma validation  : CONSISTENT (796 pairs, 0 violations, 58 tight)
+dial              : PINNED: no published exact value (n <= 211) yields an exponent above log2/log3; equality exactly at the Szekeres points (3^k+1)/2.
+seeds attaining   : [2, 5, 14, 41, 122]
+crossover j       : 37 (N has 53 digits)
+wrote receipts/dial-and-crossover.json

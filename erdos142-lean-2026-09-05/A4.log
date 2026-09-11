@@ -1,0 +1,2 @@
+/root/peer/sub-142/Attack04.lean:84:17: warning: `Finset.filter_card_add_filter_neg_card_eq_card` has been deprecated: Use `Finset.card_filter_add_card_filter_not` instead
+'Erdos142Sub.r3_subadd' depends on axioms: [propext, Classical.choice, Quot.sound]

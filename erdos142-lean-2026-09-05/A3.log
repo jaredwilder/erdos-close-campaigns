@@ -1,0 +1,4 @@
+'Erdos142ProbeHi.r3_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142ProbeHi.r3_12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142ProbeHi.r3_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142ProbeHi.r3_14' depends on axioms: [propext, Classical.choice, Quot.sound]

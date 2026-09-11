@@ -1,0 +1,13 @@
+{
+  "label": "srg:1001,136,27,17",
+  "component": 671257,
+  "targetSrgNodes": 2891,
+  "rawHits": 3033,
+  "composableExternalRawHits": 0,
+  "byRule": {
+    "symmetric-conference-iff-conference-srg|EQUIVALENCE": 71,
+    "srg-existence-status|IMPLICATION": 1481,
+    "complement|EQUIVALENCE": 1481
+  },
+  "externalHits": []
+}

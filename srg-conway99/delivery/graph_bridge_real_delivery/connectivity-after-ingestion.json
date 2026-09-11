@@ -1,0 +1,25 @@
+{
+  "kind": "transport-connectivity-impact",
+  "exact": true,
+  "database": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\evidence\\oracle-math.db",
+  "edgeFile": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\kbk\\codex-handoff-graph-bridge\\delivery\\graph_bridge_real_delivery\\verified-edges.jsonl",
+  "giantComponent": 668150,
+  "proposedComposableEdges": 141,
+  "distinctEndpointLabels": 211,
+  "existingEndpointLabels": 211,
+  "newEndpointLabels": 0,
+  "originalBladeBoundNodes": 3865,
+  "bladeNodesInGiantBefore": 0,
+  "bladeNodesInGiantAfter": 0,
+  "bladeNodesMovedIntoGiant": 0,
+  "movedByOriginalComponent": {},
+  "existingComponentsMergedIntoGiant": [],
+  "existingNodesMergedIntoGiant": 0,
+  "newTransportNodesConnectedToGiant": [],
+  "bladeNodesInComponentsTouchedByEdges": 2358,
+  "touchedBladeComponents": [
+    669145,
+    669146
+  ],
+  "missingEndpointLabelsSample": []
+}

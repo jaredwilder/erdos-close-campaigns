@@ -1,0 +1,21 @@
+{
+  "claim": "Every subset of {1,...,N} with no non-trivial three-term arithmetic progression has size at most N/(log N)^{1+c} for an absolute constant c>0, hence r_3(N)=o(N/log N).",
+  "domain": "additive combinatorics",
+  "novelty_target": "papers",
+  "facets": {
+    "mechanism": "density increment / Fourier analytic argument breaking the logarithmic barrier in Roth's theorem",
+    "method": "upper bound on the maximum size of a 3-AP-free subset of the first N integers",
+    "outcome": "r_3(N) << N/(log N)^{1+c}, establishing r_3(N)=o(N/log N)",
+    "entities": "subsets of {1,...,N} free of three-term arithmetic progressions"
+  },
+  "constraints": {
+    "search_queries": [
+      "breaking the logarithmic barrier in Roth's theorem on arithmetic progressions",
+      "three-term arithmetic progression free subset upper bound log N",
+      "Roth theorem arithmetic progressions improved bound Bloom Sisask",
+      "Erdos conjecture arithmetic progressions divergent sum first non-trivial case"
+    ],
+    "patent_queries": []
+  },
+  "min_corpus": 10
+}

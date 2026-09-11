@@ -1,0 +1,153 @@
+{
+  "campaign": "erdos142-close-2026-09-05",
+  "problem": "Erdos #142 ($10,000) — asymptotics of r_k(N), the largest subset of {1..N} with no non-trivial k-term AP. https://www.erdosproblems.com/142",
+  "predecessor": "oracle/evidence/msl-machine/campaigns/erdos142-lean-2026-09-05 (Attacks 01-07; crashed with 05/06/07 written but never compiled)",
+  "toolchain": "leanprover/lean4:v4.31.0-rc1, Mathlib pin 919544d4309104b3f19724b0e6e48c701d27948f, /root/formalizer/proofs on 51.158.234.15",
+  "headline": "The previous campaign's private r3 is now PROVED equal to Mathlib's canonical rothNumberNat, and the missing lower-side companion to Mathlib's subadditivity — supermultiplicativity of the Roth number — is proved and spent. The elementary exponent it yields is then shown, against the entire published record, to be UNIMPROVABLE by further finite computation.",
+  "status_of_the_open_problem": "NOT CLOSED. NOT ADVANCED. erdos_142, erdos_142.variants.upper and erdos_142.variants.three remain answer(sorry) holes in the frozen spec. Nothing in this campaign bears on the $10,000 question, which asks for the Theta-order of r_k(N).",
+  "what_was_wrong_with_the_predecessor": [
+    "It defined a PRIVATE r3 (sup over powerset of Icc 1 n) and hand-proved r3_mono, r3_le_self, r3_subadd, r3_ge_of_witness — all four of which Mathlib ALREADY HAS for rothNumberNat (rothNumberNat.mono, rothNumberNat_le, rothNumberNat_add_le, ThreeAPFree.le_rothNumberNat).",
+    "Its own TERMINAL.json listed the correspondence as 'documented, not proven'. That is the load-bearing gap: an unbridged private definition means every sealed number is a number about a definition the campaign wrote for itself.",
+    "It never noticed that Mathlib contains Roth's theorem (rothNumberNat_isLittleO_id) and Behrend's construction (Behrend.roth_lower_bound), i.e. both sides of the bracket around the open problem.",
+    "Its stated frontier — 'decide one more table row' — is aimed at a quantity that provably cannot improve the exponent (see dial_pinned below)."
+  ],
+  "sealed": {
+    "note": "Every entry below compiled to exit 0 with #print axioms = [propext, Classical.choice, Quot.sound] (or a subset). NO sorryAx, NO native_decide, NO ofReduceBool anywhere in this campaign.",
+    "Close01_Bridge.lean": {
+      "wall": "0:05.10",
+      "peak_rss_kb": 6869420,
+      "log": "receipts/Close01_Bridge.log",
+      "theorems": [
+        "ap3Free_iff : AP3Free s <-> ThreeAPFree (coe s)  — the predecessor's predicate IS Mathlib's",
+        "r3_eq_addRothNumber : r3 n = addRothNumber (Icc 1 n)",
+        "r3_eq_rothNumberNat : r3 n = rothNumberNat n   <<< THE BRIDGE; closes the predecessor's stated open obligation",
+        "r3_isLittleO_id : r3 N = o(N)  — ROTH'S THEOREM, inherited from Mathlib rather than re-derived",
+        "r3_behrend_lower : N*exp(-4*sqrt(log N)) <= r3 N  — BEHREND, inherited",
+        "rothNumberNat_of_r3, rothNumberNat_le_of_r3_le : the predecessor's sealed table transports verbatim",
+        "r3_subadd, r3_mono : now one-liners from Mathlib instead of hand proofs"
+      ]
+    },
+    "Close02_Supermultiplicative.lean": {
+      "wall": "0:05.81",
+      "peak_rss_kb": 6920664,
+      "log": "receipts/Close02_Supermultiplicative.log",
+      "theorems": [
+        "base_unique : base-K digit uniqueness (the 'no carry' fact)",
+        "rothNumberNat_mul_le (p q) : rothNumberNat (p+1) * rothNumberNat (q+1) <= rothNumberNat (2*p*q + p + q + 1)   <<< NEW; ABSENT FROM MATHLIB; the lower-side companion of Mathlib's rothNumberNat_add_le",
+        "seed_14 : 8 <= rothNumberNat 14, witnessed by {0,1,3,4,9,10,12,13} (base-3 no-digit-2 set)",
+        "T_closed : 2*T j + 1 = 27^j",
+        "power_law : 8^j <= rothNumberNat (T j + 1)   — r_3(N) >= N^(log2/log3) on an explicit sequence",
+        "power_law_explicit : forall j, exists N, 2N = 27^j + 1 and 8^j <= rothNumberNat N",
+        "roth_365 : 64 <= rothNumberNat 365",
+        "roth_9842 : 512 <= rothNumberNat 9842",
+        "sharp_at_five : the lemma is TIGHT at (p,q)=(1,1)"
+      ]
+    },
+    "Close03_Exact.lean": {
+      "wall": "1:58.88",
+      "peak_rss_kb": 12865976,
+      "log": "receipts/Close03_Exact.log",
+      "theorems": [
+        "rothNumberNat_le_of_powersetCard : the cardinality-slice reduction, for MATHLIB'S object",
+        "le_rothNumberNat_of_witness",
+        "w14 w15 w16 w17 w18 w19 : 8 <= rothNumberNat n ; w20 : 9 <= rothNumberNat 20",
+        "u14 : rothNumberNat 14 <= 8 ; u15 : rothNumberNat 15 <= 8",
+        "rothNumberNat_14 : rothNumberNat 14 = 8   <<< FIRST EXACT VALUE OF MATHLIB'S rothNumberNat",
+        "rothNumberNat_15 : rothNumberNat 15 = 8"
+      ]
+    },
+    "Close04_Dial.lean": {
+      "wall": "0:05.30",
+      "log": "receipts/Close04_Dial.log",
+      "theorems": [
+        "U_closed (p j) : 2 * U p j + 1 = (2p+1)^j",
+        "dial (p c) (c <= rothNumberNat (p+1)) (j) : c^j <= rothNumberNat (U p j + 1)   <<< the general seed bootstrap: ANY future finite computation becomes an all-N power law by supplying two numbers, with no new mathematics",
+        "tripling (n) : 2 * rothNumberNat (n+1) <= rothNumberNat (3n+2)   — the classical base-3 doubling step",
+        "base3_power_law, base3_size : power_law recovered as dial 13 8"
+      ]
+    },
+    "Attack05.lean_(predecessor,_written_but_never_compiled_before_the_crash)": {
+      "wall": "0:09.07",
+      "log": "receipts/Attack05.log",
+      "theorems": [
+        "r3_le_self, r3_succ_le, r3_add_le, r3_le_of_anchor, r3_subadd",
+        "r3_linear_of_seed : m*r3 n <= k*n + m*k from a seed r3 m <= k",
+        "r3_8_le_4 (decide), r3_half : 2*r3 n <= n + 8 for ALL n"
+      ]
+    },
+    "Attack06.lean_(predecessor,_written_but_never_compiled_before_the_crash)": {
+      "wall": "0:04.94",
+      "log": "receipts/Attack06.log",
+      "theorems": [
+        "r3_le_of_no_free_card, r3_le_of_powersetCard (the slice reduction, for the private r3)",
+        "r3_4_le_3 (known-answer control through the slice)"
+      ]
+    },
+    "Close07_BehrendSeed.lean": {
+      "wall": "0:05.31",
+      "peak_rss_kb": 6761208,
+      "log": "receipts/Close07_BehrendSeed.log",
+      "theorems": [
+        "behrend_seed : 8*10^18 <= rothNumberNat (199^12) — extracted from MATHLIB'S OWN Behrend.bound_aux' 12 100, whose left side is 100^12/(12*100^2) = 25000000000000000000/3",
+        "behrend_power_law : (8*10^18)^j <= rothNumberNat (U (199^12-1) j + 1)",
+        "behrend_size : 2 * U (199^12-1) j + 1 = (2*199^12 - 1)^j",
+        "exponent_strictly_above_classical : 2^20 < 3^13  AND  (2*199^12-1)^13 < (8*10^18)^20   <<< an EXACT-INTEGER certificate, no floating point, that this family's exponent 13/20 STRICTLY EXCEEDS the classical log2/log3 that every published exact value is pinned to (theta = 0.67784 vs 0.63093)"
+      ]
+    }
+  },
+  "tool_receipts": {
+    "receipts/r3-exact-A003002.json": {
+      "tool": "tools/r3_exact.py — independent $0 deterministic DFS branch-and-bound exact solver for r_3(n)",
+      "range": "n = 0..40",
+      "wall_seconds_total": 12.4,
+      "result": "matches the published OEIS A003002 b-file EXACTLY on 0..40, and matches the Lean kernel's sealed values at n = 1..15",
+      "note": "A first pass used an OEIS reference list typed from memory and reported 3 mismatches (n = 29, 31, 35). The b-file was then fetched and the MEMORY was the error, not the solver. The memorised list was never edited to agree with the solver."
+    },
+    "receipts/b003002-oeis.txt": {
+      "source": "https://oeis.org/A003002/b003002.txt (fetched via the rented box; oeis.org returns 403 to the local agent)",
+      "sha256": "6efd1e6a5cb92fe76610b089d1b289628038e3b503873b52e4979cb1e499d971",
+      "rows": 212,
+      "index_range": "n = 0..211",
+      "role": "external cross-check ONLY; never an input to any proof"
+    },
+    "receipts/dial-and-crossover.json": {
+      "tool": "tools/dial_and_crossover.py",
+      "validation_of_the_new_lemma": "796 instances of rothNumberNat_mul_le checkable against published exact values; 0 VIOLATIONS; 58 TIGHT (equality, p,q >= 1). A single violation would have refuted the Lean theorem.",
+      "tight_examples": "(m,n,N) = (2,2,5) value 4; (2,4,11) value 6; (2,14,41) value 16 — i.e. r_3(41) = 16 = 2*r_3(14) exactly",
+      "dial_pinned": "Over the ENTIRE published exact record (n <= 211), NO seed gives an exponent above log2/log3 = 0.6309297535714574, and equality is attained at exactly five points: n = 2, 5, 14, 41, 122 = (3^k+1)/2.",
+      "crossover_vs_mathlib_behrend": "At N_j = (27^j+1)/2 this campaign's bound is 8^j while Mathlib's Behrend.roth_lower_bound STATES N*exp(-4*sqrt(log N)); the stated Behrend form only overtakes at j = 37, where N has 53 digits. At N = 365: 64 versus 0.0220."
+    }
+  },
+  "findings": [
+    "F1. THE BRIDGE. r3 = rothNumberNat is now machine-checked. The predecessor's whole sealed table becomes a table of exact values of Mathlib's canonical object, and the campaign inherits Roth and Behrend instead of re-deriving weaker statements.",
+    "F2. SUPERMULTIPLICATIVITY IS MISSING FROM MATHLIB AND IS NOW PROVED. Mathlib has rothNumberNat_add_le (upper side) and nothing elementary on the lower side. rothNumberNat_mul_le is the exact companion. Note plain supermultiplicativity r_3(mn) >= r_3(m)r_3(n) is FALSE (m=n=2 gives r_3(4)=3 < 4); the 2pq+p+q+1 form is the correct one and is tight at 58 published instances.",
+    "F3. THE ELEMENTARY EXPONENT IS PINNED, AND THIS KILLS THE PREDECESSOR'S FRONTIER. The dial yields theta = log c / log(2m-1) from a seed (m,c). Across all 211 published exact values NOTHING beats log2/log3, with equality exactly at the Szekeres points (3^k+1)/2. Therefore computing further exact values of r_3 CANNOT improve this bound. The predecessor's plan ('decide one more row') was aimed at a frontier that provably does not move; only a Behrend-type construction beats it, and Mathlib already has Behrend.",
+    "F4. THE SLICE REDUCTION IS A 6x SPEEDUP AND WAS SITTING UNSPENT. Attack 06 proved it and stopped. Measured: the powerset method (Attack 03) took 12:09 / 31 GB for n = 14 alone; the slice took 1:59 / 12.9 GB for n = 14 AND n = 15 together.",
+    "F5. THREE-WAY AGREEMENT on the exact values: Lean kernel (n = 1..15), an independent Python exact solver (n = 0..40), and the OEIS b-file (n = 0..211) agree on every overlapping entry.",
+    "F6. THE DIAL IS NOT INTRINSICALLY PINNED — the pinning in F3 is a fact about the published TABLE, not about the lemma. Feeding Mathlib's own Behrend bound (Behrend.bound_aux' 12 100) into the Close04 dial yields a kernel-checked family with exponent 13/20 > log2/log3, certified by the exact integer inequalities 2^20 < 3^13 and (2*199^12-1)^13 < (8*10^18)^20. This does NOT improve on Behrend, which is asymptotically far stronger and already in Mathlib; it shows the elementary machinery can be driven past the classical constant by a seed rather than by a bigger table."
+  ],
+  "open_and_explicitly_not_claimed": [
+    "UNPROVED / OPEN: erdos_142 (Theta-order of r_k), erdos_142.variants.upper, erdos_142.variants.three. Untouched. No progress toward the $10,000.",
+    "UNPROVED HERE: erdos_142.variants.lower (r_k(N) = o(N/log N)). Not formalized in Mathlib and not attempted here. The literature position for k = 3 was NOT verified by any tool in this campaign and is therefore not asserted.",
+    "NOT MACHINE-CHECKED: the identity rothNumberNat = Erdos142.r 3 as phrased in the frozen spec, because FormalConjecturesUtil is absent from this toolchain. The bridge proved here is to Mathlib's canonical rothNumberNat, which is a strictly stronger anchor than the predecessor's private r3 but is still not the spec's own object.",
+    "NOT A COMPUTATIONAL RECORD: OEIS A003002 is published to n = 211. This campaign's formalized table reaches n = 15 (plus whatever the pending runs below add). The claim is that these are the FIRST exact values of Mathlib's rothNumberNat, not that they approach the computational record.",
+    "The exponent log2/log3 is classical (Szekeres / base-3), not new mathematics. Behrend (1946) gives N^(1-o(1)) and is already in Mathlib. What is new is the Mathlib-shaped lemma and the measured fact that the finite front cannot move it."
+  ],
+  "pending_UNPROVED_at_report_time": {
+    "full_detail": "receipts/PENDING.md — includes exact launch lines and a measured cost model",
+    "why_stopped": "The shared box 51.158.234.15 went into memory thrash and stopped answering SSH. Last successful read (17:37:30Z): 120/125 GB used, 5 GB available, with ANOTHER USER'S lean job at 87 GB RSS and 56 minutes invested. This campaign's Attack07 was at 22 GB and projected to need ~28 GB. Continuing risked the OOM killer taking the 87 GB job, so this campaign's OWN job was killed instead. Whether the kill landed is UNKNOWN — SSH stopped responding before acknowledgement; the job carries timeout 5400 and self-terminates by 18:55Z. NO further jobs were launched after the memory state was seen. THE BOX RECOVERED at 17:40:55Z (103/125 GB used, 21 GB available) and Close07_BehrendSeed WAS THEN COMPILED CLEAN (exit 0, 5.31 s, 6.76 GB) — it is now in the SEALED section. Close05_Exact16 (~17 GB projected) and Close06_Exact17 (~28 GB projected) were DELIBERATELY NOT RUN: 21 GB of headroom next to another user's 90 GB / 60-minute job is the same state that thrashed the box once already, and per finding F3 another table row buys nothing for the exponent.",
+    "items": [
+      "Close05_Exact16.lean (rothNumberNat 16 = 8) — UNPROVED. C(16,9) = 11,440; projected ~17 GB, ~3 min.",
+      "Close06_Exact17.lean (rothNumberNat 17 = 8) — UNPROVED. C(17,9) = 24,310; projected ~28 GB, ~7 min. SUPERSEDES Attack07 (same computation, better statement), so Attack07 should not be re-run.",
+      "Attack07.lean (predecessor's r3 17 <= 8) — killed at 12:43 elapsed / 22 GB. UNPROVED, and DO NOT RE-RUN: superseded by Close06."
+    ]
+  },
+  "operational_note": "Nothing in the SEALED section depends on any of the above. All sealed logs and .time receipts were pulled to receipts/ before the box became unreachable.",
+  "next_moves_ranked": [
+    "1. UPSTREAM rothNumberNat_mul_le (Close02/Close04) to Mathlib. It is short, self-contained, has no new imports, and fills a stated asymmetry next to rothNumberNat_add_le.",
+    "2. STOP computing exact r_3 rows for the purpose of improving the exponent — F3 proves it cannot work. Compute them only as formalization artifacts (exact values of rothNumberNat), which is a different and honest goal.",
+    "3. DONE THIS SESSION (Close07): a Behrend seed was extracted from Mathlib and fed to the dial, giving a kernel-checked exponent 13/20 > log2/log3. The remaining open direction is to search (n,d) for the best exponent Behrend.bound_aux' can supply — a pure $0 arithmetic search over two integers, no Lean cost until the winner is instantiated.",
+    "4. If the frozen spec's own object is wanted, obtain FormalConjecturesUtil on this toolchain and prove Erdos142.r 3 = rothNumberNat; the bridge here reduces that to one more step.",
+    "5. Run Close05_Exact16 and Close06_Exact17 when the box has >= 40 GB of real headroom; see receipts/PENDING.md for launch lines and the measured cost model."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "claim": "Every set of n distinct points in the Euclidean plane determines at least c*n/sqrt(log n) distinct distances for an absolute constant c>0 (Erdos distinct distances conjecture, erdosproblems.com/89). The best proved lower bound is Guth-Katz 2015 at n/log n; the sqrt(n) x sqrt(n) integer grid shows n/sqrt(log n) is best possible.",
+  "domain": "discrete geometry / combinatorial geometry / incidence geometry",
+  "facets": {
+    "entities": "finite sets of n distinct points in R^2; the set of Euclidean distance values they determine",
+    "mechanism": "Elekes-Sharir transform to line incidences in R^3, polynomial partitioning, ruled-surface analysis; the residual log loss comes from the degenerate many-points-on-a-line case",
+    "method": "polynomial partitioning (Guth-Katz), crossing lemma / Szemeredi-Trotter incidence bounds (Szekely, Solymosi-Toth), circle pigeonhole (Erdos 1946)",
+    "outcome": "lower bound on the minimum number of distinct distances determined by n planar points; closing the sqrt(log n) gap between n/log n and n/sqrt(log n)"
+  },
+  "constraints": {
+    "search_queries": [
+      "Erdos distinct distances problem plane lower bound n/sqrt(log n)",
+      "Guth Katz on the Erdos distinct distances problem in the plane Annals 2015",
+      "distinct distances improvement beyond n/log n polynomial partitioning",
+      "Erdos distinct distances conjecture resolved sqrt log n gap",
+      "minimum number of distinct distances n points plane best known bound",
+      "Elekes Sharir framework distinct distances lines in R^3",
+      "Erdos 1946 on sets of distances of n points",
+      "Solymosi Toth distinct distances n^{6/7} incidence",
+      "distinct distances problem survey recent progress"
+    ],
+    "patent_queries": []
+  },
+  "candidate_differentiators": [
+    "machine-checked Lean 4 formalization of the elementary sqrt(n) lower bound bound to the DeepMind formal-conjectures definition, rather than a new bound"
+  ],
+  "alternative_facets": {
+    "mechanism": [
+      "single-point variant: does some point determine >> n/sqrt(log n) distinct distances"
+    ]
+  },
+  "min_corpus": 25,
+  "novelty_mode": "DISCOVERY_CLAIM",
+  "novelty_target": "paper"
+}

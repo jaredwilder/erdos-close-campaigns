@@ -1,0 +1,16 @@
+{
+ "claim": "The exact function r_3 has explicitly determined maximal constancy plateaus on 9<=n<=54, eleven of them, each endpoint certified by an exhaustive optimality proof.",
+ "domain": "additive combinatorics",
+ "novelty_target": "papers",
+ "facets": {
+  "mechanism": "exhaustive optimality at every n in the range fixes the plateau endpoints",
+  "method": "maximal-run decomposition of a machine-proven exact extremal sequence",
+  "outcome": "eleven certified maximal plateaus with exact endpoints",
+  "entities": "3-AP-free subsets of the first n integers"
+ },
+ "constraints": {
+  "search_queries": [],
+  "patent_queries": []
+ },
+ "min_corpus": 10
+}

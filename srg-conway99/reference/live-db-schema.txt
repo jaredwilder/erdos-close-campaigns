@@ -1,0 +1,15 @@
+CREATE TABLE nodes(id INTEGER PRIMARY KEY, label TEXT UNIQUE, ns TEXT, component INTEGER, degree INTEGER DEFAULT 0)
+
+CREATE TABLE edges(src INTEGER, dst INTEGER, type TEXT, tier TEXT, source TEXT, rule TEXT)
+
+CREATE TABLE targets(target_id TEXT PRIMARY KEY, source TEXT, decl TEXT, kind TEXT, statement TEXT)
+
+CREATE TABLE facts(family TEXT, params TEXT, status TEXT, source TEXT, tier TEXT)
+
+CREATE TABLE components(component INTEGER PRIMARY KEY, size INTEGER)
+
+CREATE TABLE blades(blade_id TEXT PRIMARY KEY, module TEXT, entrypoint TEXT,
+                            pattern TEXT, evidence_class TEXT, gate TEXT)
+
+CREATE TABLE node_blade(node INTEGER, blade_id TEXT)
+

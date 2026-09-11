@@ -1,0 +1,20 @@
+{
+  "state": "STILL_OPEN",
+  "target": {
+    "family": "srg",
+    "params": [
+      99,
+      14,
+      1,
+      2
+    ],
+    "label": "srg:99,14,1,2",
+    "statement": "\u2203 \u03b1 : Type*, \u2203 G : SimpleGraph \u03b1, G.IsSRGWith 99 14 1 2"
+  },
+  "route": "no-verified-route",
+  "certificate": null,
+  "lean_proof_term": null,
+  "notes": [
+    "Parameters pass necessary-condition checks, but no verified construction or refutation certificate is available."
+  ]
+}

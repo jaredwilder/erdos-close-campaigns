@@ -1,0 +1,2553 @@
+{
+  "admissibility": {
+    "admissible": false,
+    "patent_axis": {
+      "live": true,
+      "reason": "paper_only_target_no_patent_axis_asserted"
+    },
+    "reasons": [
+      "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+    ],
+    "verdict": "NOVELTY_INADMISSIBLE"
+  },
+  "adversarial_flags": [],
+  "adversarial_review": {
+    "flags": [],
+    "review_hash": "565591e60b31b8eceab8f226a776c72c09bcc1201bb843920790093bb3eabb2a",
+    "reviewer_summary": "Novelty verdict is corpus-grounded, facet-localized, and (where crowded) shipped with a measured pivot.",
+    "verdict": "NOVELTYFORGE_V1_ADVERSARIAL_REVIEW_GREEN"
+  },
+  "anticipation": {
+    "clear_core_facets": [
+      "mechanism",
+      "method",
+      "outcome"
+    ],
+    "crowded_core_facets": [],
+    "mosaic_obviousness": {
+      "core_facets_anticipated": [],
+      "distinct_references_needed": [],
+      "is_risk": false
+    },
+    "per_facet": [
+      {
+        "anticipated": false,
+        "facet": "mechanism",
+        "is_core": true,
+        "max_collision": 0.211406,
+        "nearest_prior_art": "US12087931",
+        "novelty": 0.788594
+      },
+      {
+        "anticipated": false,
+        "facet": "method",
+        "is_core": true,
+        "max_collision": 0.188593,
+        "nearest_prior_art": "https://openalex.org/W4385690854",
+        "novelty": 0.811407
+      },
+      {
+        "anticipated": false,
+        "facet": "outcome",
+        "is_core": true,
+        "max_collision": 0.137586,
+        "nearest_prior_art": "US12087931",
+        "novelty": 0.862414
+      },
+      {
+        "anticipated": true,
+        "facet": "problem",
+        "is_core": false,
+        "max_collision": 0.825,
+        "nearest_prior_art": "https://openalex.org/W4253314034",
+        "novelty": 0.175
+      },
+      {
+        "anticipated": false,
+        "facet": "entities",
+        "is_core": false,
+        "max_collision": 0.424958,
+        "nearest_prior_art": "https://openalex.org/W2184347621",
+        "novelty": 0.575042
+      }
+    ],
+    "shape": "clear_core",
+    "single_reference_anticipation": null,
+    "summary": "No core facet is anticipated by the corpus."
+  },
+  "claim": "The exact function r_3 has explicitly determined maximal constancy plateaus on 9<=n<=54, eleven of them, each endpoint certified by an exhaustive optimality proof.",
+  "claim_chart": {
+    "claim_grounded": true,
+    "core_elements_disclosed": 0,
+    "core_elements_total": 3,
+    "evidence_note": "non_patent_reference",
+    "reference": {
+      "identifier": "https://openalex.org/W2117889403",
+      "overall_collision": 0.114177,
+      "record_id": "https://openalex.org/W2117889403",
+      "source": "paper",
+      "title": "The Combinatorics of Network Reliability",
+      "year": 1987
+    },
+    "rows": [
+      {
+        "claim_facet": "mechanism",
+        "claim_grounded": true,
+        "claim_text": "exhaustive optimality at every n in the range fixes the plateau endpoints",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.0,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "method",
+        "claim_grounded": true,
+        "claim_text": "maximal-run decomposition of a machine-proven exact extremal sequence",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.146326,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "outcome",
+        "claim_grounded": true,
+        "claim_text": "eleven certified maximal plateaus with exact endpoints",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.106751,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "problem",
+        "claim_grounded": true,
+        "claim_text": "additive combinatorics",
+        "element_disclosed": true,
+        "is_core": false,
+        "prior_art_collision": 0.65,
+        "shared_distinctive_terms": [
+          "additive",
+          "combinatorics"
+        ],
+        "text_overlap": true
+      },
+      {
+        "claim_facet": "entities",
+        "claim_grounded": true,
+        "claim_text": "3-AP-free subsets of the first n integers",
+        "element_disclosed": false,
+        "is_core": false,
+        "prior_art_collision": 0.0,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      }
+    ],
+    "single_reference_anticipation": false,
+    "verdict": "reference_discloses_some_elements"
+  },
+  "core_novelty": 0.815944,
+  "corpus_provenance": {
+    "acquired_utc": "2026-08-04T15:44:01Z",
+    "acquisition_output_file_sha256": "559e03273e990fc34a575ab8b4c5d132fd22ecb0f4243ca40fa1f66c4201efc0",
+    "acquisition_snapshot_sha256": "6f8049583a76a509e5e002c199b0dfb6d981cd85d5376385d5ead574a933ff4b",
+    "binding_receipt_sha256": "7508749afcc0fdd0f6c63db0df12be68f7ce98de84bcd705026457e3fd2fe9e1",
+    "corpus_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\corpus_a6cd6f0a29b8d0664678f25c4e1861c6.json",
+    "corpus_sha256": "d4dc70142a7139f4795be44cdf735dc5163c00f4d9fe7b10527d7d7d475fc225",
+    "family_summary": {
+      "double_count_prevented": 0,
+      "family_count": 68,
+      "patent_records": 68,
+      "receipt_sha256": "9526e341e2ec5110177e6f2bcb511c528dd4ce7c4b3812ce5eeccd49006ff654",
+      "unique_structure_count": 0
+    },
+    "independent_quotas": {
+      "paper_quota_met": true,
+      "patent_quota_met": true,
+      "required_papers": 0,
+      "required_patents": 0,
+      "status": "COMPLETE"
+    },
+    "paper_count": 30,
+    "paper_queries": [
+      "additive combinatorics",
+      "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers",
+      "eleven certified maximal plateaus exact endpoints additive combinatorics",
+      "exact function has explicitly determined maximal constancy plateaus 54 eleven endpoint certified exhaustive optimality proof",
+      "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers",
+      "exhaustive optimality every range fixes plateau endpoints additive combinatorics",
+      "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact",
+      "exhaustive optimality every range fixes plateau endpoints maximal-run decomposition machine-proven exact extremal sequence",
+      "maximal-run decomposition machine-proven exact extremal sequence 3-ap-free subsets first integers",
+      "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics",
+      "maximal-run decomposition machine-proven exact extremal sequence eleven certified maximal plateaus endpoints"
+    ],
+    "paper_retrieval": {
+      "all_provider_attempts_succeeded": false,
+      "attempts": [
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 34387,
+            "body_sha256": "a7560babb89f30d80110376a9ea77ca9e77b320b3660bca4a32c51ffc9647a2a",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 614.63,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "6f0295c99d37af6cd5c02bf9501ecc2b5e9e487de221074148312a0575159f0d",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 313070,
+            "body_sha256": "f7fe6ce9f3367884660b051b1891b5a0e8f778732d80a2bcff1b59ec40bf9900",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 886.177,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "2e92982239af17240f7d53abfd44120886502e108352a78ac86da2e55b401a52",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 124076,
+            "body_sha256": "1ed44f1b8fc8bfaac2c72d63ddf427660d0585f450dcc87a459d14b077b3c4b0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 629.201,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "261b826f6569972b7f401a04488dfd353a65a9cfd104e2bc14ce884d1848b667",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 33429,
+            "body_sha256": "db75f64ce8246c2c2e21dd3a2e074f9162c17f8f0d61460bd6db1c684ae2b709",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 639.102,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "d90c6a913bb0e53e27e881a253106f7bca3b7f98136539e9f618b35e85834b80",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=eleven+certified+maximal+plateaus+exact+endpoints+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "openalex",
+          "query": "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 13777,
+            "body_sha256": "1dcac623f1930c6dfba1d2140f21b98dd434f6f1083b02cb9c689a90215bca2f",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 801.295,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "1b43d5ec5be8b60f0b2809b434bbd7bffb78d576b3c55867ce0c9011db0a8a50",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=eleven+certified+maximal+plateaus+exact+endpoints+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 245,
+            "body_sha256": "25a186007968203d935ff48c225237bc8683cc79d6a0a7707fa7f2685ba89dec",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 555.592,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "bd93b55f2fc2851cd41e913e9ddef0bb0fb6de3a8051c9b1895e579b337ee178",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=eleven+certified+maximal+plateaus+exact+endpoints+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "eleven certified maximal plateaus exact endpoints additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 18008,
+            "body_sha256": "56207556dcd9a31bdea64849950fc8807e5131a2bce760f3fa7ac547e09e8d4a",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 635.784,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "fa7b26c0f41f2338d28d371077082dd239e7846dbef3aab4e6346aa01151537e",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=eleven+certified+maximal+plateaus+exact+endpoints+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "openalex",
+          "query": "eleven certified maximal plateaus exact endpoints additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 583,
+            "body_sha256": "a77aaf566ca0935a5877f4941faf4fdd091d5526fca05e10ed85d3c0010237aa",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 526.772,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "78545f6d97329c0fb0801d1bf63cfc8170c2dac5b635dbabf70b330a19a2237f",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=eleven+certified+maximal+plateaus+exact+endpoints+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "eleven certified maximal plateaus exact endpoints additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 235,
+            "body_sha256": "7a46cd212c30e83201f0cfc8db9713077bcdc4911700b68dbbbf8b5d6f7c4e4d",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 447.361,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "c037f8e7fc5c7378026023dfbab0e10021849fc8231f6d6eb8737b7beac94ae2",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=eleven+certified+maximal+plateaus+exact+endpoints+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exact function has explicitly determined maximal constancy plateaus 54 eleven endpoint certified exhaustive optimality proof",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 71151,
+            "body_sha256": "7a72d153564d3f9fa99c072e99e7b97a89b67513322a69812df84676f5fa8710",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 539.854,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "63d312b69e4c22b6e9c2abf5c170b740c826e1d6989337e1bd88400707b0ad67",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exact+function+has+explicitly+determined+maximal+constancy+plateaus+54+eleven+endpoint+certified+exhaustive+optimality+proof&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "openalex",
+          "query": "exact function has explicitly determined maximal constancy plateaus 54 eleven endpoint certified exhaustive optimality proof",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 739,
+            "body_sha256": "a6ab73f14b0281ef2fc0c56fdf8e8a97564f670895f9be557503850340997a5f",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 599.006,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "2fdae53cedb71f4a021db205f49413965650256841bde2dc4942c1354f3e6377",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exact+function+has+explicitly+determined+maximal+constancy+plateaus+54+eleven+endpoint+certified+exhaustive+optimality+proof&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exact function has explicitly determined maximal constancy plateaus 54 eleven endpoint certified exhaustive optimality proof",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 287,
+            "body_sha256": "ee6790851ba6bbac2f4a5f5195a4658834afb0ef2c6dd94d9723e187e6e8fa78",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 458.948,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "ec28850519b557d0d79d6001dc12518efcfb2b613d363ff6799b56e6d3285ae8",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exact+function+has+explicitly+determined+maximal+constancy+plateaus+54+eleven+endpoint+certified+exhaustive+optimality+proof&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32997,
+            "body_sha256": "e11a21f9260498e41b38a3bd12921376b8ce03cb406f80c64f21499c0d54cb01",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 434.231,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "e3abe020f1a7468602031c1af29b83da2e2468e9860db4b16ae1e54051ebb1b4",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+optimality+every+range+fixes+plateau+endpoints+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 9,
+          "provider": "openalex",
+          "query": "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 151895,
+            "body_sha256": "c44ad836aa055d126b2c5f222ddfa77cc8efea325422d20aa4e418bb2ed22c31",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 870.529,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "6c945f366a8302ccdd2932913d6d614d54cd675d7ad8b88716c1f807c774ad81",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+optimality+every+range+fixes+plateau+endpoints+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 253,
+            "body_sha256": "c98a1577594b6a2883d1e20e14f6096690415e748ee99b7b29143b2889125a9e",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 377.792,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "e371e5c9cf62b010c001b7d284cad1faa9dfc57c907d651ead4055f07530777a",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+optimality+every+range+fixes+plateau+endpoints+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exhaustive optimality every range fixes plateau endpoints additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 17382,
+            "body_sha256": "c2f29e39a49b9d6255ba5574fef7f93000d3dadb757bfb33704abcdf3b483386",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 436.99,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "ecccc743b615fea0e509493638b2356594f46a4a15aacc4cf6654b5fcf55694d",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+optimality+every+range+fixes+plateau+endpoints+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 5,
+          "provider": "openalex",
+          "query": "exhaustive optimality every range fixes plateau endpoints additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 83130,
+            "body_sha256": "1b3b01fba19745a8867da903fb8c9588b2bc5945a04edb671ab070170e153d12",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 579.298,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "7e6348cf1a5b49c0d64fe0068d96ce5195b5ce83e2ae8b3d968becd922407488",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+optimality+every+range+fixes+plateau+endpoints+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exhaustive optimality every range fixes plateau endpoints additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 243,
+            "body_sha256": "0bedd497670df8f61e97ac6602a39552c0533e0454e7bc7da964eb497cbcb3b1",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 1483.418,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "fedc78372318c7d73c19ecbf546f38a72235616b6eca86813bb9d9e59dadc3bf",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+optimality+every+range+fixes+plateau+endpoints+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact",
+          "receipt": {
+            "attempt": 2,
+            "body_bytes": 27922,
+            "body_sha256": "2c4477be636d93aaf3709b0d98920d455a12b3248f36ccb33d561e0e8d77d028",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 458.632,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "92e83c7037bc52ed026742dd6c7550af4a3284abc99a9e115b42d60a7a864d70",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+optimality+every+range+fixes+plateau+endpoints+eleven+certified+maximal+plateaus+exact&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "openalex",
+          "query": "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 13823,
+            "body_sha256": "d60764565470cadf5b1ec50172ebf600686d8e7a48a4b08a197f75de02afaf4b",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 441.732,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "6575f4aa0aa214174c408af384cf37b37f4593593ac70e5bd707da73f03aa50d",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+optimality+every+range+fixes+plateau+endpoints+eleven+certified+maximal+plateaus+exact&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 260,
+            "body_sha256": "4c33a7cf6a2b10394e6172403b2d9891f139ae9c986b28463e3d3593b30bdaa4",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 1428.859,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "f215a51f2f10cce0bcdb134a9aad096da19ca257527e7825abfd483bb8052524",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+optimality+every+range+fixes+plateau+endpoints+eleven+certified+maximal+plateaus+exact&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_429",
+          "provider": "crossref",
+          "query": "exhaustive optimality every range fixes plateau endpoints maximal-run decomposition machine-proven exact extremal sequence",
+          "status": "error"
+        },
+        {
+          "hit_count": 3,
+          "provider": "openalex",
+          "query": "exhaustive optimality every range fixes plateau endpoints maximal-run decomposition machine-proven exact extremal sequence",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 50840,
+            "body_sha256": "e0f8ef81c1e4fd3c52dee9a051a227a530707ddaa6acc46e835050af8ce8c2dc",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 826.682,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "641c1456273c69ddd180aa41b7b796d46650f9ea9cc405050f9acaee7039d7cd",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+optimality+every+range+fixes+plateau+endpoints+maximal-run+decomposition+machine-proven+exact+extremal+sequence&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exhaustive optimality every range fixes plateau endpoints maximal-run decomposition machine-proven exact extremal sequence",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 285,
+            "body_sha256": "32d023f3c4413722aa9e38ecbb1f4c54bee60d3bf9f24ebeb270ee732355eeaa",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 1221.613,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "4c6336585aedccad56a674bd2e9c32e83ace2110640d2716346292d138812762",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+optimality+every+range+fixes+plateau+endpoints+maximal-run+decomposition+machine-proven+exact+extremal+sequence&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "crossref",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 2,
+            "body_bytes": 31709,
+            "body_sha256": "9ee7284a66d69f42eeb1f606a895673b018946592dbc144d581d7bc92edc6868",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 450.894,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "3671b85f7832f7de818b5859eb77233d0b879e0ea35b77d7d53b49d6668b715d",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=maximal-run+decomposition+machine-proven+exact+extremal+sequence+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "openalex",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 845955,
+            "body_sha256": "e8ad9e5d064dc3e40a8120efc0b5734416603931b97a2f9c86f92137a9f28065",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1210.365,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "febcd9bb7d1ef49aded5164010aa4be1eaffdf5f0ecaf539714e631e1d1916a7",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=maximal-run+decomposition+machine-proven+exact+extremal+sequence+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 260,
+            "body_sha256": "bc63eaeb49fcea4324fa1c5eca7a2365fe775527a7a9b17bc5a26d4aecbb5f21",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 268.105,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "247b7b90ea509f4021b8f126007841081ef7a8bae51de87319c72cd86efb7b83",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=maximal-run+decomposition+machine-proven+exact+extremal+sequence+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics",
+          "receipt": {
+            "attempt": 2,
+            "body_bytes": 27294,
+            "body_sha256": "6e0d530bf9cd8f3f0c87c13e08bae18f151071a18860bfa5d29e271b90e3e062",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 414.034,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "294e7311d3353fc7d18a766aa9d4ec98e0c00e8936d7b422d8b8e51a45031cc4",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=maximal-run+decomposition+machine-proven+exact+extremal+sequence+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "openalex",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 527146,
+            "body_sha256": "9010ea0cd0ffc1d5770665ee729f10f7bb28224f8ec0be14cc76289d8658976c",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 878.979,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "8fb0c00cd9c253394cb72c37ba9ac64f1329adcae247f936ffcfa859ef9fe2c4",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=maximal-run+decomposition+machine-proven+exact+extremal+sequence+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 250,
+            "body_sha256": "4443f838f75413b09d29099741628bed08bad170fd992d3f1b5e4cb55e63bfee",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 158.455,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "9cc5838c1922b77b8e3292ea95e87863f543bd7adfd3748a6031b169a344f388",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=maximal-run+decomposition+machine-proven+exact+extremal+sequence+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence eleven certified maximal plateaus endpoints",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 27508,
+            "body_sha256": "119c08f56efebb2054eead6a033c1621ea3210763f56a18341ff302908e5b4d0",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 508.481,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "b6ba3f71b6f609c4c328536a6c66e7366625b27372fee3cd22a7ece5933de585",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=maximal-run+decomposition+machine-proven+exact+extremal+sequence+eleven+certified+maximal+plateaus+endpoints&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "openalex",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence eleven certified maximal plateaus endpoints",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 13854,
+            "body_sha256": "7d22e80a8dba0e93a198daa74b9067e2c7e8213bbc827787856d0d7ae11f7d9d",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 588.418,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "4967e1ace59a93b2acd8477acc9bdfb0179cde902da77633cf6aeccc26f852d7",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=maximal-run+decomposition+machine-proven+exact+extremal+sequence+eleven+certified+maximal+plateaus+endpoints&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence eleven certified maximal plateaus endpoints",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 271,
+            "body_sha256": "86558bfa3f13ee8ed872d144cb33f5e3c8e9cfe87cd84c6fa840034b9ee10829",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 165.276,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "51dde34250ed0ebf07d1800e71361f4137f0d80a1b6fcf8543bc39ba234cecfb",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=maximal-run+decomposition+machine-proven+exact+extremal+sequence+eleven+certified+maximal+plateaus+endpoints&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        }
+      ],
+      "math_domain_detected": false,
+      "math_scholarly_providers": {
+        "status": "not_applicable"
+      },
+      "paper_count": 30,
+      "provider_error_count": 1,
+      "provider_success_count": 32,
+      "providers_attempted": [
+        "crossref",
+        "openalex",
+        "europe_pmc"
+      ],
+      "providers_with_hits": [
+        "crossref",
+        "europe_pmc",
+        "openalex"
+      ],
+      "query_count": 11,
+      "relevance_floor": {
+        "admitted": 221,
+        "all_candidates_excluded": false,
+        "candidates": 276,
+        "excluded": 55,
+        "excluded_rows": [
+          {
+            "cited_by_count": 3096,
+            "doi": "10.1038/s42254-021-00348-9",
+            "retrieval_citation_prior": 1.366492,
+            "title": "Variational quantum algorithms"
+          },
+          {
+            "cited_by_count": 1792,
+            "doi": "10.1090/s0273-0979-06-01126-8",
+            "retrieval_citation_prior": 1.27358,
+            "title": "Expander graphs and their applications"
+          },
+          {
+            "cited_by_count": 1094,
+            "doi": "10.1016/s0004-3702(98)00045-9",
+            "retrieval_citation_prior": 1.189747,
+            "title": "Methods for task allocation via agent coalition formation"
+          },
+          {
+            "cited_by_count": 403,
+            "doi": "10.1145/335043.335044",
+            "retrieval_citation_prior": 1.020241,
+            "title": "System-level power optimization"
+          },
+          {
+            "cited_by_count": 349,
+            "doi": "10.1109/tpami.2009.144",
+            "retrieval_citation_prior": 0.995849,
+            "title": "Efficient Subwindow Search: A Branch and Bound Framework for Object Localization"
+          },
+          {
+            "cited_by_count": 187,
+            "doi": "10.1111/rssb.12233",
+            "retrieval_citation_prior": 0.890195,
+            "title": "A discussion on: Sparse graphs using exchangeable random measures"
+          },
+          {
+            "cited_by_count": 143,
+            "doi": "10.1561/0400000066",
+            "retrieval_citation_prior": 0.844868,
+            "title": "Quantum Hamiltonian Complexity"
+          },
+          {
+            "cited_by_count": 87,
+            "doi": "10.26481/dis.19991203jl",
+            "retrieval_citation_prior": 0.761147,
+            "title": "Informed gambling : conception and analysis of a multi-agent mechanism for discrete reallocation"
+          },
+          {
+            "cited_by_count": 55,
+            "doi": "",
+            "retrieval_citation_prior": 0.68431,
+            "title": "Integrated and Dynamic Vehicle and Crew Scheduling"
+          },
+          {
+            "cited_by_count": 43,
+            "doi": "10.1016/j.ejor.2007.01.057",
+            "retrieval_citation_prior": 0.643312,
+            "title": "Application of general semi-infinite programming to lapidary cutting problems"
+          },
+          {
+            "cited_by_count": 22,
+            "doi": "10.25673/4635",
+            "retrieval_citation_prior": 0.533034,
+            "title": "Enhancing text classification to improve information filtering"
+          },
+          {
+            "cited_by_count": 20,
+            "doi": "10.1103/physreve.110.041001",
+            "retrieval_citation_prior": 0.517569,
+            "title": "Statistical physics and dynamical systems perspectives on geophysical extreme events"
+          },
+          {
+            "cited_by_count": 18,
+            "doi": "10.1017/fms.2023.107",
+            "retrieval_citation_prior": 0.500555,
+            "title": "Two-variable fibrations, factorisation systems and -categories of spans"
+          },
+          {
+            "cited_by_count": 11,
+            "doi": "10.1007/s10107-021-01733-z",
+            "retrieval_citation_prior": 0.422434,
+            "title": "Binary optimal control by trust-region steepest descent"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.1038/s42254-025-00817-5",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Network renormalization"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.14279/depositonce-4147",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Recycling Krylov subspace methods for sequences of linear systems"
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "10.1016/j.nonrwa.2023.104021",
+            "retrieval_citation_prior": 0.373528,
+            "title": "Projected solutions of generalized quasivariational problems in Banach spaces"
+          },
+          {
+            "cited_by_count": 7,
+            "doi": "",
+            "retrieval_citation_prior": 0.353505,
+            "title": "Approximation algorithms for independent set problems on hypergraphs"
+          },
+          {
+            "cited_by_count": 7,
+            "doi": "10.17877/de290r-7050",
+            "retrieval_citation_prior": 0.353505,
+            "title": "Combinatorial optimization with one quadratic term"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Algorithms for Strategic Agents"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.17169/refubium-9131",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Toolkit for Reverse Engineering of Molecular Pathways via Parameter Identification"
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.6100/ir684686",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Algorithms in moderately exponential time"
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1098/rstb.2023.0304",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Shape parameters of evolutionary trees in theoretical computer science."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.26481/dis.20170420mc",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Multi-scale modeling and variability in cardiac cellular electrophysiology"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.6028/nist.ir.8132",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Applied and Computational Mathematics Division: Summary of Activities for Fiscal Year 2015"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e28050544",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Complex Tension Origin for Dilaton Gravity: Jordan Stiffness and Logarithmic Einstein Dynamics."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e27070756",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Max-Flow Approach to Random Tensor Networks."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.010",
+            "retrieval_citation_prior": 0.0,
+            "title": "Algebraic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "ArrowFlow: Hierarchical Machine Learning in the Space of Permutations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.5287/ora-e2yxxywn7",
+            "retrieval_citation_prior": 0.0,
+            "title": "Between integrals and optima: new methods for scalable machine learning"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.014",
+            "retrieval_citation_prior": 0.0,
+            "title": "Bibliography"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpls.2026.1864496",
+            "retrieval_citation_prior": 0.0,
+            "title": "Cis-regulatory elements in CAMTA-mediated stress signalling: mechanisms and prospects for CRISPR-based crop improvement."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s00454-023-00622-w",
+            "retrieval_citation_prior": 0.0,
+            "title": "Counting Arcs in F q 2."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.7936/k7v69gmb",
+            "retrieval_citation_prior": 0.0,
+            "title": "Development of Atomistic Potentials for Silicate Materials and Coarse-Grained Simulation of Self-Assembly at Surfaces"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1371/journal.pone.0348356",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fault diagnosis of aero-engines using transfer dispersion entropy and dispersion patterns."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.005",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fourier-analytic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1073/pnas.2510881123",
+            "retrieval_citation_prior": 0.0,
+            "title": "Free quantum computing."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.4230/lipics.cpm.2016.0",
+            "retrieval_citation_prior": 0.0,
+            "title": "Front Matter, Table of Contents, Preface"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Graph Tokenization for Bridging Graphs and Transformers"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.007",
+            "retrieval_citation_prior": 0.0,
+            "title": "Graph-theoretic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.009",
+            "retrieval_citation_prior": 0.0,
+            "title": "Incidence geometry"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.006",
+            "retrieval_citation_prior": 0.0,
+            "title": "Inverse sum set theorems"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.013",
+            "retrieval_citation_prior": 0.0,
+            "title": "Long arithmetic progressions in sum sets"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpsyt.2026.1727711",
+            "retrieval_citation_prior": 0.0,
+            "title": "Mitochondrial dysfunction in EEG: high-beta specific metabolic/oxidative coupling with lactate in mania-predominant polarity."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41598-025-27113-7",
+            "retrieval_citation_prior": 0.0,
+            "title": "Novel representation of complexity of investment casting using injective coloring and graph adaptive consensus mechanism."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1162/opmi.a.275",
+            "retrieval_citation_prior": 0.0,
+            "title": "Predictability of the Retrieval Site Does Not Modulate Interference: Evidence From Reflexive Attraction."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.6092/unibo/amsdottorato/1494",
+            "retrieval_citation_prior": 0.0,
+            "title": "Progetto di reti Sensori Wireless e tecniche di Fusione Sensoriale"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.001",
+            "retrieval_citation_prior": 0.0,
+            "title": "Prologue"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e26100870",
+            "retrieval_citation_prior": 0.0,
+            "title": "Remarks on Limit Theorems for the Free Quadratic Forms."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/math14122112",
+            "retrieval_citation_prior": 0.0,
+            "title": "Statistical Learning of Conditional Single-Index U-Processes Under Local Stationarity and Missing-At-Random Functional Responses"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.003",
+            "retrieval_citation_prior": 0.0,
+            "title": "Sum set estimates"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.011",
+            "retrieval_citation_prior": 0.0,
+            "title": "Szemerédi' theorem for k = 3"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.008",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Littlewood–Offord problem"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.26434/chemrxiv.15001278/v1",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Syntax of Matter: Synthesis Planning as the Foundation of Generative Chemistry"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.002",
+            "retrieval_citation_prior": 0.0,
+            "title": "The probabilistic method"
+          }
+        ],
+        "rule": "retrieval_relevance > 0.0 (shares >=1 non-stopword token with >=1 grounding query)"
+      },
+      "retrieval_receipt_sha256": "1d20b0abaa6019733b9e9011ec77c4367a519b58c3f53531f9c2b0ab8da14cb3",
+      "retrieval_state": "hits",
+      "saturation": {
+        "curve": [
+          {
+            "cumulative_unique": 68,
+            "new_records": 68,
+            "query": "additive combinatorics"
+          },
+          {
+            "cumulative_unique": 94,
+            "new_records": 26,
+            "query": "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 102,
+            "new_records": 8,
+            "query": "eleven certified maximal plateaus exact endpoints additive combinatorics"
+          },
+          {
+            "cumulative_unique": 127,
+            "new_records": 25,
+            "query": "exact function has explicitly determined maximal constancy plateaus 54 eleven endpoint certified exhaustive optimality proof"
+          },
+          {
+            "cumulative_unique": 149,
+            "new_records": 22,
+            "query": "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 158,
+            "new_records": 9,
+            "query": "exhaustive optimality every range fixes plateau endpoints additive combinatorics"
+          },
+          {
+            "cumulative_unique": 178,
+            "new_records": 20,
+            "query": "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact"
+          },
+          {
+            "cumulative_unique": 180,
+            "new_records": 2,
+            "query": "exhaustive optimality every range fixes plateau endpoints maximal-run decomposition machine-proven exact extremal sequence"
+          },
+          {
+            "cumulative_unique": 214,
+            "new_records": 34,
+            "query": "maximal-run decomposition machine-proven exact extremal sequence 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 253,
+            "new_records": 39,
+            "query": "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics"
+          },
+          {
+            "cumulative_unique": 276,
+            "new_records": 23,
+            "query": "maximal-run decomposition machine-proven exact extremal sequence eleven certified maximal plateaus endpoints"
+          }
+        ],
+        "is_saturated": false,
+        "total_queries": 11,
+        "total_unique_works": 276
+      },
+      "status": "success",
+      "worker_count": 12
+    },
+    "patent_application_count": 0,
+    "patent_claim_grounded_count": 14,
+    "patent_count": 68,
+    "patent_granted_count": 68,
+    "patent_official_claim_grounded_count": 14,
+    "patent_official_provider_record_count": 68,
+    "patent_official_search_complete": false,
+    "patent_provider": "uspto_odp_keyed",
+    "patent_queries": [
+      "3-ap-free subsets first integers exact exhaustive optimality certified",
+      "3-ap-free subsets first integers exact exhaustive optimality certified eleven maximal plateaus endpoints",
+      "3-ap-free subsets first integers exact exhaustive optimality certified every range fixes plateau endpoints",
+      "3-ap-free subsets first integers exact exhaustive optimality certified maximal-run decomposition machine-proven extremal sequence",
+      "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition",
+      "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers compound",
+      "exhaustive optimality every range fixes plateau endpoints composition compound treatment",
+      "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact compound composition",
+      "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics composition"
+    ],
+    "patent_retrieval": {
+      "attempts": [
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 601.57,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "7a38c71f134ecfd880e559d30300768e1bd44f40a386bce78bd2166e48020e50",
+            "receipt_sha256": "7a38c71f134ecfd880e559d30300768e1bd44f40a386bce78bd2166e48020e50",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+exact+exhaustive+optimality+certified%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers exact exhaustive optimality certified",
+            "receipt_sha256": "decaab01165ccefbb675e3dd29b3909f7cffd5fed2811f68e4030a860fd08479",
+            "records_sha256": "780264c14fc949ecdb671ab7b660f8f3df522c039db98269e7aff6981ad00437"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified eleven maximal plateaus endpoints",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified eleven maximal plateaus endpoints",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers exact exhaustive optimality certified eleven maximal plateaus endpoints",
+            "receipt_sha256": "258bb30b33fa4abace01800fac51c1744a5eb5fde6445d25df97b8bd5e5d15f8",
+            "records_sha256": "58ea5382fe68b0649efe61519510462bc0d4c2e47166ddf9ba0cd929140da077"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified eleven maximal plateaus endpoints",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified every range fixes plateau endpoints",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 491.831,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "6622fe024e8c07f1c346012380865e6fc004fdd3d801d6c2604a9adcf1890fd1",
+            "receipt_sha256": "6622fe024e8c07f1c346012380865e6fc004fdd3d801d6c2604a9adcf1890fd1",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+exact+exhaustive+optimality+certified+every+range+fixes+plateau+endpoints%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified every range fixes plateau endpoints",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers exact exhaustive optimality certified every range fixes plateau endpoints",
+            "receipt_sha256": "4b94a039b9e3a8fde1f501e574ee9f4a0e8791e6a24a00b9dbf905600a2c2ee3",
+            "records_sha256": "c052417317a8a0acbc8f1a86198b5b9f6070361c2b1401a8f66b9c74bc830865"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified every range fixes plateau endpoints",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified maximal-run decomposition machine-proven extremal sequence",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified maximal-run decomposition machine-proven extremal sequence",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers exact exhaustive optimality certified maximal-run decomposition machine-proven extremal sequence",
+            "receipt_sha256": "06cf4117e1107d39b8729a4332343f32732e7b0ccab2df01a5a7f56f6a5a5a85",
+            "records_sha256": "fdfbd7d201ea242b215f6d137314cca57700f729d600a0ef2bb414ef6f132d3c"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers exact exhaustive optimality certified maximal-run decomposition machine-proven extremal sequence",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "hits": 63,
+            "provider": "uspto_odp_keyed",
+            "query": "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition",
+            "receipt_sha256": "cf7743411b04d93b7d6e3956e890648885258265d0d679e56db26b74546e4b6b",
+            "records_sha256": "78aa3e0b85a5a16021a14e2daf998629705b563738b0eb2b8acb38803566f851"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers compound",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 271.819,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "ce402d71e6653b07317c574876976ddcce706cba8492b36aafbe9c108a4dfe6f",
+            "receipt_sha256": "ce402d71e6653b07317c574876976ddcce706cba8492b36aafbe9c108a4dfe6f",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22exhaustive+optimality+every+range+fixes+plateau+endpoints+3-ap-free+subsets+first+integers+compound%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers compound",
+          "receipt": {
+            "hits": 100,
+            "provider": "uspto_odp_keyed",
+            "query": "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers compound",
+            "receipt_sha256": "c4815317f1119523db101c43644ff4747b16c5af4a4e764f7f5d64828f5292e7",
+            "records_sha256": "b13bb312d9a85234e96530eddc00287831d4ef971a501289798caa1977a2b013"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "exhaustive optimality every range fixes plateau endpoints composition compound treatment",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "exhaustive optimality every range fixes plateau endpoints composition compound treatment",
+          "receipt": {
+            "hits": 108,
+            "provider": "uspto_odp_keyed",
+            "query": "exhaustive optimality every range fixes plateau endpoints composition compound treatment",
+            "receipt_sha256": "03e60c5cec3aa65b2ef3d1ec7a9df9c6480e22026983054e5909a7528e61b239",
+            "records_sha256": "d2a1dd918af873933b01182058a83f2d75efbda97a937acfca55c3381fe0d81a"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "exhaustive optimality every range fixes plateau endpoints composition compound treatment",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact compound composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact compound composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact compound composition",
+            "receipt_sha256": "cf0763d19faf43098ed4eb4fe43db9d0393f925e95286f3def8e43debddb3e4c",
+            "records_sha256": "8f485ebda83cd2b01435856e6cddfe04dc9f34e44f3168256a6c1ca967b42422"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact compound composition",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics composition",
+            "receipt_sha256": "4264492ebf97ff62e61f8c8e9cc09e73a7ba48c8cccd58d8778b435157680549",
+            "records_sha256": "73418c856b550edf64d407a8816facd095c0ef72e036853f6577101457350c57"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics composition",
+          "status": "error"
+        }
+      ],
+      "candidate_budget": 80,
+      "claim_grounded_count": 14,
+      "configured_official_providers": [
+        "epo_ops",
+        "uspto_odp_keyed"
+      ],
+      "coverage_status": "INCOMPLETE_PROVIDER_COVERAGE",
+      "family_diversity_reserve": 0,
+      "granted_count": 68,
+      "hydration_config": {
+        "allow_network": true,
+        "hydration_jobs": 12,
+        "hydration_workers": 4,
+        "patent_hydrate_limit": 12,
+        "structure_hydrate_limit": 4
+      },
+      "hydration_workers": 4,
+      "official_claim_grounded_count": 14,
+      "official_coverage_scope": "partial_or_missing_official_rails",
+      "official_coverage_status": "INCOMPLETE_OFFICIAL_PROVIDER_COVERAGE",
+      "official_provider_record_count": 68,
+      "official_search_complete": false,
+      "optional_provider_errors": [
+        "google_patents_search"
+      ],
+      "patent_count": 68,
+      "provider": "uspto_odp_keyed",
+      "provider_health": [
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 6,
+          "failure_diagnosis": {
+            "failure_class": "no_results_from_live_provider",
+            "probe_hits": 1,
+            "probe_ran": true,
+            "reason": "control phrase returned hits on the same credential, so the original query genuinely matched nothing — this is whitespace, not an outage"
+          },
+          "hit_count": 0,
+          "official": true,
+          "provider": "epo_ops",
+          "required_for_clear_novelty": true,
+          "status": "ERROR"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 0,
+          "hit_count": 135,
+          "official": true,
+          "provider": "uspto_odp_keyed",
+          "required_for_clear_novelty": true,
+          "status": "HIT"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 9,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_503",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed — the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": false,
+          "provider": "google_patents_search",
+          "required_for_clear_novelty": false,
+          "status": "ERROR"
+        }
+      ],
+      "provider_request_limit": 15,
+      "providers_attempted": [
+        "epo_ops",
+        "uspto_odp_keyed",
+        "google_patents_search"
+      ],
+      "providers_with_hits": [
+        "uspto_odp_keyed"
+      ],
+      "query_count": 9,
+      "requested_retrieval_floor": 135,
+      "required_provider_errors": [
+        "epo_ops"
+      ],
+      "retrieval_receipt_sha256": "3bdb476f0a40d5aa4f7733d1659672e0eba52e5910d74aed2a2a695ec7c92c21",
+      "search_complete": false,
+      "selected_family_count": 68,
+      "status": "success",
+      "structure_grounded_count": 0,
+      "unavailable_official_providers": []
+    },
+    "patent_search_complete": false,
+    "provider_lineage_sha256": "5d01a88e5d0ec65d7639759fae1358b11eb1ddbed1f320074c2025ff4fddb73b",
+    "query_coverage": {
+      "paper": {
+        "mechanism": [
+          "exhaustive optimality every range fixes plateau endpoints additive combinatorics",
+          "eleven certified maximal plateaus exact endpoints additive combinatorics",
+          "exact function has explicitly determined maximal constancy plateaus 54 eleven endpoint certified exhaustive optimality proof",
+          "exhaustive optimality every range fixes plateau endpoints maximal-run decomposition machine-proven exact extremal sequence",
+          "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact",
+          "maximal-run decomposition machine-proven exact extremal sequence eleven certified maximal plateaus endpoints",
+          "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers",
+          "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers"
+        ],
+        "method": [
+          "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics",
+          "eleven certified maximal plateaus exact endpoints additive combinatorics",
+          "exact function has explicitly determined maximal constancy plateaus 54 eleven endpoint certified exhaustive optimality proof",
+          "exhaustive optimality every range fixes plateau endpoints maximal-run decomposition machine-proven exact extremal sequence",
+          "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact",
+          "maximal-run decomposition machine-proven exact extremal sequence eleven certified maximal plateaus endpoints",
+          "maximal-run decomposition machine-proven exact extremal sequence 3-ap-free subsets first integers",
+          "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers"
+        ],
+        "outcome": [
+          "exhaustive optimality every range fixes plateau endpoints additive combinatorics",
+          "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics",
+          "eleven certified maximal plateaus exact endpoints additive combinatorics",
+          "exact function has explicitly determined maximal constancy plateaus 54 eleven endpoint certified exhaustive optimality proof",
+          "exhaustive optimality every range fixes plateau endpoints maximal-run decomposition machine-proven exact extremal sequence",
+          "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact",
+          "maximal-run decomposition machine-proven exact extremal sequence eleven certified maximal plateaus endpoints",
+          "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers",
+          "maximal-run decomposition machine-proven exact extremal sequence 3-ap-free subsets first integers",
+          "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers"
+        ],
+        "problem": [
+          "exhaustive optimality every range fixes plateau endpoints additive combinatorics",
+          "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics",
+          "eleven certified maximal plateaus exact endpoints additive combinatorics",
+          "additive combinatorics"
+        ]
+      },
+      "patent": {
+        "mechanism": [
+          "3-ap-free subsets first integers exact exhaustive optimality certified every range fixes plateau endpoints",
+          "3-ap-free subsets first integers exact exhaustive optimality certified maximal-run decomposition machine-proven extremal sequence",
+          "3-ap-free subsets first integers exact exhaustive optimality certified eleven maximal plateaus endpoints",
+          "3-ap-free subsets first integers exact exhaustive optimality certified",
+          "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact compound composition",
+          "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers compound",
+          "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "exhaustive optimality every range fixes plateau endpoints composition compound treatment"
+        ],
+        "method": [
+          "3-ap-free subsets first integers exact exhaustive optimality certified every range fixes plateau endpoints",
+          "3-ap-free subsets first integers exact exhaustive optimality certified maximal-run decomposition machine-proven extremal sequence",
+          "3-ap-free subsets first integers exact exhaustive optimality certified eleven maximal plateaus endpoints",
+          "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics composition",
+          "3-ap-free subsets first integers exact exhaustive optimality certified",
+          "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact compound composition",
+          "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ],
+        "outcome": [
+          "3-ap-free subsets first integers exact exhaustive optimality certified every range fixes plateau endpoints",
+          "3-ap-free subsets first integers exact exhaustive optimality certified maximal-run decomposition machine-proven extremal sequence",
+          "3-ap-free subsets first integers exact exhaustive optimality certified eleven maximal plateaus endpoints",
+          "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics composition",
+          "3-ap-free subsets first integers exact exhaustive optimality certified",
+          "exhaustive optimality every range fixes plateau endpoints eleven certified maximal plateaus exact compound composition",
+          "exhaustive optimality every range fixes plateau endpoints 3-ap-free subsets first integers compound",
+          "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "exhaustive optimality every range fixes plateau endpoints composition compound treatment"
+        ],
+        "problem": [
+          "maximal-run decomposition machine-proven exact extremal sequence additive combinatorics composition",
+          "eleven certified maximal plateaus exact endpoints 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ]
+      },
+      "uncovered_paper_facets": [],
+      "uncovered_patent_facets": []
+    },
+    "query_plan_sha256": "f66bd4dcd11a4e1897a31a4a0654645b65124728930f90316a50d454fce0cf68",
+    "spec_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\spec_a6cd6f0a29b8d0664678f25c4e1861c6.json"
+  },
+  "corpus_size": 98,
+  "corpus_source": "auto_acquired_litacq_patents",
+  "design_around": {
+    "boundary": "Research design-space constraints only; not a legal design-around or FTO opinion.",
+    "generator_rules": [
+      "reject exact, connectivity-equivalent, salt-parent, and tautomer-equivalent structures",
+      "reject high-similarity fingerprint analogs above the configured hard threshold",
+      "treat scaffold matches as design pressure even when not independently dispositive",
+      "screen every generated survivor against Markush envelopes and family-normalized evidence",
+      "do not treat stereochemistry, salt form, or tautomer changes as novelty restoration by themselves"
+    ],
+    "hard_parent_hashes": [],
+    "hard_structure_hashes": [],
+    "hard_tautomer_hashes": [],
+    "markush_envelopes": [],
+    "markush_family_counts": {},
+    "receipt_sha256": "1441b384f4f27848dfa9bc4fb0e0872dc8bbf9b09a585398ab7be8d851cff8ac",
+    "scaffold_pressure": [],
+    "schema": "oracle.noveltyforge.design_around.v1",
+    "status": "COMPLETE"
+  },
+  "differentiation": {
+    "baseline_core_novelty": 0.815944,
+    "differentiation_guard": "each pivot is re-scored against the same corpus; a change that does not lower measured collision is cosmetic and dropped.",
+    "novel_core_floor": 0.62,
+    "novelty_restorable": true,
+    "recommended_pivot": {
+      "baseline_novelty": 0.815944,
+      "description": "Narrow the mechanism to the 'real-time online closed-loop setting' regime, a condition absent from the nearest prior art.",
+      "facet": "mechanism",
+      "feasibility": 0.85,
+      "injected_terms": [
+        "real-time",
+        "online",
+        "closed-loop",
+        "setting"
+      ],
+      "novelty_gain": 0.020832,
+      "projected_novelty": 0.836776,
+      "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+      "restores_novelty": true,
+      "strategy": "narrow"
+    },
+    "strategy_summary": "1 measured differentiation vector(s); best restores core novelty to 0.836776.",
+    "target_facets": [
+      "mechanism"
+    ],
+    "vectors": [
+      {
+        "baseline_novelty": 0.815944,
+        "description": "Narrow the mechanism to the 'real-time online closed-loop setting' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "real-time",
+          "online",
+          "closed-loop",
+          "setting"
+        ],
+        "novelty_gain": 0.020832,
+        "projected_novelty": 0.836776,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      }
+    ]
+  },
+  "discovery_verdict": "NOVELTY_INADMISSIBLE",
+  "domain": "additive combinatorics",
+  "facet_novelty": {
+    "entities": 0.575042,
+    "mechanism": 0.788594,
+    "method": 0.811407,
+    "outcome": 0.862414,
+    "problem": 0.175
+  },
+  "facet_views": [
+    {
+      "is_core": true,
+      "name": "mechanism",
+      "text": "exhaustive optimality at every n in the range fixes the plateau endpoints",
+      "weight": 0.3
+    },
+    {
+      "is_core": true,
+      "name": "method",
+      "text": "maximal-run decomposition of a machine-proven exact extremal sequence",
+      "weight": 0.24
+    },
+    {
+      "is_core": true,
+      "name": "outcome",
+      "text": "eleven certified maximal plateaus with exact endpoints",
+      "weight": 0.2
+    },
+    {
+      "is_core": false,
+      "name": "problem",
+      "text": "additive combinatorics",
+      "weight": 0.08
+    },
+    {
+      "is_core": false,
+      "name": "entities",
+      "text": "3-AP-free subsets of the first n integers",
+      "weight": 0.13
+    }
+  ],
+  "family_normalization": {
+    "double_count_prevented": 0,
+    "family_count": 68,
+    "patent_records": 68,
+    "receipt_sha256": "9526e341e2ec5110177e6f2bcb511c528dd4ce7c4b3812ce5eeccd49006ff654",
+    "unique_structure_count": 0
+  },
+  "inadmissible_reasons": [
+    "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+  ],
+  "independent_quotas": {
+    "paper_quota_met": true,
+    "patent_quota_met": true,
+    "required_papers": 0,
+    "required_patents": 0,
+    "status": "COMPLETE"
+  },
+  "input_corpus_size": 98,
+  "ip_assessment": {
+    "boundary": "research-prioritization novelty screen; not legal advice or a patentability opinion.",
+    "freedom_to_operate_screen": {
+      "boundary": "keyword read-on screen against claim-grounded granted patent records; not a legal FTO opinion.",
+      "coverage": {
+        "official_claim_grounded_count": 14,
+        "official_provider_record_count": 68,
+        "official_search_complete": false,
+        "provider": "uspto_odp_keyed",
+        "query_coverage_complete": true,
+        "status": "official_coverage_incomplete",
+        "uncovered_patent_facets": [],
+        "warning": "Do not interpret a clean FTO screen as comprehensive; one or more official rails failed."
+      },
+      "exclusion_counts": {
+        "claim_similarity_below_threshold": 14,
+        "claims_unavailable": 84
+      },
+      "manual_review_queue": [
+        {
+          "context_collision": 0.114177,
+          "identifier": "https://openalex.org/W2117889403",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2117889403"
+        },
+        {
+          "context_collision": 0.113167,
+          "identifier": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.3235",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2184347621"
+        },
+        {
+          "context_collision": 0.112992,
+          "identifier": "US12087931",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US12087931"
+        },
+        {
+          "context_collision": 0.102676,
+          "identifier": "10.1017/9781009310956",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W4385690854"
+        },
+        {
+          "context_collision": 0.102135,
+          "identifier": "10.1109/focs.2012.39",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1983716530"
+        },
+        {
+          "context_collision": 0.089588,
+          "identifier": "10.1007/978-3-642-14081-5_21",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2102883266"
+        },
+        {
+          "context_collision": 0.07276,
+          "identifier": "10.1145/2746539.2746568",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2031683606"
+        },
+        {
+          "context_collision": 0.072723,
+          "identifier": "10.1017/cbo9780511734885.002",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2034666228"
+        },
+        {
+          "context_collision": 0.072723,
+          "identifier": "10.48550/arxiv.math/0409420",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2952129562"
+        },
+        {
+          "context_collision": 0.072226,
+          "identifier": "10.1145/2629598",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1985006965"
+        },
+        {
+          "context_collision": 0.072204,
+          "identifier": "10.1201/9781351137621",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W4250713849"
+        },
+        {
+          "context_collision": 0.069474,
+          "identifier": "10.5860/choice.45-0329",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W4253314034"
+        }
+      ],
+      "patent_read_ons": [],
+      "pending_application_watchlist": [],
+      "risk": false,
+      "screen_certifiable": false
+    },
+    "non_obviousness_103": {
+      "mosaic_risk": false,
+      "non_obvious": true,
+      "references_in_mosaic": []
+    },
+    "novelty_target": "papers",
+    "patent_novelty_102": {
+      "anticipating_reference": null,
+      "novel": true
+    },
+    "scientific_novelty": {
+      "band": "NOVEL",
+      "core_novelty": 0.815944,
+      "paper_worthy": true
+    },
+    "verdict": "PAPER_AND_PATENT_PATH_OPEN"
+  },
+  "ledger_status": {
+    "checked": false,
+    "key": "324bd1509c0d6d9d2ae3b07eaa9ddac19652610d95b005069b6b23f71fe35e59",
+    "prior_verdict": null,
+    "reused": false
+  },
+  "legal_boundary": "Research prior-art screening only. This module does not determine claim construction, enablement, legal status, jurisdiction-specific prior-art effect, infringement, or freedom to operate.",
+  "measured_effect": null,
+  "measured_reality": false,
+  "min_corpus_required": 10,
+  "next_action": "Run a preregistered measurement that emits effect size, significance/interval, sample size, and a content hash; bind that receipt to the unchanged claim before novelty reassessment.",
+  "novelty_band": "NOVEL",
+  "novelty_target": "papers",
+  "overall_novelty": 0.729004,
+  "promotion_eligibility": {
+    "claim_sha256": "fd84a146ca3107dec63e04aff2f51698aa2b4877233fb1e97e5a806fcc3de28e",
+    "decision": "PROMOTION_BLOCKED",
+    "eligible": false,
+    "evidence_bindings": {
+      "acquired_utc": "2026-08-04T15:44:01Z",
+      "acquisition_output_file_sha256": "559e03273e990fc34a575ab8b4c5d132fd22ecb0f4243ca40fa1f66c4201efc0",
+      "acquisition_snapshot_sha256": "6f8049583a76a509e5e002c199b0dfb6d981cd85d5376385d5ead574a933ff4b",
+      "adversarial_review_hash": "565591e60b31b8eceab8f226a776c72c09bcc1201bb843920790093bb3eabb2a",
+      "binding_receipt_sha256": "7508749afcc0fdd0f6c63db0df12be68f7ce98de84bcd705026457e3fd2fe9e1",
+      "corpus_sha256": "d4dc70142a7139f4795be44cdf735dc5163c00f4d9fe7b10527d7d7d475fc225",
+      "corpus_size": 98,
+      "corpus_source": "auto_acquired_litacq_patents",
+      "deployment_evidence": {
+        "decision": "NOT_REQUIRED",
+        "ok": true,
+        "required": false
+      },
+      "provider_lineage_sha256": "5d01a88e5d0ec65d7639759fae1358b11eb1ddbed1f320074c2025ff4fddb73b",
+      "report_payload_sha256": "893eaa83f8e64251ee842ee2edea005b21cb7fd0c8fdc9c4264c2bb44982a395",
+      "scientific_disposition_sha256": "8aac1694564433e88eb97c56ba10ab97c52735d7ab1ffa76e333e71f51ce21e8",
+      "structured_prior_art_receipt_sha256": "34d1ff5318c66a38a089d8e08138937b4dee44e78a5d988ca6a7637a049c6788"
+    },
+    "gate_sha256": "eacfbaa9d3a02fb77669d4100cad0cfdbf2df0b1c78fe5dc6137f80d1a1f2003",
+    "reasons": [
+      "admissibility_gate_not_true",
+      "discovery_verdict_not_novel:NOVELTY_INADMISSIBLE",
+      "inadmissible_reasons_present",
+      "measured_reality_not_verified",
+      "scientific_disposition_not_new_mechanism_candidate",
+      "terminal_mode_not_promotable:NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY"
+    ],
+    "schema": "oracle.noveltyforge.promotion-gate.v1"
+  },
+  "receipt_hash": "893eaa83f8e64251ee842ee2edea005b21cb7fd0c8fdc9c4264c2bb44982a395",
+  "scientific_disposition": {
+    "category": "EVIDENCE_HOLD",
+    "deep_remeasurement_required": true,
+    "disposition_sha256": "8aac1694564433e88eb97c56ba10ab97c52735d7ab1ffa76e333e71f51ce21e8",
+    "next_action": "Run a preregistered measurement that emits effect size, significance/interval, sample size, and a content hash; bind that receipt to the unchanged claim before novelty reassessment.",
+    "prior_art_only_resume_allowed": false,
+    "reasons": [
+      "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+    ],
+    "schema": "oracle.noveltyforge.scientific-disposition.v1",
+    "top_colliding_facets": [
+      "problem"
+    ]
+  },
+  "structure_coverage": {
+    "applicable_patent_collision_count": 0,
+    "broad_external_provider_failure_count": 0,
+    "collision_scan_complete": true,
+    "configured_min_exclusions": 1,
+    "coverage_fraction": 0.0,
+    "external_live_structure_provider_count": 0,
+    "external_provider_attempt_count": 0,
+    "external_provider_failure_count": 0,
+    "min_exclusions": 1,
+    "patent_record_count": 0,
+    "patents_with_any_structure": 0,
+    "patents_with_trusted_structure": 0,
+    "provider_attempt_count": 0,
+    "provider_failure_count": 0,
+    "provider_outage_degraded": false,
+    "receipt_sha256": "936d264d795f6ff4866c55df73167741440c3353a5c51a78397033971047eb42",
+    "required": false,
+    "schema": "oracle.noveltyforge.structure_coverage.v4",
+    "shortfall": 1,
+    "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+    "trusted_exclusion_count": 0,
+    "untrusted_evidence_count": 0
+  },
+  "structured_collision_set": [],
+  "structured_prior_art": {
+    "bounds": {
+      "collision_records": 12,
+      "per_collision": 64,
+      "total": 512,
+      "trusted_exclusions_prioritized": true
+    },
+    "collision_evidence": [],
+    "collision_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "coverage": {
+      "applicable_patent_collision_count": 0,
+      "broad_external_provider_failure_count": 0,
+      "collision_scan_complete": true,
+      "configured_min_exclusions": 1,
+      "coverage_fraction": 0.0,
+      "external_live_structure_provider_count": 0,
+      "external_provider_attempt_count": 0,
+      "external_provider_failure_count": 0,
+      "min_exclusions": 1,
+      "patent_record_count": 0,
+      "patents_with_any_structure": 0,
+      "patents_with_trusted_structure": 0,
+      "provider_attempt_count": 0,
+      "provider_failure_count": 0,
+      "provider_outage_degraded": false,
+      "receipt_sha256": "936d264d795f6ff4866c55df73167741440c3353a5c51a78397033971047eb42",
+      "required": false,
+      "schema": "oracle.noveltyforge.structure_coverage.v4",
+      "shortfall": 1,
+      "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+      "trusted_exclusion_count": 0,
+      "untrusted_evidence_count": 0
+    },
+    "evidence": [],
+    "evidence_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "exclusion_smiles": [],
+    "markush_envelope_count": 0,
+    "markush_envelopes": [],
+    "markush_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "provider_attempts": [],
+    "receipt_sha256": "34d1ff5318c66a38a089d8e08138937b4dee44e78a5d988ca6a7637a049c6788",
+    "required": false,
+    "retrieval_coverage": {
+      "coverage_fraction": 0.0,
+      "external_live_structure_provider_count": 0,
+      "external_provider_attempt_count": 0,
+      "external_provider_failure_count": 0,
+      "min_exclusions": 1,
+      "patent_record_count": 68,
+      "patents_with_any_structure": 0,
+      "patents_with_trusted_structure": 0,
+      "provider_attempt_count": 0,
+      "provider_failure_count": 0,
+      "provider_outage_degraded": false,
+      "receipt_sha256": "c5ed53e0639df0f2b3e4c71482bc01d9c04dc685e798144dd7cf07a552bf3fdc",
+      "required": false,
+      "schema": "oracle.noveltyforge.structure_coverage.v4",
+      "shortfall": 1,
+      "status": "PARTIAL",
+      "trusted_exclusion_count": 0,
+      "untrusted_evidence_count": 0
+    },
+    "retrieval_evidence_count": 0,
+    "retrieval_evidence_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "schema": "oracle.noveltyforge.structured_prior_art.v4",
+    "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+    "structured_collision_set": []
+  },
+  "temporal_eligibility": {
+    "boundary": "No critical date supplied; temporal prior-art eligibility was not asserted.",
+    "critical_date": null,
+    "eligible_count": 98,
+    "enabled": false,
+    "excluded_post_critical_count": 0,
+    "policy": "public_availability",
+    "receipt_sha256": "20898b226499853b11298bd0a294c109e66789a7093ab24bbaebe59cf015b1ae",
+    "rows": [],
+    "schema": "oracle.noveltyforge.temporal_gate.v1",
+    "uncertain_count": 0
+  },
+  "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+  "top_collisions": [
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.0,
+        "method": 0.146326,
+        "outcome": 0.106751,
+        "problem": 0.65
+      },
+      "identifier": "https://openalex.org/W2117889403",
+      "overall_collision": 0.114177,
+      "raw_facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.0,
+        "method": 0.146326,
+        "outcome": 0.106751,
+        "problem": 0.65
+      },
+      "record_id": "https://openalex.org/W2117889403",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1939
+          ],
+          [
+            "combinatorics",
+            2.1939
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "The Combinatorics of Network Reliability",
+      "year": 1987
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.424958,
+        "mechanism": 0.0,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.653302
+      },
+      "identifier": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.3235",
+      "overall_collision": 0.113167,
+      "raw_facet_collisions": {
+        "entities": 0.424958,
+        "mechanism": 0.0,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.653302
+      },
+      "record_id": "https://openalex.org/W2184347621",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1939
+          ],
+          [
+            "combinatorics",
+            2.1939
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Additive Combinatorics and Theoretical Computer Science",
+      "year": 2009
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [],
+      "evidence_factor": 1.0,
+      "evidence_grade": "A",
+      "evidence_note": "family_elements_split_across_members",
+      "facet_collisions": {
+        "entities": 0.126183,
+        "mechanism": 0.211406,
+        "method": 0.0,
+        "outcome": 0.137586,
+        "problem": 0.0
+      },
+      "identifier": "US12087931",
+      "overall_collision": 0.112992,
+      "raw_facet_collisions": {
+        "entities": 0.126183,
+        "mechanism": 0.211406,
+        "method": 0.0,
+        "outcome": 0.137586,
+        "problem": 0.0
+      },
+      "record_id": "US12087931",
+      "shared_terms": {},
+      "source": "patent",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "HYBRID BATTERY SYSTEM WITH MULTIPLE DISCHARGE VOLTAGE PLATEAUS AND GREATER CHARGE CAPACITY OF METAL IN THE NEGATIVE ELECTRODE",
+      "year": 2020
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.0,
+        "method": 0.188593,
+        "outcome": 0.0,
+        "problem": 0.6535
+      },
+      "identifier": "10.1017/9781009310956",
+      "overall_collision": 0.102676,
+      "raw_facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.0,
+        "method": 0.188593,
+        "outcome": 0.0,
+        "problem": 0.6535
+      },
+      "record_id": "https://openalex.org/W4385690854",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1939
+          ],
+          [
+            "combinatorics",
+            2.1939
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Graph Theory and Additive Combinatorics",
+      "year": 2023
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.126183,
+        "mechanism": 0.094805,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.652288
+      },
+      "identifier": "10.1109/focs.2012.39",
+      "overall_collision": 0.102135,
+      "raw_facet_collisions": {
+        "entities": 0.126183,
+        "mechanism": 0.094805,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.652288
+      },
+      "record_id": "https://openalex.org/W1983716530",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1939
+          ],
+          [
+            "combinatorics",
+            2.1939
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "An Additive Combinatorics Approach Relating Rank to Communication Complexity",
+      "year": 2012
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.094805,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.708333
+      },
+      "identifier": "10.1007/978-3-642-14081-5_21",
+      "overall_collision": 0.089588,
+      "raw_facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.094805,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.708333
+      },
+      "record_id": "https://openalex.org/W2102883266",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1939
+          ],
+          [
+            "combinatorics",
+            2.1939
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Additive Combinatorics and Discrete Logarithm Based Range Protocols",
+      "year": 2010
+    }
+  ],
+  "version": "4.0.0",
+  "whitespace": {
+    "crowded_cells": [
+      {
+        "axis": "out-of-distribution shift",
+        "facet": "method",
+        "max_collision": 0.214184,
+        "novelty": 0.785816
+      },
+      {
+        "axis": "combination with orthogonal modality",
+        "facet": "method",
+        "max_collision": 0.206801,
+        "novelty": 0.793199
+      },
+      {
+        "axis": "pediatric population",
+        "facet": "mechanism",
+        "max_collision": 0.188097,
+        "novelty": 0.811903
+      },
+      {
+        "axis": "federated multi-site",
+        "facet": "mechanism",
+        "max_collision": 0.188097,
+        "novelty": 0.811903
+      },
+      {
+        "axis": "single-cell resolution",
+        "facet": "mechanism",
+        "max_collision": 0.188097,
+        "novelty": 0.811903
+      },
+      {
+        "axis": "prospective deployment",
+        "facet": "mechanism",
+        "max_collision": 0.188097,
+        "novelty": 0.811903
+      }
+    ],
+    "note": "coarse facet x regime map for prioritization; not an exhaustive freedom-to-operate search.",
+    "steer_toward": {
+      "axis": "real-time online closed-loop",
+      "facet": "outcome",
+      "max_collision": 0.101323,
+      "novelty": 0.898677
+    },
+    "whitespace_cells": [
+      {
+        "axis": "real-time online closed-loop",
+        "facet": "outcome",
+        "max_collision": 0.101323,
+        "novelty": 0.898677
+      },
+      {
+        "axis": "combination with orthogonal modality",
+        "facet": "outcome",
+        "max_collision": 0.101323,
+        "novelty": 0.898677
+      },
+      {
+        "axis": "out-of-distribution shift",
+        "facet": "outcome",
+        "max_collision": 0.108568,
+        "novelty": 0.891432
+      },
+      {
+        "axis": "low-dose sustained regime",
+        "facet": "outcome",
+        "max_collision": 0.112837,
+        "novelty": 0.887163
+      },
+      {
+        "axis": "geriatric frail population",
+        "facet": "outcome",
+        "max_collision": 0.112837,
+        "novelty": 0.887163
+      },
+      {
+        "axis": "pediatric population",
+        "facet": "outcome",
+        "max_collision": 0.120034,
+        "novelty": 0.879966
+      },
+      {
+        "axis": "federated multi-site",
+        "facet": "outcome",
+        "max_collision": 0.120034,
+        "novelty": 0.879966
+      },
+      {
+        "axis": "single-cell resolution",
+        "facet": "outcome",
+        "max_collision": 0.120034,
+        "novelty": 0.879966
+      },
+      {
+        "axis": "prospective deployment",
+        "facet": "outcome",
+        "max_collision": 0.120034,
+        "novelty": 0.879966
+      },
+      {
+        "axis": "resource-constrained edge",
+        "facet": "outcome",
+        "max_collision": 0.120034,
+        "novelty": 0.879966
+      }
+    ]
+  }
+}

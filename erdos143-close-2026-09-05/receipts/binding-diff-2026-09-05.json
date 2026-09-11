@@ -1,0 +1,8 @@
+{
+ "frozen_def": "def WellSeparatedSet (A : Set \u211d) : Prop := (A \u2286 (Set.Ioi (1 : \u211d))) \u2227 Set.Infinite A \u2227 Set.Countable A \u2227 (\u2200 x \u2208 A, \u2200 y \u2208 A, x \u2260 y \u2192 (\u2200 k \u2265 (1 : \u2115), 1 \u2264 |k * x - y|))",
+ "campaign_def": "def WellSeparatedSet (A : Set \u211d) : Prop := (A \u2286 (Set.Ioi (1 : \u211d))) \u2227 Set.Infinite A \u2227 Set.Countable A \u2227 (\u2200 x \u2208 A, \u2200 y \u2208 A, x \u2260 y \u2192 (\u2200 k \u2265 (1 : \u2115), 1 \u2264 |k * x - y|))",
+ "identical": true,
+ "sha256_def": "e448ffe68d921e3d2bf59f047c0adcf32fa64ab5c827a56b9c1d29168cebd837",
+ "frozen_file": "oracle/evidence/targets/lean-sources/FormalConjectures__ErdosProblems__143.lean",
+ "campaign_file": "oracle/evidence/msl-machine/campaigns/erdos143-close-2026-09-05/E143.lean"
+}

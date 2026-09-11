@@ -1,0 +1,129 @@
+{
+  "campaign": "erdos89-close-2026-09-05",
+  "utc": "2026-09-05T17:21:05Z",
+  "target": {
+    "id": "erdos:89",
+    "url": "https://www.erdosproblems.com/89",
+    "prize_usd": 500,
+    "tags": ["geometry", "distances"],
+    "canonical_statement": "Does every set of n distinct points in R^2 determine >> n/sqrt(log n) many distinct distances?",
+    "formal_file": "oracle/acquisition/formal-conjectures/FormalConjectures/ErdosProblems/89.lean",
+    "formal_tag": "@[category research open, AMS 52]"
+  },
+  "verdict": "NOT_CLOSED",
+  "verdict_detail": "The conjecture is neither proved nor disproved by this campaign. Banked: a sorry-free elementary Omega(sqrt n) lower bound (rung 1) and a sorry-free gap ledger proving rung 1 is asymptotically negligible against the target.",
+  "cannot_be_closed_by_search": {
+    "reason": "the statement quantifies over ALL n-point subsets of R^2 for ALL large n with a uniform constant; no finite configuration search is evidence about it",
+    "source": "erdosproblems.com/89 states the problem cannot be resolved with a finite computation",
+    "consequence": "NO point-configuration search was run as evidence in this campaign"
+  },
+  "literature_position": [
+    {"who": "Erdos 1946 [Er46]", "bound": "n^(1/2)", "status": "elementary; THIS is what is formalized here"},
+    {"who": "Moser 1952, Chung, Szekely, Solymosi-Toth", "bound": "n^(2/3) ... n^(6/7)", "status": "superseded"},
+    {"who": "Guth-Katz 2015 [GuKa15], Ann. of Math. 181", "bound": "n/log n", "status": "THE RECORD, unchanged"},
+    {"who": "Erdos conjecture = problem 89", "bound": "n/sqrt(log n)", "status": "OPEN"},
+    {"who": "sqrt(n) x sqrt(n) grid (Erdos/Moser)", "bound": "O(n/sqrt(log n))", "status": "shows the conjecture is best possible"}
+  ],
+  "prior_art": {
+    "tool": "python -m oracle.reality.noveltyforge.cli acquire",
+    "mission": "prior-art/nf-mission-89.json",
+    "corpus": "prior-art/nf-corpus-89.json",
+    "corpus_sha256": "8c7c9c6d5c6a9d33b80cdb251c28ef7ffaab169b038b66065105936e9b263674",
+    "acquired": 30,
+    "paper_count": 30,
+    "patent_count": 0,
+    "on_target_hits": {
+      "erdos_1946_origin": [0, 8, 9, 11, 12, 15, 16, 17],
+      "guth_katz_2015_record": [7, 18, 20],
+      "elekes_sharir_framework": [5, 21]
+    },
+    "verdict": "KNOWN_OPEN_PROBLEM; no paper in the corpus improves on n/log n in the plane",
+    "near_misses_ruled_off_target": [
+      {
+        "id": "arXiv:2601.09102",
+        "title": "Solution to a Problem of Erdos Concerning Distances and Points",
+        "author": "Benjamin Grayzel",
+        "date": "2026-01-14",
+        "why_off_target": "solves a DIFFERENT 1997 Erdos question: an n-point set with O(n/sqrt log n) distinct distances subject to every 4-point subset determining at least 3 distances; built from the lattice {(x, sqrt2*y)} with Bernays' theorem on u^2+2v^2. It is a construction on the upper-bound side of a constrained variant and says nothing about problem 89's lower bound.",
+        "provenance": "WebSearch, not the federated acquisition"
+      },
+      {
+        "id": "arXiv:2605.20695",
+        "title": "Remarks on the disproof of the unit distance conjecture",
+        "date": "2026-05",
+        "why_off_target": "unit distances is a different Erdos problem; the distinct-distances lower bound is untouched",
+        "provenance": "WebSearch, not the federated acquisition"
+      }
+    ]
+  },
+  "statement_firewall": {
+    "checked": "minimalDistinctDistances returns Nat but its set-builder body is cast to R",
+    "result": "PASS - not a defect",
+    "elaborated_form": "fun n => sInf {x : Nat | exists points, exists (_ : #points = n), (distinctDistances points : R) = (x : R)}",
+    "why_inert": "Nat.cast injectivity; it is a Nat.sInf over a Set Nat",
+    "proved_in_file_as": "minimalDistinctDistances_eq_natSInf",
+    "receipt": "receipts/probe1.definition-elaboration.log",
+    "defs_transcribed_verbatim_from": "oracle/acquisition/formal-conjectures/FormalConjecturesForMathlib/Geometry/2d.lean"
+  },
+  "banked_results": [
+    {
+      "rung": 1,
+      "file": "kernel/Erdos89Rung1.lean",
+      "sha256": "68c2bc5b9b21ab5fc078963f8e6baebc18acfb6c462b17b266c3bae63f5b589a",
+      "headline": "sqrt_isBigO_minimalDistinctDistances : (fun n => Real.sqrt n) =O[atTop] (fun n => (minimalDistinctDistances n : R))",
+      "proof_idea": "Erdos 1946 pigeonhole: fix p != q; x |-> (dist x p, dist x q) maps P\\{p,q} into D x D and every fibre has at most 2 elements (two circles with distinct centres meet twice), so #P - 2 <= 2|D|^2.",
+      "load_bearing_mathlib_primitive": "EuclideanGeometry.eq_of_dist_eq_of_dist_eq_of_finrank_eq_two",
+      "sorry_free": true,
+      "native_decide": false,
+      "exit_code": 0
+    },
+    {
+      "rung": "gap ledger",
+      "file": "kernel/Erdos89Gap.lean",
+      "sha256": "e0e9c9a20257db9f3b59aa2c841362faae0139a5e3aff6977b9711206d5f53f1",
+      "headline": "sqrt_isLittleO_target : (fun n => Real.sqrt n) =o[atTop] (fun n => n / Real.sqrt (Real.log n))",
+      "purpose": "rung 1 is STRICTLY and asymptotically negligibly below the target; target_implies_rung1 shows rung 1 is a NECESSARY CONSEQUENCE of the conjecture, i.e. consistency and not evidence",
+      "sorry_free": true,
+      "native_decide": false,
+      "exit_code": 0
+    }
+  ],
+  "grid_measurement": {
+    "label": "CONSTRUCTION MEASUREMENT, NOT EVIDENCE for the lower bound",
+    "tool": "compute/grid_dd.py",
+    "results": "compute/grid_dd_results.json",
+    "results_sha256": "0025ed7189faf4b26588a3d1defd69fdcd6c114cd6ddddf50f029c3fce3a364b",
+    "arithmetic": "exact integers for the count (distinct values of a^2+b^2); floats only in the benchmark ratios",
+    "range": "k = 2..120, n = k^2",
+    "finding": "D(grid) / (n/sqrt(log n)) is FLAT at ~1.11 across k=20..120 (a 36x range of n), while D/(n/log n) grows 2.68 -> 3.43 and D/sqrt(n) grows 8.95 -> 42.98",
+    "interpretation": "the grid tracks n/sqrt(log n) (the conjectured order), sits a growing factor ABOVE n/log n (Guth-Katz has room), and runs away from sqrt n (rung 1 is nowhere near). Consistent with n/sqrt(log n) being the right order; NOT evidence for the lower bound.",
+    "sample_rows": [
+      {"k": 10, "n": 100, "D": 50, "D_over_n_sqrt_log": 1.0730, "D_over_n_log": 2.3026, "D_over_sqrt_n": 5.0},
+      {"k": 40, "n": 1600, "D": 652, "D_over_n_sqrt_log": 1.1069, "D_over_n_log": 3.0064, "D_over_sqrt_n": 16.3},
+      {"k": 80, "n": 6400, "D": 2396, "D_over_n_sqrt_log": 1.1083, "D_over_n_log": 3.2810, "D_over_sqrt_n": 29.95},
+      {"k": 120, "n": 14400, "D": 5158, "D_over_n_sqrt_log": 1.1084, "D_over_n_log": 3.4297, "D_over_sqrt_n": 42.98}
+    ]
+  },
+  "explicitly_not_proved": [
+    "erdos_89 (the open conjecture)",
+    "erdos_89.variants.n_dvd_log_n (Guth-Katz n/log n)",
+    "erdos_89.variants.grid_upper_bound (needs Landau-Ramanujan, absent from Mathlib)",
+    "All three sorry's in the upstream 89.lean remain sorry; this campaign did not touch that file."
+  ],
+  "next_rung_ordered_by_cost": [
+    {"rank": 1, "target": "erdos_89.variants.grid_upper_bound", "note": "already-solved mathematics, still sorry upstream. Single missing primitive: the << half of Landau-Ramanujan, #{m <= N : m = a^2+b^2} << N/sqrt(log N). Not in Mathlib. HIGHEST-VALUE REACHABLE TARGET; it is a number-theory job, not a geometry one."},
+    {"rank": 2, "target": "Moser 1952 n^(2/3)", "note": "next genuine geometric rung; needs a strip/hull argument"},
+    {"rank": 3, "target": "Solymosi-Toth n^(6/7)", "note": "needs Szemeredi-Trotter i.e. the crossing lemma; large"},
+    {"rank": 4, "target": "Guth-Katz n/log n", "note": "polynomial partitioning + ruled surfaces; out of reach"},
+    {"rank": 5, "target": "the conjecture itself", "note": "the sqrt(log n) is lost in the degenerate many-points-on-a-line case of the Elekes-Sharir reduction; believed to need a new idea, not an engineering gap"}
+  ],
+  "build_environment": {
+    "host": "root@51.158.234.15 (rented box)",
+    "lean": "Lean 4.31.0-rc1, commit fd009949156901e6cf15b6d9bf1122294b8e697a",
+    "toolchain": "leanprover/lean4:v4.31.0-rc1",
+    "mathlib_rev": "919544d4309104b3f19724b0e6e48c701d27948f",
+    "compute_policy": "nice -n 19, taskset 2 cores, no existing jobs killed",
+    "verification_mode": "clean-room rebuild from the banked bytes; the sha256 in receipts/VERIFY.cleanroom.log is the sha256 of the file banked here",
+    "receipt": "receipts/VERIFY.cleanroom.log"
+  }
+}

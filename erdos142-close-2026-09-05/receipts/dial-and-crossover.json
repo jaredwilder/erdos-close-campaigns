@@ -1,0 +1,280 @@
+{
+  "tool": "dial_and_crossover.py",
+  "tool_sha256": "b1abb33c84bd7bdd3d2334edd3f7e279db6a1c7a6787a171a2ee4d1374f319eb",
+  "input_bfile": "receipts/b003002-oeis.txt",
+  "input_bfile_sha256": "6efd1e6a5cb92fe76610b089d1b289628038e3b503873b52e4979cb1e499d971",
+  "input_rows": 212,
+  "published_index_max": 211,
+  "lemma": "rothNumberNat (p+1) * rothNumberNat (q+1) <= rothNumberNat (2*p*q+p+q+1)",
+  "validation": {
+    "pairs_checked_against_published_values": 796,
+    "violations": [],
+    "verdict": "CONSISTENT",
+    "tight_cases_count": 58,
+    "tight_cases_sample": [
+      {
+        "p": 1,
+        "q": 1,
+        "m": 2,
+        "n": 2,
+        "N": 5,
+        "value": 4
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "m": 2,
+        "n": 3,
+        "N": 8,
+        "value": 4
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "m": 2,
+        "n": 4,
+        "N": 11,
+        "value": 6
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "m": 2,
+        "n": 5,
+        "N": 14,
+        "value": 8
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "m": 2,
+        "n": 6,
+        "N": 17,
+        "value": 8
+      },
+      {
+        "p": 1,
+        "q": 12,
+        "m": 2,
+        "n": 13,
+        "N": 38,
+        "value": 14
+      },
+      {
+        "p": 1,
+        "q": 13,
+        "m": 2,
+        "n": 14,
+        "N": 41,
+        "value": 16
+      },
+      {
+        "p": 1,
+        "q": 14,
+        "m": 2,
+        "n": 15,
+        "N": 44,
+        "value": 16
+      },
+      {
+        "p": 1,
+        "q": 15,
+        "m": 2,
+        "n": 16,
+        "N": 47,
+        "value": 16
+      },
+      {
+        "p": 1,
+        "q": 16,
+        "m": 2,
+        "n": 17,
+        "N": 50,
+        "value": 16
+      },
+      {
+        "p": 1,
+        "q": 25,
+        "m": 2,
+        "n": 26,
+        "N": 77,
+        "value": 22
+      },
+      {
+        "p": 1,
+        "q": 26,
+        "m": 2,
+        "n": 27,
+        "N": 80,
+        "value": 22
+      }
+    ]
+  },
+  "dial": {
+    "theta_formula": "ln(r3(m)) / ln(2m-1)",
+    "classical_base3_exponent_log2_over_log3": 0.6309297535714574,
+    "seeds_beating_classical": [],
+    "seeds_attaining_classical": [
+      {
+        "m": 2,
+        "r3_m": 2,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 5,
+        "r3_m": 4,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 14,
+        "r3_m": 8,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 41,
+        "r3_m": 16,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 122,
+        "r3_m": 32,
+        "theta": 0.6309297535714574
+      }
+    ],
+    "top_15_seeds": [
+      {
+        "m": 2,
+        "r3_m": 2,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 5,
+        "r3_m": 4,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 14,
+        "r3_m": 8,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 41,
+        "r3_m": 16,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 122,
+        "r3_m": 32,
+        "theta": 0.6309297535714574
+      },
+      {
+        "m": 174,
+        "r3_m": 40,
+        "theta": 0.6306504755489828
+      },
+      {
+        "m": 175,
+        "r3_m": 40,
+        "theta": 0.6300314501903399
+      },
+      {
+        "m": 123,
+        "r3_m": 32,
+        "theta": 0.6299896805710113
+      },
+      {
+        "m": 169,
+        "r3_m": 39,
+        "theta": 0.6294689766401397
+      },
+      {
+        "m": 176,
+        "r3_m": 40,
+        "theta": 0.6294171657966499
+      },
+      {
+        "m": 124,
+        "r3_m": 32,
+        "theta": 0.6290600137511692
+      },
+      {
+        "m": 170,
+        "r3_m": 39,
+        "theta": 0.6288296564719593
+      },
+      {
+        "m": 177,
+        "r3_m": 40,
+        "theta": 0.6288075581958086
+      },
+      {
+        "m": 178,
+        "r3_m": 40,
+        "theta": 0.6282025644522163
+      },
+      {
+        "m": 171,
+        "r3_m": 39,
+        "theta": 0.6281953829488225
+      }
+    ],
+    "verdict": "PINNED: no published exact value (n <= 211) yields an exponent above log2/log3; equality exactly at the Szekeres points (3^k+1)/2."
+  },
+  "crossover_vs_mathlib_behrend_stated_bound": {
+    "mathlib_lemma": "Behrend.roth_lower_bound : N * exp(-4*sqrt(log N)) <= rothNumberNat N",
+    "family": "N_j = (27^j+1)/2, our bound 8^j",
+    "first_j_where_behrend_stated_form_overtakes": 37,
+    "digits_of_N_at_crossover": 53,
+    "small_j_table": [
+      {
+        "j": 0,
+        "N": 1,
+        "ours": 1,
+        "behrend_stated": 1.0,
+        "ours_wins": false
+      },
+      {
+        "j": 1,
+        "N": 14,
+        "ours": 8,
+        "behrend_stated": 0.02127012453053415,
+        "ours_wins": true
+      },
+      {
+        "j": 2,
+        "N": 365,
+        "ours": 64,
+        "behrend_stated": 0.02201070406258299,
+        "ours_wins": true
+      },
+      {
+        "j": 3,
+        "N": 9842,
+        "ours": 512,
+        "behrend_stated": 0.05315622439312059,
+        "ours_wins": true
+      },
+      {
+        "j": 4,
+        "N": 265721,
+        "ours": 4096,
+        "behrend_stated": 0.1927443274536191,
+        "ours_wins": true
+      },
+      {
+        "j": 5,
+        "N": 7174454,
+        "ours": 32768,
+        "behrend_stated": 0.898865958194549,
+        "ours_wins": true
+      },
+      {
+        "j": 6,
+        "N": 193710245,
+        "ours": 262144,
+        "behrend_stated": 4.996572860512225,
+        "ours_wins": true
+      }
+    ]
+  }
+}

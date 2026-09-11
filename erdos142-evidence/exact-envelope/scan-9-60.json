@@ -1,0 +1,108 @@
+{
+ "allProven": false,
+ "attack": {
+  "kind": "sequence_scan",
+  "params": {
+   "from_n": 9,
+   "relations": [
+    {
+     "allow_repeats": false,
+     "coeffs": [
+      1,
+      -2,
+      1
+     ],
+     "ordered": true,
+     "rhs": 0
+    }
+   ],
+   "target_id": "erdos:142",
+   "to_n": 60
+  }
+ },
+ "budget_seconds": 600.0,
+ "claim_ceiling": "EXECUTED",
+ "claim_floor": "exact r_3(n) proven for n=9..52 in 4/4 trials; n=53,54 proven in 3/4",
+ "envelope_max_n": 54,
+ "envelope_variance": {
+  "budget_seconds": 600.0,
+  "finding": "the proven-optimality envelope is WALL-CLOCK DEPENDENT, not a fixed n. The slowest trial (144.9s) proved through n=52; three faster trials (134-137s) proved through n=54.",
+  "max_proven_n_observed": [
+   52,
+   54,
+   54,
+   54
+  ],
+  "proven_count_observed": [
+   44,
+   46,
+   46,
+   46
+  ],
+  "stable_across_all_trials": "the 52 SIZE values for n=9..60 were byte-identical in every trial; only the optimalityProven boundary moved.",
+  "stable_floor_max_proven_n": 52,
+  "trials": 4
+ },
+ "first_unproven_n": 55,
+ "lower_bounds_only": {
+  "55": 18,
+  "56": 18,
+  "57": 18,
+  "58": 19,
+  "59": 19,
+  "60": 19
+ },
+ "note": "rows with optimalityProven=False are LOWER BOUNDS, not sequence terms.",
+ "proven_count": 46,
+ "proven_exact": {
+  "10": 5,
+  "11": 6,
+  "12": 6,
+  "13": 7,
+  "14": 8,
+  "15": 8,
+  "16": 8,
+  "17": 8,
+  "18": 8,
+  "19": 8,
+  "20": 9,
+  "21": 9,
+  "22": 9,
+  "23": 9,
+  "24": 10,
+  "25": 10,
+  "26": 11,
+  "27": 11,
+  "28": 11,
+  "29": 11,
+  "30": 12,
+  "31": 12,
+  "32": 13,
+  "33": 13,
+  "34": 13,
+  "35": 13,
+  "36": 14,
+  "37": 14,
+  "38": 14,
+  "39": 14,
+  "40": 15,
+  "41": 16,
+  "42": 16,
+  "43": 16,
+  "44": 16,
+  "45": 16,
+  "46": 16,
+  "47": 16,
+  "48": 16,
+  "49": 16,
+  "50": 16,
+  "51": 17,
+  "52": 17,
+  "53": 17,
+  "54": 18,
+  "9": 5
+ },
+ "receipt_hash": "69ad21c27348dba7c9a69854e15976e356c95caf666547cb4c8263ce2c0429c8",
+ "schema": "oracle.erdos142.exact-envelope.v1",
+ "seconds": 137.1
+}

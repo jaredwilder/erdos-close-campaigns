@@ -1,0 +1,26 @@
+{
+  "state": "PROVED",
+  "target": {
+    "family": "srg",
+    "params": [
+      5,
+      4,
+      3,
+      0
+    ],
+    "label": "srg:5,4,3,0",
+    "statement": "\u2203 \u03b1 : Type*, \u2203 G : SimpleGraph \u03b1, G.IsSRGWith 5 4 3 0"
+  },
+  "route": "verified-construction:completeGraph(K5)",
+  "certificate": {
+    "kind": "explicit-graph",
+    "constructor": "completeGraph(K5)",
+    "checker": "kernel.independent-checker",
+    "detail": "verified SRG(5,4,3,0) on the actual graph",
+    "vertexCount": 5
+  },
+  "lean_proof_term": "by exact SimpleGraph.IsSRGWith.top",
+  "notes": [
+    "Concrete adjacency was independently checked before promotion."
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "component": 668150,
+  "size": 527230,
+  "bladeNodes": 2891,
+  "srgNodes": 2891,
+  "conferenceCandidates": 71,
+  "conferenceMaterialized": 71,
+  "mathlibNodes": 500666,
+  "formalPropositionBridges": 1,
+  "composableExits": 0,
+  "exitSample": [],
+  "status": "MERGED_WITH_MATHLIB",
+  "candidates": [
+    {
+      "srg": "srg:1017,508,253,254",
+      "conference": "conference:1018",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1025,512,255,256",
+      "conference": "conference:1026",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1037,518,258,259",
+      "conference": "conference:1038",
+      "materialized": true
+    },
+    {
+      "srg": "srg:117,58,28,29",
+      "conference": "conference:118",
+      "materialized": true
+    },
+    {
+      "srg": "srg:145,72,35,36",
+      "conference": "conference:146",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1053,526,262,263",
+      "conference": "conference:1054",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1073,536,267,268",
+      "conference": "conference:1074",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1089,544,271,272",
+      "conference": "conference:1090",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1105,552,275,276",
+      "conference": "conference:1106",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1125,562,280,281",
+      "conference": "conference:1126",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1145,572,285,286",
+      "conference": "conference:1146",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1157,578,288,289",
+      "conference": "conference:1158",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1165,582,290,291",
+      "conference": "conference:1166",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1189,594,296,297",
+      "conference": "conference:1190",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1205,602,300,301",
+      "conference": "conference:1206",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1233,616,307,308",
+      "conference": "conference:1234",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1241,620,309,310",
+      "conference": "conference:1242",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1261,630,314,315",
+      "conference": "conference:1262",
+      "materialized": true
+    },
+    {
+      "srg": "srg:1285,642,320,321",
+      "conference": "conference:1286",
+      "materialized": true
+    },
+    {
+      "srg": "srg:153,76,37,38",
+      "conference": "conference:154",
+      "materialized": true
+    },
+    {
+      "srg": "srg:185,92,45,46",
+      "conference": "conference:186",
+      "materialized": true
+    },
+    {
+      "srg": "srg:205,102,50,51",
+      "conference": "conference:206",
+      "materialized": true
+    },
+    {
+      "srg": "srg:221,110,54,55",
+      "conference": "conference:222",
+      "materialized": true
+    },
+    {
+      "srg": "srg:245,122,60,61",
+      "conference": "conference:246",
+      "materialized": true
+    },
+    {
+      "srg": "srg:261,130,64,65",
+      "conference": "conference:262",
+      "materialized": true
+    },
+    {
+      "srg": "srg:265,132,65,66",
+      "conference": "conference:266",
+      "materialized": true
+    },
+    {
+      "srg": "srg:305,152,75,76",
+      "conference": "conference:306",
+      "materialized": true
+    },
+    {
+      "srg": "srg:325,162,80,81",
+      "conference": "conference:326",
+      "materialized": true
+    },
+    {
+      "srg": "srg:333,166,82,83",
+      "conference": "conference:334",
+      "materialized": true
+    },
+    {
+      "srg": "srg:365,182,90,91",
+      "conference": "conference:366",
+      "materialized": true
+    },
+    {
+      "srg": "srg:369,184,91,92",
+      "conference": "conference:370",
+      "materialized": true
+    },
+    {
+      "srg": "srg:377,188,93,94",
+      "conference": "conference:378",
+      "materialized": true
+    },
+    {
+      "srg": "srg:405,202,100,101",
+      "conference": "conference:406",
+      "materialized": true
+    },
+    {
+      "srg": "srg:425,212,105,106",
+      "conference": "conference:426",
+      "materialized": true
+    },
+    {
+      "srg": "srg:445,222,110,111",
+      "conference": "conference:446",
+      "materialized": true
+    },
+    {
+      "srg": "srg:477,238,118,119",
+      "conference": "conference:478",
+      "materialized": true
+    },
+    {
+      "srg": "srg:481,240,119,120",
+      "conference": "conference:482",
+      "materialized": true
+    },
+    {
+      "srg": "srg:485,242,120,121",
+      "conference": "conference:486",
+      "materialized": true
+    },
+    {
+      "srg": "srg:493,246,122,123",
+      "conference": "conference:494",
+      "materialized": true
+    },
+    {
+      "srg": "srg:505,252,125,126",
+      "conference": "conference:506",
+      "materialized": true
+    },
+    {
+      "srg": "srg:533,266,132,133",
+      "conference": "conference:534",
+      "materialized": true
+    },
+    {
+      "srg": "srg:545,272,135,136",
+      "conference": "conference:546",
+      "materialized": true
+    },
+    {
+      "srg": "srg:549,274,136,137",
+      "conference": "conference:550",
+      "materialized": true
+    },
+    {
+      "srg": "srg:85,42,20,21",
+      "conference": "conference:86",
+      "materialized": true
+    },
+    {
+      "srg": "srg:565,282,140,141",
+      "conference": "conference:566",
+      "materialized": true
+    },
+    {
+      "srg": "srg:585,292,145,146",
+      "conference": "conference:586",
+      "materialized": true
+    },
+    {
+      "srg": "srg:605,302,150,151",
+      "conference": "conference:606",
+      "materialized": true
+    },
+    {
+      "srg": "srg:629,314,156,157",
+      "conference": "conference:630",
+      "materialized": true
+    },
+    {
+      "srg": "srg:637,318,158,159",
+      "conference": "conference:638",
+      "materialized": true
+    },
+    {
+      "srg": "srg:657,328,163,164",
+      "conference": "conference:658",
+      "materialized": true
+    },
+    {
+      "srg": "srg:685,342,170,171",
+      "conference": "conference:686",
+      "materialized": true
+    },
+    {
+      "srg": "srg:689,344,171,172",
+      "conference": "conference:690",
+      "materialized": true
+    },
+    {
+      "srg": "srg:697,348,173,174",
+      "conference": "conference:698",
+      "materialized": true
+    },
+    {
+      "srg": "srg:725,362,180,181",
+      "conference": "conference:726",
+      "materialized": true
+    },
+    {
+      "srg": "srg:745,372,185,186",
+      "conference": "conference:746",
+      "materialized": true
+    },
+    {
+      "srg": "srg:765,382,190,191",
+      "conference": "conference:766",
+      "materialized": true
+    },
+    {
+      "srg": "srg:785,392,195,196",
+      "conference": "conference:786",
+      "materialized": true
+    },
+    {
+      "srg": "srg:793,396,197,198",
+      "conference": "conference:794",
+      "materialized": true
+    },
+    {
+      "srg": "srg:801,400,199,200",
+      "conference": "conference:802",
+      "materialized": true
+    },
+    {
+      "srg": "srg:833,416,207,208",
+      "conference": "conference:834",
+      "materialized": true
+    },
+    {
+      "srg": "srg:845,422,210,211",
+      "conference": "conference:846",
+      "materialized": true
+    },
+    {
+      "srg": "srg:865,432,215,216",
+      "conference": "conference:866",
+      "materialized": true
+    },
+    {
+      "srg": "srg:873,436,217,218",
+      "conference": "conference:874",
+      "materialized": true
+    },
+    {
+      "srg": "srg:901,450,224,225",
+      "conference": "conference:902",
+      "materialized": true
+    },
+    {
+      "srg": "srg:905,452,225,226",
+      "conference": "conference:906",
+      "materialized": true
+    },
+    {
+      "srg": "srg:909,454,226,227",
+      "conference": "conference:910",
+      "materialized": true
+    },
+    {
+      "srg": "srg:925,462,230,231",
+      "conference": "conference:926",
+      "materialized": true
+    },
+    {
+      "srg": "srg:949,474,236,237",
+      "conference": "conference:950",
+      "materialized": true
+    },
+    {
+      "srg": "srg:965,482,240,241",
+      "conference": "conference:966",
+      "materialized": true
+    },
+    {
+      "srg": "srg:981,490,244,245",
+      "conference": "conference:982",
+      "materialized": true
+    },
+    {
+      "srg": "srg:985,492,245,246",
+      "conference": "conference:986",
+      "materialized": true
+    }
+  ]
+}

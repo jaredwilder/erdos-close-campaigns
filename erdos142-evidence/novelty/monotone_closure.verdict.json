@@ -1,0 +1,2967 @@
+{
+  "admissibility": {
+    "admissible": false,
+    "patent_axis": {
+      "live": true,
+      "reason": "paper_only_target_no_patent_axis_asserted"
+    },
+    "reasons": [
+      "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+    ],
+    "verdict": "NOVELTY_INADMISSIBLE"
+  },
+  "adversarial_flags": [],
+  "adversarial_review": {
+    "flags": [],
+    "review_hash": "d8572c280467c7fba8182688c283f7c6761806b78c4761edc51e2cf2953d2c38",
+    "reviewer_summary": "Novelty verdict is corpus-grounded, facet-localized, and (where crowded) shipped with a measured pivot.",
+    "verdict": "NOVELTYFORGE_V1_ADVERSARIAL_REVIEW_GREEN"
+  },
+  "anticipation": {
+    "clear_core_facets": [
+      "mechanism",
+      "method",
+      "outcome"
+    ],
+    "crowded_core_facets": [],
+    "mosaic_obviousness": {
+      "core_facets_anticipated": [],
+      "distinct_references_needed": [],
+      "is_risk": false
+    },
+    "per_facet": [
+      {
+        "anticipated": false,
+        "facet": "mechanism",
+        "is_core": true,
+        "max_collision": 0.162446,
+        "nearest_prior_art": "https://openalex.org/W1983716530",
+        "novelty": 0.837554
+      },
+      {
+        "anticipated": false,
+        "facet": "method",
+        "is_core": true,
+        "max_collision": 0.240113,
+        "nearest_prior_art": "10.1145/3564246.3585240",
+        "novelty": 0.759887
+      },
+      {
+        "anticipated": false,
+        "facet": "outcome",
+        "is_core": true,
+        "max_collision": 0.344199,
+        "nearest_prior_art": "https://openalex.org/W1983716530",
+        "novelty": 0.655801
+      },
+      {
+        "anticipated": true,
+        "facet": "problem",
+        "is_core": false,
+        "max_collision": 0.825,
+        "nearest_prior_art": "https://openalex.org/W4253314034",
+        "novelty": 0.175
+      },
+      {
+        "anticipated": false,
+        "facet": "entities",
+        "is_core": false,
+        "max_collision": 0.438972,
+        "nearest_prior_art": "https://openalex.org/W2184347621",
+        "novelty": 0.561028
+      }
+    ],
+    "shape": "clear_core",
+    "single_reference_anticipation": null,
+    "summary": "No core facet is anticipated by the corpus."
+  },
+  "claim": "The certified lower-bound set for r_3 (max size of a 3-AP-free subset of {1..n}) is not closed under monotonicity, so taking the running maximum strictly improves banked bounds, e.g. r_3(80)>=19 supersedes r_3(80)>=15.",
+  "claim_chart": {
+    "claim_grounded": true,
+    "core_elements_disclosed": 0,
+    "core_elements_total": 3,
+    "evidence_note": "non_patent_reference",
+    "reference": {
+      "identifier": "10.1109/focs.2012.39",
+      "overall_collision": 0.248986,
+      "record_id": "https://openalex.org/W1983716530",
+      "source": "paper",
+      "title": "An Additive Combinatorics Approach Relating Rank to Communication Complexity",
+      "year": 2012
+    },
+    "rows": [
+      {
+        "claim_facet": "mechanism",
+        "claim_grounded": true,
+        "claim_text": "monotone closure of a certified bound ledger for an extremal function",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.162446,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "method",
+        "claim_grounded": true,
+        "claim_text": "running-maximum sweep over certified lower bounds indexed by n",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.21319,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "outcome",
+        "claim_grounded": true,
+        "claim_text": "strictly improved lower bounds obtained with no new search",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.344199,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "problem",
+        "claim_grounded": true,
+        "claim_text": "additive combinatorics",
+        "element_disclosed": true,
+        "is_core": false,
+        "prior_art_collision": 0.652288,
+        "shared_distinctive_terms": [
+          "additive",
+          "combinatorics"
+        ],
+        "text_overlap": true
+      },
+      {
+        "claim_facet": "entities",
+        "claim_grounded": true,
+        "claim_text": "3-AP-free subsets of the first n integers",
+        "element_disclosed": false,
+        "is_core": false,
+        "prior_art_collision": 0.12011,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      }
+    ],
+    "single_reference_anticipation": false,
+    "verdict": "reference_discloses_some_elements"
+  },
+  "core_novelty": 0.763242,
+  "corpus_provenance": {
+    "acquired_utc": "2026-08-04T15:31:45Z",
+    "acquisition_output_file_sha256": "688ee8f669d8e23eab9e207dff6c2505896e13b78d9f23ac79be161cad986d3e",
+    "acquisition_snapshot_sha256": "d49565d04fa45f23d665d06e34a1a339b0d2ca866a3315715cdc319dc9d3663d",
+    "binding_receipt_sha256": "d8ce2deff68965592ad4573a50d1ce54c620844400fc5b62224097bdb2586b9c",
+    "corpus_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\corpus_97c6a45e34d857b5b5ebfd28ea3f20bf.json",
+    "corpus_sha256": "43f5d344f31b196683b78f7e38dbc8ca7d529f5fe6060f3fec86650fe961f7dd",
+    "family_summary": {
+      "double_count_prevented": 0,
+      "family_count": 62,
+      "patent_records": 62,
+      "receipt_sha256": "2f8e7f0455e92b3946becae75abb093a276a423c9504298e8bd3a53105cc1ce9",
+      "unique_structure_count": 0
+    },
+    "independent_quotas": {
+      "paper_quota_met": true,
+      "patent_quota_met": true,
+      "required_papers": 0,
+      "required_patents": 0,
+      "status": "COMPLETE"
+    },
+    "paper_count": 30,
+    "paper_queries": [
+      "additive combinatorics",
+      "certified lower-bound set max size 3-ap-free subset monotonicity taking running maximum strictly improves banked bounds 80 19",
+      "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers",
+      "monotone closure certified bound ledger extremal function additive combinatorics",
+      "monotone closure certified bound ledger extremal function running-maximum sweep lower bounds indexed",
+      "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search",
+      "running-maximum sweep certified lower bounds indexed 3-ap-free subsets first integers",
+      "running-maximum sweep certified lower bounds indexed additive combinatorics",
+      "running-maximum sweep certified lower bounds indexed strictly improved obtained search",
+      "strictly improved lower bounds obtained search 3-ap-free subsets first integers",
+      "strictly improved lower bounds obtained search additive combinatorics"
+    ],
+    "paper_retrieval": {
+      "all_provider_attempts_succeeded": true,
+      "attempts": [
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 34387,
+            "body_sha256": "a7560babb89f30d80110376a9ea77ca9e77b320b3660bca4a32c51ffc9647a2a",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 930.668,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "b10b34732f88037ce8e6bec9fe573e95a2db7fdb9f2cbe5f575f625bd2a89cd0",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 313070,
+            "body_sha256": "bdb5d7fbccf50088ab6dc9bd8290acb202232ce9089b3e5b3c0ab744a4742861",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1893.755,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "fcf859cb60b1120b8e23305cc9d10f74004a0b520e61e11b2603419b24939484",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 124076,
+            "body_sha256": "e186cef48b108f5b7245c6ff7953ad1d1789b4135bbf287206d8da9cb13ed23f",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 747.253,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "e62897c86637b20757898802e8f2fe4bebe549de0543f0662b53470c8601233f",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "certified lower-bound set max size 3-ap-free subset monotonicity taking running maximum strictly improves banked bounds 80 19",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 26672,
+            "body_sha256": "57021e79671d278c10ee4b10831f7021394d406268b586ce90ac0e09bf52846f",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 801.731,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "f3e9bf2346ad2abcd6f79208a9f6ed79f8578f9b106f83bcca9b33b6255ae036",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=certified+lower-bound+set+max+size+3-ap-free+subset+monotonicity+taking+running+maximum+strictly+improves+banked+bounds+80+19&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 7,
+          "provider": "openalex",
+          "query": "certified lower-bound set max size 3-ap-free subset monotonicity taking running maximum strictly improves banked bounds 80 19",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 113880,
+            "body_sha256": "fdae578efcfda545708d581bfcfb62c18cc9c7b0eb2826211e84581c46b80c80",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1537.308,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "9875e5142be4689f667b076f4d2485cd4dc8cac5bc08b541c95fa727d3b248a9",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=certified+lower-bound+set+max+size+3-ap-free+subset+monotonicity+taking+running+maximum+strictly+improves+banked+bounds+80+19&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "certified lower-bound set max size 3-ap-free subset monotonicity taking running maximum strictly improves banked bounds 80 19",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 288,
+            "body_sha256": "711999348106c0e2f632241cde129787d196f2e881792752e98441e6e3d38e2e",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 535.814,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "ab8ac3acadef41d3f28f4fb923d3dea6b7aec747e10382fc437d4f3cb6bdc78d",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=certified+lower-bound+set+max+size+3-ap-free+subset+monotonicity+taking+running+maximum+strictly+improves+banked+bounds+80+19&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "crossref",
+          "query": "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 31759,
+            "body_sha256": "b899f7e78feda5a0256a86820d320b873eb7fd0a1a8415500df4227a18fc03f2",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 799.09,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "bb972f673a98631fc0c17822fb4ad7511f3e07d69eae5a4e98b8bb3cc95bf929",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=monotone+closure+certified+bound+ledger+extremal+function+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "openalex",
+          "query": "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 11836,
+            "body_sha256": "05e06d7c25ce081d42dc629c2346f6b6a0acff6ac55fe7d356eddcc5f199a117",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1305.896,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "ba0612a2f835b281dec74d69c3d9c8682e346dd66ef0a81625c4b3105bbf1e62",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=monotone+closure+certified+bound+ledger+extremal+function+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 253,
+            "body_sha256": "b7dc9bc49d594116997f2739e3ce25b319b57164c990cff13ab5e4dc0aeb7634",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 525.463,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "28a6497970138947cab941a7e688274dd61e710f679e204a751dcb6aa1a5e22b",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=monotone+closure+certified+bound+ledger+extremal+function+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "monotone closure certified bound ledger extremal function additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 27346,
+            "body_sha256": "888626765ba834a4320e585bd80ebea15b7d3abef830e348b4a051b069d880ed",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 804.695,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "c8abd1a31a95795bcfe6e29995fea5f72cc7b6ea63e0e911eba141b1ffc057db",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=monotone+closure+certified+bound+ledger+extremal+function+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 5,
+          "provider": "openalex",
+          "query": "monotone closure certified bound ledger extremal function additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 72293,
+            "body_sha256": "7b69793ba5185136252821da184caa12d37175cd24e5bf48e6a63de6c2f569b4",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1589.751,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "d78c3426ff71a28b9f9cf3b674aa1b0398d317a0b458c03bf23d446fe52e0a58",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=monotone+closure+certified+bound+ledger+extremal+function+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "monotone closure certified bound ledger extremal function additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 243,
+            "body_sha256": "8f8d3b9a89c2b3b7982310409438135b08c345683777866a1abcacea697bc435",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 522.868,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "127f385223af34665ca11b8ae2df9097efb7fe2777089f8034bc01ecfbe206db",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=monotone+closure+certified+bound+ledger+extremal+function+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "monotone closure certified bound ledger extremal function running-maximum sweep lower bounds indexed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 34519,
+            "body_sha256": "c8ce07511a855b776fea15b67b0988fce5731ce9f3bff0d80ceff1a06bc9cd9b",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 445.545,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "bac78d7a7a9f9db5a37be712190ecbb841b5351f94051f464182088b63e74bb1",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=monotone+closure+certified+bound+ledger+extremal+function+running-maximum+sweep+lower+bounds+indexed&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 5,
+          "provider": "openalex",
+          "query": "monotone closure certified bound ledger extremal function running-maximum sweep lower bounds indexed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 69568,
+            "body_sha256": "5f16263f1ba011cec9a251245dd12417f613c7ef94b34b5a8c7526ca71ba53e7",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1068.78,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "4131b110359fff98b81dc2884a3e69baa0821b4940138ced80bbf2e6493f757c",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=monotone+closure+certified+bound+ledger+extremal+function+running-maximum+sweep+lower+bounds+indexed&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "monotone closure certified bound ledger extremal function running-maximum sweep lower bounds indexed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 263,
+            "body_sha256": "462846d1d5120a561bd364e2286e25c407b619501ecfeef16046261871d354e1",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 242.445,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "0c4a0998d65b25e64375ca0f321c259647eae468f9628baae73639fa21d38184",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=monotone+closure+certified+bound+ledger+extremal+function+running-maximum+sweep+lower+bounds+indexed&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 27155,
+            "body_sha256": "8c5a845e2dabac2c97a5ef99fead902838845b721b7657bfbf3b113404b66041",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 538.167,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "2e2decc314fb30588542e32a512e014f01fd25ec807cc8dae62c75df457fe1ea",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=monotone+closure+certified+bound+ledger+extremal+function+strictly+improved+lower+bounds+obtained+search&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 5,
+          "provider": "openalex",
+          "query": "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 66872,
+            "body_sha256": "8ae804ba87601bf36498fdb18ede83b32a0a145682f4ddee5d0180e7ad6cbfda",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 865.611,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "53cb253177750e75dbb7cca542af74ec49ea1ad5d499f5abc17fcbbebc6c2084",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=monotone+closure+certified+bound+ledger+extremal+function+strictly+improved+lower+bounds+obtained+search&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 267,
+            "body_sha256": "929547b49b00cdb287047170c79c8aa497e80e7c93c2769bcdf51d84804775b3",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 994.082,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "ba1d532e43d9bd5273bd02ef812186fbcb68536dee9db273cd4b71581d81dd3d",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=monotone+closure+certified+bound+ledger+extremal+function+strictly+improved+lower+bounds+obtained+search&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "running-maximum sweep certified lower bounds indexed 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 31719,
+            "body_sha256": "88df962dace24233bf4d54f04bce1f015aa52b6373535cec75cd8699f0c48555",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 505.422,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "38d3b60df4fc65dbbe124abfab88b461d9452ea69d85ea330e648ba75afce870",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=running-maximum+sweep+certified+lower+bounds+indexed+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "running-maximum sweep certified lower bounds indexed 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 379059,
+            "body_sha256": "778f2bb00ef5536d9407b403436d00ff89ee322aa869d427a4f7f8d1dac4ee20",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1221.689,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "f3e6ae7f7aef2e863b224db271a7490f2d4c6dda9dd87d2980618d461fdc02b7",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=running-maximum+sweep+certified+lower+bounds+indexed+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "running-maximum sweep certified lower bounds indexed 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 248,
+            "body_sha256": "a14a5f61ae23ead9e7e00f2f1dc7715af11eb3b0f6524bb13432998978f62ec8",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 858.044,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "c25e86bf955d3ee887483c0f5784b361bd74003e71aee77905a5a1dbba292af9",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=running-maximum+sweep+certified+lower+bounds+indexed+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "running-maximum sweep certified lower bounds indexed additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 29544,
+            "body_sha256": "9b8b0951e60401d899ea9afcfc22d401512fd760f7e263e33c4ee2358c379920",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 422.195,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "1a1e21b761ab08f20aa9d25bd9a9e2e18415a7c9e2910f2bf159c13b448b9885",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=running-maximum+sweep+certified+lower+bounds+indexed+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 9,
+          "provider": "openalex",
+          "query": "running-maximum sweep certified lower bounds indexed additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 163991,
+            "body_sha256": "1a3372fab7a13a48367460cd67405adcc5ed3258f26ac482e68b6e8ecab7e8a1",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 713.568,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "69c9a5f2020586caf7b4a96b6f11595909c16183614a4f3cdc13994ed8db2b4e",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=running-maximum+sweep+certified+lower+bounds+indexed+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "running-maximum sweep certified lower bounds indexed additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 238,
+            "body_sha256": "88e9ca5a2953f1a8891654d173c2ac67ebab942a7828c114c278ff0727ba959f",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 229.345,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "d4f7f1629626f4c148142ae01c7d667db1e757dfa18119f1976f5ed623b7ad5a",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=running-maximum+sweep+certified+lower+bounds+indexed+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "running-maximum sweep certified lower bounds indexed strictly improved obtained search",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32501,
+            "body_sha256": "6e84a32c271297b3a6c83bb498c951a2fe38ea033c1335f78e2b4de81e938ce3",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 443.999,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "e60e777bb182ffbc8fbcdffe0ab111525fba256c3301fadf2ad52fba1792177d",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=running-maximum+sweep+certified+lower+bounds+indexed+strictly+improved+obtained+search&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "running-maximum sweep certified lower bounds indexed strictly improved obtained search",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 453107,
+            "body_sha256": "350df4be6370a5facd3bad339ac2d08b107da664186d60306c98838c3569195b",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1580.879,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "4579967a91bff96c27b86b7707f68a40b8e83e8af71b86f46e02841d6c38ceb1",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=running-maximum+sweep+certified+lower+bounds+indexed+strictly+improved+obtained+search&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 3,
+          "provider": "europe_pmc",
+          "query": "running-maximum sweep certified lower bounds indexed strictly improved obtained search",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 7909,
+            "body_sha256": "38c944f3ebbd79eb54dcf00cde3abbd2bebf72557f584c889b4b33d861c61a6b",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 349.765,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "c82e8061a3557de8947479667ae04f9591f79bb8b5b7e015a889e4f5cb6b0343",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=running-maximum+sweep+certified+lower+bounds+indexed+strictly+improved+obtained+search&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "strictly improved lower bounds obtained search 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 30584,
+            "body_sha256": "c70c4ecd970aef0401aedc970765253b4754b53c599f550126217f5976d1cbec",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 568.122,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "9ce64315f3f12d05cd3e24c1a7627c225a958896ea10e567529550466546c3e5",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=strictly+improved+lower+bounds+obtained+search+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "strictly improved lower bounds obtained search 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 563537,
+            "body_sha256": "96bf890b9ceddeb51df3cd785e8bac9bbe948570cc6614f064f3dfbf9f5c3b08",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1389.941,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "7df05ba363fc0ca1a1ab74003442e4a3030916ab8cc887674720d47322e6d7f2",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=strictly+improved+lower+bounds+obtained+search+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 3,
+          "provider": "europe_pmc",
+          "query": "strictly improved lower bounds obtained search 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 10871,
+            "body_sha256": "aa4610b22c29e30e77ea2e7219b9a97fd4c3b71ace5ed033a058234f4c76a9b1",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 269.031,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "e02648b88b57945f79ec82dddd93216a574b90f92cccd4aae11401189f88e59c",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=strictly+improved+lower+bounds+obtained+search+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "strictly improved lower bounds obtained search additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 31067,
+            "body_sha256": "e3b1dd4d0fe6977175b464c68da5b7ad5529f608a971d1ba5fdc83527c545d5c",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 529.193,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "a95848f67a51c8ad7859c25d1e181681411d6b3a9e53db022727af45fb7eeab0",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=strictly+improved+lower+bounds+obtained+search+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "strictly improved lower bounds obtained search additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 553893,
+            "body_sha256": "c633424d87c37599ae63454a001ccac0c6d6fa25f209132e7537503acdbf1773",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1070.138,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "980f03ccd3cb07e51bb5755927df1b64b6c18bf86dc13a22933f5575df660032",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=strictly+improved+lower+bounds+obtained+search+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 5,
+          "provider": "europe_pmc",
+          "query": "strictly improved lower bounds obtained search additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 22706,
+            "body_sha256": "96b24979fe868fcab482492b9ca2a66d5e693577ee3c73ab9be7942059e7c9ac",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 209.384,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "1557b8f7f5dc2ea2cf413a8df70940520fe874dba037c2e65c291bb0053dcd33",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=strictly+improved+lower+bounds+obtained+search+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        }
+      ],
+      "math_domain_detected": false,
+      "math_scholarly_providers": {
+        "status": "not_applicable"
+      },
+      "paper_count": 30,
+      "provider_error_count": 0,
+      "provider_success_count": 33,
+      "providers_attempted": [
+        "crossref",
+        "openalex",
+        "europe_pmc"
+      ],
+      "providers_with_hits": [
+        "crossref",
+        "europe_pmc",
+        "openalex"
+      ],
+      "query_count": 11,
+      "relevance_floor": {
+        "admitted": 287,
+        "all_candidates_excluded": false,
+        "candidates": 376,
+        "excluded": 89,
+        "excluded_rows": [
+          {
+            "cited_by_count": 1792,
+            "doi": "10.1090/s0273-0979-06-01126-8",
+            "retrieval_citation_prior": 1.27358,
+            "title": "Expander graphs and their applications"
+          },
+          {
+            "cited_by_count": 830,
+            "doi": "10.1016/s0166-218x(01)00341-9",
+            "retrieval_citation_prior": 1.142847,
+            "title": "Pseudo-Boolean optimization"
+          },
+          {
+            "cited_by_count": 816,
+            "doi": "10.1145/197405.197406",
+            "retrieval_citation_prior": 1.139959,
+            "title": "Compiler transformations for high-performance computing"
+          },
+          {
+            "cited_by_count": 766,
+            "doi": "10.3390/a12020034",
+            "retrieval_citation_prior": 1.129223,
+            "title": "From the Quantum Approximate Optimization Algorithm to a Quantum Alternating Operator Ansatz"
+          },
+          {
+            "cited_by_count": 760,
+            "doi": "10.1016/j.asoc.2011.02.032",
+            "retrieval_citation_prior": 1.127888,
+            "title": "Hybrid metaheuristics in combinatorial optimization: A survey"
+          },
+          {
+            "cited_by_count": 632,
+            "doi": "10.1007/s12532-011-0029-5",
+            "retrieval_citation_prior": 1.09658,
+            "title": "Templates for convex cone problems with applications to sparse signal recovery"
+          },
+          {
+            "cited_by_count": 629,
+            "doi": "10.1103/revmodphys.82.665",
+            "retrieval_citation_prior": 1.095772,
+            "title": "Nonlocality and communication complexity"
+          },
+          {
+            "cited_by_count": 456,
+            "doi": "10.1145/276304.276334",
+            "retrieval_citation_prior": 1.041196,
+            "title": "New sampling-based summary statistics for improving approximate query answers"
+          },
+          {
+            "cited_by_count": 426,
+            "doi": "10.1051/ps:2005018",
+            "retrieval_citation_prior": 1.029653,
+            "title": "Theory of Classification: a Survey of Some Recent Advances"
+          },
+          {
+            "cited_by_count": 343,
+            "doi": "10.1007/s10462-022-10351-w",
+            "retrieval_citation_prior": 0.992909,
+            "title": "A survey of Bayesian Network structure learning"
+          },
+          {
+            "cited_by_count": 211,
+            "doi": "10.1016/s0304-3975(01)00303-6",
+            "retrieval_citation_prior": 0.91062,
+            "title": "Searching games with errors—fifty years of coping with liars"
+          },
+          {
+            "cited_by_count": 199,
+            "doi": "10.1007/3-540-63574-2_16",
+            "retrieval_citation_prior": 0.900714,
+            "title": "A historical application profiler for use by parallel schedulers"
+          },
+          {
+            "cited_by_count": 182,
+            "doi": "10.1287/msom.2021.1064",
+            "retrieval_citation_prior": 0.885613,
+            "title": "Can Deep Reinforcement Learning Improve Inventory Management? Performance on Lost Sales, Dual-Sourcing, and Multi-Echelon Problems"
+          },
+          {
+            "cited_by_count": 156,
+            "doi": "10.1016/0304-3975(89)90088-1",
+            "retrieval_citation_prior": 0.859562,
+            "title": "Recursive query processing: the power of logic"
+          },
+          {
+            "cited_by_count": 155,
+            "doi": "10.1186/s40687-014-0012-7",
+            "retrieval_citation_prior": 0.858476,
+            "title": "Variants of the Selberg sieve, and bounded intervals containing many primes"
+          },
+          {
+            "cited_by_count": 91,
+            "doi": "10.4230/lipics.ipec.2024.29",
+            "retrieval_citation_prior": 0.768704,
+            "title": "Mixed-Integer Optimization for Loopless Flux Distributions in Metabolic Networks"
+          },
+          {
+            "cited_by_count": 74,
+            "doi": "10.21034/sr.443",
+            "retrieval_citation_prior": 0.733973,
+            "title": "New Monetarist Economics: Models"
+          },
+          {
+            "cited_by_count": 55,
+            "doi": "10.1016/j.dam.2010.03.008",
+            "retrieval_citation_prior": 0.68431,
+            "title": "Covering and radius-covering arrays: Constructions and classification"
+          },
+          {
+            "cited_by_count": 45,
+            "doi": "10.46298/dmtcs.2136",
+            "retrieval_citation_prior": 0.650869,
+            "title": "Improving Vertex Cover as a Graph Parameter"
+          },
+          {
+            "cited_by_count": 39,
+            "doi": "10.48550/arxiv.1707.02038",
+            "retrieval_citation_prior": 0.62711,
+            "title": "A Tutorial on Thompson Sampling"
+          },
+          {
+            "cited_by_count": 24,
+            "doi": "",
+            "retrieval_citation_prior": 0.547209,
+            "title": "Exploration of the integration of Lean and environmental improvement"
+          },
+          {
+            "cited_by_count": 19,
+            "doi": "",
+            "retrieval_citation_prior": 0.509274,
+            "title": "Land Title Registration: An English Solution to an American Problem"
+          },
+          {
+            "cited_by_count": 13,
+            "doi": "10.1002/art.38216",
+            "retrieval_citation_prior": 0.44864,
+            "title": "Abstracts of the 2013 Annual Meeting of the American College of Rheumatology. October 25-30, 2013. San Diego, California, USA."
+          },
+          {
+            "cited_by_count": 12,
+            "doi": "",
+            "retrieval_citation_prior": 0.436041,
+            "title": "Phase Retrieval from Locally Supported Measurements"
+          },
+          {
+            "cited_by_count": 12,
+            "doi": "",
+            "retrieval_citation_prior": 0.436041,
+            "title": "Scoping current and future genetic tools, their limitations and their applications for wild fisheries management"
+          },
+          {
+            "cited_by_count": 10,
+            "doi": "10.3390/drones10010011",
+            "retrieval_citation_prior": 0.407642,
+            "title": "A Comprehensive Review of Path-Planning Algorithms for Multi-UAV Swarms"
+          },
+          {
+            "cited_by_count": 6,
+            "doi": "",
+            "retrieval_citation_prior": 0.330805,
+            "title": "Art for the visually impaired and blind a case study of one artist's solution"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "10.1007/s11831-017-9220-9",
+            "retrieval_citation_prior": 0.304599,
+            "title": "A Review of Trimming in Isogeometric Analysis: Challenges, Data Exchange and Simulation Aspects."
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1098/rstb.2023.0304",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Shape parameters of evolutionary trees in theoretical computer science."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1007/s11538-022-01088-2",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Algebra, Geometry and Topology of ERK Kinetics."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.18452/21294",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Approximate Distributed Set Reconciliation with Defined Accuracy"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/s12028-017-0465-9",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Abstracts Presented at the Neurocritical Care Society (NCS) 15th Annual Meeting."
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "EMI filter design for matrix converters in airspace applications"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Résolution de systèmes bivariés et topologie de courbes planes"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.6028/nist.ir.8423",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Applied and Computational Mathematics Division :"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.5445/ir/1000127719",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Communication-Efficient Probabilistic Algorithms: Selection, Sampling, and Checking"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.1093/logcom/exae050",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Semitopology: a topological approach to decentralized collaborative action"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Thirty-ninth Annual Meeting February 12-16, 1995 Moscone Center San Francisco, California : Thursday Symposia and Posters, Part IV"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "21st Congress of the European Hematology Association Copenhagen, Denmark, June 9–12, 2016"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e28050544",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Complex Tension Origin for Dilaton Gravity: Jordan Stiffness and Logarithmic Einstein Dynamics."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e27070756",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Max-Flow Approach to Random Tensor Networks."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1214/24-ba1462",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Tree Perspective on Stick-Breaking Models in Covariate-Dependent Mixtures (with Discussion)."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.010",
+            "retrieval_citation_prior": 0.0,
+            "title": "Algebraic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.6028/nist.ir.7994",
+            "retrieval_citation_prior": 0.0,
+            "title": "Applied and Computational Mathematics Division : summary of activities for fiscal year 2013"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.014",
+            "retrieval_citation_prior": 0.0,
+            "title": "Bibliography"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Calcul de plus courts chemins multicritères et problèmes géométriques connexes"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpls.2026.1864496",
+            "retrieval_citation_prior": 0.0,
+            "title": "Cis-regulatory elements in CAMTA-mediated stress signalling: mechanisms and prospects for CRISPR-based crop improvement."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s00454-023-00622-w",
+            "retrieval_citation_prior": 0.0,
+            "title": "Counting Arcs in F q 2."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Dynamic Causal Portfolio Choice: Hedging the Rotation of the Common-Driver Manifold"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2139/ssrn.7072298",
+            "retrieval_citation_prior": 0.0,
+            "title": "Dynamic Causal Portfolio Choice: Hedging the Rotation of the Common-Driver Manifold"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Dynamic Latent Routing"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Essays on industrial organization economics"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2209.05084",
+            "retrieval_citation_prior": 0.0,
+            "title": "Explaining Predictions from Machine Learning Models: Algorithms, Users, and Pedagogy"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1371/journal.pone.0348356",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fault diagnosis of aero-engines using transfer dispersion entropy and dispersion patterns."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.7554/elife.03542.013",
+            "retrieval_citation_prior": 0.0,
+            "title": "Figure 5. Decoded sequence path lengths and population activity propagation speeds."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.005",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fourier-analytic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1073/pnas.2510881123",
+            "retrieval_citation_prior": 0.0,
+            "title": "Free quantum computing."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.007",
+            "retrieval_citation_prior": 0.0,
+            "title": "Graph-theoretic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.009",
+            "retrieval_citation_prior": 0.0,
+            "title": "Incidence geometry"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.006",
+            "retrieval_citation_prior": 0.0,
+            "title": "Inverse sum set theorems"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Layout Optimization Methods for Offshore Wind Farms Using Gaussian Processes"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.013",
+            "retrieval_citation_prior": 0.0,
+            "title": "Long arithmetic progressions in sum sets"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Making Quantum Networks Work: Routing, Calibration, and Programmable Quantum Repeaters"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpsyt.2026.1727711",
+            "retrieval_citation_prior": 0.0,
+            "title": "Mitochondrial dysfunction in EEG: high-beta specific metabolic/oxidative coupling with lactate in mania-predominant polarity."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Mixed Criticality Systems - (A Review: 14th and Final Edition, February 2026)"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41598-025-27113-7",
+            "retrieval_citation_prior": 0.0,
+            "title": "Novel representation of complexity of investment casting using injective coloring and graph adaptive consensus mechanism."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "On the Reliability of Networks of AI Agents: Density Evolution, Stopping Sets, and Architecture Optimization"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.70675/01c3f18dze31cz4d1fz8269z3418d4d40360",
+            "retrieval_citation_prior": 0.0,
+            "title": "Optimization techniques for image registration applied to remote sensing"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1162/opmi.a.275",
+            "retrieval_citation_prior": 0.0,
+            "title": "Predictability of the Retrieval Site Does Not Modulate Interference: Evidence From Reflexive Attraction."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Program Abstracts from the GSA 2019 Annual Scientific Meeting “Strength in Age—Harnessing the Power of Networks”"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.70675/83ff08cfzebb3z41abza050zb491a2b2122e",
+            "retrieval_citation_prior": 0.0,
+            "title": "Programming networks with intensional destinations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.001",
+            "retrieval_citation_prior": 0.0,
+            "title": "Prologue"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Provably Good Prim-Dijkstra Revisited: New Theory and a Practical Algorithm for a Classical VLSI Routing Problem with LLMs"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.math/0612672",
+            "retrieval_citation_prior": 0.0,
+            "title": "Pseudo-Triangulations - a Survey"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Quantum Gravity from One Axiom v4.0"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.71781/10832",
+            "retrieval_citation_prior": 0.0,
+            "title": "Reliable computation for geometric models"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e26100870",
+            "retrieval_citation_prior": 0.0,
+            "title": "Remarks on Limit Theorems for the Free Quadratic Forms."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2303.09287",
+            "retrieval_citation_prior": 0.0,
+            "title": "Semitopology: a topological approach to decentralised collaborative action"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Solving algebraic bivariate systems and topology of plane curves"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Stress-Testing the Reasoning Competence of LLMs With Proofs Under Minimal Formalism"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.003",
+            "retrieval_citation_prior": 0.0,
+            "title": "Sum set estimates"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.011",
+            "retrieval_citation_prior": 0.0,
+            "title": "Szemerédi' theorem for k = 3"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Techniques de modélisation et d’analyse pour l’amélioration de la robustesse des systèmes distribués"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.4230/lipics.itcs.2024.26",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Distributed Complexity of Locally Checkable Labeling Problems Beyond Paths and Trees"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.008",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Littlewood–Offord problem"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.002",
+            "retrieval_citation_prior": 0.0,
+            "title": "The probabilistic method"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2511.01124",
+            "retrieval_citation_prior": 0.0,
+            "title": "Verification and Attack Synthesis for Network Protocols"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.2139/ssrn.7095162",
+            "retrieval_citation_prior": 0.0,
+            "title": "When Does Learned Dispatching Beat Priority Rules? An Open Benchmark for Technician-Constrained Maintenance Work-Order Scheduling in Building Portfolios"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.20944/preprints202510.0652.v1",
+            "retrieval_citation_prior": 0.0,
+            "title": "Withdrawn: Half–Spacing Windows and the Riemann Hypothesis a Single–Stream Analytic Proof with a Finite Computational Seed"
+          }
+        ],
+        "rule": "retrieval_relevance > 0.0 (shares >=1 non-stopword token with >=1 grounding query)"
+      },
+      "retrieval_receipt_sha256": "a5beff2bcc9b28584922a5ce5a03cd6b221b4ea8ad482393d17f876f1f406c8e",
+      "retrieval_state": "hits",
+      "saturation": {
+        "curve": [
+          {
+            "cumulative_unique": 68,
+            "new_records": 68,
+            "query": "additive combinatorics"
+          },
+          {
+            "cumulative_unique": 100,
+            "new_records": 32,
+            "query": "certified lower-bound set max size 3-ap-free subset monotonicity taking running maximum strictly improves banked bounds 80 19"
+          },
+          {
+            "cumulative_unique": 125,
+            "new_records": 25,
+            "query": "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 153,
+            "new_records": 28,
+            "query": "monotone closure certified bound ledger extremal function additive combinatorics"
+          },
+          {
+            "cumulative_unique": 181,
+            "new_records": 28,
+            "query": "monotone closure certified bound ledger extremal function running-maximum sweep lower bounds indexed"
+          },
+          {
+            "cumulative_unique": 193,
+            "new_records": 12,
+            "query": "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search"
+          },
+          {
+            "cumulative_unique": 235,
+            "new_records": 42,
+            "query": "running-maximum sweep certified lower bounds indexed 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 267,
+            "new_records": 32,
+            "query": "running-maximum sweep certified lower bounds indexed additive combinatorics"
+          },
+          {
+            "cumulative_unique": 305,
+            "new_records": 38,
+            "query": "running-maximum sweep certified lower bounds indexed strictly improved obtained search"
+          },
+          {
+            "cumulative_unique": 336,
+            "new_records": 31,
+            "query": "strictly improved lower bounds obtained search 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 376,
+            "new_records": 40,
+            "query": "strictly improved lower bounds obtained search additive combinatorics"
+          }
+        ],
+        "is_saturated": false,
+        "total_queries": 11,
+        "total_unique_works": 376
+      },
+      "status": "success",
+      "worker_count": 12
+    },
+    "patent_application_count": 0,
+    "patent_claim_grounded_count": 13,
+    "patent_count": 62,
+    "patent_granted_count": 62,
+    "patent_official_claim_grounded_count": 13,
+    "patent_official_provider_record_count": 62,
+    "patent_official_search_complete": true,
+    "patent_provider": "uspto_odp_keyed",
+    "patent_queries": [
+      "3-ap-free subsets first integers certified bounds strictly lower",
+      "3-ap-free subsets first integers certified bounds strictly lower improved obtained search",
+      "3-ap-free subsets first integers certified bounds strictly lower monotone closure bound ledger extremal function",
+      "3-ap-free subsets first integers certified bounds strictly lower running-maximum sweep indexed",
+      "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers compound",
+      "monotone closure certified bound ledger extremal function composition compound treatment",
+      "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search compound",
+      "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+      "strictly improved lower bounds obtained search 3-ap-free subsets first integers additive combinatorics treatment composition"
+    ],
+    "patent_retrieval": {
+      "attempts": [
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 615.091,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "72c850add0354310f62385cd751c727650ccb558deb225dbf6daf2694e1ee30c",
+            "receipt_sha256": "72c850add0354310f62385cd751c727650ccb558deb225dbf6daf2694e1ee30c",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+certified+bounds+strictly+lower%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers certified bounds strictly lower",
+            "receipt_sha256": "3eb2eba480f6153c739c8d21182579ea8986eacf3631498b561eed785e072442",
+            "records_sha256": "69a417731e301ea5d09637fc9843237b77f0db144a8ee8b5efeab67bb3063f52"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower improved obtained search",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 609.826,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "6560a22c30066c3d5ae4762803d3f0160486222c12014f95f3b7415815382b98",
+            "receipt_sha256": "6560a22c30066c3d5ae4762803d3f0160486222c12014f95f3b7415815382b98",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+certified+bounds+strictly+lower+improved+obtained+search%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower improved obtained search",
+          "receipt": {
+            "hits": 95,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers certified bounds strictly lower improved obtained search",
+            "receipt_sha256": "47b6374965592036239e22b595b8414f11a4dd17f9fc2e09da4410aacbb57a43",
+            "records_sha256": "949b4b22ae88afa82ed033971af89cdb5730494bf5fb8b4f0dfe1785eee9e47e"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower improved obtained search",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower monotone closure bound ledger extremal function",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 635.825,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "bd243f2ab08cc84b06e6c0c79295d41bb60d3691ba38de06c6561ab74b67ffbd",
+            "receipt_sha256": "bd243f2ab08cc84b06e6c0c79295d41bb60d3691ba38de06c6561ab74b67ffbd",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+certified+bounds+strictly+lower+monotone+closure+bound+ledger+extremal+function%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower monotone closure bound ledger extremal function",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers certified bounds strictly lower monotone closure bound ledger extremal function",
+            "receipt_sha256": "689f44c1632db7b8cc732c11e2e7b045e199b114bee7fe740d6fdc8887a972af",
+            "records_sha256": "54ca2bae7bb3dcdcfa5e9541990bf41305c994780f5a2211087d2bb1540507cf"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower monotone closure bound ledger extremal function",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower running-maximum sweep indexed",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 282.262,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "c58e892bd7754d1e3de16d3dfbe78b441ccd6cecd1af4e96cf07d7b3c26f0d36",
+            "receipt_sha256": "c58e892bd7754d1e3de16d3dfbe78b441ccd6cecd1af4e96cf07d7b3c26f0d36",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+certified+bounds+strictly+lower+running-maximum+sweep+indexed%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower running-maximum sweep indexed",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers certified bounds strictly lower running-maximum sweep indexed",
+            "receipt_sha256": "241314096a9a9158f5d1d5ddff4e281641a16153fc0cebd61612040b7aaa7e63",
+            "records_sha256": "baf547630551d0e21af33774ffdced00a3d54f7dc53b16ad47cb59f1d188fefa"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers certified bounds strictly lower running-maximum sweep indexed",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers compound",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 313.241,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "6aa85f99f60b6a2101028c0ca9be89a921f8b027cc0152e8877aa6db6bf46460",
+            "receipt_sha256": "6aa85f99f60b6a2101028c0ca9be89a921f8b027cc0152e8877aa6db6bf46460",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22monotone+closure+certified+bound+ledger+extremal+function+3-ap-free+subsets+first+integers+compound%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers compound",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers compound",
+            "receipt_sha256": "0ad3a5de33b8bb8928c913b048cb1bb2235b52281bc37b916628e2b5a6d063b5",
+            "records_sha256": "a86143ff0488aae4686da97f04567700fb278e97984759fc66717a46b6fe00f4"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "monotone closure certified bound ledger extremal function composition compound treatment",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 827.9,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "52c61e9e9be387cd0e47fb754371d4700e2765fa12f60f27aedfb771cc3fc3da",
+            "receipt_sha256": "52c61e9e9be387cd0e47fb754371d4700e2765fa12f60f27aedfb771cc3fc3da",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22monotone+closure+certified+bound+ledger+extremal+function+composition+compound+treatment%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "monotone closure certified bound ledger extremal function composition compound treatment",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "monotone closure certified bound ledger extremal function composition compound treatment",
+            "receipt_sha256": "f8bf40462f0cf03a9d6fee3767150d025b6d22e467b7d7b5acaeb5e925c10a57",
+            "records_sha256": "23d1c9f1ce068a63d3c98303f009ad485f5d5ab50035291917f0aea25d1bf02e"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "monotone closure certified bound ledger extremal function composition compound treatment",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search compound",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 533.151,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "d212664047a40aad9e52e6f629816b8ed872a8763d1dcb84ede0c65d5138f8f1",
+            "receipt_sha256": "d212664047a40aad9e52e6f629816b8ed872a8763d1dcb84ede0c65d5138f8f1",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22monotone+closure+certified+bound+ledger+extremal+function+strictly+improved+lower+bounds+obtained+search+compound%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search compound",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search compound",
+            "receipt_sha256": "03535d1621e58097f056d0c81031134754063651f74a4f0df2eeb968eb3246e0",
+            "records_sha256": "24e42634926d0d7cff07002ff63af5f3424484e6cf6ae0839780f903149b4188"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search compound",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 535.967,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "d539c66c515fb5abb993e06a4f2acf4459dcb38b63eaeb8d2d858ea6d6dc2808",
+            "receipt_sha256": "d539c66c515fb5abb993e06a4f2acf4459dcb38b63eaeb8d2d858ea6d6dc2808",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22running-maximum+sweep+certified+lower+bounds+indexed+additive+combinatorics+composition%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+            "receipt_sha256": "cf8899579847b360f2e0b3eeaf5940863873cd31b74b49ad2d7a8e64804e07be",
+            "records_sha256": "08ab632f6eca6043582f813ec0ada8cfacdf89c9fd2101319b6ebed809f87281"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "strictly improved lower bounds obtained search 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 356.055,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "ce729d62370e2370f7a31cc22a6f7fb7286b2aceb63d5d9a1a665196b7c88d26",
+            "receipt_sha256": "ce729d62370e2370f7a31cc22a6f7fb7286b2aceb63d5d9a1a665196b7c88d26",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22strictly+improved+lower+bounds+obtained+search+3-ap-free+subsets+first+integers+additive+combinatorics+treatment+composition%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "strictly improved lower bounds obtained search 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "strictly improved lower bounds obtained search 3-ap-free subsets first integers additive combinatorics treatment composition",
+            "receipt_sha256": "5019b4768791c1c8eae374a07fc5f48662774b4c4dab7336adae9fb31c90a19d",
+            "records_sha256": "7f2f40ab91b7f734cc0e0f96d3d0d5e4f16097fc52f73e7295a2735b8c3958d6"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "strictly improved lower bounds obtained search 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        }
+      ],
+      "candidate_budget": 80,
+      "claim_grounded_count": 13,
+      "configured_official_providers": [
+        "epo_ops",
+        "uspto_odp_keyed"
+      ],
+      "coverage_status": "INCOMPLETE_PROVIDER_COVERAGE",
+      "family_diversity_reserve": 0,
+      "granted_count": 62,
+      "hydration_config": {
+        "allow_network": true,
+        "hydration_jobs": 12,
+        "hydration_workers": 4,
+        "patent_hydrate_limit": 12,
+        "structure_hydrate_limit": 4
+      },
+      "hydration_workers": 4,
+      "official_claim_grounded_count": 13,
+      "official_coverage_scope": "complete",
+      "official_coverage_status": "COMPLETE",
+      "official_provider_record_count": 62,
+      "official_search_complete": true,
+      "optional_provider_errors": [
+        "google_patents_search"
+      ],
+      "patent_count": 62,
+      "provider": "uspto_odp_keyed",
+      "provider_health": [
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 0,
+          "hit_count": 0,
+          "official": true,
+          "provider": "epo_ops",
+          "required_for_clear_novelty": true,
+          "status": "EMPTY"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 0,
+          "hit_count": 135,
+          "official": true,
+          "provider": "uspto_odp_keyed",
+          "required_for_clear_novelty": true,
+          "status": "HIT"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 9,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_503",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed — the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": false,
+          "provider": "google_patents_search",
+          "required_for_clear_novelty": false,
+          "status": "ERROR"
+        }
+      ],
+      "provider_request_limit": 15,
+      "providers_attempted": [
+        "epo_ops",
+        "uspto_odp_keyed",
+        "google_patents_search"
+      ],
+      "providers_with_hits": [
+        "uspto_odp_keyed"
+      ],
+      "query_count": 9,
+      "requested_retrieval_floor": 135,
+      "required_provider_errors": [],
+      "retrieval_receipt_sha256": "13cd1082c18c3c8ac16b4f54c6e9b709825356be1f16f1ec9e9c81004a0b6ec3",
+      "search_complete": false,
+      "selected_family_count": 62,
+      "status": "success",
+      "structure_grounded_count": 0,
+      "unavailable_official_providers": []
+    },
+    "patent_search_complete": false,
+    "provider_lineage_sha256": "1031b115db2024ee26348d5d283f6515ead9fda391de54c38f40a788723f0609",
+    "query_coverage": {
+      "paper": {
+        "mechanism": [
+          "monotone closure certified bound ledger extremal function additive combinatorics",
+          "running-maximum sweep certified lower bounds indexed additive combinatorics",
+          "certified lower-bound set max size 3-ap-free subset monotonicity taking running maximum strictly improves banked bounds 80 19",
+          "monotone closure certified bound ledger extremal function running-maximum sweep lower bounds indexed",
+          "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search",
+          "running-maximum sweep certified lower bounds indexed strictly improved obtained search",
+          "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers",
+          "running-maximum sweep certified lower bounds indexed 3-ap-free subsets first integers"
+        ],
+        "method": [
+          "monotone closure certified bound ledger extremal function additive combinatorics",
+          "running-maximum sweep certified lower bounds indexed additive combinatorics",
+          "strictly improved lower bounds obtained search additive combinatorics",
+          "certified lower-bound set max size 3-ap-free subset monotonicity taking running maximum strictly improves banked bounds 80 19",
+          "monotone closure certified bound ledger extremal function running-maximum sweep lower bounds indexed",
+          "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search",
+          "running-maximum sweep certified lower bounds indexed strictly improved obtained search",
+          "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers",
+          "running-maximum sweep certified lower bounds indexed 3-ap-free subsets first integers",
+          "strictly improved lower bounds obtained search 3-ap-free subsets first integers"
+        ],
+        "outcome": [
+          "running-maximum sweep certified lower bounds indexed additive combinatorics",
+          "strictly improved lower bounds obtained search additive combinatorics",
+          "certified lower-bound set max size 3-ap-free subset monotonicity taking running maximum strictly improves banked bounds 80 19",
+          "monotone closure certified bound ledger extremal function running-maximum sweep lower bounds indexed",
+          "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search",
+          "running-maximum sweep certified lower bounds indexed strictly improved obtained search",
+          "running-maximum sweep certified lower bounds indexed 3-ap-free subsets first integers",
+          "strictly improved lower bounds obtained search 3-ap-free subsets first integers"
+        ],
+        "problem": [
+          "monotone closure certified bound ledger extremal function additive combinatorics",
+          "running-maximum sweep certified lower bounds indexed additive combinatorics",
+          "strictly improved lower bounds obtained search additive combinatorics",
+          "additive combinatorics"
+        ]
+      },
+      "patent": {
+        "mechanism": [
+          "3-ap-free subsets first integers certified bounds strictly lower monotone closure bound ledger extremal function",
+          "3-ap-free subsets first integers certified bounds strictly lower running-maximum sweep indexed",
+          "3-ap-free subsets first integers certified bounds strictly lower improved obtained search",
+          "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+          "3-ap-free subsets first integers certified bounds strictly lower",
+          "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search compound",
+          "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers compound",
+          "monotone closure certified bound ledger extremal function composition compound treatment"
+        ],
+        "method": [
+          "3-ap-free subsets first integers certified bounds strictly lower monotone closure bound ledger extremal function",
+          "3-ap-free subsets first integers certified bounds strictly lower running-maximum sweep indexed",
+          "3-ap-free subsets first integers certified bounds strictly lower improved obtained search",
+          "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+          "3-ap-free subsets first integers certified bounds strictly lower",
+          "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search compound",
+          "monotone closure certified bound ledger extremal function 3-ap-free subsets first integers compound",
+          "strictly improved lower bounds obtained search 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "monotone closure certified bound ledger extremal function composition compound treatment"
+        ],
+        "outcome": [
+          "3-ap-free subsets first integers certified bounds strictly lower monotone closure bound ledger extremal function",
+          "3-ap-free subsets first integers certified bounds strictly lower running-maximum sweep indexed",
+          "3-ap-free subsets first integers certified bounds strictly lower improved obtained search",
+          "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+          "3-ap-free subsets first integers certified bounds strictly lower",
+          "monotone closure certified bound ledger extremal function strictly improved lower bounds obtained search compound",
+          "strictly improved lower bounds obtained search 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ],
+        "problem": [
+          "running-maximum sweep certified lower bounds indexed additive combinatorics composition",
+          "strictly improved lower bounds obtained search 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ]
+      },
+      "uncovered_paper_facets": [],
+      "uncovered_patent_facets": []
+    },
+    "query_plan_sha256": "11077997eff855f1b3c557de4b914927f2f9e829821600acdf87585119185092",
+    "spec_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\spec_97c6a45e34d857b5b5ebfd28ea3f20bf.json"
+  },
+  "corpus_size": 92,
+  "corpus_source": "auto_acquired_litacq_patents",
+  "design_around": {
+    "boundary": "Research design-space constraints only; not a legal design-around or FTO opinion.",
+    "generator_rules": [
+      "reject exact, connectivity-equivalent, salt-parent, and tautomer-equivalent structures",
+      "reject high-similarity fingerprint analogs above the configured hard threshold",
+      "treat scaffold matches as design pressure even when not independently dispositive",
+      "screen every generated survivor against Markush envelopes and family-normalized evidence",
+      "do not treat stereochemistry, salt form, or tautomer changes as novelty restoration by themselves"
+    ],
+    "hard_parent_hashes": [],
+    "hard_structure_hashes": [],
+    "hard_tautomer_hashes": [],
+    "markush_envelopes": [],
+    "markush_family_counts": {},
+    "receipt_sha256": "1441b384f4f27848dfa9bc4fb0e0872dc8bbf9b09a585398ab7be8d851cff8ac",
+    "scaffold_pressure": [],
+    "schema": "oracle.noveltyforge.design_around.v1",
+    "status": "COMPLETE"
+  },
+  "differentiation": {
+    "baseline_core_novelty": 0.763242,
+    "differentiation_guard": "each pivot is re-scored against the same corpus; a change that does not lower measured collision is cosmetic and dropped.",
+    "novel_core_floor": 0.62,
+    "novelty_restorable": true,
+    "recommended_pivot": {
+      "baseline_novelty": 0.763242,
+      "description": "Claim the outcome only in combination with the novel mechanism ('monotone closure of a certified bound ledger for an extremal').",
+      "facet": "outcome",
+      "feasibility": 0.72,
+      "injected_terms": [
+        "monotone",
+        "closure",
+        "certified",
+        "bound",
+        "ledger",
+        "extremal",
+        "function"
+      ],
+      "novelty_gain": 0.034658,
+      "projected_novelty": 0.7979,
+      "rationale": "Ties the crowded facet to an orthogonal novel facet, moving the claim into unclaimed combination space.",
+      "restores_novelty": true,
+      "strategy": "combine_orthogonal"
+    },
+    "strategy_summary": "5 measured differentiation vector(s); best restores core novelty to 0.7979.",
+    "target_facets": [
+      "outcome"
+    ],
+    "vectors": [
+      {
+        "baseline_novelty": 0.763242,
+        "description": "Claim the outcome only in combination with the novel mechanism ('monotone closure of a certified bound ledger for an extremal').",
+        "facet": "outcome",
+        "feasibility": 0.72,
+        "injected_terms": [
+          "monotone",
+          "closure",
+          "certified",
+          "bound",
+          "ledger",
+          "extremal",
+          "function"
+        ],
+        "novelty_gain": 0.034658,
+        "projected_novelty": 0.7979,
+        "rationale": "Ties the crowded facet to an orthogonal novel facet, moving the claim into unclaimed combination space.",
+        "restores_novelty": true,
+        "strategy": "combine_orthogonal"
+      },
+      {
+        "baseline_novelty": 0.763242,
+        "description": "Narrow the outcome to the 'real-time online closed-loop setting' regime, a condition absent from the nearest prior art.",
+        "facet": "outcome",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "real-time",
+          "online",
+          "closed-loop",
+          "setting"
+        ],
+        "novelty_gain": 0.033501,
+        "projected_novelty": 0.796743,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.763242,
+        "description": "Narrow the outcome to the 'resource-constrained edge inference' regime, a condition absent from the nearest prior art.",
+        "facet": "outcome",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "resource-constrained",
+          "edge",
+          "inference"
+        ],
+        "novelty_gain": 0.028078,
+        "projected_novelty": 0.79132,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.763242,
+        "description": "Narrow the outcome to the 'out-of-distribution domain shift' regime, a condition absent from the nearest prior art.",
+        "facet": "outcome",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "out-of-distribution",
+          "domain",
+          "shift"
+        ],
+        "novelty_gain": 0.02361,
+        "projected_novelty": 0.786852,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.763242,
+        "description": "Narrow the outcome to the 'single-cell resolution readout' regime, a condition absent from the nearest prior art.",
+        "facet": "outcome",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "single-cell",
+          "resolution",
+          "readout"
+        ],
+        "novelty_gain": 0.022931,
+        "projected_novelty": 0.786173,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      }
+    ]
+  },
+  "discovery_verdict": "NOVELTY_INADMISSIBLE",
+  "domain": "additive combinatorics",
+  "facet_novelty": {
+    "entities": 0.561028,
+    "mechanism": 0.837554,
+    "method": 0.759887,
+    "outcome": 0.655801,
+    "problem": 0.175
+  },
+  "facet_views": [
+    {
+      "is_core": true,
+      "name": "mechanism",
+      "text": "monotone closure of a certified bound ledger for an extremal function",
+      "weight": 0.3
+    },
+    {
+      "is_core": true,
+      "name": "method",
+      "text": "running-maximum sweep over certified lower bounds indexed by n",
+      "weight": 0.24
+    },
+    {
+      "is_core": true,
+      "name": "outcome",
+      "text": "strictly improved lower bounds obtained with no new search",
+      "weight": 0.2
+    },
+    {
+      "is_core": false,
+      "name": "problem",
+      "text": "additive combinatorics",
+      "weight": 0.08
+    },
+    {
+      "is_core": false,
+      "name": "entities",
+      "text": "3-AP-free subsets of the first n integers",
+      "weight": 0.13
+    }
+  ],
+  "family_normalization": {
+    "double_count_prevented": 0,
+    "family_count": 62,
+    "patent_records": 62,
+    "receipt_sha256": "2f8e7f0455e92b3946becae75abb093a276a423c9504298e8bd3a53105cc1ce9",
+    "unique_structure_count": 0
+  },
+  "inadmissible_reasons": [
+    "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+  ],
+  "independent_quotas": {
+    "paper_quota_met": true,
+    "patent_quota_met": true,
+    "required_papers": 0,
+    "required_patents": 0,
+    "status": "COMPLETE"
+  },
+  "input_corpus_size": 92,
+  "ip_assessment": {
+    "boundary": "research-prioritization novelty screen; not legal advice or a patentability opinion.",
+    "freedom_to_operate_screen": {
+      "boundary": "keyword read-on screen against claim-grounded granted patent records; not a legal FTO opinion.",
+      "coverage": {
+        "official_claim_grounded_count": 13,
+        "official_provider_record_count": 62,
+        "official_search_complete": true,
+        "provider": "uspto_odp_keyed",
+        "query_coverage_complete": true,
+        "status": "official_coverage_verified",
+        "uncovered_patent_facets": [],
+        "warning": null
+      },
+      "exclusion_counts": {
+        "claim_similarity_below_threshold": 13,
+        "claims_unavailable": 79
+      },
+      "manual_review_queue": [
+        {
+          "context_collision": 0.248986,
+          "identifier": "10.1109/focs.2012.39",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1983716530"
+        },
+        {
+          "context_collision": 0.21306,
+          "identifier": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.3235",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2184347621"
+        },
+        {
+          "context_collision": 0.205082,
+          "identifier": "10.1145/2629598",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1985006965"
+        },
+        {
+          "context_collision": 0.181625,
+          "identifier": "10.48550/arxiv.1208.2344",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1604298107"
+        },
+        {
+          "context_collision": 0.166983,
+          "identifier": "10.1145/3564246.3585240",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "10.1145/3564246.3585240"
+        },
+        {
+          "context_collision": 0.133886,
+          "identifier": "https://openalex.org/W2117889403",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2117889403"
+        },
+        {
+          "context_collision": 0.112938,
+          "identifier": "US12666029",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US12666029"
+        },
+        {
+          "context_collision": 0.111668,
+          "identifier": "US8219392",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US8219392"
+        },
+        {
+          "context_collision": 0.100333,
+          "identifier": "US11273962",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US11273962"
+        },
+        {
+          "context_collision": 0.098509,
+          "identifier": "10.1145/2746539.2746568",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2031683606"
+        },
+        {
+          "context_collision": 0.095232,
+          "identifier": "US8503772",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US8503772"
+        },
+        {
+          "context_collision": 0.090896,
+          "identifier": "10.1017/9781009310956",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W4385690854"
+        }
+      ],
+      "patent_read_ons": [],
+      "pending_application_watchlist": [],
+      "risk": false,
+      "screen_certifiable": true
+    },
+    "non_obviousness_103": {
+      "mosaic_risk": false,
+      "non_obvious": true,
+      "references_in_mosaic": []
+    },
+    "novelty_target": "papers",
+    "patent_novelty_102": {
+      "anticipating_reference": null,
+      "novel": true
+    },
+    "scientific_novelty": {
+      "band": "NOVEL",
+      "core_novelty": 0.763242,
+      "paper_worthy": true
+    },
+    "verdict": "PAPER_AND_PATENT_PATH_OPEN"
+  },
+  "ledger_status": {
+    "checked": false,
+    "key": "544c73c9e41896a3dc1af751d8a06ff15085c7490c89b43e416d3fc15905f29d",
+    "prior_verdict": null,
+    "reused": false
+  },
+  "legal_boundary": "Research prior-art screening only. This module does not determine claim construction, enablement, legal status, jurisdiction-specific prior-art effect, infringement, or freedom to operate.",
+  "measured_effect": null,
+  "measured_reality": false,
+  "min_corpus_required": 10,
+  "next_action": "Run a preregistered measurement that emits effect size, significance/interval, sample size, and a content hash; bind that receipt to the unchanged claim before novelty reassessment.",
+  "novelty_band": "NOVEL",
+  "novelty_target": "papers",
+  "overall_novelty": 0.686035,
+  "promotion_eligibility": {
+    "claim_sha256": "af7bc50353b8de15594ab271b8cc9ef1f957f1f55ca75c326a76543ea095d3e8",
+    "decision": "PROMOTION_BLOCKED",
+    "eligible": false,
+    "evidence_bindings": {
+      "acquired_utc": "2026-08-04T15:31:45Z",
+      "acquisition_output_file_sha256": "688ee8f669d8e23eab9e207dff6c2505896e13b78d9f23ac79be161cad986d3e",
+      "acquisition_snapshot_sha256": "d49565d04fa45f23d665d06e34a1a339b0d2ca866a3315715cdc319dc9d3663d",
+      "adversarial_review_hash": "d8572c280467c7fba8182688c283f7c6761806b78c4761edc51e2cf2953d2c38",
+      "binding_receipt_sha256": "d8ce2deff68965592ad4573a50d1ce54c620844400fc5b62224097bdb2586b9c",
+      "corpus_sha256": "43f5d344f31b196683b78f7e38dbc8ca7d529f5fe6060f3fec86650fe961f7dd",
+      "corpus_size": 92,
+      "corpus_source": "auto_acquired_litacq_patents",
+      "deployment_evidence": {
+        "decision": "NOT_REQUIRED",
+        "ok": true,
+        "required": false
+      },
+      "provider_lineage_sha256": "1031b115db2024ee26348d5d283f6515ead9fda391de54c38f40a788723f0609",
+      "report_payload_sha256": "eaa940deb12eea8ef06ced021a6583104d9e784912a52aae434addbadf2586b2",
+      "scientific_disposition_sha256": "8aac1694564433e88eb97c56ba10ab97c52735d7ab1ffa76e333e71f51ce21e8",
+      "structured_prior_art_receipt_sha256": "33bc6e61b1f04d41247bd99f04be9d7884d8f9e6263c2b01543c58315eb4591e"
+    },
+    "gate_sha256": "5fa2844dfdf7676ca83555f5ae9b247e3eb6d0983f7fe3babbec5de7f68fa874",
+    "reasons": [
+      "admissibility_gate_not_true",
+      "discovery_verdict_not_novel:NOVELTY_INADMISSIBLE",
+      "inadmissible_reasons_present",
+      "measured_reality_not_verified",
+      "scientific_disposition_not_new_mechanism_candidate",
+      "terminal_mode_not_promotable:NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY"
+    ],
+    "schema": "oracle.noveltyforge.promotion-gate.v1"
+  },
+  "receipt_hash": "eaa940deb12eea8ef06ced021a6583104d9e784912a52aae434addbadf2586b2",
+  "scientific_disposition": {
+    "category": "EVIDENCE_HOLD",
+    "deep_remeasurement_required": true,
+    "disposition_sha256": "8aac1694564433e88eb97c56ba10ab97c52735d7ab1ffa76e333e71f51ce21e8",
+    "next_action": "Run a preregistered measurement that emits effect size, significance/interval, sample size, and a content hash; bind that receipt to the unchanged claim before novelty reassessment.",
+    "prior_art_only_resume_allowed": false,
+    "reasons": [
+      "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+    ],
+    "schema": "oracle.noveltyforge.scientific-disposition.v1",
+    "top_colliding_facets": [
+      "problem"
+    ]
+  },
+  "structure_coverage": {
+    "applicable_patent_collision_count": 0,
+    "broad_external_provider_failure_count": 0,
+    "collision_scan_complete": true,
+    "configured_min_exclusions": 1,
+    "coverage_fraction": 0.0,
+    "external_live_structure_provider_count": 0,
+    "external_provider_attempt_count": 0,
+    "external_provider_failure_count": 0,
+    "min_exclusions": 1,
+    "patent_record_count": 0,
+    "patents_with_any_structure": 0,
+    "patents_with_trusted_structure": 0,
+    "provider_attempt_count": 0,
+    "provider_failure_count": 0,
+    "provider_outage_degraded": false,
+    "receipt_sha256": "936d264d795f6ff4866c55df73167741440c3353a5c51a78397033971047eb42",
+    "required": false,
+    "schema": "oracle.noveltyforge.structure_coverage.v4",
+    "shortfall": 1,
+    "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+    "trusted_exclusion_count": 0,
+    "untrusted_evidence_count": 0
+  },
+  "structured_collision_set": [],
+  "structured_prior_art": {
+    "bounds": {
+      "collision_records": 12,
+      "per_collision": 64,
+      "total": 512,
+      "trusted_exclusions_prioritized": true
+    },
+    "collision_evidence": [],
+    "collision_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "coverage": {
+      "applicable_patent_collision_count": 0,
+      "broad_external_provider_failure_count": 0,
+      "collision_scan_complete": true,
+      "configured_min_exclusions": 1,
+      "coverage_fraction": 0.0,
+      "external_live_structure_provider_count": 0,
+      "external_provider_attempt_count": 0,
+      "external_provider_failure_count": 0,
+      "min_exclusions": 1,
+      "patent_record_count": 0,
+      "patents_with_any_structure": 0,
+      "patents_with_trusted_structure": 0,
+      "provider_attempt_count": 0,
+      "provider_failure_count": 0,
+      "provider_outage_degraded": false,
+      "receipt_sha256": "936d264d795f6ff4866c55df73167741440c3353a5c51a78397033971047eb42",
+      "required": false,
+      "schema": "oracle.noveltyforge.structure_coverage.v4",
+      "shortfall": 1,
+      "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+      "trusted_exclusion_count": 0,
+      "untrusted_evidence_count": 0
+    },
+    "evidence": [],
+    "evidence_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "exclusion_smiles": [],
+    "markush_envelope_count": 0,
+    "markush_envelopes": [],
+    "markush_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "provider_attempts": [],
+    "receipt_sha256": "33bc6e61b1f04d41247bd99f04be9d7884d8f9e6263c2b01543c58315eb4591e",
+    "required": false,
+    "retrieval_coverage": {
+      "coverage_fraction": 0.0,
+      "external_live_structure_provider_count": 0,
+      "external_provider_attempt_count": 0,
+      "external_provider_failure_count": 0,
+      "min_exclusions": 1,
+      "patent_record_count": 62,
+      "patents_with_any_structure": 0,
+      "patents_with_trusted_structure": 0,
+      "provider_attempt_count": 0,
+      "provider_failure_count": 0,
+      "provider_outage_degraded": false,
+      "receipt_sha256": "2654d3895d351648ee3c344bda673cfa12b7128f1ed37984eee9f54abac7fa46",
+      "required": false,
+      "schema": "oracle.noveltyforge.structure_coverage.v4",
+      "shortfall": 1,
+      "status": "PARTIAL",
+      "trusted_exclusion_count": 0,
+      "untrusted_evidence_count": 0
+    },
+    "retrieval_evidence_count": 0,
+    "retrieval_evidence_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "schema": "oracle.noveltyforge.structured_prior_art.v4",
+    "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+    "structured_collision_set": []
+  },
+  "temporal_eligibility": {
+    "boundary": "No critical date supplied; temporal prior-art eligibility was not asserted.",
+    "critical_date": null,
+    "eligible_count": 92,
+    "enabled": false,
+    "excluded_post_critical_count": 0,
+    "policy": "public_availability",
+    "receipt_sha256": "53981c03f54f5028c3bc8a930c6cb1c9af1901ec00554716a4aa0be02c1ebaff",
+    "rows": [],
+    "schema": "oracle.noveltyforge.temporal_gate.v1",
+    "uncertain_count": 0
+  },
+  "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+  "top_collisions": [
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.12011,
+        "mechanism": 0.162446,
+        "method": 0.21319,
+        "outcome": 0.344199,
+        "problem": 0.652288
+      },
+      "identifier": "10.1109/focs.2012.39",
+      "overall_collision": 0.248986,
+      "raw_facet_collisions": {
+        "entities": 0.12011,
+        "mechanism": 0.162446,
+        "method": 0.21319,
+        "outcome": 0.344199,
+        "problem": 0.652288
+      },
+      "record_id": "https://openalex.org/W1983716530",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1314
+          ],
+          [
+            "combinatorics",
+            2.0986
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "An Additive Combinatorics Approach Relating Rank to Communication Complexity",
+      "year": 2012
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.438972,
+        "mechanism": 0.0,
+        "method": 0.216372,
+        "outcome": 0.205738,
+        "problem": 0.653302
+      },
+      "identifier": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.3235",
+      "overall_collision": 0.21306,
+      "raw_facet_collisions": {
+        "entities": 0.438972,
+        "mechanism": 0.0,
+        "method": 0.216372,
+        "outcome": 0.205738,
+        "problem": 0.653302
+      },
+      "record_id": "https://openalex.org/W2184347621",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1314
+          ],
+          [
+            "combinatorics",
+            2.0986
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Additive Combinatorics and Theoretical Computer Science",
+      "year": 2009
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.12011,
+        "mechanism": 0.162446,
+        "method": 0.116134,
+        "outcome": 0.251985,
+        "problem": 0.652632
+      },
+      "identifier": "10.1145/2629598",
+      "overall_collision": 0.205082,
+      "raw_facet_collisions": {
+        "entities": 0.12011,
+        "mechanism": 0.162446,
+        "method": 0.116134,
+        "outcome": 0.251985,
+        "problem": 0.652632
+      },
+      "record_id": "https://openalex.org/W1985006965",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1314
+          ],
+          [
+            "combinatorics",
+            2.0986
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "An Additive Combinatorics Approach Relating Rank to Communication Complexity",
+      "year": 2014
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.084172,
+        "method": 0.220053,
+        "outcome": 0.209419,
+        "problem": 0.657447
+      },
+      "identifier": "10.48550/arxiv.1208.2344",
+      "overall_collision": 0.181625,
+      "raw_facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.084172,
+        "method": 0.220053,
+        "outcome": 0.209419,
+        "problem": 0.657447
+      },
+      "record_id": "https://openalex.org/W1604298107",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1314
+          ],
+          [
+            "combinatorics",
+            2.0986
+          ]
+        ]
+      },
+      "source": "preprint",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Some new inequalities in additive combinatorics",
+      "year": 2012
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.0,
+        "method": 0.240113,
+        "outcome": 0.229479,
+        "problem": 0.688889
+      },
+      "identifier": "10.1145/3564246.3585240",
+      "overall_collision": 0.166983,
+      "raw_facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.0,
+        "method": 0.240113,
+        "outcome": 0.229479,
+        "problem": 0.688889
+      },
+      "record_id": "10.1145/3564246.3585240",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1314
+          ],
+          [
+            "combinatorics",
+            2.0986
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Stronger 3-SUM Lower Bounds for Approximate Distance Oracles via Additive Combinatorics",
+      "year": 2023
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.084172,
+        "method": 0.116134,
+        "outcome": 0.110341,
+        "problem": 0.65
+      },
+      "identifier": "https://openalex.org/W2117889403",
+      "overall_collision": 0.133886,
+      "raw_facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.084172,
+        "method": 0.116134,
+        "outcome": 0.110341,
+        "problem": 0.65
+      },
+      "record_id": "https://openalex.org/W2117889403",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1314
+          ],
+          [
+            "combinatorics",
+            2.0986
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "The Combinatorics of Network Reliability",
+      "year": 1987
+    }
+  ],
+  "version": "4.0.0",
+  "whitespace": {
+    "crowded_cells": [
+      {
+        "axis": "pediatric population",
+        "facet": "outcome",
+        "max_collision": 0.292197,
+        "novelty": 0.707803
+      },
+      {
+        "axis": "federated multi-site",
+        "facet": "outcome",
+        "max_collision": 0.292197,
+        "novelty": 0.707803
+      },
+      {
+        "axis": "out-of-distribution shift",
+        "facet": "outcome",
+        "max_collision": 0.292197,
+        "novelty": 0.707803
+      },
+      {
+        "axis": "prospective deployment",
+        "facet": "outcome",
+        "max_collision": 0.292197,
+        "novelty": 0.707803
+      },
+      {
+        "axis": "cold-start data-sparse",
+        "facet": "outcome",
+        "max_collision": 0.292197,
+        "novelty": 0.707803
+      },
+      {
+        "axis": "in-vivo validation",
+        "facet": "outcome",
+        "max_collision": 0.292197,
+        "novelty": 0.707803
+      }
+    ],
+    "note": "coarse facet x regime map for prioritization; not an exhaustive freedom-to-operate search.",
+    "steer_toward": {
+      "axis": "single-cell resolution",
+      "facet": "mechanism",
+      "max_collision": 0.131444,
+      "novelty": 0.868556
+    },
+    "whitespace_cells": [
+      {
+        "axis": "single-cell resolution",
+        "facet": "mechanism",
+        "max_collision": 0.131444,
+        "novelty": 0.868556
+      },
+      {
+        "axis": "low-dose sustained regime",
+        "facet": "mechanism",
+        "max_collision": 0.137272,
+        "novelty": 0.862728
+      },
+      {
+        "axis": "geriatric frail population",
+        "facet": "mechanism",
+        "max_collision": 0.137272,
+        "novelty": 0.862728
+      },
+      {
+        "axis": "pediatric population",
+        "facet": "mechanism",
+        "max_collision": 0.144749,
+        "novelty": 0.855251
+      },
+      {
+        "axis": "federated multi-site",
+        "facet": "mechanism",
+        "max_collision": 0.144749,
+        "novelty": 0.855251
+      },
+      {
+        "axis": "out-of-distribution shift",
+        "facet": "mechanism",
+        "max_collision": 0.144749,
+        "novelty": 0.855251
+      },
+      {
+        "axis": "prospective deployment",
+        "facet": "mechanism",
+        "max_collision": 0.144749,
+        "novelty": 0.855251
+      },
+      {
+        "axis": "cold-start data-sparse",
+        "facet": "mechanism",
+        "max_collision": 0.144749,
+        "novelty": 0.855251
+      },
+      {
+        "axis": "in-vivo validation",
+        "facet": "mechanism",
+        "max_collision": 0.144749,
+        "novelty": 0.855251
+      },
+      {
+        "axis": "real-time online closed-loop",
+        "facet": "mechanism",
+        "max_collision": 0.147916,
+        "novelty": 0.852084
+      }
+    ]
+  }
+}

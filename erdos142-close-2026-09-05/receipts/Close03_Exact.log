@@ -1,0 +1,15 @@
+/root/peer/sub-142-close/Close03_Exact.lean:73:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'Erdos142Exact.rothNumberNat_le_of_powersetCard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Exact.le_rothNumberNat_of_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Exact.w14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Exact.w20' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Exact.u14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Exact.u15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Exact.rothNumberNat_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Exact.rothNumberNat_15' depends on axioms: [propext, Classical.choice, Quot.sound]

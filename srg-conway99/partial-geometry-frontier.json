@@ -1,0 +1,2770 @@
+{
+  "component": 135224,
+  "candidates": [
+    {
+      "srg": "srg:1001,280,63,84",
+      "s": 10,
+      "t": 27,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1001,384,152,144",
+      "s": 32,
+      "t": 11,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1007,486,225,243",
+      "s": 18,
+      "t": 26,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1012,336,110,112",
+      "s": 21,
+      "t": 15,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1015,150,5,25",
+      "s": 6,
+      "t": 24,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1016,259,42,74",
+      "s": 7,
+      "t": 36,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1017,344,91,129",
+      "s": 8,
+      "t": 42,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1029,260,67,65",
+      "s": 20,
+      "t": 12,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1029,500,235,250",
+      "s": 20,
+      "t": 24,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1035,330,105,105",
+      "s": 22,
+      "t": 14,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1035,462,201,210",
+      "s": 22,
+      "t": 20,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1035,490,217,245",
+      "s": 14,
+      "t": 34,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1044,168,42,24",
+      "s": 28,
+      "t": 5,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1045,234,53,52",
+      "s": 18,
+      "t": 12,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1045,396,143,154",
+      "s": 18,
+      "t": 21,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:112,36,10,12",
+      "s": 6,
+      "t": 5,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:120,35,10,10",
+      "s": 7,
+      "t": 4,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:133,24,5,4",
+      "s": 6,
+      "t": 3,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1053,240,36,60",
+      "s": 8,
+      "t": 29,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1053,252,51,63",
+      "s": 12,
+      "t": 20,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1054,363,132,121",
+      "s": 33,
+      "t": 10,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1055,238,69,49",
+      "s": 34,
+      "t": 6,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1056,210,40,42",
+      "s": 15,
+      "t": 13,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1056,405,144,162",
+      "s": 15,
+      "t": 26,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1060,324,78,108",
+      "s": 9,
+      "t": 35,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1065,364,113,130",
+      "s": 14,
+      "t": 25,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1068,275,58,75",
+      "s": 11,
+      "t": 24,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1071,320,94,96",
+      "s": 20,
+      "t": 15,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1072,345,102,115",
+      "s": 15,
+      "t": 22,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1075,192,44,32",
+      "s": 24,
+      "t": 7,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1080,260,70,60",
+      "s": 26,
+      "t": 9,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1083,522,241,261",
+      "s": 18,
+      "t": 28,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,256,73,56",
+      "s": 32,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,288,87,72",
+      "s": 32,
+      "t": 8,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,320,103,90",
+      "s": 32,
+      "t": 9,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,352,121,110",
+      "s": 32,
+      "t": 10,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,374,121,132",
+      "s": 17,
+      "t": 21,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,384,141,132",
+      "s": 32,
+      "t": 11,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,416,163,156",
+      "s": 32,
+      "t": 12,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,448,187,182",
+      "s": 32,
+      "t": 13,
+      "alpha": 13,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,480,213,210",
+      "s": 32,
+      "t": 14,
+      "alpha": 14,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,500,205,250",
+      "s": 10,
+      "t": 49,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,512,241,240",
+      "s": 32,
+      "t": 15,
+      "alpha": 15,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1089,544,271,272",
+      "s": 32,
+      "t": 16,
+      "alpha": 16,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1090,441,152,196",
+      "s": 9,
+      "t": 48,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1100,315,90,90",
+      "s": 21,
+      "t": 14,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1105,208,39,39",
+      "s": 16,
+      "t": 12,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1105,336,95,105",
+      "s": 16,
+      "t": 20,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1106,340,114,100",
+      "s": 34,
+      "t": 9,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1106,403,132,155",
+      "s": 13,
+      "t": 30,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1111,110,9,11",
+      "s": 10,
+      "t": 10,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1125,288,78,72",
+      "s": 24,
+      "t": 11,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1134,198,27,36",
+      "s": 11,
+      "t": 17,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1140,476,202,196",
+      "s": 34,
+      "t": 13,
+      "alpha": 14,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1150,351,84,117",
+      "s": 9,
+      "t": 38,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1155,576,286,288",
+      "s": 32,
+      "t": 17,
+      "alpha": 16,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,231,62,42",
+      "s": 33,
+      "t": 6,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,264,74,56",
+      "s": 33,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,297,88,72",
+      "s": 33,
+      "t": 8,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,330,104,90",
+      "s": 33,
+      "t": 9,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,363,122,110",
+      "s": 33,
+      "t": 10,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,396,142,132",
+      "s": 33,
+      "t": 11,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,429,164,156",
+      "s": 33,
+      "t": 12,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,462,188,182",
+      "s": 33,
+      "t": 13,
+      "alpha": 13,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,495,214,210",
+      "s": 33,
+      "t": 14,
+      "alpha": 14,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,528,242,240",
+      "s": 33,
+      "t": 15,
+      "alpha": 15,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1156,561,272,272",
+      "s": 33,
+      "t": 16,
+      "alpha": 16,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1160,304,78,80",
+      "s": 19,
+      "t": 15,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1160,532,234,252",
+      "s": 19,
+      "t": 27,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1161,136,7,17",
+      "s": 8,
+      "t": 16,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1166,220,30,44",
+      "s": 10,
+      "t": 21,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1170,322,79,92",
+      "s": 14,
+      "t": 22,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1170,350,115,100",
+      "s": 35,
+      "t": 9,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1170,476,178,204",
+      "s": 14,
+      "t": 33,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1176,240,52,48",
+      "s": 20,
+      "t": 11,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1176,460,173,184",
+      "s": 20,
+      "t": 22,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1183,192,26,32",
+      "s": 12,
+      "t": 15,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1183,372,101,124",
+      "s": 12,
+      "t": 30,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1183,552,236,276",
+      "s": 12,
+      "t": 45,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1184,154,6,22",
+      "s": 7,
+      "t": 21,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1189,588,287,294",
+      "s": 28,
+      "t": 20,
+      "alpha": 14,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1191,420,155,144",
+      "s": 35,
+      "t": 11,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1196,250,60,50",
+      "s": 25,
+      "t": 9,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1197,300,75,75",
+      "s": 20,
+      "t": 14,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1197,546,245,252",
+      "s": 26,
+      "t": 20,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1199,550,225,275",
+      "s": 10,
+      "t": 54,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1200,110,10,10",
+      "s": 11,
+      "t": 9,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1200,308,64,84",
+      "s": 11,
+      "t": 27,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1200,407,118,148",
+      "s": 11,
+      "t": 36,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1206,490,203,196",
+      "s": 35,
+      "t": 13,
+      "alpha": 14,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1210,399,128,133",
+      "s": 21,
+      "t": 18,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1212,525,230,225",
+      "s": 35,
+      "t": 14,
+      "alpha": 15,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1215,544,208,272",
+      "s": 8,
+      "t": 67,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1215,598,289,299",
+      "s": 26,
+      "t": 22,
+      "alpha": 13,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1216,90,14,6",
+      "s": 15,
+      "t": 5,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1216,165,24,22",
+      "s": 15,
+      "t": 10,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1216,465,164,186",
+      "s": 15,
+      "t": 30,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1221,324,99,81",
+      "s": 36,
+      "t": 8,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,180,5,30",
+      "s": 6,
+      "t": 29,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,252,35,56",
+      "s": 9,
+      "t": 27,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,264,63,55",
+      "s": 24,
+      "t": 10,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,306,89,72",
+      "s": 34,
+      "t": 8,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,340,105,90",
+      "s": 34,
+      "t": 9,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,374,123,110",
+      "s": 34,
+      "t": 10,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,408,143,132",
+      "s": 34,
+      "t": 11,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,442,165,156",
+      "s": 34,
+      "t": 12,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,476,189,182",
+      "s": 34,
+      "t": 13,
+      "alpha": 13,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,504,203,210",
+      "s": 24,
+      "t": 20,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,510,215,210",
+      "s": 34,
+      "t": 14,
+      "alpha": 14,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,540,235,240",
+      "s": 27,
+      "t": 19,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1225,544,243,240",
+      "s": 34,
+      "t": 15,
+      "alpha": 15,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1241,160,24,20",
+      "s": 16,
+      "t": 9,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1242,153,24,18",
+      "s": 17,
+      "t": 8,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1242,425,136,150",
+      "s": 17,
+      "t": 24,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1258,432,156,144",
+      "s": 36,
+      "t": 11,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1261,492,171,205",
+      "s": 12,
+      "t": 40,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1265,480,185,180",
+      "s": 32,
+      "t": 14,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1267,186,5,31",
+      "s": 6,
+      "t": 30,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1269,288,42,72",
+      "s": 8,
+      "t": 35,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1270,261,36,58",
+      "s": 9,
+      "t": 28,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1275,98,13,7",
+      "s": 14,
+      "t": 6,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1275,266,49,57",
+      "s": 14,
+      "t": 18,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1275,350,85,100",
+      "s": 14,
+      "t": 24,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1275,518,193,222",
+      "s": 14,
+      "t": 36,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1281,440,145,154",
+      "s": 20,
+      "t": 21,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1288,162,36,18",
+      "s": 27,
+      "t": 5,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1288,195,26,30",
+      "s": 13,
+      "t": 14,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1288,462,161,168",
+      "s": 22,
+      "t": 20,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1288,567,246,252",
+      "s": 27,
+      "t": 20,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1296,385,124,110",
+      "s": 35,
+      "t": 10,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1296,420,144,132",
+      "s": 35,
+      "t": 11,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1296,455,166,156",
+      "s": 35,
+      "t": 12,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1296,490,190,182",
+      "s": 35,
+      "t": 13,
+      "alpha": 13,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1296,525,216,210",
+      "s": 35,
+      "t": 14,
+      "alpha": 14,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1296,560,244,240",
+      "s": 35,
+      "t": 15,
+      "alpha": 15,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1296,595,274,272",
+      "s": 35,
+      "t": 16,
+      "alpha": 16,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1300,432,142,144",
+      "s": 24,
+      "t": 17,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:153,56,19,21",
+      "s": 8,
+      "t": 6,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:154,48,12,16",
+      "s": 6,
+      "t": 7,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:160,54,18,18",
+      "s": 9,
+      "t": 5,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:171,60,15,24",
+      "s": 5,
+      "t": 11,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:176,70,24,30",
+      "s": 7,
+      "t": 9,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:189,48,12,12",
+      "s": 8,
+      "t": 5,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:189,88,37,44",
+      "s": 8,
+      "t": 10,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:190,45,12,10",
+      "s": 9,
+      "t": 4,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:216,75,18,30",
+      "s": 5,
+      "t": 14,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:216,90,39,36",
+      "s": 15,
+      "t": 5,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:217,66,15,22",
+      "s": 6,
+      "t": 10,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:220,72,22,24",
+      "s": 9,
+      "t": 7,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:225,48,3,12",
+      "s": 4,
+      "t": 11,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:225,80,25,30",
+      "s": 8,
+      "t": 9,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:231,70,21,21",
+      "s": 10,
+      "t": 6,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:231,90,33,36",
+      "s": 10,
+      "t": 8,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:232,63,14,18",
+      "s": 7,
+      "t": 8,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:243,112,46,56",
+      "s": 8,
+      "t": 13,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:245,52,3,13",
+      "s": 4,
+      "t": 12,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:245,108,39,54",
+      "s": 6,
+      "t": 17,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:246,85,20,34",
+      "s": 5,
+      "t": 16,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:250,81,24,27",
+      "s": 9,
+      "t": 8,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:259,42,5,7",
+      "s": 6,
+      "t": 6,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:260,70,15,20",
+      "s": 7,
+      "t": 9,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:261,64,14,16",
+      "s": 8,
+      "t": 7,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:273,72,21,18",
+      "s": 12,
+      "t": 5,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:280,63,14,14",
+      "s": 9,
+      "t": 6,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:287,126,45,63",
+      "s": 6,
+      "t": 20,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:288,42,6,6",
+      "s": 7,
+      "t": 5,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:288,112,36,48",
+      "s": 7,
+      "t": 15,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:297,104,31,39",
+      "s": 8,
+      "t": 12,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:306,55,4,11",
+      "s": 5,
+      "t": 10,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:319,150,65,75",
+      "s": 10,
+      "t": 14,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:322,96,20,32",
+      "s": 6,
+      "t": 15,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:324,136,58,56",
+      "s": 17,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:325,72,15,16",
+      "s": 9,
+      "t": 7,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:330,140,58,60",
+      "s": 14,
+      "t": 9,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:336,135,54,54",
+      "s": 15,
+      "t": 8,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:340,108,30,36",
+      "s": 9,
+      "t": 11,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:341,70,15,14",
+      "s": 10,
+      "t": 6,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:342,66,15,12",
+      "s": 11,
+      "t": 5,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:343,102,21,34",
+      "s": 6,
+      "t": 16,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:345,120,35,45",
+      "s": 8,
+      "t": 14,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:351,160,64,80",
+      "s": 8,
+      "t": 19,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:363,170,73,85",
+      "s": 10,
+      "t": 16,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:375,182,85,91",
+      "s": 14,
+      "t": 12,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:377,180,81,90",
+      "s": 12,
+      "t": 14,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:381,140,55,49",
+      "s": 20,
+      "t": 6,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:385,60,5,10",
+      "s": 6,
+      "t": 9,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:396,135,30,54",
+      "s": 5,
+      "t": 26,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:396,150,51,60",
+      "s": 10,
+      "t": 14,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:400,105,20,30",
+      "s": 7,
+      "t": 14,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:400,126,34,42",
+      "s": 9,
+      "t": 13,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:400,133,48,42",
+      "s": 19,
+      "t": 6,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:400,152,60,56",
+      "s": 19,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:400,168,68,72",
+      "s": 14,
+      "t": 11,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:400,171,74,72",
+      "s": 19,
+      "t": 8,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:405,96,18,24",
+      "s": 8,
+      "t": 11,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:405,196,91,98",
+      "s": 14,
+      "t": 13,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:408,110,28,30",
+      "s": 11,
+      "t": 9,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:408,176,70,80",
+      "s": 11,
+      "t": 15,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:416,165,64,66",
+      "s": 15,
+      "t": 10,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:418,147,56,49",
+      "s": 21,
+      "t": 6,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:425,160,60,60",
+      "s": 16,
+      "t": 9,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:428,112,21,32",
+      "s": 7,
+      "t": 15,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:429,108,27,27",
+      "s": 12,
+      "t": 8,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:430,135,36,45",
+      "s": 9,
+      "t": 14,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:435,154,53,55",
+      "s": 14,
+      "t": 10,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:435,182,73,78",
+      "s": 14,
+      "t": 12,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:441,152,43,57",
+      "s": 8,
+      "t": 18,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:441,160,61,56",
+      "s": 20,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:441,180,75,72",
+      "s": 20,
+      "t": 8,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:441,200,91,90",
+      "s": 20,
+      "t": 9,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:448,150,50,50",
+      "s": 15,
+      "t": 9,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:451,130,33,39",
+      "s": 10,
+      "t": 12,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:456,80,4,16",
+      "s": 5,
+      "t": 15,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:459,208,82,104",
+      "s": 8,
+      "t": 25,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:460,99,18,22",
+      "s": 9,
+      "t": 10,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:475,90,25,15",
+      "s": 18,
+      "t": 4,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:483,240,118,120",
+      "s": 20,
+      "t": 11,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:484,126,40,30",
+      "s": 21,
+      "t": 5,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:484,147,50,42",
+      "s": 21,
+      "t": 6,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:484,168,62,56",
+      "s": 21,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:484,189,76,72",
+      "s": 21,
+      "t": 8,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:484,210,92,90",
+      "s": 21,
+      "t": 9,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:484,231,110,110",
+      "s": 21,
+      "t": 10,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:490,144,28,48",
+      "s": 6,
+      "t": 23,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:496,135,38,36",
+      "s": 15,
+      "t": 8,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:506,100,18,20",
+      "s": 10,
+      "t": 9,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:507,184,71,64",
+      "s": 23,
+      "t": 7,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:507,240,106,120",
+      "s": 12,
+      "t": 19,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:511,78,5,13",
+      "s": 6,
+      "t": 12,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:513,120,21,30",
+      "s": 8,
+      "t": 14,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:528,102,26,18",
+      "s": 17,
+      "t": 5,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:532,126,35,28",
+      "s": 18,
+      "t": 6,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:532,156,30,52",
+      "s": 6,
+      "t": 25,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:533,132,31,33",
+      "s": 12,
+      "t": 10,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:539,234,81,117",
+      "s": 6,
+      "t": 38,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:540,55,10,5",
+      "s": 11,
+      "t": 4,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:540,84,18,12",
+      "s": 14,
+      "t": 5,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:540,99,18,18",
+      "s": 11,
+      "t": 8,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:540,154,43,44",
+      "s": 14,
+      "t": 10,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:544,180,58,60",
+      "s": 15,
+      "t": 11,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:550,63,8,7",
+      "s": 9,
+      "t": 6,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:550,117,20,26",
+      "s": 9,
+      "t": 12,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:550,192,72,64",
+      "s": 24,
+      "t": 7,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:550,225,80,100",
+      "s": 9,
+      "t": 24,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:96,35,10,14",
+      "s": 5,
+      "t": 6,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:559,264,116,132",
+      "s": 12,
+      "t": 21,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:560,130,30,30",
+      "s": 13,
+      "t": 9,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:560,247,102,114",
+      "s": 13,
+      "t": 18,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:561,60,9,6",
+      "s": 10,
+      "t": 5,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:561,176,55,55",
+      "s": 16,
+      "t": 10,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:561,240,99,105",
+      "s": 16,
+      "t": 14,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:565,240,104,100",
+      "s": 24,
+      "t": 9,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:567,256,100,128",
+      "s": 8,
+      "t": 31,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:568,217,66,93",
+      "s": 7,
+      "t": 30,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:575,126,29,27",
+      "s": 14,
+      "t": 8,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:576,100,4,20",
+      "s": 5,
+      "t": 19,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:576,120,28,24",
+      "s": 15,
+      "t": 7,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:576,225,84,90",
+      "s": 15,
+      "t": 14,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:576,230,94,90",
+      "s": 23,
+      "t": 9,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:576,253,112,110",
+      "s": 23,
+      "t": 10,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:585,200,55,75",
+      "s": 8,
+      "t": 24,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:595,90,5,15",
+      "s": 6,
+      "t": 14,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:595,126,21,28",
+      "s": 9,
+      "t": 13,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:598,192,56,64",
+      "s": 12,
+      "t": 15,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:605,280,117,140",
+      "s": 10,
+      "t": 27,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:606,105,4,21",
+      "s": 5,
+      "t": 20,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:611,250,105,100",
+      "s": 25,
+      "t": 9,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:615,294,133,147",
+      "s": 14,
+      "t": 20,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:616,120,20,24",
+      "s": 10,
+      "t": 11,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:616,240,89,96",
+      "s": 15,
+      "t": 15,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:621,144,24,36",
+      "s": 8,
+      "t": 17,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:624,161,28,46",
+      "s": 7,
+      "t": 22,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:630,119,28,21",
+      "s": 17,
+      "t": 6,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:637,60,11,5",
+      "s": 12,
+      "t": 4,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:637,96,5,16",
+      "s": 6,
+      "t": 15,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:637,186,35,62",
+      "s": 6,
+      "t": 30,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:637,252,91,105",
+      "s": 12,
+      "t": 20,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:638,189,60,54",
+      "s": 21,
+      "t": 8,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:639,288,112,144",
+      "s": 8,
+      "t": 35,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:640,198,50,66",
+      "s": 9,
+      "t": 21,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:640,210,66,70",
+      "s": 15,
+      "t": 13,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:645,140,31,30",
+      "s": 14,
+      "t": 9,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:651,234,89,81",
+      "s": 26,
+      "t": 8,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:672,121,20,22",
+      "s": 11,
+      "t": 10,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:672,231,70,84",
+      "s": 11,
+      "t": 20,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:675,322,145,161",
+      "s": 14,
+      "t": 22,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:676,175,54,42",
+      "s": 25,
+      "t": 6,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:676,200,66,56",
+      "s": 25,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:676,216,62,72",
+      "s": 12,
+      "t": 17,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:676,225,80,72",
+      "s": 25,
+      "t": 8,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:676,250,96,90",
+      "s": 25,
+      "t": 9,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:676,275,114,110",
+      "s": 25,
+      "t": 10,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:676,300,134,132",
+      "s": 25,
+      "t": 11,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:680,175,30,50",
+      "s": 7,
+      "t": 24,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:697,96,20,12",
+      "s": 16,
+      "t": 5,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:700,216,54,72",
+      "s": 9,
+      "t": 23,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:700,243,90,81",
+      "s": 27,
+      "t": 8,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:704,190,54,50",
+      "s": 19,
+      "t": 9,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:715,120,20,20",
+      "s": 12,
+      "t": 9,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:715,228,65,76",
+      "s": 12,
+      "t": 18,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:721,324,147,144",
+      "s": 27,
+      "t": 11,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:726,140,22,28",
+      "s": 10,
+      "t": 13,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:726,270,87,108",
+      "s": 10,
+      "t": 26,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:729,248,67,93",
+      "s": 8,
+      "t": 30,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:730,153,24,34",
+      "s": 9,
+      "t": 16,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:735,318,109,159",
+      "s": 6,
+      "t": 52,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:735,360,172,180",
+      "s": 20,
+      "t": 17,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:736,60,14,4",
+      "s": 15,
+      "t": 3,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:736,105,20,14",
+      "s": 15,
+      "t": 6,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:736,195,50,52",
+      "s": 15,
+      "t": 12,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:736,330,140,154",
+      "s": 15,
+      "t": 21,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:741,180,39,45",
+      "s": 12,
+      "t": 14,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:742,221,60,68",
+      "s": 13,
+      "t": 16,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:750,112,20,16",
+      "s": 14,
+      "t": 7,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:750,210,55,60",
+      "s": 14,
+      "t": 14,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:750,308,118,132",
+      "s": 14,
+      "t": 21,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:756,160,40,32",
+      "s": 20,
+      "t": 7,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:760,252,82,84",
+      "s": 18,
+      "t": 13,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:765,176,28,44",
+      "s": 8,
+      "t": 21,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:780,171,42,36",
+      "s": 19,
+      "t": 8,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:780,247,78,78",
+      "s": 19,
+      "t": 12,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:781,290,93,116",
+      "s": 10,
+      "t": 28,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:784,216,68,56",
+      "s": 27,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:784,228,42,76",
+      "s": 6,
+      "t": 37,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:784,324,136,132",
+      "s": 27,
+      "t": 11,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:784,351,158,156",
+      "s": 27,
+      "t": 12,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:792,105,6,15",
+      "s": 7,
+      "t": 14,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:792,336,140,144",
+      "s": 21,
+      "t": 15,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:804,143,22,26",
+      "s": 11,
+      "t": 12,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:813,290,109,100",
+      "s": 29,
+      "t": 9,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:816,315,114,126",
+      "s": 15,
+      "t": 20,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:820,210,35,60",
+      "s": 7,
+      "t": 29,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:825,392,175,196",
+      "s": 14,
+      "t": 27,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:833,112,21,14",
+      "s": 16,
+      "t": 6,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:833,130,21,20",
+      "s": 13,
+      "t": 9,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:836,160,24,32",
+      "s": 10,
+      "t": 15,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:845,204,43,51",
+      "s": 12,
+      "t": 16,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:845,396,171,198",
+      "s": 12,
+      "t": 32,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:847,390,161,195",
+      "s": 10,
+      "t": 38,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:850,261,64,87",
+      "s": 9,
+      "t": 28,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:855,126,21,18",
+      "s": 14,
+      "t": 8,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:855,182,37,39",
+      "s": 14,
+      "t": 12,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:855,294,93,105",
+      "s": 14,
+      "t": 20,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:856,120,21,16",
+      "s": 15,
+      "t": 7,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:861,140,31,21",
+      "s": 20,
+      "t": 6,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:861,300,103,105",
+      "s": 20,
+      "t": 14,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:861,380,163,171",
+      "s": 20,
+      "t": 18,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:867,416,190,208",
+      "s": 16,
+      "t": 25,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:868,300,110,100",
+      "s": 30,
+      "t": 9,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:871,144,22,24",
+      "s": 12,
+      "t": 11,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:875,432,210,216",
+      "s": 24,
+      "t": 17,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:880,270,66,90",
+      "s": 9,
+      "t": 29,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:880,294,98,98",
+      "s": 21,
+      "t": 13,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:896,180,36,36",
+      "s": 15,
+      "t": 11,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:900,203,58,42",
+      "s": 29,
+      "t": 6,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:900,232,70,56",
+      "s": 29,
+      "t": 7,
+      "alpha": 7,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:900,261,84,72",
+      "s": 29,
+      "t": 8,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:900,290,100,90",
+      "s": 29,
+      "t": 9,
+      "alpha": 9,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:900,319,118,110",
+      "s": 29,
+      "t": 10,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:900,348,138,132",
+      "s": 29,
+      "t": 11,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:900,377,160,156",
+      "s": 29,
+      "t": 12,
+      "alpha": 12,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:900,406,184,182",
+      "s": 29,
+      "t": 13,
+      "alpha": 13,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:901,224,54,56",
+      "s": 16,
+      "t": 13,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:910,189,28,42",
+      "s": 9,
+      "t": 20,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:913,192,56,36",
+      "s": 32,
+      "t": 5,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:923,432,186,216",
+      "s": 12,
+      "t": 35,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:924,143,22,22",
+      "s": 13,
+      "t": 10,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:924,208,42,48",
+      "s": 13,
+      "t": 15,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:924,273,72,84",
+      "s": 13,
+      "t": 20,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:925,378,143,162",
+      "s": 14,
+      "t": 26,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:925,384,158,160",
+      "s": 24,
+      "t": 15,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:928,300,90,100",
+      "s": 15,
+      "t": 19,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:931,138,5,23",
+      "s": 6,
+      "t": 22,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:931,162,33,27",
+      "s": 18,
+      "t": 8,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:935,448,204,224",
+      "s": 16,
+      "t": 27,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:936,200,52,40",
+      "s": 25,
+      "t": 7,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:936,221,52,52",
+      "s": 17,
+      "t": 12,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:936,396,150,180",
+      "s": 11,
+      "t": 35,
+      "alpha": 5,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:936,425,184,200",
+      "s": 17,
+      "t": 24,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:945,112,7,14",
+      "s": 8,
+      "t": 13,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:945,320,85,120",
+      "s": 8,
+      "t": 39,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:945,460,217,230",
+      "s": 20,
+      "t": 22,
+      "alpha": 10,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:946,273,80,78",
+      "s": 21,
+      "t": 12,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:949,84,11,7",
+      "s": 12,
+      "t": 6,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:960,126,6,18",
+      "s": 7,
+      "t": 17,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:960,245,40,70",
+      "s": 7,
+      "t": 34,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:960,364,108,156",
+      "s": 7,
+      "t": 51,
+      "alpha": 3,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:960,392,148,168",
+      "s": 14,
+      "t": 27,
+      "alpha": 6,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:989,484,231,242",
+      "s": 22,
+      "t": 21,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:993,352,131,121",
+      "s": 32,
+      "t": 10,
+      "alpha": 11,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:999,448,172,224",
+      "s": 8,
+      "t": 55,
+      "alpha": 4,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1000,108,8,12",
+      "s": 9,
+      "t": 11,
+      "alpha": 1,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1000,207,30,46",
+      "s": 9,
+      "t": 22,
+      "alpha": 2,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1000,336,114,112",
+      "s": 24,
+      "t": 13,
+      "alpha": 8,
+      "status": "OPEN"
+    },
+    {
+      "srg": "srg:1000,405,140,180",
+      "s": 9,
+      "t": 44,
+      "alpha": 4,
+      "status": "OPEN"
+    }
+  ]
+}

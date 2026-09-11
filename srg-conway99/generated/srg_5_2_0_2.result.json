@@ -1,0 +1,25 @@
+{
+  "state": "REFUTED",
+  "target": {
+    "family": "srg",
+    "params": [
+      5,
+      2,
+      0,
+      2
+    ],
+    "label": "srg:5,2,0,2",
+    "statement": "\u2203 \u03b1 : Type*, \u2203 G : SimpleGraph \u03b1, G.IsSRGWith 5 2 0 2"
+  },
+  "route": "necessary-parameter-certificate",
+  "certificate": {
+    "kind": "parameter-obstruction",
+    "failedConditions": [
+      "k*(k-lambda-1) = (v-k-1)*mu"
+    ]
+  },
+  "lean_proof_term": "by intro h; obtain \u27e8\u03b1, G, hG\u27e9 := h; have hp := hG.param_eq (by omega : 0 < 5); omega",
+  "notes": [
+    "Refutation uses only necessary SRG conditions; no graph search was treated as proof."
+  ]
+}

@@ -1,0 +1,7 @@
+'Erdos142Attack.r3_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Attack.r3_le_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Attack.r3_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Attack.r3_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Attack.r3_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Attack.r3_9_ge_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Attack.r3_14_ge_8' depends on axioms: [propext, Classical.choice, Quot.sound]

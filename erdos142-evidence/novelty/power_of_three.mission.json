@@ -1,0 +1,16 @@
+{
+ "claim": "r_3(3^k) >= 2^k for k=1..7, certified by independently verified 3-AP-free witnesses.",
+ "domain": "additive combinatorics",
+ "novelty_target": "papers",
+ "facets": {
+  "mechanism": "base-3 digit-restricted (no digit 2) construction avoids three-term progressions",
+  "method": "independently verified witness sets at powers of three",
+  "outcome": "lower bound 2^k at n=3^k confirmed to k=7",
+  "entities": "3-AP-free subsets of the first n integers"
+ },
+ "constraints": {
+  "search_queries": [],
+  "patent_queries": []
+ },
+ "min_corpus": 10
+}

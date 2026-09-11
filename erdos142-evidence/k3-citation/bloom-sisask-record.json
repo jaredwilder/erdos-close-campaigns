@@ -1,0 +1,16 @@
+{
+ "schema": "oracle.citation-verify.v1",
+ "work_id": "https://openalex.org/W3038544589",
+ "doi": "https://doi.org/10.48550/arxiv.2007.03528",
+ "title": "Breaking the logarithmic barrier in Roth's theorem on arithmetic progressions",
+ "publication_date": "2020-07-07",
+ "authors": [
+  "Thomas F. Bloom",
+  "Olof Sisask"
+ ],
+ "cited_by_count": 12,
+ "abstract": "We show that if $A\\subset \\{1,\\ldots,N\\}$ contains no non-trivial three-term arithmetic progressions then $\\lvert A\\rvert \\ll N/(\\log N)^{1+c}$ for some absolute constant $c&gt;0$. In particular, this proves the first non-trivial case of a conjecture of Erd\u0151s on arithmetic progressions.",
+ "provider": "openalex",
+ "url": "https://api.openalex.org/works/W3038544589?mailto=jared@jaredwilder.com",
+ "body_sha256": "229cf96cd69ae261636ee7726546b1d3aabe6f539366acba06c97db457f5c16c"
+}

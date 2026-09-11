@@ -1,0 +1,10 @@
+/root/peer/sub-142-close/Attack06.lean:78:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'Erdos142Slice.r3_le_of_no_free_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Slice.r3_le_of_powersetCard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Slice.r3_4_le_3' depends on axioms: [propext, Classical.choice, Quot.sound]

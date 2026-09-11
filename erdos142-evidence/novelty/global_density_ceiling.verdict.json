@@ -1,0 +1,2795 @@
+{
+  "admissibility": {
+    "admissible": false,
+    "patent_axis": {
+      "live": true,
+      "reason": "paper_only_target_no_patent_axis_asserted"
+    },
+    "reasons": [
+      "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+    ],
+    "verdict": "NOVELTY_INADMISSIBLE"
+  },
+  "adversarial_flags": [],
+  "adversarial_review": {
+    "flags": [],
+    "review_hash": "2e538a832bc31a86900dec4d4d5029d9bf8b91eda2ce26606c27af303655abc5",
+    "reviewer_summary": "Novelty verdict is corpus-grounded, facet-localized, and (where crowded) shipped with a measured pivot.",
+    "verdict": "NOVELTYFORGE_V1_ADVERSARIAL_REVIEW_GREEN"
+  },
+  "anticipation": {
+    "clear_core_facets": [
+      "mechanism",
+      "method",
+      "outcome"
+    ],
+    "crowded_core_facets": [],
+    "mosaic_obviousness": {
+      "core_facets_anticipated": [],
+      "distinct_references_needed": [],
+      "is_risk": false
+    },
+    "per_facet": [
+      {
+        "anticipated": false,
+        "facet": "mechanism",
+        "is_core": true,
+        "max_collision": 0.297555,
+        "nearest_prior_art": "US10528695",
+        "novelty": 0.702445
+      },
+      {
+        "anticipated": false,
+        "facet": "method",
+        "is_core": true,
+        "max_collision": 0.278727,
+        "nearest_prior_art": "US10528695",
+        "novelty": 0.721273
+      },
+      {
+        "anticipated": false,
+        "facet": "outcome",
+        "is_core": true,
+        "max_collision": 0.199149,
+        "nearest_prior_art": "https://openalex.org/W1985006965",
+        "novelty": 0.800851
+      },
+      {
+        "anticipated": true,
+        "facet": "problem",
+        "is_core": false,
+        "max_collision": 0.825,
+        "nearest_prior_art": "https://openalex.org/W4253314034",
+        "novelty": 0.175
+      },
+      {
+        "anticipated": false,
+        "facet": "entities",
+        "is_core": false,
+        "max_collision": 0.423657,
+        "nearest_prior_art": "https://openalex.org/W2184347621",
+        "novelty": 0.576343
+      }
+    ],
+    "shape": "clear_core",
+    "single_reference_anticipation": null,
+    "summary": "No core facet is anticipated by the corpus."
+  },
+  "claim": "A single exhaustively proven exact value r_3(m) yields an explicit ceiling r_3(n) <= ceil(n/m)*r_3(m) for every n, hence an explicit numeric bound on limsup r_3(n)/n.",
+  "claim_chart": {
+    "claim_grounded": true,
+    "core_elements_disclosed": 0,
+    "core_elements_total": 3,
+    "evidence_note": "family_elements_split_across_members",
+    "reference": {
+      "identifier": "US10528695",
+      "overall_collision": 0.207812,
+      "record_id": "US10528695",
+      "source": "patent",
+      "title": "INTEGER ARITHMETIC METHOD FOR WIRE LENGTH MINIMIZATION IN GLOBAL PLACEMENT WITH CONVOLUTION BASED DENSITY PENALTY COMPUTATION",
+      "year": 2018
+    },
+    "rows": [
+      {
+        "claim_facet": "mechanism",
+        "claim_grounded": true,
+        "claim_text": "interval covering with ceil(n/m) blocks of length m",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.297555,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "method",
+        "claim_grounded": true,
+        "claim_text": "derive a global density ceiling from one exact extremal value",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.278727,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "outcome",
+        "claim_grounded": true,
+        "claim_text": "explicit unconditional numeric upper bound on the 3-AP-free density",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.087474,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "problem",
+        "claim_grounded": true,
+        "claim_text": "additive combinatorics",
+        "element_disclosed": false,
+        "is_core": false,
+        "prior_art_collision": 0.0,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "entities",
+        "claim_grounded": true,
+        "claim_text": "3-AP-free subsets of the first n integers",
+        "element_disclosed": false,
+        "is_core": false,
+        "prior_art_collision": 0.182815,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      }
+    ],
+    "single_reference_anticipation": false,
+    "verdict": "family_elements_split_across_members"
+  },
+  "core_novelty": 0.735148,
+  "corpus_provenance": {
+    "acquired_utc": "2026-08-04T15:38:33Z",
+    "acquisition_output_file_sha256": "6c284255f192a2ed0fc860cca778aef3d23d8bd3280cb7c8c4995210b76fd141",
+    "acquisition_snapshot_sha256": "9fd7c34c4306b395da417fb1f0552e2b2a382ebed9dc964120de83b005c27158",
+    "binding_receipt_sha256": "234d3efce20d7b53d4d602be2de97e65e484f41aa7f22cfb114fdc24fbf75713",
+    "corpus_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\corpus_6b9dcd6df2ec1b93f42a8f07a0b66b3d.json",
+    "corpus_sha256": "029b2a7df4f7bd659fef4715eea54fa7c174ba5ec043666ea1d43f0ea8167156",
+    "family_summary": {
+      "double_count_prevented": 0,
+      "family_count": 67,
+      "patent_records": 67,
+      "receipt_sha256": "f2456f9ae38ff84105d3295ea3e34d472308cf8ced768488373d5c06cb7c8a98",
+      "unique_structure_count": 0
+    },
+    "independent_quotas": {
+      "paper_quota_met": true,
+      "patent_quota_met": true,
+      "required_papers": 0,
+      "required_patents": 0,
+      "status": "COMPLETE"
+    },
+    "paper_count": 30,
+    "paper_queries": [
+      "additive combinatorics",
+      "derive global density ceiling one exact extremal value 3-ap-free subsets first integers",
+      "derive global density ceiling one exact extremal value additive combinatorics",
+      "derive global density ceiling one exact extremal value explicit unconditional numeric upper bound 3-ap-free",
+      "explicit unconditional numeric upper bound 3-ap-free density additive combinatorics",
+      "explicit unconditional numeric upper bound 3-ap-free density subsets first integers",
+      "interval covering ceil blocks length 3-ap-free subsets first integers",
+      "interval covering ceil blocks length additive combinatorics",
+      "interval covering ceil blocks length derive global density ceiling one exact extremal value",
+      "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density",
+      "single exhaustively proven exact value yields explicit ceiling ceil every numeric bound limsup"
+    ],
+    "paper_retrieval": {
+      "all_provider_attempts_succeeded": false,
+      "attempts": [
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 34387,
+            "body_sha256": "4aee8e827bfd8c8c6477fca57613fd6da80c57bdbab4e6cab18205c3413d1703",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 530.369,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "c6e49c25d323c0fc93628d0fde7523099f11cd3e3c77a04f7051c713b06f931f",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 313070,
+            "body_sha256": "f434c66c36e7078a6fe52750d95308807138545f28072bb6df72ef53ee57412c",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1445.621,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "3fbcd2821be3542b7aa4655c9fdec9368f55f5fdb72c398775d4f28fa598c2bb",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 124076,
+            "body_sha256": "c834c34a7a26fe511f5964e9208179735cf098563dbf4c2ee052c92631ec452c",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 485.869,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "0d5d57ddae0434877a15408c1761088407edd385f7817e0c8a47e8c12c9419d8",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "crossref",
+          "query": "derive global density ceiling one exact extremal value 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32877,
+            "body_sha256": "06b815191572dc8a14822823a21b7018c06aec7634dda754f5ddae48b8a736c7",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 552.555,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "cbe567aa9ce45aea53553586bc334149dfb831f1747422a9094cf57c9804054b",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=derive+global+density+ceiling+one+exact+extremal+value+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "derive global density ceiling one exact extremal value 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 510041,
+            "body_sha256": "316ca8d05ee35a44f02af6699f5e0f36026cd3ad85c0b1ca481e5fa793f5da30",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1501.715,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "a252350e03a62c81ba3ee369c9ae4f8666e886e7dc697dbd9518113324d80daf",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=derive+global+density+ceiling+one+exact+extremal+value+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "derive global density ceiling one exact extremal value 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 250,
+            "body_sha256": "e0eb5ff23749e109af247e46902a1a1c131f2a36841518af11c605d507a80416",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 248.501,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "77c0c3368d189e84fd750a4bf991d4dd61e3102a6cc3c264f9249529b3c03df9",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=derive+global+density+ceiling+one+exact+extremal+value+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 23,
+          "provider": "crossref",
+          "query": "derive global density ceiling one exact extremal value additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 20128,
+            "body_sha256": "963332ca78a14f1cf99caa289c2117b26d2348244d41b3bf5c72e6d6a7d92f71",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 428.041,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "f05dc9ec87416634e5d3d47688de110ae6b01af19c69d081b84881d21ae9a8c0",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=derive+global+density+ceiling+one+exact+extremal+value+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "derive global density ceiling one exact extremal value additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 402605,
+            "body_sha256": "e112649861595ccaeceefbcab736416453fd0bea32226e9531436407f4ca9214",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1289.752,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "78feee0c9a546202cfdab852f1aa9076ede60cd977bc20aeb8abb79f280de77d",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=derive+global+density+ceiling+one+exact+extremal+value+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "derive global density ceiling one exact extremal value additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 240,
+            "body_sha256": "11683a26d5bd947237e4b2e8adb45cd1d1f60402ff6a8f52756d7ea970659e97",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 213.575,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "22ce48a956724641c4d55c1674ef088ae0c9ee3b7608beefa36b00b83970ae0b",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=derive+global+density+ceiling+one+exact+extremal+value+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "derive global density ceiling one exact extremal value explicit unconditional numeric upper bound 3-ap-free",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 38766,
+            "body_sha256": "f04dfdd5b4b49152a6247f58f3664868dc6be277761eac0717e41d8a29bcc07c",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 406.085,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "88256fdbfc7a6aa6d0b1b282ecdb6290e0a82fac63c34bc2d29ec718b7a2eaf9",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=derive+global+density+ceiling+one+exact+extremal+value+explicit+unconditional+numeric+upper+bound+3-ap-free&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 20,
+          "provider": "openalex",
+          "query": "derive global density ceiling one exact extremal value explicit unconditional numeric upper bound 3-ap-free",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 333364,
+            "body_sha256": "aea409f2b336589c07d57d198b5a0647a038d574fbaaeac590314b597a6a5fe5",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1299.314,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "2d34ffbe964a1453252b0635424fffb1e694c10b2b8f22542544e271b167d54d",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=derive+global+density+ceiling+one+exact+extremal+value+explicit+unconditional+numeric+upper+bound+3-ap-free&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "europe_pmc",
+          "query": "derive global density ceiling one exact extremal value explicit unconditional numeric upper bound 3-ap-free",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 2904,
+            "body_sha256": "4015e5aaf8ba039dcf9d934807940f6642477d02ee6040a3640b0e55b7744d8a",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 257.501,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "4770b2d0e5baee1e91da08eb691720044aa5cf1b12f78fcfdfc43b69e0ee75e0",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=derive+global+density+ceiling+one+exact+extremal+value+explicit+unconditional+numeric+upper+bound+3-ap-free&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 35662,
+            "body_sha256": "ed767ef3612212846697094c0f782158097de84a5f2b7a355b7072bf7f1b6df2",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 415.883,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "5059fe777483c609f54593c343c3c537d92f87ed9c836274cb26810f149a21ac",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=explicit+unconditional+numeric+upper+bound+3-ap-free+density+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 432492,
+            "body_sha256": "5d43101c2c35d001e372801a192063203223b181665bedab082b4258036ccdfe",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1091.82,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "f147d9231842c09d3ac326585fa37f97b028b705d4357c7ac42178f5c36269e1",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=explicit+unconditional+numeric+upper+bound+3-ap-free+density+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 246,
+            "body_sha256": "89e23abb7fdb92a04cc34f7102fe3f2e0f2d3f0b1fbbca04c712a865f01ef0c8",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 158.471,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "8fd8f346677cb1f0e88eec415a8165fee0c103b4936e70fddb8ba17e589705b3",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=explicit+unconditional+numeric+upper+bound+3-ap-free+density+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 44349,
+            "body_sha256": "063274e34d9b44d1791f429fa98e50b36e953b328d6d253b0716ab2623c5e653",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 427.628,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "6e66b3b75bb39bf1c591b7944f244c32e2c0a605100d86bd6b194acf6c7b37d3",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=explicit+unconditional+numeric+upper+bound+3-ap-free+density+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 500783,
+            "body_sha256": "0eb2d177a3a01927f769c200399762d45d84ccae9ce62784a9be2a540bc8b7df",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1017.192,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "50a0b2b65e3220c3d0966ffc935f340f5c7928e510859fe10b35b32daed04d34",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=explicit+unconditional+numeric+upper+bound+3-ap-free+density+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "europe_pmc",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 2258,
+            "body_sha256": "30e2696a432c29b4d044d1d0f82b00d006e80e99249f5c11dfa7e782c98c1f93",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 516.423,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "3c31e71db96c44d06c7f2f3cb8f4d75112a28ad21c6b87d2ca8d83e29f34f056",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=explicit+unconditional+numeric+upper+bound+3-ap-free+density+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_429",
+          "provider": "crossref",
+          "query": "interval covering ceil blocks length 3-ap-free subsets first integers",
+          "status": "error"
+        },
+        {
+          "hit_count": 17,
+          "provider": "openalex",
+          "query": "interval covering ceil blocks length 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 254640,
+            "body_sha256": "5ea6785b6f58cf6d200136c7397591b716ccadb03ce6a15ba9552fa3463e3060",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1013.415,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "5eb456a137e67002468e130a197d9742ea8a177d3090cc52693c28ceab4d60c6",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=interval+covering+ceil+blocks+length+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "europe_pmc",
+          "query": "interval covering ceil blocks length 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 2024,
+            "body_sha256": "c262dab5673d471da10a482b0310190148dea8de382e5758cebecc81c4ef9a07",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 487.237,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "ac397779dfd2d19f5c67e1d75a3826016d9fad5661802eb20581790867b40d00",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=interval+covering+ceil+blocks+length+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "interval covering ceil blocks length additive combinatorics",
+          "receipt": {
+            "attempt": 2,
+            "body_bytes": 22919,
+            "body_sha256": "144ac0fd4df57701c3f70a3e2b612b0677c1d845f4e392f3cde91892c8998351",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 430.844,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "278692f7a5382e92584b2e30ca04b3491e7bd0b29cc13eda4b74564052b0c34e",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=interval+covering+ceil+blocks+length+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 5,
+          "provider": "openalex",
+          "query": "interval covering ceil blocks length additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 83529,
+            "body_sha256": "003c479200dd1045b631ac5b2ef3034d60b2adb6a961b76f813edec6f5afaf12",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 802.429,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "a2f9c89ef5f18d9b0e157941deb045cc8c53ff7b36974f674adc022cf808ec2c",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=interval+covering+ceil+blocks+length+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 1,
+          "provider": "europe_pmc",
+          "query": "interval covering ceil blocks length additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 2014,
+            "body_sha256": "93d7796fe2f900b8af3107b2b8bf78eaad03b4afaf0d4ebe9f914bf107833553",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 258.247,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "7f15b01697f2f1dd72c4074205d72c1a1d6476a46b8e266af20b4df39805fc13",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=interval+covering+ceil+blocks+length+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_429",
+          "provider": "crossref",
+          "query": "interval covering ceil blocks length derive global density ceiling one exact extremal value",
+          "status": "error"
+        },
+        {
+          "hit_count": 11,
+          "provider": "openalex",
+          "query": "interval covering ceil blocks length derive global density ceiling one exact extremal value",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 171492,
+            "body_sha256": "b2a8565cf1e6f466ae409fc44ab6aa99c293cc20fe31d65a1fb6352f1187e296",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 698.237,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "5796ba8b27a782d9d58cbeb4cf2c636877072576be80e49c600c1e75212759b6",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=interval+covering+ceil+blocks+length+derive+global+density+ceiling+one+exact+extremal+value&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "interval covering ceil blocks length derive global density ceiling one exact extremal value",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 254,
+            "body_sha256": "a2002d466dadbf22b902d8e5e2d6e1f4c11c18b9d8d9db0974f536b5dcd07a99",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 166.144,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "dfb9eb93312aa492fdb5179bd032dea390b99137f13a535871e615f38378908b",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=interval+covering+ceil+blocks+length+derive+global+density+ceiling+one+exact+extremal+value&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_429",
+          "provider": "crossref",
+          "query": "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density",
+          "status": "error"
+        },
+        {
+          "hit_count": 1,
+          "provider": "openalex",
+          "query": "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 9093,
+            "body_sha256": "7afb0fbf84f8629df8398ce399813f74646c1b813bbd7b9f55a795243240572f",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 684.062,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "2cede173d1a3dacd06ac199ebb4dbd158a255e8d6dd4c2de403e082b33b63302",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=interval+covering+ceil+blocks+length+explicit+unconditional+numeric+upper+bound+3-ap-free+density&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 260,
+            "body_sha256": "cf2c4bd92bb22702ebd29c0f0964636a423ebf77d90d6608e7d150834a378ac7",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 169.006,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "cbedd66d6b9464e087d494605fbd0dcf8285cb3fe85e8caf947408f07fc6275c",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=interval+covering+ceil+blocks+length+explicit+unconditional+numeric+upper+bound+3-ap-free+density&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "single exhaustively proven exact value yields explicit ceiling ceil every numeric bound limsup",
+          "receipt": {
+            "attempt": 2,
+            "body_bytes": 35819,
+            "body_sha256": "725b3415637dfd219d96b29a96b2721e805558f322b209bd74469fa4347fed1e",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 560.448,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "ddc623b0d5db77ecf577bfe8fc0b05e02fb7494cad3470a59fd2a41f3d4a3b00",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=single+exhaustively+proven+exact+value+yields+explicit+ceiling+ceil+every+numeric+bound+limsup&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "openalex",
+          "query": "single exhaustively proven exact value yields explicit ceiling ceil every numeric bound limsup",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 649,
+            "body_sha256": "240a1a3bd1205be56d4dbd6df61a3ee52d303ef59ae7e75a00db738691fb477b",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 592.661,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "78ff44d4395c4716e2bc65756f16542aadf237d84e14a520354afe2e4be8c25c",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=single+exhaustively+proven+exact+value+yields+explicit+ceiling+ceil+every+numeric+bound+limsup&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "single exhaustively proven exact value yields explicit ceiling ceil every numeric bound limsup",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 257,
+            "body_sha256": "b017728322022b0371097ac0a3027467577eb55862f02b3f6a959e750f5af888",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 163.764,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "b6db087b494db2dd13e174ba7365cc88257db4dc2378fcb0783a887cf559ff74",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=single+exhaustively+proven+exact+value+yields+explicit+ceiling+ceil+every+numeric+bound+limsup&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        }
+      ],
+      "math_domain_detected": false,
+      "math_scholarly_providers": {
+        "status": "not_applicable"
+      },
+      "paper_count": 30,
+      "provider_error_count": 3,
+      "provider_success_count": 30,
+      "providers_attempted": [
+        "crossref",
+        "openalex",
+        "europe_pmc"
+      ],
+      "providers_with_hits": [
+        "crossref",
+        "europe_pmc",
+        "openalex"
+      ],
+      "query_count": 11,
+      "relevance_floor": {
+        "admitted": 261,
+        "all_candidates_excluded": false,
+        "candidates": 357,
+        "excluded": 96,
+        "excluded_rows": [
+          {
+            "cited_by_count": 878,
+            "doi": "10.1007/b72010",
+            "retrieval_citation_prior": 1.152393,
+            "title": "Lattice-Gas Cellular Automata and Lattice Boltzmann Models: An Introduction"
+          },
+          {
+            "cited_by_count": 267,
+            "doi": "10.1017/s0962492911000055",
+            "retrieval_citation_prior": 0.950468,
+            "title": "Sparse tensor discretizations of high-dimensional parametric and stochastic PDEs"
+          },
+          {
+            "cited_by_count": 236,
+            "doi": "10.2307/1268147",
+            "retrieval_citation_prior": 0.92957,
+            "title": "Conflicting Objectives in Decisions"
+          },
+          {
+            "cited_by_count": 214,
+            "doi": "10.1214/aos/1069362377",
+            "retrieval_citation_prior": 0.913008,
+            "title": "CART and best-ortho-basis: a connection"
+          },
+          {
+            "cited_by_count": 130,
+            "doi": "10.1103/prxquantum.5.020201",
+            "retrieval_citation_prior": 0.828784,
+            "title": "Current Fluctuations in Open Quantum Systems: Bridging the Gap Between Quantum Continuous Measurements and Full Counting Statistics"
+          },
+          {
+            "cited_by_count": 127,
+            "doi": "10.4036/iis.2010.139",
+            "retrieval_citation_prior": 0.824845,
+            "title": "Matrix Analysis: Matrix Monotone Functions, Matrix Means, and Majorization"
+          },
+          {
+            "cited_by_count": 111,
+            "doi": "10.1016/bs.hesmac.2016.04.009",
+            "retrieval_citation_prior": 0.802145,
+            "title": "Challenges for Central Banks’ Macro Models"
+          },
+          {
+            "cited_by_count": 107,
+            "doi": "",
+            "retrieval_citation_prior": 0.795962,
+            "title": "Searching in encrypted data"
+          },
+          {
+            "cited_by_count": 57,
+            "doi": "10.1186/1471-2105-13-68",
+            "retrieval_citation_prior": 0.690275,
+            "title": "Accelerated maximum likelihood parameter estimation for stochastic biochemical systems"
+          },
+          {
+            "cited_by_count": 53,
+            "doi": "",
+            "retrieval_citation_prior": 0.678127,
+            "title": "Integrated Control and Scheduling"
+          },
+          {
+            "cited_by_count": 36,
+            "doi": "10.1016/j.jcp.2018.06.072",
+            "retrieval_citation_prior": 0.613856,
+            "title": "A stable partitioned FSI algorithm for rigid bodies and incompressible flow in three dimensions"
+          },
+          {
+            "cited_by_count": 33,
+            "doi": "",
+            "retrieval_citation_prior": 0.599481,
+            "title": "Cellular automata methods in mathematical physics"
+          },
+          {
+            "cited_by_count": 29,
+            "doi": "10.1109/tase.2024.3367237",
+            "retrieval_citation_prior": 0.578204,
+            "title": "An End-to-End Deep Reinforcement Learning Based Modular Task Allocation Framework for Autonomous Mobile Systems"
+          },
+          {
+            "cited_by_count": 25,
+            "doi": "",
+            "retrieval_citation_prior": 0.553876,
+            "title": "Learning in structured connectionist networks"
+          },
+          {
+            "cited_by_count": 21,
+            "doi": "10.1016/0021-9991(87)90189-6",
+            "retrieval_citation_prior": 0.525477,
+            "title": "A Lagrangian fractional step method for the incompressible navier-stokes equations on a periodic domain"
+          },
+          {
+            "cited_by_count": 21,
+            "doi": "10.18653/v1/2020.bea-1",
+            "retrieval_citation_prior": 0.525477,
+            "title": "Proceedings of the Fifteenth Workshop on Innovative Use of NLP for Building Educational Applications"
+          },
+          {
+            "cited_by_count": 20,
+            "doi": "10.1007/978-981-19-0920-7",
+            "retrieval_citation_prior": 0.517569,
+            "title": "Modern Cryptography Volume 1"
+          },
+          {
+            "cited_by_count": 17,
+            "doi": "10.3150/22-bej1529",
+            "retrieval_citation_prior": 0.491363,
+            "title": "On Azadkia–Chatterjee’s conditional dependence coefficient"
+          },
+          {
+            "cited_by_count": 17,
+            "doi": "10.3384/diss.diva-152440",
+            "retrieval_citation_prior": 0.491363,
+            "title": "Tracking the Wanders of Nature"
+          },
+          {
+            "cited_by_count": 13,
+            "doi": "10.1007/bf01261429",
+            "retrieval_citation_prior": 0.44864,
+            "title": "Applications of the theory of modular forms to number theory"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.5445/ir/1000041110",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Cryptography based on the Hardness of Decoding"
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "10.48550/arxiv.0709.0289",
+            "retrieval_citation_prior": 0.373528,
+            "title": "Cryptography in the Bounded-Quantum-Storage Model"
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "10.70675/690f4541z387bz4dc7za4c6zc9785f8c9e4a",
+            "retrieval_citation_prior": 0.373528,
+            "title": "Smartphone-based indoor positioning using Wi-Fi, inertial sensors and Bluetooth"
+          },
+          {
+            "cited_by_count": 6,
+            "doi": "",
+            "retrieval_citation_prior": 0.330805,
+            "title": "Pathways to Net-Zero Energy Buildings: An Optimization Methodology"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Design and evaluation of sparse models and algorithms for audio inverse problems"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Safety system design optimisation"
+          },
+          {
+            "cited_by_count": 5,
+            "doi": "",
+            "retrieval_citation_prior": 0.304599,
+            "title": "Spectral Finite Element Methods for solving Fractional Differential Equations with applications in Anomalous Transport"
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "",
+            "retrieval_citation_prior": 0.273604,
+            "title": "A method to predict reverberation time in concert hall preliminary design stage"
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1098/rstb.2023.0304",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Shape parameters of evolutionary trees in theoretical computer science."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "",
+            "retrieval_citation_prior": 0.23567,
+            "title": "MICROPHONE ARRAY OPTIMIZATION IN IMMERSIVE ENVIRONMENTS"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.48550/arxiv.1008.4909",
+            "retrieval_citation_prior": 0.23567,
+            "title": "The Chebotarev invariant of a finite group"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Full simulation of a testbeam experiment including modeling of the Bonn Atlas Telescope and Atlas 3D pixel silicon sensors"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.25772/vykh-kx58",
+            "retrieval_citation_prior": 0.117835,
+            "title": "An Inferential Framework for Network Hypothesis Tests: With Applications to Biological Networks"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Analyzing Massive Graphs in the Semi-streaming Model"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.19195/0208-4147.38.2.1",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Boundary value problems for the Dunkl Laplacian"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Exploiting the intrinsic structures of simultaneous localization and mapping"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Geostatistical Modeling of Subclimatic Tropical Precipitation in the Carolinas"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.22215/etd/2013-06362",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Radiometric identification of long term evolution transmitters"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.22028/d291-26583",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Scalable optimization algorithms for recommender systems"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Selection intensity and the time to fixation in evolutionary systems"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.5075/epfl-thesis-5167",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Self-Similar Vector Fields"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.48550/arxiv.2411.06224",
+            "retrieval_citation_prior": 0.117835,
+            "title": "StiffGIPC: Advancing GPU IPC for stiff affine-deformable simulation"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "UEG Week 2014 Poster Presentations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e28050544",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Complex Tension Origin for Dilaton Gravity: Jordan Stiffness and Logarithmic Einstein Dynamics."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Data-Constrained Framework for Marine Biogeochemistry Modeling with Applications to the Paranaguá Estuarine Complex"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e27070756",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Max-Flow Approach to Random Tensor Networks."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/buildings16101921",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Physics-Constrained Surrogate Model for Multi-Hazard Collapse Assessment of Buildings Under Post-Fire Concurrent Wind-Earthquake Loading"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.22215/etd/2017-12135",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Quantitative Model-Based Fault Detection & Diagnostics (FDD) System for Zone-Level Inefficiencies"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "A study of the insulation properties of building materials and their application in Middle Eastern climates"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Adaptive Qubit Freezing Enables Robust Graph Partitioning for Divide-and-Conquer QAOA"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Adaptive Sensing beyond Non-Adaptive Information Limits: End-to-End Co-Design of Geometry, Policy, and Inference"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Adaptive scheduling in cellular access, wireless mesh and IP networks"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.010",
+            "retrieval_citation_prior": 0.0,
+            "title": "Algebraic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.5445/ksp/1000123340",
+            "retrieval_citation_prior": 0.0,
+            "title": "Annual Report 2019 of the Institute for Nuclear and Energy Technologies (KIT Scientific Reports ; 7759)"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.014",
+            "retrieval_citation_prior": 0.0,
+            "title": "Bibliography"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpls.2026.1864496",
+            "retrieval_citation_prior": 0.0,
+            "title": "Cis-regulatory elements in CAMTA-mediated stress signalling: mechanisms and prospects for CRISPR-based crop improvement."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.7302/3939",
+            "retrieval_citation_prior": 0.0,
+            "title": "Complex Networks: Structure and Inference"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.32657/10220/48613",
+            "retrieval_citation_prior": 0.0,
+            "title": "Computationally efficient methods for solving optimal power flow problems by exploiting supplementary information"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.5121/csit.2021.1102",
+            "retrieval_citation_prior": 0.0,
+            "title": "Computer Science & Information Technology (CS & IT)"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Conception et évaluation de modèles parcimonieux et d'algorithmes pour la résolution de problèmes inverses en audio"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s00454-023-00622-w",
+            "retrieval_citation_prior": 0.0,
+            "title": "Counting Arcs in F q 2."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "EffGen: Enabling Small Language Models as Capable Autonomous Agents"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3929/ethz-a-010485512",
+            "retrieval_citation_prior": 0.0,
+            "title": "Essays on applied nonparametric econometrics"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1371/journal.pone.0348356",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fault diagnosis of aero-engines using transfer dispersion entropy and dispersion patterns."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.005",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fourier-analytic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1073/pnas.2510881123",
+            "retrieval_citation_prior": 0.0,
+            "title": "Free quantum computing."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Gestion des ressources radio pour les réseaux cellulaires économes en énergie avec surfaces réfléchissantes intelligentes"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.007",
+            "retrieval_citation_prior": 0.0,
+            "title": "Graph-theoretic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.009",
+            "retrieval_citation_prior": 0.0,
+            "title": "Incidence geometry"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.53846/goediss-10265",
+            "retrieval_citation_prior": 0.0,
+            "title": "Information, Logic, and Inference in the Analysis of Complex Networks"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.006",
+            "retrieval_citation_prior": 0.0,
+            "title": "Inverse sum set theorems"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Limit Theorems for Random Walk Local Time, Bootstrap Percolation and Permutation Statistics"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.013",
+            "retrieval_citation_prior": 0.0,
+            "title": "Long arithmetic progressions in sum sets"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.26481/dis.20250926fl",
+            "retrieval_citation_prior": 0.0,
+            "title": "Mathematical contributions to the theory of change"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpsyt.2026.1727711",
+            "retrieval_citation_prior": 0.0,
+            "title": "Mitochondrial dysfunction in EEG: high-beta specific metabolic/oxidative coupling with lactate in mania-predominant polarity."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Modelling of fire spread and the growth of fire in buildings using computational fluid dynamics"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41598-025-27113-7",
+            "retrieval_citation_prior": 0.0,
+            "title": "Novel representation of complexity of investment casting using injective coloring and graph adaptive consensus mechanism."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.4233/uuid:2347b8d5-77b9-46f3-a054-33fdf007e906",
+            "retrieval_citation_prior": 0.0,
+            "title": "Numerical Finance with Backward Stochastic Differential Equations: An Exploration of Three Schemes"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "PAPERS BY AUTHOR"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511758881.002",
+            "retrieval_citation_prior": 0.0,
+            "title": "Participants"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Path calibration algorithms for many-aperture fiber-linked broadband hypertelescopes"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.57709/7059867",
+            "retrieval_citation_prior": 0.0,
+            "title": "Perfect Matchings, Tilings and Hamilton Cycles in Hypergraphs"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/sym18071182",
+            "retrieval_citation_prior": 0.0,
+            "title": "Permutation-Equivariant Graph Reinforcement Learning for Thermal-Aware Microservice Scheduling in Co-Packaged Optics Data Centers"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1162/opmi.a.275",
+            "retrieval_citation_prior": 0.0,
+            "title": "Predictability of the Retrieval Site Does Not Modulate Interference: Evidence From Reflexive Attraction."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Program Abstracts from the GSA 2019 Annual Scientific Meeting “Strength in Age—Harnessing the Power of Networks”"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.001",
+            "retrieval_citation_prior": 0.0,
+            "title": "Prologue"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.11606/t.45.2020.tde-11022021-194125",
+            "retrieval_citation_prior": 0.0,
+            "title": "Property testing and parameter estimation"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e26100870",
+            "retrieval_citation_prior": 0.0,
+            "title": "Remarks on Limit Theorems for the Free Quadratic Forms."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Selektionsintensität und Fixierungszeiten in evolutionären Systemen"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.31224/2984",
+            "retrieval_citation_prior": 0.0,
+            "title": "Straight-in Approach to Flight Dynamics"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.003",
+            "retrieval_citation_prior": 0.0,
+            "title": "Sum set estimates"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.011",
+            "retrieval_citation_prior": 0.0,
+            "title": "Szemerédi' theorem for k = 3"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.008",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Littlewood–Offord problem"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.002",
+            "retrieval_citation_prior": 0.0,
+            "title": "The probabilistic method"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Trading in electronic markets : the challenges of imperfect liquidity and reduced pre-trade transparency"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Using CLIPS to Realize Quality of Life Expert System (QLIFEX)"
+          }
+        ],
+        "rule": "retrieval_relevance > 0.0 (shares >=1 non-stopword token with >=1 grounding query)"
+      },
+      "retrieval_receipt_sha256": "12e36ba28720c4ba9935ab432d19c2b1f9693567358d8076092b1c4c2c2b3cf7",
+      "retrieval_state": "hits",
+      "saturation": {
+        "curve": [
+          {
+            "cumulative_unique": 68,
+            "new_records": 68,
+            "query": "additive combinatorics"
+          },
+          {
+            "cumulative_unique": 117,
+            "new_records": 49,
+            "query": "derive global density ceiling one exact extremal value 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 164,
+            "new_records": 47,
+            "query": "derive global density ceiling one exact extremal value additive combinatorics"
+          },
+          {
+            "cumulative_unique": 206,
+            "new_records": 42,
+            "query": "derive global density ceiling one exact extremal value explicit unconditional numeric upper bound 3-ap-free"
+          },
+          {
+            "cumulative_unique": 251,
+            "new_records": 45,
+            "query": "explicit unconditional numeric upper bound 3-ap-free density additive combinatorics"
+          },
+          {
+            "cumulative_unique": 286,
+            "new_records": 35,
+            "query": "explicit unconditional numeric upper bound 3-ap-free density subsets first integers"
+          },
+          {
+            "cumulative_unique": 303,
+            "new_records": 17,
+            "query": "interval covering ceil blocks length 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 324,
+            "new_records": 21,
+            "query": "interval covering ceil blocks length additive combinatorics"
+          },
+          {
+            "cumulative_unique": 334,
+            "new_records": 10,
+            "query": "interval covering ceil blocks length derive global density ceiling one exact extremal value"
+          },
+          {
+            "cumulative_unique": 334,
+            "new_records": 0,
+            "query": "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density"
+          },
+          {
+            "cumulative_unique": 357,
+            "new_records": 23,
+            "query": "single exhaustively proven exact value yields explicit ceiling ceil every numeric bound limsup"
+          }
+        ],
+        "is_saturated": false,
+        "total_queries": 11,
+        "total_unique_works": 357
+      },
+      "status": "success",
+      "worker_count": 12
+    },
+    "patent_application_count": 0,
+    "patent_claim_grounded_count": 15,
+    "patent_count": 67,
+    "patent_granted_count": 67,
+    "patent_official_claim_grounded_count": 15,
+    "patent_official_provider_record_count": 67,
+    "patent_official_search_complete": false,
+    "patent_provider": "uspto_odp_keyed",
+    "patent_queries": [
+      "3-ap-free subsets first integers explicit ceiling density numeric",
+      "3-ap-free subsets first integers explicit ceiling density numeric derive global one exact extremal value",
+      "3-ap-free subsets first integers explicit ceiling density numeric interval covering ceil blocks length",
+      "3-ap-free subsets first integers explicit ceiling density numeric unconditional upper bound",
+      "derive global density ceiling one exact extremal value additive combinatorics composition",
+      "explicit unconditional numeric upper bound 3-ap-free density subsets first integers additive combinatorics treatment composition",
+      "interval covering ceil blocks length 3-ap-free subsets first integers compound",
+      "interval covering ceil blocks length composition compound treatment",
+      "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density compound composition"
+    ],
+    "patent_retrieval": {
+      "attempts": [
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers explicit ceiling density numeric",
+            "receipt_sha256": "0d5fc2a9a4ebf6a1fd66422ba5dc941af67723b62d5cc9b3e864f4971c308803",
+            "records_sha256": "10ea74d015d847e1f8f0e99d9f9a194f7d09a65e3c2e028cd7ecd7bd78b73ad1"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric derive global one exact extremal value",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric derive global one exact extremal value",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers explicit ceiling density numeric derive global one exact extremal value",
+            "receipt_sha256": "ef64b8d45c2351e683d9a27d175f9c3f5ecdcb4cd86982b21f43707e6bedfbcf",
+            "records_sha256": "df3a825c38df64d4cbbbba75da500bf6e2d4094e4186cbdce78144d54c164df3"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric derive global one exact extremal value",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric interval covering ceil blocks length",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric interval covering ceil blocks length",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers explicit ceiling density numeric interval covering ceil blocks length",
+            "receipt_sha256": "0ee3254f6804f7fc36863136bb7b4df7c5250dd5503e952f6eaaa00fa72d0011",
+            "records_sha256": "0d9e1415d1092a70531720f92f3217f0bd230857183b03ff99ae28706209b853"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric interval covering ceil blocks length",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric unconditional upper bound",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric unconditional upper bound",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers explicit ceiling density numeric unconditional upper bound",
+            "receipt_sha256": "7420a3637b42af58c93d6c0ed8d5cf35b046f078f579aa9e8f1bf730fa921d0f",
+            "records_sha256": "a341a76d45e3399ac2eae630f3fa96b759face718b8e69608bdf3ac6c2241aac"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers explicit ceiling density numeric unconditional upper bound",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "derive global density ceiling one exact extremal value additive combinatorics composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "derive global density ceiling one exact extremal value additive combinatorics composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "derive global density ceiling one exact extremal value additive combinatorics composition",
+            "receipt_sha256": "b94264aaba68cfe4d64ad67933f3a868a249399fa2b3c099e51e44073400c6c8",
+            "records_sha256": "74ed329568ed4a66c9fb3c54b9632713eee21e3c1c310f5ea0feaf3ec437915f"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "derive global density ceiling one exact extremal value additive combinatorics composition",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "explicit unconditional numeric upper bound 3-ap-free density subsets first integers additive combinatorics treatment composition",
+            "receipt_sha256": "bda29bc9144f887680016441dff9328a544f7326d73017d1f0296d4827786fa2",
+            "records_sha256": "fa8e41f8fb3622d817db96b56ddb20d1e326f0c97b7eb17cdfbbe6fcfbf99fd6"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "explicit unconditional numeric upper bound 3-ap-free density subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "interval covering ceil blocks length 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "interval covering ceil blocks length 3-ap-free subsets first integers compound",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "interval covering ceil blocks length 3-ap-free subsets first integers compound",
+            "receipt_sha256": "2bf74b62bcc68031b3e26a2e355f3cd290508cacdd9a2ca3b8804dcc523f723d",
+            "records_sha256": "41910b5a758f0b6ee6ba2bd4e983f6a51e24f7483f8c1041a6311902396fa8ca"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "interval covering ceil blocks length 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "interval covering ceil blocks length composition compound treatment",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "interval covering ceil blocks length composition compound treatment",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "interval covering ceil blocks length composition compound treatment",
+            "receipt_sha256": "fe9cd6293e65c3a181f0fda62b9486af327621d485352d2d1994bf585d142938",
+            "records_sha256": "4966803dfd0292e2176c35b96ad4ddd73662d00ed103f1a9d8e2fafa47794a8e"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "interval covering ceil blocks length composition compound treatment",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density compound composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density compound composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density compound composition",
+            "receipt_sha256": "75fb124a852da80274e4e33e57c5e268a7263ee0ad58abf220f13d194b9778e3",
+            "records_sha256": "c92b70169381a6c300042acb5b0ccb4c3826f96023e46a2a59dccf77d4317aad"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density compound composition",
+          "status": "error"
+        }
+      ],
+      "candidate_budget": 80,
+      "claim_grounded_count": 15,
+      "configured_official_providers": [
+        "epo_ops",
+        "uspto_odp_keyed"
+      ],
+      "coverage_status": "INCOMPLETE_PROVIDER_COVERAGE",
+      "family_diversity_reserve": 0,
+      "granted_count": 67,
+      "hydration_config": {
+        "allow_network": true,
+        "hydration_jobs": 12,
+        "hydration_workers": 4,
+        "patent_hydrate_limit": 12,
+        "structure_hydrate_limit": 4
+      },
+      "hydration_workers": 4,
+      "official_claim_grounded_count": 15,
+      "official_coverage_scope": "partial_or_missing_official_rails",
+      "official_coverage_status": "INCOMPLETE_OFFICIAL_PROVIDER_COVERAGE",
+      "official_provider_record_count": 67,
+      "official_search_complete": false,
+      "optional_provider_errors": [
+        "google_patents_search"
+      ],
+      "patent_count": 67,
+      "provider": "uspto_odp_keyed",
+      "provider_health": [
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 9,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_403",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed — the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": true,
+          "provider": "epo_ops",
+          "required_for_clear_novelty": true,
+          "status": "ERROR"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 0,
+          "hit_count": 135,
+          "official": true,
+          "provider": "uspto_odp_keyed",
+          "required_for_clear_novelty": true,
+          "status": "HIT"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 9,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_503",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed — the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": false,
+          "provider": "google_patents_search",
+          "required_for_clear_novelty": false,
+          "status": "ERROR"
+        }
+      ],
+      "provider_request_limit": 15,
+      "providers_attempted": [
+        "epo_ops",
+        "uspto_odp_keyed",
+        "google_patents_search"
+      ],
+      "providers_with_hits": [
+        "uspto_odp_keyed"
+      ],
+      "query_count": 9,
+      "requested_retrieval_floor": 135,
+      "required_provider_errors": [
+        "epo_ops"
+      ],
+      "retrieval_receipt_sha256": "8f1a9f4221b6a53baa0395dee6a508a8348b091620ce5e60511934d365861faf",
+      "search_complete": false,
+      "selected_family_count": 67,
+      "status": "success",
+      "structure_grounded_count": 0,
+      "unavailable_official_providers": []
+    },
+    "patent_search_complete": false,
+    "provider_lineage_sha256": "cfe2f47ba55ce19759815f0307c8e1decab971cfc2d2878cfa593194b1b3f638",
+    "query_coverage": {
+      "paper": {
+        "mechanism": [
+          "interval covering ceil blocks length additive combinatorics",
+          "single exhaustively proven exact value yields explicit ceiling ceil every numeric bound limsup",
+          "interval covering ceil blocks length derive global density ceiling one exact extremal value",
+          "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density",
+          "interval covering ceil blocks length 3-ap-free subsets first integers"
+        ],
+        "method": [
+          "derive global density ceiling one exact extremal value additive combinatorics",
+          "explicit unconditional numeric upper bound 3-ap-free density additive combinatorics",
+          "single exhaustively proven exact value yields explicit ceiling ceil every numeric bound limsup",
+          "interval covering ceil blocks length derive global density ceiling one exact extremal value",
+          "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density",
+          "derive global density ceiling one exact extremal value explicit unconditional numeric upper bound 3-ap-free",
+          "derive global density ceiling one exact extremal value 3-ap-free subsets first integers",
+          "explicit unconditional numeric upper bound 3-ap-free density subsets first integers"
+        ],
+        "outcome": [
+          "derive global density ceiling one exact extremal value additive combinatorics",
+          "explicit unconditional numeric upper bound 3-ap-free density additive combinatorics",
+          "single exhaustively proven exact value yields explicit ceiling ceil every numeric bound limsup",
+          "interval covering ceil blocks length derive global density ceiling one exact extremal value",
+          "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density",
+          "derive global density ceiling one exact extremal value explicit unconditional numeric upper bound 3-ap-free",
+          "interval covering ceil blocks length 3-ap-free subsets first integers",
+          "derive global density ceiling one exact extremal value 3-ap-free subsets first integers",
+          "explicit unconditional numeric upper bound 3-ap-free density subsets first integers"
+        ],
+        "problem": [
+          "interval covering ceil blocks length additive combinatorics",
+          "derive global density ceiling one exact extremal value additive combinatorics",
+          "explicit unconditional numeric upper bound 3-ap-free density additive combinatorics",
+          "additive combinatorics"
+        ]
+      },
+      "patent": {
+        "mechanism": [
+          "3-ap-free subsets first integers explicit ceiling density numeric interval covering ceil blocks length",
+          "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density compound composition",
+          "interval covering ceil blocks length 3-ap-free subsets first integers compound",
+          "interval covering ceil blocks length composition compound treatment"
+        ],
+        "method": [
+          "3-ap-free subsets first integers explicit ceiling density numeric interval covering ceil blocks length",
+          "3-ap-free subsets first integers explicit ceiling density numeric derive global one exact extremal value",
+          "3-ap-free subsets first integers explicit ceiling density numeric unconditional upper bound",
+          "derive global density ceiling one exact extremal value additive combinatorics composition",
+          "3-ap-free subsets first integers explicit ceiling density numeric",
+          "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density compound composition",
+          "explicit unconditional numeric upper bound 3-ap-free density subsets first integers additive combinatorics treatment composition"
+        ],
+        "outcome": [
+          "3-ap-free subsets first integers explicit ceiling density numeric interval covering ceil blocks length",
+          "3-ap-free subsets first integers explicit ceiling density numeric derive global one exact extremal value",
+          "3-ap-free subsets first integers explicit ceiling density numeric unconditional upper bound",
+          "derive global density ceiling one exact extremal value additive combinatorics composition",
+          "3-ap-free subsets first integers explicit ceiling density numeric",
+          "interval covering ceil blocks length explicit unconditional numeric upper bound 3-ap-free density compound composition",
+          "interval covering ceil blocks length 3-ap-free subsets first integers compound",
+          "explicit unconditional numeric upper bound 3-ap-free density subsets first integers additive combinatorics treatment composition"
+        ],
+        "problem": [
+          "derive global density ceiling one exact extremal value additive combinatorics composition",
+          "explicit unconditional numeric upper bound 3-ap-free density subsets first integers additive combinatorics treatment composition"
+        ]
+      },
+      "uncovered_paper_facets": [],
+      "uncovered_patent_facets": []
+    },
+    "query_plan_sha256": "220a3c12cae7d1e76d52ff4041be63cb4c9b0ca89569ab0674827ac445d0f9af",
+    "spec_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\spec_6b9dcd6df2ec1b93f42a8f07a0b66b3d.json"
+  },
+  "corpus_size": 97,
+  "corpus_source": "auto_acquired_litacq_patents",
+  "design_around": {
+    "boundary": "Research design-space constraints only; not a legal design-around or FTO opinion.",
+    "generator_rules": [
+      "reject exact, connectivity-equivalent, salt-parent, and tautomer-equivalent structures",
+      "reject high-similarity fingerprint analogs above the configured hard threshold",
+      "treat scaffold matches as design pressure even when not independently dispositive",
+      "screen every generated survivor against Markush envelopes and family-normalized evidence",
+      "do not treat stereochemistry, salt form, or tautomer changes as novelty restoration by themselves"
+    ],
+    "hard_parent_hashes": [],
+    "hard_structure_hashes": [],
+    "hard_tautomer_hashes": [],
+    "markush_envelopes": [],
+    "markush_family_counts": {},
+    "receipt_sha256": "1441b384f4f27848dfa9bc4fb0e0872dc8bbf9b09a585398ab7be8d851cff8ac",
+    "scaffold_pressure": [],
+    "schema": "oracle.noveltyforge.design_around.v1",
+    "status": "COMPLETE"
+  },
+  "differentiation": {
+    "baseline_core_novelty": 0.735148,
+    "differentiation_guard": "each pivot is re-scored against the same corpus; a change that does not lower measured collision is cosmetic and dropped.",
+    "novel_core_floor": 0.62,
+    "novelty_restorable": true,
+    "recommended_pivot": {
+      "baseline_novelty": 0.735148,
+      "description": "Claim the mechanism only in combination with the novel outcome ('explicit unconditional numeric upper bound on the 3-AP-free ').",
+      "facet": "mechanism",
+      "feasibility": 0.72,
+      "injected_terms": [
+        "explicit",
+        "unconditional",
+        "numeric",
+        "upper",
+        "bound",
+        "3-ap-free",
+        "density"
+      ],
+      "novelty_gain": 0.035582,
+      "projected_novelty": 0.77073,
+      "rationale": "Ties the crowded facet to an orthogonal novel facet, moving the claim into unclaimed combination space.",
+      "restores_novelty": true,
+      "strategy": "combine_orthogonal"
+    },
+    "strategy_summary": "8 measured differentiation vector(s); best restores core novelty to 0.77073.",
+    "target_facets": [
+      "mechanism"
+    ],
+    "vectors": [
+      {
+        "baseline_novelty": 0.735148,
+        "description": "Claim the mechanism only in combination with the novel outcome ('explicit unconditional numeric upper bound on the 3-AP-free ').",
+        "facet": "mechanism",
+        "feasibility": 0.72,
+        "injected_terms": [
+          "explicit",
+          "unconditional",
+          "numeric",
+          "upper",
+          "bound",
+          "3-ap-free",
+          "density"
+        ],
+        "novelty_gain": 0.035582,
+        "projected_novelty": 0.77073,
+        "rationale": "Ties the crowded facet to an orthogonal novel facet, moving the claim into unclaimed combination space.",
+        "restores_novelty": true,
+        "strategy": "combine_orthogonal"
+      },
+      {
+        "baseline_novelty": 0.735148,
+        "description": "Narrow the mechanism to the 'low-dose sustained regime' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "low-dose",
+          "sustained",
+          "regime"
+        ],
+        "novelty_gain": 0.027967,
+        "projected_novelty": 0.763115,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.735148,
+        "description": "Narrow the mechanism to the 'pediatric population stratum' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "pediatric",
+          "population",
+          "stratum"
+        ],
+        "novelty_gain": 0.027967,
+        "projected_novelty": 0.763115,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.735148,
+        "description": "Narrow the mechanism to the 'leak-controlled held-out validation' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "leak-controlled",
+          "held-out",
+          "validation"
+        ],
+        "novelty_gain": 0.027967,
+        "projected_novelty": 0.763115,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.735148,
+        "description": "Narrow the mechanism to the 'federated multi-site cohort' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "federated",
+          "multi-site",
+          "cohort"
+        ],
+        "novelty_gain": 0.027967,
+        "projected_novelty": 0.763115,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.735148,
+        "description": "Narrow the mechanism to the 'out-of-distribution domain shift' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "out-of-distribution",
+          "domain",
+          "shift"
+        ],
+        "novelty_gain": 0.027967,
+        "projected_novelty": 0.763115,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.735148,
+        "description": "Narrow the mechanism to the 'single-cell resolution readout' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "single-cell",
+          "resolution",
+          "readout"
+        ],
+        "novelty_gain": 0.027967,
+        "projected_novelty": 0.763115,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.735148,
+        "description": "Narrow the mechanism to the 'prospective decision-curve deployment' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "prospective",
+          "decision-curve",
+          "deployment"
+        ],
+        "novelty_gain": 0.027967,
+        "projected_novelty": 0.763115,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      }
+    ]
+  },
+  "discovery_verdict": "NOVELTY_INADMISSIBLE",
+  "domain": "additive combinatorics",
+  "facet_novelty": {
+    "entities": 0.576343,
+    "mechanism": 0.702445,
+    "method": 0.721273,
+    "outcome": 0.800851,
+    "problem": 0.175
+  },
+  "facet_views": [
+    {
+      "is_core": true,
+      "name": "mechanism",
+      "text": "interval covering with ceil(n/m) blocks of length m",
+      "weight": 0.3
+    },
+    {
+      "is_core": true,
+      "name": "method",
+      "text": "derive a global density ceiling from one exact extremal value",
+      "weight": 0.24
+    },
+    {
+      "is_core": true,
+      "name": "outcome",
+      "text": "explicit unconditional numeric upper bound on the 3-AP-free density",
+      "weight": 0.2
+    },
+    {
+      "is_core": false,
+      "name": "problem",
+      "text": "additive combinatorics",
+      "weight": 0.08
+    },
+    {
+      "is_core": false,
+      "name": "entities",
+      "text": "3-AP-free subsets of the first n integers",
+      "weight": 0.13
+    }
+  ],
+  "family_normalization": {
+    "double_count_prevented": 0,
+    "family_count": 67,
+    "patent_records": 67,
+    "receipt_sha256": "f2456f9ae38ff84105d3295ea3e34d472308cf8ced768488373d5c06cb7c8a98",
+    "unique_structure_count": 0
+  },
+  "inadmissible_reasons": [
+    "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+  ],
+  "independent_quotas": {
+    "paper_quota_met": true,
+    "patent_quota_met": true,
+    "required_papers": 0,
+    "required_patents": 0,
+    "status": "COMPLETE"
+  },
+  "input_corpus_size": 97,
+  "ip_assessment": {
+    "boundary": "research-prioritization novelty screen; not legal advice or a patentability opinion.",
+    "freedom_to_operate_screen": {
+      "boundary": "keyword read-on screen against claim-grounded granted patent records; not a legal FTO opinion.",
+      "coverage": {
+        "official_claim_grounded_count": 15,
+        "official_provider_record_count": 67,
+        "official_search_complete": false,
+        "provider": "uspto_odp_keyed",
+        "query_coverage_complete": true,
+        "status": "official_coverage_incomplete",
+        "uncovered_patent_facets": [],
+        "warning": "Do not interpret a clean FTO screen as comprehensive; one or more official rails failed."
+      },
+      "exclusion_counts": {
+        "claim_similarity_below_threshold": 15,
+        "claims_unavailable": 82
+      },
+      "manual_review_queue": [
+        {
+          "context_collision": 0.207812,
+          "identifier": "US10528695",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10528695"
+        },
+        {
+          "context_collision": 0.132968,
+          "identifier": "10.1109/focs.2012.39",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1983716530"
+        },
+        {
+          "context_collision": 0.129407,
+          "identifier": "10.1145/2629598",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1985006965"
+        },
+        {
+          "context_collision": 0.127829,
+          "identifier": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.3235",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2184347621"
+        },
+        {
+          "context_collision": 0.126484,
+          "identifier": "US12235098",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US12235098"
+        },
+        {
+          "context_collision": 0.123641,
+          "identifier": "US12180801",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US12180801"
+        },
+        {
+          "context_collision": 0.10223,
+          "identifier": "US10089038",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10089038"
+        },
+        {
+          "context_collision": 0.10216,
+          "identifier": "https://openalex.org/W2117889403",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2117889403"
+        },
+        {
+          "context_collision": 0.096756,
+          "identifier": "10.48550/arxiv.1208.2344",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1604298107"
+        },
+        {
+          "context_collision": 0.093909,
+          "identifier": "US10430108",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10430108"
+        },
+        {
+          "context_collision": 0.088429,
+          "identifier": "10.1145/2591796.2591804",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1981712957"
+        },
+        {
+          "context_collision": 0.088016,
+          "identifier": "US10117249",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10117249"
+        }
+      ],
+      "patent_read_ons": [],
+      "pending_application_watchlist": [],
+      "risk": false,
+      "screen_certifiable": false
+    },
+    "non_obviousness_103": {
+      "mosaic_risk": false,
+      "non_obvious": true,
+      "references_in_mosaic": []
+    },
+    "novelty_target": "papers",
+    "patent_novelty_102": {
+      "anticipating_reference": null,
+      "novel": true
+    },
+    "scientific_novelty": {
+      "band": "NOVEL",
+      "core_novelty": 0.735148,
+      "paper_worthy": true
+    },
+    "verdict": "PAPER_AND_PATENT_PATH_OPEN"
+  },
+  "ledger_status": {
+    "checked": false,
+    "key": "108e4747fc5ec25010acd8a996947d05a869cb76cdd26d3f02f35fb47002b53a",
+    "prior_verdict": null,
+    "reused": false
+  },
+  "legal_boundary": "Research prior-art screening only. This module does not determine claim construction, enablement, legal status, jurisdiction-specific prior-art effect, infringement, or freedom to operate.",
+  "measured_effect": null,
+  "measured_reality": false,
+  "min_corpus_required": 10,
+  "next_action": "Run a preregistered measurement that emits effect size, significance/interval, sample size, and a content hash; bind that receipt to the unchanged claim before novelty reassessment.",
+  "novelty_band": "NOVEL",
+  "novelty_target": "papers",
+  "overall_novelty": 0.666246,
+  "promotion_eligibility": {
+    "claim_sha256": "b7f2d3df0cd147461e221e90d04c27dad1f7357e61047f729dfa45390b08c29f",
+    "decision": "PROMOTION_BLOCKED",
+    "eligible": false,
+    "evidence_bindings": {
+      "acquired_utc": "2026-08-04T15:38:33Z",
+      "acquisition_output_file_sha256": "6c284255f192a2ed0fc860cca778aef3d23d8bd3280cb7c8c4995210b76fd141",
+      "acquisition_snapshot_sha256": "9fd7c34c4306b395da417fb1f0552e2b2a382ebed9dc964120de83b005c27158",
+      "adversarial_review_hash": "2e538a832bc31a86900dec4d4d5029d9bf8b91eda2ce26606c27af303655abc5",
+      "binding_receipt_sha256": "234d3efce20d7b53d4d602be2de97e65e484f41aa7f22cfb114fdc24fbf75713",
+      "corpus_sha256": "029b2a7df4f7bd659fef4715eea54fa7c174ba5ec043666ea1d43f0ea8167156",
+      "corpus_size": 97,
+      "corpus_source": "auto_acquired_litacq_patents",
+      "deployment_evidence": {
+        "decision": "NOT_REQUIRED",
+        "ok": true,
+        "required": false
+      },
+      "provider_lineage_sha256": "cfe2f47ba55ce19759815f0307c8e1decab971cfc2d2878cfa593194b1b3f638",
+      "report_payload_sha256": "1af276af2498f13494e9d7d0bb170a7da59ea1058efa998d712100ae6c43fd95",
+      "scientific_disposition_sha256": "8aac1694564433e88eb97c56ba10ab97c52735d7ab1ffa76e333e71f51ce21e8",
+      "structured_prior_art_receipt_sha256": "a0c9b7234129fbfb2045e37cf6121e546537522a4c7b34ca7b2e9f84c1cd87be"
+    },
+    "gate_sha256": "38e7426c9e37d8c3416c8d46ef132dfd70f1f50e9abdc0b85517e38d325c0d3f",
+    "reasons": [
+      "admissibility_gate_not_true",
+      "discovery_verdict_not_novel:NOVELTY_INADMISSIBLE",
+      "inadmissible_reasons_present",
+      "measured_reality_not_verified",
+      "scientific_disposition_not_new_mechanism_candidate",
+      "terminal_mode_not_promotable:NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY"
+    ],
+    "schema": "oracle.noveltyforge.promotion-gate.v1"
+  },
+  "receipt_hash": "1af276af2498f13494e9d7d0bb170a7da59ea1058efa998d712100ae6c43fd95",
+  "scientific_disposition": {
+    "category": "EVIDENCE_HOLD",
+    "deep_remeasurement_required": true,
+    "disposition_sha256": "8aac1694564433e88eb97c56ba10ab97c52735d7ab1ffa76e333e71f51ce21e8",
+    "next_action": "Run a preregistered measurement that emits effect size, significance/interval, sample size, and a content hash; bind that receipt to the unchanged claim before novelty reassessment.",
+    "prior_art_only_resume_allowed": false,
+    "reasons": [
+      "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+    ],
+    "schema": "oracle.noveltyforge.scientific-disposition.v1",
+    "top_colliding_facets": [
+      "problem"
+    ]
+  },
+  "structure_coverage": {
+    "applicable_patent_collision_count": 0,
+    "broad_external_provider_failure_count": 0,
+    "collision_scan_complete": true,
+    "configured_min_exclusions": 1,
+    "coverage_fraction": 0.0,
+    "external_live_structure_provider_count": 0,
+    "external_provider_attempt_count": 0,
+    "external_provider_failure_count": 0,
+    "min_exclusions": 1,
+    "patent_record_count": 0,
+    "patents_with_any_structure": 0,
+    "patents_with_trusted_structure": 0,
+    "provider_attempt_count": 0,
+    "provider_failure_count": 0,
+    "provider_outage_degraded": false,
+    "receipt_sha256": "936d264d795f6ff4866c55df73167741440c3353a5c51a78397033971047eb42",
+    "required": false,
+    "schema": "oracle.noveltyforge.structure_coverage.v4",
+    "shortfall": 1,
+    "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+    "trusted_exclusion_count": 0,
+    "untrusted_evidence_count": 0
+  },
+  "structured_collision_set": [],
+  "structured_prior_art": {
+    "bounds": {
+      "collision_records": 12,
+      "per_collision": 64,
+      "total": 512,
+      "trusted_exclusions_prioritized": true
+    },
+    "collision_evidence": [],
+    "collision_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "coverage": {
+      "applicable_patent_collision_count": 0,
+      "broad_external_provider_failure_count": 0,
+      "collision_scan_complete": true,
+      "configured_min_exclusions": 1,
+      "coverage_fraction": 0.0,
+      "external_live_structure_provider_count": 0,
+      "external_provider_attempt_count": 0,
+      "external_provider_failure_count": 0,
+      "min_exclusions": 1,
+      "patent_record_count": 0,
+      "patents_with_any_structure": 0,
+      "patents_with_trusted_structure": 0,
+      "provider_attempt_count": 0,
+      "provider_failure_count": 0,
+      "provider_outage_degraded": false,
+      "receipt_sha256": "936d264d795f6ff4866c55df73167741440c3353a5c51a78397033971047eb42",
+      "required": false,
+      "schema": "oracle.noveltyforge.structure_coverage.v4",
+      "shortfall": 1,
+      "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+      "trusted_exclusion_count": 0,
+      "untrusted_evidence_count": 0
+    },
+    "evidence": [],
+    "evidence_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "exclusion_smiles": [],
+    "markush_envelope_count": 0,
+    "markush_envelopes": [],
+    "markush_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "provider_attempts": [],
+    "receipt_sha256": "a0c9b7234129fbfb2045e37cf6121e546537522a4c7b34ca7b2e9f84c1cd87be",
+    "required": false,
+    "retrieval_coverage": {
+      "coverage_fraction": 0.0,
+      "external_live_structure_provider_count": 0,
+      "external_provider_attempt_count": 0,
+      "external_provider_failure_count": 0,
+      "min_exclusions": 1,
+      "patent_record_count": 67,
+      "patents_with_any_structure": 0,
+      "patents_with_trusted_structure": 0,
+      "provider_attempt_count": 0,
+      "provider_failure_count": 0,
+      "provider_outage_degraded": false,
+      "receipt_sha256": "3f36ffebb2a00e44e386ded89a1dcebaab5ea6c95c9450499ea0323d01b2907a",
+      "required": false,
+      "schema": "oracle.noveltyforge.structure_coverage.v4",
+      "shortfall": 1,
+      "status": "PARTIAL",
+      "trusted_exclusion_count": 0,
+      "untrusted_evidence_count": 0
+    },
+    "retrieval_evidence_count": 0,
+    "retrieval_evidence_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "schema": "oracle.noveltyforge.structured_prior_art.v4",
+    "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+    "structured_collision_set": []
+  },
+  "temporal_eligibility": {
+    "boundary": "No critical date supplied; temporal prior-art eligibility was not asserted.",
+    "critical_date": null,
+    "eligible_count": 97,
+    "enabled": false,
+    "excluded_post_critical_count": 0,
+    "policy": "public_availability",
+    "receipt_sha256": "91781be43dd150bdd81e9804c9463b4cfe768cb57741205dfc077c1a77d76b68",
+    "rows": [],
+    "schema": "oracle.noveltyforge.temporal_gate.v1",
+    "uncertain_count": 0
+  },
+  "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+  "top_collisions": [
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [],
+      "evidence_factor": 1.0,
+      "evidence_grade": "A",
+      "evidence_note": "family_elements_split_across_members",
+      "facet_collisions": {
+        "entities": 0.182815,
+        "mechanism": 0.297555,
+        "method": 0.278727,
+        "outcome": 0.087474,
+        "problem": 0.0
+      },
+      "identifier": "US10528695",
+      "overall_collision": 0.207812,
+      "raw_facet_collisions": {
+        "entities": 0.182815,
+        "mechanism": 0.297555,
+        "method": 0.278727,
+        "outcome": 0.087474,
+        "problem": 0.0
+      },
+      "record_id": "US10528695",
+      "shared_terms": {},
+      "source": "patent",
+      "structure_candidates": [],
+      "structure_coverage": {
+        "status": "HOLD_PROVIDER_ERROR",
+        "trusted_structure_count": 0
+      },
+      "structure_evidence": [],
+      "title": "INTEGER ARITHMETIC METHOD FOR WIRE LENGTH MINIMIZATION IN GLOBAL PLACEMENT WITH CONVOLUTION BASED DENSITY PENALTY COMPUTATION",
+      "year": 2018
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.129222,
+        "mechanism": 0.0,
+        "method": 0.073219,
+        "outcome": 0.198828,
+        "problem": 0.652288
+      },
+      "identifier": "10.1109/focs.2012.39",
+      "overall_collision": 0.132968,
+      "raw_facet_collisions": {
+        "entities": 0.129222,
+        "mechanism": 0.0,
+        "method": 0.073219,
+        "outcome": 0.198828,
+        "problem": 0.652288
+      },
+      "record_id": "https://openalex.org/W1983716530",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1838
+          ],
+          [
+            "combinatorics",
+            2.1838
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "An Additive Combinatorics Approach Relating Rank to Communication Complexity",
+      "year": 2012
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.129222,
+        "mechanism": 0.0,
+        "method": 0.058741,
+        "outcome": 0.199149,
+        "problem": 0.652632
+      },
+      "identifier": "10.1145/2629598",
+      "overall_collision": 0.129407,
+      "raw_facet_collisions": {
+        "entities": 0.129222,
+        "mechanism": 0.0,
+        "method": 0.058741,
+        "outcome": 0.199149,
+        "problem": 0.652632
+      },
+      "record_id": "https://openalex.org/W1985006965",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1838
+          ],
+          [
+            "combinatorics",
+            2.1838
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "An Additive Combinatorics Approach Relating Rank to Communication Complexity",
+      "year": 2014
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.423657,
+        "mechanism": 0.0,
+        "method": 0.058741,
+        "outcome": 0.0,
+        "problem": 0.653302
+      },
+      "identifier": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.3235",
+      "overall_collision": 0.127829,
+      "raw_facet_collisions": {
+        "entities": 0.423657,
+        "mechanism": 0.0,
+        "method": 0.058741,
+        "outcome": 0.0,
+        "problem": 0.653302
+      },
+      "record_id": "https://openalex.org/W2184347621",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1838
+          ],
+          [
+            "combinatorics",
+            2.1838
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Additive Combinatorics and Theoretical Computer Science",
+      "year": 2009
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [],
+      "evidence_factor": 1.0,
+      "evidence_grade": "A",
+      "evidence_note": "family_elements_split_across_members",
+      "facet_collisions": {
+        "entities": 0.129222,
+        "mechanism": 0.281895,
+        "method": 0.0,
+        "outcome": 0.093963,
+        "problem": 0.0
+      },
+      "identifier": "US12235098",
+      "overall_collision": 0.126484,
+      "raw_facet_collisions": {
+        "entities": 0.129222,
+        "mechanism": 0.281895,
+        "method": 0.0,
+        "outcome": 0.093963,
+        "problem": 0.0
+      },
+      "record_id": "US12235098",
+      "shared_terms": {},
+      "source": "patent",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "METHOD AND DEVICE FOR DETERMINING REASONABLE SAMPLING INTERVAL WITH THREE-DIMENSIONAL (3D) LASER SCANNING, AND STORAGE MEDIUM",
+      "year": 2024
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [],
+      "evidence_factor": 1.0,
+      "evidence_grade": "A",
+      "evidence_note": "family_elements_split_across_members",
+      "facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.281895,
+        "method": 0.058741,
+        "outcome": 0.093963,
+        "problem": 0.0
+      },
+      "identifier": "US12180801",
+      "overall_collision": 0.123641,
+      "raw_facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.281895,
+        "method": 0.058741,
+        "outcome": 0.093963,
+        "problem": 0.0
+      },
+      "record_id": "US12180801",
+      "shared_terms": {},
+      "source": "patent",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "METHOD AND TOOL FOR DIRECTING AN ANNULAR FLOW ACROSS A WELL BORE INTERVAL",
+      "year": 2024
+    }
+  ],
+  "version": "4.0.0",
+  "whitespace": {
+    "crowded_cells": [
+      {
+        "axis": "pediatric population",
+        "facet": "method",
+        "max_collision": 0.251374,
+        "novelty": 0.748626
+      },
+      {
+        "axis": "federated multi-site",
+        "facet": "method",
+        "max_collision": 0.251374,
+        "novelty": 0.748626
+      },
+      {
+        "axis": "out-of-distribution shift",
+        "facet": "method",
+        "max_collision": 0.251374,
+        "novelty": 0.748626
+      },
+      {
+        "axis": "single-cell resolution",
+        "facet": "method",
+        "max_collision": 0.251374,
+        "novelty": 0.748626
+      },
+      {
+        "axis": "prospective deployment",
+        "facet": "method",
+        "max_collision": 0.251374,
+        "novelty": 0.748626
+      },
+      {
+        "axis": "resource-constrained edge",
+        "facet": "method",
+        "max_collision": 0.251374,
+        "novelty": 0.748626
+      }
+    ],
+    "note": "coarse facet x regime map for prioritization; not an exhaustive freedom-to-operate search.",
+    "steer_toward": {
+      "axis": "real-time online closed-loop",
+      "facet": "outcome",
+      "max_collision": 0.150441,
+      "novelty": 0.849559
+    },
+    "whitespace_cells": [
+      {
+        "axis": "real-time online closed-loop",
+        "facet": "outcome",
+        "max_collision": 0.150441,
+        "novelty": 0.849559
+      },
+      {
+        "axis": "combination with orthogonal modality",
+        "facet": "outcome",
+        "max_collision": 0.150441,
+        "novelty": 0.849559
+      },
+      {
+        "axis": "low-dose sustained regime",
+        "facet": "outcome",
+        "max_collision": 0.166084,
+        "novelty": 0.833916
+      },
+      {
+        "axis": "geriatric frail population",
+        "facet": "outcome",
+        "max_collision": 0.166084,
+        "novelty": 0.833916
+      },
+      {
+        "axis": "pediatric population",
+        "facet": "outcome",
+        "max_collision": 0.175801,
+        "novelty": 0.824199
+      },
+      {
+        "axis": "federated multi-site",
+        "facet": "outcome",
+        "max_collision": 0.175801,
+        "novelty": 0.824199
+      },
+      {
+        "axis": "out-of-distribution shift",
+        "facet": "outcome",
+        "max_collision": 0.175801,
+        "novelty": 0.824199
+      },
+      {
+        "axis": "single-cell resolution",
+        "facet": "outcome",
+        "max_collision": 0.175801,
+        "novelty": 0.824199
+      },
+      {
+        "axis": "prospective deployment",
+        "facet": "outcome",
+        "max_collision": 0.175801,
+        "novelty": 0.824199
+      },
+      {
+        "axis": "resource-constrained edge",
+        "facet": "outcome",
+        "max_collision": 0.175801,
+        "novelty": 0.824199
+      }
+    ]
+  }
+}

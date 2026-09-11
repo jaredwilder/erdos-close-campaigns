@@ -1,0 +1,20 @@
+{
+  "(2*100-1)^12 == 199^12": true,
+  "Behrend.bound_aux' 12 100 lhs = 100^12/(12*100^2)": "25000000000000000000/3",
+  "8*10^18 <= that lhs (the seed is legitimate)": true,
+  "199^12 - 1 + 1 == 199^12": true,
+  "2*(199^12-1)+1 == 2*199^12-1": true,
+  "2^20 < 3^13  (so 13/20 > log2/log3)": true,
+  "(2*199^12-1)^13 < (8*10^18)^20  (so log c/log M > 13/20)": true,
+  "theta = ln c / ln M": 0.6778394615093819,
+  "classical log2/log3": 0.6309297535714574,
+  "margin": 0.04690970793792448,
+  "199^12": 3856887017121283350242637601,
+  "M = 2*199^12-1": 7713774034242566700485275201
+}
+
+FAILED CHECKS: NONE
+VERDICT: ARITHMETIC OK — the file's numerals are consistent
+
+NOTE: this is a PYTHON PRE-CHECK of the numerals in Close07_BehrendSeed.lean.
+It is NOT a proof. Close07 remains UNPROVED until the Lean kernel accepts it.

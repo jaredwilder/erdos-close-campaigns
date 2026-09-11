@@ -1,0 +1,16 @@
+/root/peer/sub-142-close/Attack05.lean:161:17: warning: `Finset.filter_card_add_filter_neg_card_eq_card` has been deprecated: Use `Finset.card_filter_add_card_filter_not` instead
+/root/peer/sub-142-close/Attack05.lean:231:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'Erdos142Boot.r3_le_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Boot.r3_subadd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Boot.r3_succ_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Boot.r3_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Boot.r3_le_of_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Boot.r3_linear_of_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Boot.r3_8_le_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos142Boot.r3_half' depends on axioms: [propext, Classical.choice, Quot.sound]

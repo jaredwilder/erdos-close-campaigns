@@ -1,0 +1,16 @@
+{
+ "claim": "A single exhaustively proven exact value r_3(m) yields an explicit ceiling r_3(n) <= ceil(n/m)*r_3(m) for every n, hence an explicit numeric bound on limsup r_3(n)/n.",
+ "domain": "additive combinatorics",
+ "novelty_target": "papers",
+ "facets": {
+  "mechanism": "interval covering with ceil(n/m) blocks of length m",
+  "method": "derive a global density ceiling from one exact extremal value",
+  "outcome": "explicit unconditional numeric upper bound on the 3-AP-free density",
+  "entities": "3-AP-free subsets of the first n integers"
+ },
+ "constraints": {
+  "search_queries": [],
+  "patent_queries": []
+ },
+ "min_corpus": 10
+}

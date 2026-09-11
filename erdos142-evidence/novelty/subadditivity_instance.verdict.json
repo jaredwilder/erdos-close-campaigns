@@ -1,0 +1,3095 @@
+{
+  "admissibility": {
+    "admissible": false,
+    "patent_axis": {
+      "live": true,
+      "reason": "paper_only_target_no_patent_axis_asserted"
+    },
+    "reasons": [
+      "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+    ],
+    "verdict": "NOVELTY_INADMISSIBLE"
+  },
+  "adversarial_flags": [],
+  "adversarial_review": {
+    "flags": [],
+    "review_hash": "9c5a7639c9b7489de81d24a942de4a5fc5dcf08ef1e493c017e475dbce6de39a",
+    "reviewer_summary": "Novelty verdict is corpus-grounded, facet-localized, and (where crowded) shipped with a measured pivot.",
+    "verdict": "NOVELTYFORGE_V1_ADVERSARIAL_REVIEW_GREEN"
+  },
+  "anticipation": {
+    "clear_core_facets": [
+      "mechanism",
+      "method",
+      "outcome"
+    ],
+    "crowded_core_facets": [],
+    "mosaic_obviousness": {
+      "core_facets_anticipated": [],
+      "distinct_references_needed": [],
+      "is_risk": false
+    },
+    "per_facet": [
+      {
+        "anticipated": false,
+        "facet": "mechanism",
+        "is_core": true,
+        "max_collision": 0.345911,
+        "nearest_prior_art": "US10116326",
+        "novelty": 0.654089
+      },
+      {
+        "anticipated": false,
+        "facet": "method",
+        "is_core": true,
+        "max_collision": 0.221925,
+        "nearest_prior_art": "US10162857",
+        "novelty": 0.778075
+      },
+      {
+        "anticipated": false,
+        "facet": "outcome",
+        "is_core": true,
+        "max_collision": 0.295706,
+        "nearest_prior_art": "US10162857",
+        "novelty": 0.704294
+      },
+      {
+        "anticipated": true,
+        "facet": "problem",
+        "is_core": false,
+        "max_collision": 0.825,
+        "nearest_prior_art": "https://openalex.org/W4253314034",
+        "novelty": 0.175
+      },
+      {
+        "anticipated": false,
+        "facet": "entities",
+        "is_core": false,
+        "max_collision": 0.439002,
+        "nearest_prior_art": "https://openalex.org/W2184347621",
+        "novelty": 0.560998
+      }
+    ],
+    "shape": "clear_core",
+    "single_reference_anticipation": null,
+    "summary": "No core facet is anticipated by the corpus."
+  },
+  "claim": "r_3 is subadditive: r_3(m+n) <= r_3(m)+r_3(n), verified on 361 exact instances with 9<=m<=n and m+n<=54.",
+  "claim_chart": {
+    "claim_grounded": true,
+    "core_elements_disclosed": 0,
+    "core_elements_total": 3,
+    "evidence_note": "family_elements_split_across_members",
+    "reference": {
+      "identifier": "US10162857",
+      "overall_collision": 0.206531,
+      "record_id": "US10162857",
+      "source": "patent",
+      "title": "OPTIMIZED INEQUALITY JOIN METHOD",
+      "year": 2016
+    },
+    "rows": [
+      {
+        "claim_facet": "mechanism",
+        "claim_grounded": true,
+        "claim_text": "block decomposition of {1..m+n} into two intervals, each intersection 3-AP-free",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.227517,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "method",
+        "claim_grounded": true,
+        "claim_text": "exhaustive verification of subadditivity across all exact-value pairs",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.221925,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "outcome",
+        "claim_grounded": true,
+        "claim_text": "361/361 instances satisfy the subadditive inequality",
+        "element_disclosed": false,
+        "is_core": true,
+        "prior_art_collision": 0.295706,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "problem",
+        "claim_grounded": true,
+        "claim_text": "additive combinatorics",
+        "element_disclosed": false,
+        "is_core": false,
+        "prior_art_collision": 0.0,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      },
+      {
+        "claim_facet": "entities",
+        "claim_grounded": true,
+        "claim_text": "3-AP-free subsets of the first n integers",
+        "element_disclosed": false,
+        "is_core": false,
+        "prior_art_collision": 0.119587,
+        "shared_distinctive_terms": [],
+        "text_overlap": false
+      }
+    ],
+    "single_reference_anticipation": false,
+    "verdict": "family_elements_split_across_members"
+  },
+  "core_novelty": 0.70787,
+  "corpus_provenance": {
+    "acquired_utc": "2026-08-04T15:34:48Z",
+    "acquisition_output_file_sha256": "b83d1acc1adb3cb586c4af531f55f2e4ae6030db8897f8229770e7d41f9c8735",
+    "acquisition_snapshot_sha256": "a39043d37e95d8032d0809149c8064ac201e2f474d7619bbb1a42640c8b77873",
+    "binding_receipt_sha256": "7f76b7b066fa085e74f1ab15683f1dc21b3b2f6523bf668f0227aa87a59535c5",
+    "corpus_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\corpus_556a17e63899a21a653b287fec34db35.json",
+    "corpus_sha256": "034767259449ce5afc0520028c8ac5a6ca3f717b34ebc5551f4016940416b38a",
+    "family_summary": {
+      "double_count_prevented": 0,
+      "family_count": 60,
+      "patent_records": 60,
+      "receipt_sha256": "ad59783c9f52a4ea106be29196f8060e7ff54c9c59aacc89907584853f4be3ec",
+      "unique_structure_count": 0
+    },
+    "independent_quotas": {
+      "paper_quota_met": true,
+      "patent_quota_met": true,
+      "required_papers": 0,
+      "required_patents": 0,
+      "status": "COMPLETE"
+    },
+    "paper_count": 30,
+    "paper_queries": [
+      "361 instances satisfy subadditive inequality 3-ap-free subsets first integers",
+      "361 instances satisfy subadditive inequality additive combinatorics",
+      "additive combinatorics",
+      "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality",
+      "block decomposition m+n two intervals intersection 3-ap-free additive combinatorics",
+      "block decomposition m+n two intervals intersection 3-ap-free exhaustive verification subadditivity exact-value pairs",
+      "block decomposition m+n two intervals intersection 3-ap-free subsets first integers",
+      "exhaustive verification subadditivity exact-value pairs 3-ap-free subsets first integers",
+      "exhaustive verification subadditivity exact-value pairs 361 instances satisfy subadditive inequality",
+      "exhaustive verification subadditivity exact-value pairs additive combinatorics",
+      "subadditive m+n verified 361 exact instances 54"
+    ],
+    "paper_retrieval": {
+      "all_provider_attempts_succeeded": true,
+      "attempts": [
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "361 instances satisfy subadditive inequality 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 31085,
+            "body_sha256": "3248272309eeaca65d4a88446813d44c452ed28f1869e2a7bed37b74a76ee943",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 548.362,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "370e1d8a32157787f966a664e28c55d17e60b83faf15aed80c7fbc9cc95e01b5",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=361+instances+satisfy+subadditive+inequality+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "361 instances satisfy subadditive inequality 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 393969,
+            "body_sha256": "994e0a99d7d26d80df2d89ad13417e01a3902267c58e9c7e88f2ec57d2496089",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1160.085,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "018e2d0d82e108bbcd3e9637ada661d8bb63be23fe17b605098b45ecc05d5c8c",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=361+instances+satisfy+subadditive+inequality+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "361 instances satisfy subadditive inequality 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 240,
+            "body_sha256": "8815f535ba06e198b68d54568f5cd7752660778e8fd4d1c1bcc574596c87460b",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 315.629,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "5edb3788974604ebe336250d349269e7418e995e4b8e9d1c2956dfbf801b8c02",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=361+instances+satisfy+subadditive+inequality+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "361 instances satisfy subadditive inequality additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 16138,
+            "body_sha256": "491b6f3a2b2bb0a7b912d26b766b957a73459608a414a3b16873d703812514b0",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 1042.909,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "a41174755024f794fa92724526b499e1b647aa604635a62498cec592c9c39981",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=361+instances+satisfy+subadditive+inequality+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 24,
+          "provider": "openalex",
+          "query": "361 instances satisfy subadditive inequality additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 405213,
+            "body_sha256": "deb28197fd812f5d31b1ac251d4a1401050ed34ebb0e77911ef9661624ba0cf7",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1585.464,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "189e1cae9c08358d5e57eadfb9d4c296cd9a5bb17f87062dc87a3c3ad4360a1e",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=361+instances+satisfy+subadditive+inequality+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "361 instances satisfy subadditive inequality additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 230,
+            "body_sha256": "41b524a43fc3ee721e60c9c8ec5e682c8677fce590b5a26a331c2055438facbb",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 312.06,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "9421efa63deb55169c5c2b5a8804871b5e0e6370123b4c0c8a51766e4801a574",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=361+instances+satisfy+subadditive+inequality+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 34387,
+            "body_sha256": "29d312126da7f5a32cf1f0315812c14ad5bd892c4a47e607d787404ace441c8a",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 912.504,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "f6d294e9f27d2d9efe59eeda220a3c021a9c7ee4b477db24a61485c3a46a9488",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 313070,
+            "body_sha256": "2b1d6da2eab9f99ecd0afda6651249083846c6bec95603da99e847be69e2f270",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 862.259,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "16d3d2594d001e72f7c4c94a8f37b0dcdf3bc5f47ce0c1f02b05bc2694f9269a",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "europe_pmc",
+          "query": "additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 124076,
+            "body_sha256": "1ed44f1b8fc8bfaac2c72d63ddf427660d0585f450dcc87a459d14b077b3c4b0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 293.946,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "d216bb8ce056e850e30d101a8744771b6a8fc283587ead00762ea1c4cb1c7c34",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 22928,
+            "body_sha256": "0e8c1728a5edaef25438d1ca82be85c7a4b269284a34307c7cad0b6f2a6cc523",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 970.892,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "d26522a9078f01ccee1f7b915efaa49cce98f363dbef44c15cae045ac1104b37",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+361+instances+satisfy+subadditive+inequality&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 5,
+          "provider": "openalex",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 62513,
+            "body_sha256": "f4ea908e44b50af9738e3340236264ac7a391f558601dee46c59088a6004acd1",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1030.155,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "d107fc4631391f8d846cb8b6cae717ee4099e4618d2e5da93a6801434879cf42",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+361+instances+satisfy+subadditive+inequality&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 268,
+            "body_sha256": "53cdac95eec64667e8255d1f67e5f02e4323ddbfb19dac9b307d9330a5897676",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 178.717,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "5ca46bcc3747c9bdfa6f382dd5d00cf8cc64c7d982c1d4704bcb921c0bdbcd9e",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+361+instances+satisfy+subadditive+inequality&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 27702,
+            "body_sha256": "bcaa2b1b5f1309e9f3648383bdc77d506b994f87d6c63faf7b4c48c7a5340522",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 891.693,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "925f5e82d0b7eea3ce07b195cf4e2f16a8ceb145d7c82e0a6e3358a3896da251",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 484068,
+            "body_sha256": "e919a62670f87b509d8b02e776c62becc2699c0f33f52db37879d78d0ddb7f55",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 949.991,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "a8015e57229a36422f7ddcab192d2d547d4f25685f5b2cb51321342b8d850363",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 246,
+            "body_sha256": "8a3f03c695c214b9a23d618a1375c37342c76a47bb065f40435ec6d54e7f8a1f",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 177.249,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "63ca578be384f5895cd823656588a1774e008cce20e409f9ee84f56b9aa6454d",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free exhaustive verification subadditivity exact-value pairs",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32997,
+            "body_sha256": "c29aaf3433e9020ec8e3ca1eb0139e41ada55d3c6eaca6b33e554466c9dd54ea",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 790.448,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "9dcc8078e86f466fb9e2bd5a0078c0d5b31fd3249b1db05115ccf3f52e2ea993",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+exhaustive+verification+subadditivity+exact-value+pairs&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 7,
+          "provider": "openalex",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free exhaustive verification subadditivity exact-value pairs",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 92575,
+            "body_sha256": "4ae389bfa2faa09cfaa9e632f19fcbbfccc5d2115ae94ace5212135bf8a12569",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 650.558,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "c78ff83c710c90ec22d28cb0c9ded47bddd39bf44ffe5f18867d8abfb4cec485",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+exhaustive+verification+subadditivity+exact-value+pairs&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free exhaustive verification subadditivity exact-value pairs",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 279,
+            "body_sha256": "dc82e68ad7662e9a56fa98152587080de876d597e18a64b17591a1452764c1ea",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 198.859,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "1449c64901ffef7ce85eef1cbd98443295bb30e42e84d99ef54f2e20c34231b5",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+exhaustive+verification+subadditivity+exact-value+pairs&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32160,
+            "body_sha256": "cbfe3ca36c5cbd4b4647af85697345da71fabf1e8ca95fb2175676cc7317baa7",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 719.247,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "b82f25829564f71848e555b742cf688643b1a347a504715da00f06fabc322ffd",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 615686,
+            "body_sha256": "11eb33e0b323977160a719260ebd53cb7e2252e4e25876ba22f18a4398800e8a",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1045.488,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "92f0a27bcca849a5ff560db5b3dd14e2bc89b74daf5cfa099dd40b7f5f1a30b2",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 4,
+          "provider": "europe_pmc",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 177721,
+            "body_sha256": "18cf73175c14746dffd5226ff227f1704267671471a73e2974f92856a55e63cb",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 527.232,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "4d8481f93c2639e6a8ffc1c30ac61c0bcab103e8a068b11dac792306bae9dec9",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exhaustive verification subadditivity exact-value pairs 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 37849,
+            "body_sha256": "d1848457d66bc1a6f4a80e23ce3e693f6713f3f7bc99a366f34f1ce08dca53fd",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 555.375,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "c37b1f8c59cef9e1a178f6db7f496654f967fb46596e146bc923ebedb2030145",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+verification+subadditivity+exact-value+pairs+3-ap-free+subsets+first+integers&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 14,
+          "provider": "openalex",
+          "query": "exhaustive verification subadditivity exact-value pairs 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 224884,
+            "body_sha256": "d5f58f01a6db108edbdc5eefe4437c2f5cc2268f9304288349f327b07593ed8b",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 998.146,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "05bb9fd0ea1c41c9f7ad2a6a67f0a8347f24f73b2d636887e1c8df9efcc0666f",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+verification+subadditivity+exact-value+pairs+3-ap-free+subsets+first+integers&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exhaustive verification subadditivity exact-value pairs 3-ap-free subsets first integers",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 251,
+            "body_sha256": "743243215d3238c8e90fe573e2fc8b4403e13dc508f50b6b16bcd97e3df2554e",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 243.501,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "cb5551035fc921c6c1cf012e3d51a7125f8adbb4e21f5e26d0ab8c211daa06cd",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+verification+subadditivity+exact-value+pairs+3-ap-free+subsets+first+integers&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exhaustive verification subadditivity exact-value pairs 361 instances satisfy subadditive inequality",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 40275,
+            "body_sha256": "b00c07fbacd2dee1503223b7089579c5ce69cc5210ff29b6a69ddb782e85608d",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 489.565,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "a257b51f25fea986c52d6b60e2134c57cffcc162817ca71a7c0fdfcc46ebd174",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+verification+subadditivity+exact-value+pairs+361+instances+satisfy+subadditive+inequality&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 11,
+          "provider": "openalex",
+          "query": "exhaustive verification subadditivity exact-value pairs 361 instances satisfy subadditive inequality",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 199025,
+            "body_sha256": "85ad684595cbc7921fd4b4a9d633a41484b98ca630e5cf057b362c8ba119d333",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1056.544,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "115e995cc332e68389af040d7c003f7b91ab1e91ee9b69f48bc0d7eee2cc6c75",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+verification+subadditivity+exact-value+pairs+361+instances+satisfy+subadditive+inequality&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exhaustive verification subadditivity exact-value pairs 361 instances satisfy subadditive inequality",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 263,
+            "body_sha256": "ed2212263f63b39f40d4cb3ece617d5ca156241db6ab80f6eb0ddf1ec4b839bf",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 196.555,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "74f61d0b1594a6063a0f05d60e54027c2775fb0327c7f8fc9b4cf4e6e03c7c41",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+verification+subadditivity+exact-value+pairs+361+instances+satisfy+subadditive+inequality&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "exhaustive verification subadditivity exact-value pairs additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 28736,
+            "body_sha256": "706a5ebd168623f86785753ff86268a8067dd59194a17e602646c097854e8116",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 714.868,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "6c43f0c9c9e85bb8b7e122c8f5c8d5858fd4f5a9276656c44701faa6d22d2ccc",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=exhaustive+verification+subadditivity+exact-value+pairs+additive+combinatorics&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 14,
+          "provider": "openalex",
+          "query": "exhaustive verification subadditivity exact-value pairs additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 223054,
+            "body_sha256": "7572c493b62101210eff5c015803c20bf2d48a585eb20c70c26458eb404d12ec",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 932.84,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "8c603f4ba3158468d43d22e89235ac63eff066ce5aa9bb19e8444932f3ec006a",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=exhaustive+verification+subadditivity+exact-value+pairs+additive+combinatorics&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 0,
+          "provider": "europe_pmc",
+          "query": "exhaustive verification subadditivity exact-value pairs additive combinatorics",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 241,
+            "body_sha256": "3b4e147941ece93cece76ac1578f74314fb07ab36dfdf668edaeb36b9238fd2d",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 194.28,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "51f7f49ee0da795193a67d4baae6b12284bf744ff010692f76e67590bf8850a0",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=exhaustive+verification+subadditivity+exact-value+pairs+additive+combinatorics&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "crossref",
+          "query": "subadditive m+n verified 361 exact instances 54",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 25615,
+            "body_sha256": "4d7c6ed6b60f90f62727ae84e3a47d33afdc2904e79f578445e736eb553466ae",
+            "compression_header_mismatch": true,
+            "decompressed": true,
+            "elapsed_ms": 1118.819,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "17d8fa1b503eb7e4750aa0fcdba0bd74c4856c9146ca00b5ce523f78a186ae99",
+            "status": 200,
+            "url": "https://api.crossref.org/works?query.bibliographic=subadditive+m%2Bn+verified+361+exact+instances+54&rows=25&select=DOI%2Ctitle%2Cabstract%2CURL%2Clink%2Cpublished%2Cissued%2Ccontainer-title%2Cauthor%2Ctype%2Cis-referenced-by-count&mailto=jared%40jaredwilder.com"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 25,
+          "provider": "openalex",
+          "query": "subadditive m+n verified 361 exact instances 54",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 522269,
+            "body_sha256": "61754390bb40d2f35e62a9376e78701c4ddd0f83782f1f3f8269e7733523ca77",
+            "compression_header_mismatch": false,
+            "decompressed": true,
+            "elapsed_ms": 1119.206,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "receipt_sha256": "b8a28779dca1663d97dc37bc8df4e0dcfaec2b1ee231873a225fbb87e61442bc",
+            "status": 200,
+            "url": "https://api.openalex.org/works?search=subadditive+m%2Bn+verified+361+exact+instances+54&per-page=25&mailto=jared%40jaredwilder.com&api_key=fgfFMLc7yiZfXGxGjg6m9g"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 2,
+          "provider": "europe_pmc",
+          "query": "subadditive m+n verified 361 exact instances 54",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 4234,
+            "body_sha256": "c2d9f290873ef2953e9133ffa87006262f31b591c27d20b2206b4b2595ed983a",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 243.326,
+            "headers": {
+              "Content-Type": "application/json;charset=UTF-8"
+            },
+            "receipt_sha256": "9411e24402b0ad7cd25c13904613cea9e87adae0c657165a69a871e1a4bce7a8",
+            "status": 200,
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=subadditive+m%2Bn+verified+361+exact+instances+54&format=json&pageSize=25&resultType=core"
+          },
+          "status": "success"
+        }
+      ],
+      "math_domain_detected": false,
+      "math_scholarly_providers": {
+        "status": "not_applicable"
+      },
+      "paper_count": 30,
+      "provider_error_count": 0,
+      "provider_success_count": 33,
+      "providers_attempted": [
+        "crossref",
+        "openalex",
+        "europe_pmc"
+      ],
+      "providers_with_hits": [
+        "crossref",
+        "europe_pmc",
+        "openalex"
+      ],
+      "query_count": 11,
+      "relevance_floor": {
+        "admitted": 257,
+        "all_candidates_excluded": false,
+        "candidates": 381,
+        "excluded": 124,
+        "excluded_rows": [
+          {
+            "cited_by_count": 3052,
+            "doi": "10.1090/s0002-9904-1967-11798-1",
+            "retrieval_citation_prior": 1.36406,
+            "title": "Differentiable dynamical systems"
+          },
+          {
+            "cited_by_count": 2902,
+            "doi": "10.1109/tcomm.2021.3051897",
+            "retrieval_citation_prior": 1.355495,
+            "title": "Intelligent Reflecting Surface-Aided Wireless Communications: A Tutorial"
+          },
+          {
+            "cited_by_count": 1792,
+            "doi": "10.1090/s0273-0979-06-01126-8",
+            "retrieval_citation_prior": 1.27358,
+            "title": "Expander graphs and their applications"
+          },
+          {
+            "cited_by_count": 829,
+            "doi": "10.1002/eji.201970107",
+            "retrieval_citation_prior": 1.142642,
+            "title": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (second edition)."
+          },
+          {
+            "cited_by_count": 682,
+            "doi": "10.22331/q-2021-04-15-433",
+            "retrieval_citation_prior": 1.109504,
+            "title": "How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits"
+          },
+          {
+            "cited_by_count": 675,
+            "doi": "10.1103/revmodphys.87.593",
+            "retrieval_citation_prior": 1.107753,
+            "title": "Macroscopic fluctuation theory"
+          },
+          {
+            "cited_by_count": 486,
+            "doi": "",
+            "retrieval_citation_prior": 1.052005,
+            "title": "ISSUES IN MULTI AGENT RESOURCE ALLOCATION"
+          },
+          {
+            "cited_by_count": 435,
+            "doi": "10.1090/s0894-0347-00-00337-4",
+            "retrieval_citation_prior": 1.033199,
+            "title": "Asymptotics of Plancherel measures for symmetric groups"
+          },
+          {
+            "cited_by_count": 430,
+            "doi": "10.14279/depositonce-2978",
+            "retrieval_citation_prior": 1.031238,
+            "title": "lp-Norm Multiple Kernel Learning"
+          },
+          {
+            "cited_by_count": 318,
+            "doi": "10.1088/1126-6708/2002/06/027",
+            "retrieval_citation_prior": 0.980082,
+            "title": "Permeable conformal walls and holography"
+          },
+          {
+            "cited_by_count": 254,
+            "doi": "10.1016/j.ejor.2021.10.058",
+            "retrieval_citation_prior": 0.942015,
+            "title": "Electric bus planning & scheduling: A review of related problems and methodologies"
+          },
+          {
+            "cited_by_count": 199,
+            "doi": "10.1016/j.jspi.2013.09.005",
+            "retrieval_citation_prior": 0.900714,
+            "title": "Random matrix theory in statistics: A review"
+          },
+          {
+            "cited_by_count": 140,
+            "doi": "10.1016/s0294-1449(16)30252-9",
+            "retrieval_citation_prior": 0.841289,
+            "title": "Periodic solutions of Hamiltonian systems of 3-body type"
+          },
+          {
+            "cited_by_count": 139,
+            "doi": "10.1088/1126-6708/2008/11/076",
+            "retrieval_citation_prior": 0.840079,
+            "title": "Entanglement entropy and twist fields"
+          },
+          {
+            "cited_by_count": 132,
+            "doi": "10.1016/j.cja.2016.04.004",
+            "retrieval_citation_prior": 0.831359,
+            "title": "Measuring reliability under epistemic uncertainty: Review on non-probabilistic reliability metrics"
+          },
+          {
+            "cited_by_count": 127,
+            "doi": "10.4036/iis.2010.139",
+            "retrieval_citation_prior": 0.824845,
+            "title": "Matrix Analysis: Matrix Monotone Functions, Matrix Means, and Majorization"
+          },
+          {
+            "cited_by_count": 115,
+            "doi": "",
+            "retrieval_citation_prior": 0.80811,
+            "title": "Statistics of Bivariate Extreme Values"
+          },
+          {
+            "cited_by_count": 111,
+            "doi": "10.1016/s0001-8708(03)00141-5",
+            "retrieval_citation_prior": 0.802145,
+            "title": "Commutator structure of operator ideals"
+          },
+          {
+            "cited_by_count": 94,
+            "doi": "10.1103/prxquantum.4.040317",
+            "retrieval_citation_prior": 0.774159,
+            "title": "Many-Body Magic Via Pauli-Markov Chains—From Criticality to Gauge Theories"
+          },
+          {
+            "cited_by_count": 90,
+            "doi": "10.4171/dm/127",
+            "retrieval_citation_prior": 0.766846,
+            "title": "On the classification of simple inductive limit $C^*$-algebras. I: The reduction theorem"
+          },
+          {
+            "cited_by_count": 90,
+            "doi": "10.7554/elife.73783",
+            "retrieval_citation_prior": 0.766846,
+            "title": "Structure and function of axo-axonic inhibition."
+          },
+          {
+            "cited_by_count": 88,
+            "doi": "10.1016/j.arcontrol.2020.10.008",
+            "retrieval_citation_prior": 0.763068,
+            "title": "Mixed-integer programming in motion planning"
+          },
+          {
+            "cited_by_count": 74,
+            "doi": "10.17875/gup2008-62",
+            "retrieval_citation_prior": 0.733973,
+            "title": "Trends in Mathematics"
+          },
+          {
+            "cited_by_count": 67,
+            "doi": "",
+            "retrieval_citation_prior": 0.717316,
+            "title": "Stochastic processes on graphs with cycles: geometric and variational approaches"
+          },
+          {
+            "cited_by_count": 65,
+            "doi": "10.1090/s1088-4173-01-00064-9",
+            "retrieval_citation_prior": 0.712241,
+            "title": "Metric and geometric quasiconformality in Ahlfors regular Loewner spaces"
+          },
+          {
+            "cited_by_count": 53,
+            "doi": "10.4064/dm472-0-1",
+            "retrieval_citation_prior": 0.678127,
+            "title": "Normed versus topological groups: Dichotomy and duality"
+          },
+          {
+            "cited_by_count": 52,
+            "doi": "10.1103/prxquantum.4.010324",
+            "retrieval_citation_prior": 0.67495,
+            "title": "Quantum Simulation of Dissipative Collective Effects on Noisy Quantum Computers"
+          },
+          {
+            "cited_by_count": 47,
+            "doi": "10.48550/arxiv.quant-ph/0106160",
+            "retrieval_citation_prior": 0.658104,
+            "title": "Lower bounds for quantum communication complexity"
+          },
+          {
+            "cited_by_count": 45,
+            "doi": "10.1016/j.cosrev.2023.100556",
+            "retrieval_citation_prior": 0.650869,
+            "title": "A survey of parameterized algorithms and the complexity of edge modification"
+          },
+          {
+            "cited_by_count": 40,
+            "doi": "",
+            "retrieval_citation_prior": 0.631307,
+            "title": "Spare parts inventory pooling: how to share the benefits?"
+          },
+          {
+            "cited_by_count": 34,
+            "doi": "10.4171/prims/125",
+            "retrieval_citation_prior": 0.604409,
+            "title": "Some Remarks on the Semipositivity Theorems"
+          },
+          {
+            "cited_by_count": 34,
+            "doi": "10.22331/q-2019-08-19-177",
+            "retrieval_citation_prior": 0.604409,
+            "title": "The maximum efficiency of nano heat engines depends on more than temperature"
+          },
+          {
+            "cited_by_count": 33,
+            "doi": "10.1007/pl00008747",
+            "retrieval_citation_prior": 0.599481,
+            "title": "Asymptotic results on infinite tandem queueing networks"
+          },
+          {
+            "cited_by_count": 32,
+            "doi": "10.48550/arxiv.2104.11329",
+            "retrieval_citation_prior": 0.594406,
+            "title": "What are higher-order networks?"
+          },
+          {
+            "cited_by_count": 28,
+            "doi": "",
+            "retrieval_citation_prior": 0.57244,
+            "title": "Domination and decomposition in multiobjective programming"
+          },
+          {
+            "cited_by_count": 25,
+            "doi": "10.5281/zenodo.8904",
+            "retrieval_citation_prior": 0.553876,
+            "title": "Neutrosophic Sets And Systems"
+          },
+          {
+            "cited_by_count": 24,
+            "doi": "10.48550/arxiv.2006.01862",
+            "retrieval_citation_prior": 0.547209,
+            "title": "Consistent Estimators for Learning to Defer to an Expert"
+          },
+          {
+            "cited_by_count": 24,
+            "doi": "10.1145/3618260.3649722",
+            "retrieval_citation_prior": 0.547209,
+            "title": "Learning Shallow Quantum Circuits"
+          },
+          {
+            "cited_by_count": 20,
+            "doi": "10.1137/18m1174829",
+            "retrieval_citation_prior": 0.517569,
+            "title": "Border Rank Is Not Multiplicative under the Tensor Product"
+          },
+          {
+            "cited_by_count": 20,
+            "doi": "10.1214/aos/1176344672",
+            "retrieval_citation_prior": 0.517569,
+            "title": "Distributed Lag Approximation to Linear Time-Invariant Systems"
+          },
+          {
+            "cited_by_count": 20,
+            "doi": "10.1007/jhep01(2020)159",
+            "retrieval_citation_prior": 0.517569,
+            "title": "Superconformal blocks: general theory"
+          },
+          {
+            "cited_by_count": 19,
+            "doi": "10.2140/gt.2011.15.1313",
+            "retrieval_citation_prior": 0.509274,
+            "title": "Deformed Hamiltonian Floer theory, capacity estimates and Calabi quasimorphisms"
+          },
+          {
+            "cited_by_count": 18,
+            "doi": "10.1215/00127094-2018-0052",
+            "retrieval_citation_prior": 0.500555,
+            "title": "A gradient estimate for nonlocal minimal graphs"
+          },
+          {
+            "cited_by_count": 17,
+            "doi": "10.14279/depositonce-3190",
+            "retrieval_citation_prior": 0.491363,
+            "title": "Geometric Representations of Graphs with Low Polygonal Complexity"
+          },
+          {
+            "cited_by_count": 17,
+            "doi": "",
+            "retrieval_citation_prior": 0.491363,
+            "title": "Panorama of p-adic model theory"
+          },
+          {
+            "cited_by_count": 13,
+            "doi": "10.1016/j.jalgebra.2020.02.033",
+            "retrieval_citation_prior": 0.44864,
+            "title": "Algebraic entropy for amenable semigroup actions"
+          },
+          {
+            "cited_by_count": 12,
+            "doi": "10.1216/rmj-2014-44-5-1529",
+            "retrieval_citation_prior": 0.436041,
+            "title": "The non-linear geometry of Banach spaces after Nigel Kalton"
+          },
+          {
+            "cited_by_count": 11,
+            "doi": "10.1103/physrevx.11.041016",
+            "retrieval_citation_prior": 0.422434,
+            "title": "Universal Limitations on Quantum Key Distribution over a Network"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.1016/j.camwa.2021.11.016",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Condenser capacity and hyperbolic perimeter"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.24355/dbbs.084-201103151022-0",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Optimal Sorting Of Rolling Stock"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.22331/q-2021-03-10-405",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Quantum one-time tables for unconditionally secure qubit-commitment"
+          },
+          {
+            "cited_by_count": 9,
+            "doi": "10.1007/s10955-020-02534-y",
+            "retrieval_citation_prior": 0.391439,
+            "title": "Scaling Limits for Non-intersecting Polymers and Whittaker Measures"
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "10.48550/arxiv.0709.0289",
+            "retrieval_citation_prior": 0.373528,
+            "title": "Cryptography in the Bounded-Quantum-Storage Model"
+          },
+          {
+            "cited_by_count": 8,
+            "doi": "10.1609/aaai.v36i5.20426",
+            "retrieval_citation_prior": 0.373528,
+            "title": "Pizza Sharing Is PPA-Hard"
+          },
+          {
+            "cited_by_count": 7,
+            "doi": "",
+            "retrieval_citation_prior": 0.353505,
+            "title": "Papers dedicated to J.J. Seidel"
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1016/j.jcta.2024.105959",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Avoiding intersections of given size in finite affine spaces AG(n,2)"
+          },
+          {
+            "cited_by_count": 4,
+            "doi": "10.1098/rstb.2023.0304",
+            "retrieval_citation_prior": 0.273604,
+            "title": "Shape parameters of evolutionary trees in theoretical computer science."
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.1214/20-aihp1141",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Barak–Erdős graphs and the infinite-bin model"
+          },
+          {
+            "cited_by_count": 3,
+            "doi": "10.5802/jep.228",
+            "retrieval_citation_prior": 0.23567,
+            "title": "Global pluripotential theory on hybrid spaces"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Distributed optimisation techniques for wireless networks"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.15083/00076078",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Entanglement Entropy in Algebraic Quantum Field Theory"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.48550/arxiv.2301.08504",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Hydrodynamic scales of integrable many-particle systems"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.46872/pj.463",
+            "retrieval_citation_prior": 0.186764,
+            "title": "INVESTIGATION OF STUDIES ON CASE STUDY METHOD IN EDUCATION"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.1007/978-3-030-22996-2_4",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Probabilistic Analysis of Facility Location on Random Shortest Path Metrics"
+          },
+          {
+            "cited_by_count": 2,
+            "doi": "10.48550/arxiv.2401.05592",
+            "retrieval_citation_prior": 0.186764,
+            "title": "Rado matroids and a graphical calculus for boundaries of Wilson loop diagrams"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "A proposal for the diagnosis of uncertain dynamic systems based on interval models"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.48550/arxiv.1809.07570",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Analysis of boundary effects on PDE-based sampling of Whittle-Mat\\\\'ern\\n random fields"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Estimation of Continuous-Time ARMA Models and Random Matrices with Dependent Entries"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Last passage percolation on complete directed acyclic graphs"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.6082/m1w66hz0",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Log, Stock and Two Simple Lotteries"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.48550/arxiv.2304.00809",
+            "retrieval_citation_prior": 0.117835,
+            "title": "On the Concentration of the Minimizers of Empirical Risks"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.48550/arxiv.2303.04850",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Quantum computing with and for many-body physics"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.48550/arxiv.2401.09435",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Reasoning with random sets: An agenda for the future"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "",
+            "retrieval_citation_prior": 0.117835,
+            "title": "SAEM Abstracts, Plenary Session"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.3390/e25091283",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Systems of Precision: Coherent Probabilities on Pre-Dynkin Systems and Coherent Previsions on Linear Subspaces"
+          },
+          {
+            "cited_by_count": 1,
+            "doi": "10.4310/pamq.2015.v11.n1.a3",
+            "retrieval_citation_prior": 0.117835,
+            "title": "Valuations and log canonical thresholds"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "14th Congress of the European Hematology Association, Berlin, Germany, June 4–7, 2009"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e28050544",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Complex Tension Origin for Dilaton Gravity: Jordan Stiffness and Logarithmic Einstein Dynamics."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e27070756",
+            "retrieval_citation_prior": 0.0,
+            "title": "A Max-Flow Approach to Random Tensor Networks."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2507.03309",
+            "retrieval_citation_prior": 0.0,
+            "title": "A special class of prime ideals for infinite symmetric group algebras"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.010",
+            "retrieval_citation_prior": 0.0,
+            "title": "Algebraic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.32657/10356/62567",
+            "retrieval_citation_prior": 0.0,
+            "title": "Analysis and design of multi-session network coding"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.014",
+            "retrieval_citation_prior": 0.0,
+            "title": "Bibliography"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpls.2026.1864496",
+            "retrieval_citation_prior": 0.0,
+            "title": "Cis-regulatory elements in CAMTA-mediated stress signalling: mechanisms and prospects for CRISPR-based crop improvement."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s00454-023-00622-w",
+            "retrieval_citation_prior": 0.0,
+            "title": "Counting Arcs in F q 2."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1007/s00010-025-01209-x",
+            "retrieval_citation_prior": 0.0,
+            "title": "Darboux and shift-compactness paradigms: Automatic continuity in the Gołąb-Schinzel and the Goldie equations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1371/journal.pone.0348356",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fault diagnosis of aero-engines using transfer dispersion entropy and dispersion patterns."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fixed points in de Finetti hierarchies"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.005",
+            "retrieval_citation_prior": 0.0,
+            "title": "Fourier-analytic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1073/pnas.2510881123",
+            "retrieval_citation_prior": 0.0,
+            "title": "Free quantum computing."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Graph inference and graph matching problems : tehory and algorithms"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.007",
+            "retrieval_citation_prior": 0.0,
+            "title": "Graph-theoretic methods"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Gráfok metszési számai és a k-halmaz probléma."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2409.20405",
+            "retrieval_citation_prior": 0.0,
+            "title": "Hydrodynamic limit for a class of degenerate convex $\\nabla φ$-interface models"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.009",
+            "retrieval_citation_prior": 0.0,
+            "title": "Incidence geometry"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Influence-solvability: a systematic theory of $(1+1)D$ solvability and its application to brickwork circuits"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.006",
+            "retrieval_citation_prior": 0.0,
+            "title": "Inverse sum set theorems"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.1611.06617",
+            "retrieval_citation_prior": 0.0,
+            "title": "Kodaira fibrations and beyond: methods for moduli theory"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Le bord de Poisson et la géométrie asymptotique des produits en couronne et leurs généralisations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2401.10095",
+            "retrieval_citation_prior": 0.0,
+            "title": "Learning shallow quantum circuits"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Lexique mathématique anglais-français"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.013",
+            "retrieval_citation_prior": 0.0,
+            "title": "Long arithmetic progressions in sum sets"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3389/fpsyt.2026.1727711",
+            "retrieval_citation_prior": 0.0,
+            "title": "Mitochondrial dysfunction in EEG: high-beta specific metabolic/oxidative coupling with lactate in mania-predominant polarity."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1038/s41598-025-27113-7",
+            "retrieval_citation_prior": 0.0,
+            "title": "Novel representation of complexity of investment casting using injective coloring and graph adaptive consensus mechanism."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.4171/dm/1021",
+            "retrieval_citation_prior": 0.0,
+            "title": "Okounkov bodies associated to abundant divisors and Iitaka fibrations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1162/opmi.a.275",
+            "retrieval_citation_prior": 0.0,
+            "title": "Predictability of the Retrieval Site Does Not Modulate Interference: Evidence From Reflexive Attraction."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Program Abstracts from the GSA 2019 Annual Scientific Meeting “Strength in Age—Harnessing the Power of Networks”"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.001",
+            "retrieval_citation_prior": 0.0,
+            "title": "Prologue"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2404.14639",
+            "retrieval_citation_prior": 0.0,
+            "title": "Quantum computational advantage with constant-temperature Gibbs sampling"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.47749/t/unicamp.2015.954495",
+            "retrieval_citation_prior": 0.0,
+            "title": "Quantum computing"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Quantum simulation in the Heisenberg picture via vectorization"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.3390/e26100870",
+            "retrieval_citation_prior": 0.0,
+            "title": "Remarks on Limit Theorems for the Free Quadratic Forms."
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.15083/00077647",
+            "retrieval_citation_prior": 0.0,
+            "title": "Studies on algebraic fiber spaces in positive characteristic"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.003",
+            "retrieval_citation_prior": 0.0,
+            "title": "Sum set estimates"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Sur la rigidité des variétés riemanniennes"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.2302.03522",
+            "retrieval_citation_prior": 0.0,
+            "title": "Systems of Precision: Coherent Probabilities on Pre-Dynkin-Systems and Coherent Previsions on Linear Subspaces"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.011",
+            "retrieval_citation_prior": 0.0,
+            "title": "Szemerédi' theorem for k = 3"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "The 26th Annual Symposium of The Protein Society: Abstracts"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.008",
+            "retrieval_citation_prior": 0.0,
+            "title": "The Littlewood–Offord problem"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "The offline software framework of the NA61"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.1017/cbo9780511755149.002",
+            "retrieval_citation_prior": 0.0,
+            "title": "The probabilistic method"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "",
+            "retrieval_citation_prior": 0.0,
+            "title": "Tropical Fermat--Weber Problems over Non-Finite Data and their Inverse Formulations"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.14279/depositonce-2635",
+            "retrieval_citation_prior": 0.0,
+            "title": "Truthful Mechanism Design for Cooperative Cost Sharing and Congestion Games"
+          },
+          {
+            "cited_by_count": 0,
+            "doi": "10.48550/arxiv.1508.00484",
+            "retrieval_citation_prior": 0.0,
+            "title": "Weak positivity theorem and Frobenius stable canonical rings of geometric generic fibers"
+          }
+        ],
+        "rule": "retrieval_relevance > 0.0 (shares >=1 non-stopword token with >=1 grounding query)"
+      },
+      "retrieval_receipt_sha256": "14d0242caf6d81260a77570e41571ce532749321ea8bc20ec36eb6b799208284",
+      "retrieval_state": "hits",
+      "saturation": {
+        "curve": [
+          {
+            "cumulative_unique": 50,
+            "new_records": 50,
+            "query": "361 instances satisfy subadditive inequality 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 93,
+            "new_records": 43,
+            "query": "361 instances satisfy subadditive inequality additive combinatorics"
+          },
+          {
+            "cumulative_unique": 144,
+            "new_records": 51,
+            "query": "additive combinatorics"
+          },
+          {
+            "cumulative_unique": 165,
+            "new_records": 21,
+            "query": "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality"
+          },
+          {
+            "cumulative_unique": 207,
+            "new_records": 42,
+            "query": "block decomposition m+n two intervals intersection 3-ap-free additive combinatorics"
+          },
+          {
+            "cumulative_unique": 234,
+            "new_records": 27,
+            "query": "block decomposition m+n two intervals intersection 3-ap-free exhaustive verification subadditivity exact-value pairs"
+          },
+          {
+            "cumulative_unique": 278,
+            "new_records": 44,
+            "query": "block decomposition m+n two intervals intersection 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 297,
+            "new_records": 19,
+            "query": "exhaustive verification subadditivity exact-value pairs 3-ap-free subsets first integers"
+          },
+          {
+            "cumulative_unique": 320,
+            "new_records": 23,
+            "query": "exhaustive verification subadditivity exact-value pairs 361 instances satisfy subadditive inequality"
+          },
+          {
+            "cumulative_unique": 339,
+            "new_records": 19,
+            "query": "exhaustive verification subadditivity exact-value pairs additive combinatorics"
+          },
+          {
+            "cumulative_unique": 381,
+            "new_records": 42,
+            "query": "subadditive m+n verified 361 exact instances 54"
+          }
+        ],
+        "is_saturated": false,
+        "total_queries": 11,
+        "total_unique_works": 381
+      },
+      "status": "success",
+      "worker_count": 12
+    },
+    "patent_application_count": 0,
+    "patent_claim_grounded_count": 13,
+    "patent_count": 60,
+    "patent_granted_count": 60,
+    "patent_official_claim_grounded_count": 13,
+    "patent_official_provider_record_count": 60,
+    "patent_official_search_complete": false,
+    "patent_provider": "uspto_odp_keyed",
+    "patent_queries": [
+      "3-ap-free subsets first integers subadditive instances 361 m+n",
+      "3-ap-free subsets first integers subadditive instances 361 m+n block decomposition two intervals intersection",
+      "3-ap-free subsets first integers subadditive instances 361 m+n exhaustive verification subadditivity exact-value pairs",
+      "3-ap-free subsets first integers subadditive instances 361 m+n satisfy inequality",
+      "361 instances satisfy subadditive inequality 3-ap-free subsets first integers additive combinatorics treatment composition",
+      "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality compound composition",
+      "block decomposition m+n two intervals intersection 3-ap-free composition compound treatment",
+      "block decomposition m+n two intervals intersection 3-ap-free subsets first integers compound",
+      "exhaustive verification subadditivity exact-value pairs additive combinatorics composition"
+    ],
+    "patent_retrieval": {
+      "attempts": [
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 230.833,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "76cca3fb6706b66b210141c9c463634b2eb9f53bd802d468f1655a68244f5ba2",
+            "receipt_sha256": "76cca3fb6706b66b210141c9c463634b2eb9f53bd802d468f1655a68244f5ba2",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+subadditive+instances+361+m%2Bn%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers subadditive instances 361 m+n",
+            "receipt_sha256": "d7021071123f8f232aa06814ea4da470b9279adec64c9173b8974ed10200cd48",
+            "records_sha256": "ddbc537e23e21ba51d1f959742d9c79d42c97c2c360c20f9fa808b2b105bd7bf"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n block decomposition two intervals intersection",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 329.097,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "54f44d2b22a8f60defb1d9b5304b3c397b715d5c50f8ae71338ef565d0efe339",
+            "receipt_sha256": "54f44d2b22a8f60defb1d9b5304b3c397b715d5c50f8ae71338ef565d0efe339",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+subadditive+instances+361+m%2Bn+block+decomposition+two+intervals+intersection%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n block decomposition two intervals intersection",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers subadditive instances 361 m+n block decomposition two intervals intersection",
+            "receipt_sha256": "a7a5e78b5088744eb0b3994b4f310b71f9b5eed2f9df4f2d5756897a25af567d",
+            "records_sha256": "79877fb5a0f20c5304817739fe1265df30f39bf4a7fd8f8bf349ee022de18fa2"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n block decomposition two intervals intersection",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n exhaustive verification subadditivity exact-value pairs",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 270.238,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "3a98951f9f54b21e1afa74efd5759527d2a7fadb9086dbfbcf34425f912f3a7e",
+            "receipt_sha256": "3a98951f9f54b21e1afa74efd5759527d2a7fadb9086dbfbcf34425f912f3a7e",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+subadditive+instances+361+m%2Bn+exhaustive+verification+subadditivity+exact-value+pairs%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n exhaustive verification subadditivity exact-value pairs",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers subadditive instances 361 m+n exhaustive verification subadditivity exact-value pairs",
+            "receipt_sha256": "e69e41906e67164ad3bccc7870d212d67b5da2f46b9136a41920ae5bb0ae5e30",
+            "records_sha256": "4fb60dad95c1b38b46bf5973f1398b168ec79ddd9f71492043b71506c21b8d94"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n exhaustive verification subadditivity exact-value pairs",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n satisfy inequality",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 254.606,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "0e735ab891c3daf7f26934bbc1ae90d504e8ab526e437aa9d0daaf094f455989",
+            "receipt_sha256": "0e735ab891c3daf7f26934bbc1ae90d504e8ab526e437aa9d0daaf094f455989",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%223-ap-free+subsets+first+integers+subadditive+instances+361+m%2Bn+satisfy+inequality%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n satisfy inequality",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "3-ap-free subsets first integers subadditive instances 361 m+n satisfy inequality",
+            "receipt_sha256": "bf104036b45e91831c97e39993f5a017ffdf139ac8edbfdfdf43f84a44a7fdb2",
+            "records_sha256": "98ce389307ad69c74a6d6ab4ecdc0f1f18acc3b0ee7b06aae69f43ee0513d12e"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "3-ap-free subsets first integers subadditive instances 361 m+n satisfy inequality",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "361 instances satisfy subadditive inequality 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 393.151,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "873cd25b3ccb68f17e6e945be6e0e56d2f975c8cca873afcc559d2ce1d71d3d4",
+            "receipt_sha256": "873cd25b3ccb68f17e6e945be6e0e56d2f975c8cca873afcc559d2ce1d71d3d4",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22361+instances+satisfy+subadditive+inequality+3-ap-free+subsets+first+integers+additive+combinatorics+treatment+composition%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "361 instances satisfy subadditive inequality 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "receipt": {
+            "hits": 93,
+            "provider": "uspto_odp_keyed",
+            "query": "361 instances satisfy subadditive inequality 3-ap-free subsets first integers additive combinatorics treatment composition",
+            "receipt_sha256": "d9f5b70c70e7650d0a8d851d6da67d7062e808587109c6ca74feca2a96babb1c",
+            "records_sha256": "f2d8287833a7724bce5447f80e0e59ee39b24838e3ec057517c6981bcb308ee5"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "361 instances satisfy subadditive inequality 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 0,
+          "provider": "epo_ops",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality compound composition",
+          "receipt": {
+            "attempt": 1,
+            "body_bytes": 32695,
+            "body_sha256": "bd706484c791070e03054e7b4ddd1454f3fc2928ceb231a28401dc7f6a48b3d0",
+            "compression_header_mismatch": false,
+            "decompressed": false,
+            "elapsed_ms": 345.233,
+            "epo_zero_results": true,
+            "headers": {
+              "content-type": "application/exchange+xml;charset=utf-8",
+              "etag": "\"04b8a305e2210073df3759426dc293cba\""
+            },
+            "liveness_probe_hits": 1,
+            "liveness_probe_phrase": "peptide",
+            "liveness_probe_receipt_sha256": "b4557e7313dde7f0745e1ac51844b95aceffe40d6481d0303aa45e684b446e34",
+            "receipt_sha256": "b4557e7313dde7f0745e1ac51844b95aceffe40d6481d0303aa45e684b446e34",
+            "status": 404,
+            "url": "https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q=%28ta+all+%22block+decomposition+m%2Bn+two+intervals+intersection+3-ap-free+361+instances+satisfy+subadditive+inequality+compound+composition%22%29",
+            "zero_results_semantics": "EPO OPS returns HTTP 404 for a search with no matches"
+          },
+          "status": "success"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality compound composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality compound composition",
+            "receipt_sha256": "91b0452d9393407799030b144dc7189284198c121c010d1f1c706b84d662235d",
+            "records_sha256": "69310e8dda6c2872997d97e132a4a3c0f13cb8bf8a4ecd9a4eae414dedc8cbaa"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality compound composition",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free composition compound treatment",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free composition compound treatment",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "block decomposition m+n two intervals intersection 3-ap-free composition compound treatment",
+            "receipt_sha256": "aa4995b6e62dd2208066a21c576b922efda3ff95cfec77e2a0419bf164e613af",
+            "records_sha256": "7821b5030115355e5fda04601fdd49f3e610e7aaad599695e7bbe39faa699254"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free composition compound treatment",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free subsets first integers compound",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "block decomposition m+n two intervals intersection 3-ap-free subsets first integers compound",
+            "receipt_sha256": "0bf9d48d7c8f1bdc62d283847820d38182bb8588bd8319818c4af946cc101736",
+            "records_sha256": "f70ff5c0d8b18ef6b37ef2be0630dde76d37ea0c051f6aae7462607daf5c2c49"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "block decomposition m+n two intervals intersection 3-ap-free subsets first integers compound",
+          "status": "error"
+        },
+        {
+          "error": "HTTPError:http_403",
+          "provider": "epo_ops",
+          "query": "exhaustive verification subadditivity exact-value pairs additive combinatorics composition",
+          "status": "error"
+        },
+        {
+          "hit_count": 15,
+          "provider": "uspto_odp_keyed",
+          "query": "exhaustive verification subadditivity exact-value pairs additive combinatorics composition",
+          "receipt": {
+            "hits": 120,
+            "provider": "uspto_odp_keyed",
+            "query": "exhaustive verification subadditivity exact-value pairs additive combinatorics composition",
+            "receipt_sha256": "6ba31b39a55a9162e84bda74ac5ed1d5cfa6bf31e4009f2d6c24d23a01a7d215",
+            "records_sha256": "b9273676bfe745091c46d18edd4bcb60dea9ebe7045797e4ff9a2e0ab7fc036a"
+          },
+          "status": "success"
+        },
+        {
+          "error": "HTTPError:http_503",
+          "provider": "google_patents_search",
+          "query": "exhaustive verification subadditivity exact-value pairs additive combinatorics composition",
+          "status": "error"
+        }
+      ],
+      "candidate_budget": 80,
+      "claim_grounded_count": 13,
+      "configured_official_providers": [
+        "epo_ops",
+        "uspto_odp_keyed"
+      ],
+      "coverage_status": "INCOMPLETE_PROVIDER_COVERAGE",
+      "family_diversity_reserve": 0,
+      "granted_count": 60,
+      "hydration_config": {
+        "allow_network": true,
+        "hydration_jobs": 12,
+        "hydration_workers": 4,
+        "patent_hydrate_limit": 12,
+        "structure_hydrate_limit": 4
+      },
+      "hydration_workers": 4,
+      "official_claim_grounded_count": 13,
+      "official_coverage_scope": "partial_or_missing_official_rails",
+      "official_coverage_status": "INCOMPLETE_OFFICIAL_PROVIDER_COVERAGE",
+      "official_provider_record_count": 60,
+      "official_search_complete": false,
+      "optional_provider_errors": [
+        "google_patents_search"
+      ],
+      "patent_count": 60,
+      "provider": "uspto_odp_keyed",
+      "provider_health": [
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 3,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_403",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed — the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": true,
+          "provider": "epo_ops",
+          "required_for_clear_novelty": true,
+          "status": "ERROR"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 0,
+          "hit_count": 135,
+          "official": true,
+          "provider": "uspto_odp_keyed",
+          "required_for_clear_novelty": true,
+          "status": "HIT"
+        },
+        {
+          "attempt_count": 9,
+          "availability_reason": null,
+          "error_count": 9,
+          "failure_diagnosis": {
+            "failure_class": "provider_down",
+            "probe_error": "HTTPError:http_503",
+            "probe_hits": 0,
+            "probe_ran": true,
+            "reason": "control phrase also failed — the provider is unavailable, not empty"
+          },
+          "hit_count": 0,
+          "official": false,
+          "provider": "google_patents_search",
+          "required_for_clear_novelty": false,
+          "status": "ERROR"
+        }
+      ],
+      "provider_request_limit": 15,
+      "providers_attempted": [
+        "epo_ops",
+        "uspto_odp_keyed",
+        "google_patents_search"
+      ],
+      "providers_with_hits": [
+        "uspto_odp_keyed"
+      ],
+      "query_count": 9,
+      "requested_retrieval_floor": 135,
+      "required_provider_errors": [
+        "epo_ops"
+      ],
+      "retrieval_receipt_sha256": "2d0a323aea3a24a1995776eb98913272ad61869d40011e65b4cd3fd0f4397b61",
+      "search_complete": false,
+      "selected_family_count": 60,
+      "status": "success",
+      "structure_grounded_count": 0,
+      "unavailable_official_providers": []
+    },
+    "patent_search_complete": false,
+    "provider_lineage_sha256": "585c8842057fb58b484697e7c17ae2a7323a0f67f130721da4405ab665b32072",
+    "query_coverage": {
+      "paper": {
+        "mechanism": [
+          "block decomposition m+n two intervals intersection 3-ap-free additive combinatorics",
+          "subadditive m+n verified 361 exact instances 54",
+          "block decomposition m+n two intervals intersection 3-ap-free exhaustive verification subadditivity exact-value pairs",
+          "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality",
+          "block decomposition m+n two intervals intersection 3-ap-free subsets first integers",
+          "exhaustive verification subadditivity exact-value pairs 3-ap-free subsets first integers",
+          "361 instances satisfy subadditive inequality 3-ap-free subsets first integers"
+        ],
+        "method": [
+          "exhaustive verification subadditivity exact-value pairs additive combinatorics",
+          "block decomposition m+n two intervals intersection 3-ap-free exhaustive verification subadditivity exact-value pairs",
+          "exhaustive verification subadditivity exact-value pairs 361 instances satisfy subadditive inequality",
+          "exhaustive verification subadditivity exact-value pairs 3-ap-free subsets first integers"
+        ],
+        "outcome": [
+          "361 instances satisfy subadditive inequality additive combinatorics",
+          "subadditive m+n verified 361 exact instances 54",
+          "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality",
+          "exhaustive verification subadditivity exact-value pairs 361 instances satisfy subadditive inequality",
+          "361 instances satisfy subadditive inequality 3-ap-free subsets first integers"
+        ],
+        "problem": [
+          "block decomposition m+n two intervals intersection 3-ap-free additive combinatorics",
+          "exhaustive verification subadditivity exact-value pairs additive combinatorics",
+          "361 instances satisfy subadditive inequality additive combinatorics",
+          "additive combinatorics"
+        ]
+      },
+      "patent": {
+        "mechanism": [
+          "3-ap-free subsets first integers subadditive instances 361 m+n block decomposition two intervals intersection",
+          "3-ap-free subsets first integers subadditive instances 361 m+n exhaustive verification subadditivity exact-value pairs",
+          "3-ap-free subsets first integers subadditive instances 361 m+n satisfy inequality",
+          "3-ap-free subsets first integers subadditive instances 361 m+n",
+          "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality compound composition",
+          "block decomposition m+n two intervals intersection 3-ap-free subsets first integers compound",
+          "361 instances satisfy subadditive inequality 3-ap-free subsets first integers additive combinatorics treatment composition",
+          "block decomposition m+n two intervals intersection 3-ap-free composition compound treatment"
+        ],
+        "method": [
+          "3-ap-free subsets first integers subadditive instances 361 m+n exhaustive verification subadditivity exact-value pairs",
+          "exhaustive verification subadditivity exact-value pairs additive combinatorics composition"
+        ],
+        "outcome": [
+          "3-ap-free subsets first integers subadditive instances 361 m+n block decomposition two intervals intersection",
+          "3-ap-free subsets first integers subadditive instances 361 m+n exhaustive verification subadditivity exact-value pairs",
+          "3-ap-free subsets first integers subadditive instances 361 m+n satisfy inequality",
+          "3-ap-free subsets first integers subadditive instances 361 m+n",
+          "block decomposition m+n two intervals intersection 3-ap-free 361 instances satisfy subadditive inequality compound composition",
+          "361 instances satisfy subadditive inequality 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ],
+        "problem": [
+          "exhaustive verification subadditivity exact-value pairs additive combinatorics composition",
+          "361 instances satisfy subadditive inequality 3-ap-free subsets first integers additive combinatorics treatment composition"
+        ]
+      },
+      "uncovered_paper_facets": [],
+      "uncovered_patent_facets": []
+    },
+    "query_plan_sha256": "18101e56d7cfbfd3c48219017786b5cb70d0c1038aef228e693c3edd976ea28e",
+    "spec_path": "C:\\Users\\jared\\AppData\\Local\\Temp\\noveltyforge-acquire\\spec_556a17e63899a21a653b287fec34db35.json"
+  },
+  "corpus_size": 90,
+  "corpus_source": "auto_acquired_litacq_patents",
+  "design_around": {
+    "boundary": "Research design-space constraints only; not a legal design-around or FTO opinion.",
+    "generator_rules": [
+      "reject exact, connectivity-equivalent, salt-parent, and tautomer-equivalent structures",
+      "reject high-similarity fingerprint analogs above the configured hard threshold",
+      "treat scaffold matches as design pressure even when not independently dispositive",
+      "screen every generated survivor against Markush envelopes and family-normalized evidence",
+      "do not treat stereochemistry, salt form, or tautomer changes as novelty restoration by themselves"
+    ],
+    "hard_parent_hashes": [],
+    "hard_structure_hashes": [],
+    "hard_tautomer_hashes": [],
+    "markush_envelopes": [],
+    "markush_family_counts": {},
+    "receipt_sha256": "1441b384f4f27848dfa9bc4fb0e0872dc8bbf9b09a585398ab7be8d851cff8ac",
+    "scaffold_pressure": [],
+    "schema": "oracle.noveltyforge.design_around.v1",
+    "status": "COMPLETE"
+  },
+  "differentiation": {
+    "baseline_core_novelty": 0.70787,
+    "differentiation_guard": "each pivot is re-scored against the same corpus; a change that does not lower measured collision is cosmetic and dropped.",
+    "novel_core_floor": 0.62,
+    "novelty_restorable": true,
+    "recommended_pivot": {
+      "baseline_novelty": 0.70787,
+      "description": "Claim the mechanism only in combination with the novel method ('exhaustive verification of subadditivity across all exact-va').",
+      "facet": "mechanism",
+      "feasibility": 0.72,
+      "injected_terms": [
+        "exhaustive",
+        "verification",
+        "subadditivity",
+        "exact-value",
+        "pairs"
+      ],
+      "novelty_gain": 0.058224,
+      "projected_novelty": 0.766094,
+      "rationale": "Ties the crowded facet to an orthogonal novel facet, moving the claim into unclaimed combination space.",
+      "restores_novelty": true,
+      "strategy": "combine_orthogonal"
+    },
+    "strategy_summary": "8 measured differentiation vector(s); best restores core novelty to 0.766094.",
+    "target_facets": [
+      "mechanism"
+    ],
+    "vectors": [
+      {
+        "baseline_novelty": 0.70787,
+        "description": "Claim the mechanism only in combination with the novel method ('exhaustive verification of subadditivity across all exact-va').",
+        "facet": "mechanism",
+        "feasibility": 0.72,
+        "injected_terms": [
+          "exhaustive",
+          "verification",
+          "subadditivity",
+          "exact-value",
+          "pairs"
+        ],
+        "novelty_gain": 0.058224,
+        "projected_novelty": 0.766094,
+        "rationale": "Ties the crowded facet to an orthogonal novel facet, moving the claim into unclaimed combination space.",
+        "restores_novelty": true,
+        "strategy": "combine_orthogonal"
+      },
+      {
+        "baseline_novelty": 0.70787,
+        "description": "Narrow the mechanism to the 'real-time online closed-loop setting' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "real-time",
+          "online",
+          "closed-loop",
+          "setting"
+        ],
+        "novelty_gain": 0.049644,
+        "projected_novelty": 0.757514,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.70787,
+        "description": "Narrow the mechanism to the 'out-of-distribution domain shift' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "out-of-distribution",
+          "domain",
+          "shift"
+        ],
+        "novelty_gain": 0.043585,
+        "projected_novelty": 0.751455,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.70787,
+        "description": "Narrow the mechanism to the 'single-cell resolution readout' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "single-cell",
+          "resolution",
+          "readout"
+        ],
+        "novelty_gain": 0.043585,
+        "projected_novelty": 0.751455,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.70787,
+        "description": "Narrow the mechanism to the 'low-dose sustained regime' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "low-dose",
+          "sustained",
+          "regime"
+        ],
+        "novelty_gain": 0.030608,
+        "projected_novelty": 0.738478,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.70787,
+        "description": "Narrow the mechanism to the 'pediatric population stratum' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "pediatric",
+          "population",
+          "stratum"
+        ],
+        "novelty_gain": 0.030608,
+        "projected_novelty": 0.738478,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.70787,
+        "description": "Narrow the mechanism to the 'leak-controlled held-out validation' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "leak-controlled",
+          "held-out",
+          "validation"
+        ],
+        "novelty_gain": 0.030608,
+        "projected_novelty": 0.738478,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      },
+      {
+        "baseline_novelty": 0.70787,
+        "description": "Narrow the mechanism to the 'federated multi-site cohort' regime, a condition absent from the nearest prior art.",
+        "facet": "mechanism",
+        "feasibility": 0.85,
+        "injected_terms": [
+          "federated",
+          "multi-site",
+          "cohort"
+        ],
+        "novelty_gain": 0.030608,
+        "projected_novelty": 0.738478,
+        "rationale": "Adds a distinctive limitation that the corpus does not teach, shrinking overlap on the crowded facet.",
+        "restores_novelty": true,
+        "strategy": "narrow"
+      }
+    ]
+  },
+  "discovery_verdict": "NOVELTY_INADMISSIBLE",
+  "domain": "additive combinatorics",
+  "facet_novelty": {
+    "entities": 0.560998,
+    "mechanism": 0.654089,
+    "method": 0.778075,
+    "outcome": 0.704294,
+    "problem": 0.175
+  },
+  "facet_views": [
+    {
+      "is_core": true,
+      "name": "mechanism",
+      "text": "block decomposition of {1..m+n} into two intervals, each intersection 3-AP-free",
+      "weight": 0.3
+    },
+    {
+      "is_core": true,
+      "name": "method",
+      "text": "exhaustive verification of subadditivity across all exact-value pairs",
+      "weight": 0.24
+    },
+    {
+      "is_core": true,
+      "name": "outcome",
+      "text": "361/361 instances satisfy the subadditive inequality",
+      "weight": 0.2
+    },
+    {
+      "is_core": false,
+      "name": "problem",
+      "text": "additive combinatorics",
+      "weight": 0.08
+    },
+    {
+      "is_core": false,
+      "name": "entities",
+      "text": "3-AP-free subsets of the first n integers",
+      "weight": 0.13
+    }
+  ],
+  "family_normalization": {
+    "double_count_prevented": 0,
+    "family_count": 60,
+    "patent_records": 60,
+    "receipt_sha256": "ad59783c9f52a4ea106be29196f8060e7ff54c9c59aacc89907584853f4be3ec",
+    "unique_structure_count": 0
+  },
+  "inadmissible_reasons": [
+    "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+  ],
+  "independent_quotas": {
+    "paper_quota_met": true,
+    "patent_quota_met": true,
+    "required_papers": 0,
+    "required_patents": 0,
+    "status": "COMPLETE"
+  },
+  "input_corpus_size": 90,
+  "ip_assessment": {
+    "boundary": "research-prioritization novelty screen; not legal advice or a patentability opinion.",
+    "freedom_to_operate_screen": {
+      "boundary": "keyword read-on screen against claim-grounded granted patent records; not a legal FTO opinion.",
+      "coverage": {
+        "official_claim_grounded_count": 13,
+        "official_provider_record_count": 60,
+        "official_search_complete": false,
+        "provider": "uspto_odp_keyed",
+        "query_coverage_complete": true,
+        "status": "official_coverage_incomplete",
+        "uncovered_patent_facets": [],
+        "warning": "Do not interpret a clean FTO screen as comprehensive; one or more official rails failed."
+      },
+      "exclusion_counts": {
+        "claim_similarity_below_threshold": 13,
+        "claims_unavailable": 77
+      },
+      "manual_review_queue": [
+        {
+          "context_collision": 0.206531,
+          "identifier": "US10162857",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10162857"
+        },
+        {
+          "context_collision": 0.1256,
+          "identifier": "US10116326",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10116326"
+        },
+        {
+          "context_collision": 0.124133,
+          "identifier": "US10902346",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10902346"
+        },
+        {
+          "context_collision": 0.115089,
+          "identifier": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.3235",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2184347621"
+        },
+        {
+          "context_collision": 0.10019,
+          "identifier": "US10235482",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10235482"
+        },
+        {
+          "context_collision": 0.095315,
+          "identifier": "10.1145/2591796.2591804",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1981712957"
+        },
+        {
+          "context_collision": 0.093975,
+          "identifier": "US10651951",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10651951"
+        },
+        {
+          "context_collision": 0.086705,
+          "identifier": "US10528561",
+          "legal_status": "unknown",
+          "patent_status": "granted",
+          "reason": "claim_similarity_below_threshold",
+          "record_id": "US10528561"
+        },
+        {
+          "context_collision": 0.071857,
+          "identifier": "10.1145/2746539.2746568",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2031683606"
+        },
+        {
+          "context_collision": 0.07182,
+          "identifier": "10.1017/cbo9780511734885.002",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2034666228"
+        },
+        {
+          "context_collision": 0.07182,
+          "identifier": "10.48550/arxiv.math/0409420",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W2952129562"
+        },
+        {
+          "context_collision": 0.071323,
+          "identifier": "10.1145/2629598",
+          "legal_status": "unknown",
+          "patent_status": "unknown",
+          "reason": "claims_unavailable",
+          "record_id": "https://openalex.org/W1985006965"
+        }
+      ],
+      "patent_read_ons": [],
+      "pending_application_watchlist": [],
+      "risk": false,
+      "screen_certifiable": false
+    },
+    "non_obviousness_103": {
+      "mosaic_risk": false,
+      "non_obvious": true,
+      "references_in_mosaic": []
+    },
+    "novelty_target": "papers",
+    "patent_novelty_102": {
+      "anticipating_reference": null,
+      "novel": true
+    },
+    "scientific_novelty": {
+      "band": "NOVEL",
+      "core_novelty": 0.70787,
+      "paper_worthy": true
+    },
+    "verdict": "PAPER_AND_PATENT_PATH_OPEN"
+  },
+  "ledger_status": {
+    "checked": false,
+    "key": "37114659084cf21ea537c35337e365bfd026b6bb76dc766d3bb2aa248b673415",
+    "prior_verdict": null,
+    "reused": false
+  },
+  "legal_boundary": "Research prior-art screening only. This module does not determine claim construction, enablement, legal status, jurisdiction-specific prior-art effect, infringement, or freedom to operate.",
+  "measured_effect": null,
+  "measured_reality": false,
+  "min_corpus_required": 10,
+  "next_action": "Run a preregistered measurement that emits effect size, significance/interval, sample size, and a content hash; bind that receipt to the unchanged claim before novelty reassessment.",
+  "novelty_band": "NOVEL",
+  "novelty_target": "papers",
+  "overall_novelty": 0.642898,
+  "promotion_eligibility": {
+    "claim_sha256": "3d90a88ccc23c4a84908aeb44228e367dea3f21055b4afc62267da256dc03f1e",
+    "decision": "PROMOTION_BLOCKED",
+    "eligible": false,
+    "evidence_bindings": {
+      "acquired_utc": "2026-08-04T15:34:48Z",
+      "acquisition_output_file_sha256": "b83d1acc1adb3cb586c4af531f55f2e4ae6030db8897f8229770e7d41f9c8735",
+      "acquisition_snapshot_sha256": "a39043d37e95d8032d0809149c8064ac201e2f474d7619bbb1a42640c8b77873",
+      "adversarial_review_hash": "9c5a7639c9b7489de81d24a942de4a5fc5dcf08ef1e493c017e475dbce6de39a",
+      "binding_receipt_sha256": "7f76b7b066fa085e74f1ab15683f1dc21b3b2f6523bf668f0227aa87a59535c5",
+      "corpus_sha256": "034767259449ce5afc0520028c8ac5a6ca3f717b34ebc5551f4016940416b38a",
+      "corpus_size": 90,
+      "corpus_source": "auto_acquired_litacq_patents",
+      "deployment_evidence": {
+        "decision": "NOT_REQUIRED",
+        "ok": true,
+        "required": false
+      },
+      "provider_lineage_sha256": "585c8842057fb58b484697e7c17ae2a7323a0f67f130721da4405ab665b32072",
+      "report_payload_sha256": "392f1b6b26c1c028351bb7b9da62753882b1efe1fef677cface4e3952dfee1c3",
+      "scientific_disposition_sha256": "5298febfa13fd0f0f1001f1d7fb135ddab8ead52762b3529d86cd1845ee54474",
+      "structured_prior_art_receipt_sha256": "c049a8353ddd5391188c8263fba80cc9c5bc272b0e50edd5baa8c9420935c4c1"
+    },
+    "gate_sha256": "e4997193906cd71025c73a7d5a2835b555c083dfaef98a7d121980bcd2e69530",
+    "reasons": [
+      "admissibility_gate_not_true",
+      "discovery_verdict_not_novel:NOVELTY_INADMISSIBLE",
+      "inadmissible_reasons_present",
+      "measured_reality_not_verified",
+      "scientific_disposition_not_new_mechanism_candidate",
+      "terminal_mode_not_promotable:NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY"
+    ],
+    "schema": "oracle.noveltyforge.promotion-gate.v1"
+  },
+  "receipt_hash": "392f1b6b26c1c028351bb7b9da62753882b1efe1fef677cface4e3952dfee1c3",
+  "scientific_disposition": {
+    "category": "EVIDENCE_HOLD",
+    "deep_remeasurement_required": true,
+    "disposition_sha256": "5298febfa13fd0f0f1001f1d7fb135ddab8ead52762b3529d86cd1845ee54474",
+    "next_action": "Run a preregistered measurement that emits effect size, significance/interval, sample size, and a content hash; bind that receipt to the unchanged claim before novelty reassessment.",
+    "prior_art_only_resume_allowed": false,
+    "reasons": [
+      "no_measured_effect_or_receipt:novel_claim_is_a_hypothesis_not_a_discovery"
+    ],
+    "schema": "oracle.noveltyforge.scientific-disposition.v1",
+    "top_colliding_facets": []
+  },
+  "structure_coverage": {
+    "applicable_patent_collision_count": 0,
+    "broad_external_provider_failure_count": 0,
+    "collision_scan_complete": true,
+    "configured_min_exclusions": 1,
+    "coverage_fraction": 0.0,
+    "external_live_structure_provider_count": 0,
+    "external_provider_attempt_count": 0,
+    "external_provider_failure_count": 0,
+    "min_exclusions": 1,
+    "patent_record_count": 0,
+    "patents_with_any_structure": 0,
+    "patents_with_trusted_structure": 0,
+    "provider_attempt_count": 0,
+    "provider_failure_count": 0,
+    "provider_outage_degraded": false,
+    "receipt_sha256": "936d264d795f6ff4866c55df73167741440c3353a5c51a78397033971047eb42",
+    "required": false,
+    "schema": "oracle.noveltyforge.structure_coverage.v4",
+    "shortfall": 1,
+    "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+    "trusted_exclusion_count": 0,
+    "untrusted_evidence_count": 0
+  },
+  "structured_collision_set": [],
+  "structured_prior_art": {
+    "bounds": {
+      "collision_records": 12,
+      "per_collision": 64,
+      "total": 512,
+      "trusted_exclusions_prioritized": true
+    },
+    "collision_evidence": [],
+    "collision_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "coverage": {
+      "applicable_patent_collision_count": 0,
+      "broad_external_provider_failure_count": 0,
+      "collision_scan_complete": true,
+      "configured_min_exclusions": 1,
+      "coverage_fraction": 0.0,
+      "external_live_structure_provider_count": 0,
+      "external_provider_attempt_count": 0,
+      "external_provider_failure_count": 0,
+      "min_exclusions": 1,
+      "patent_record_count": 0,
+      "patents_with_any_structure": 0,
+      "patents_with_trusted_structure": 0,
+      "provider_attempt_count": 0,
+      "provider_failure_count": 0,
+      "provider_outage_degraded": false,
+      "receipt_sha256": "936d264d795f6ff4866c55df73167741440c3353a5c51a78397033971047eb42",
+      "required": false,
+      "schema": "oracle.noveltyforge.structure_coverage.v4",
+      "shortfall": 1,
+      "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+      "trusted_exclusion_count": 0,
+      "untrusted_evidence_count": 0
+    },
+    "evidence": [],
+    "evidence_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "exclusion_smiles": [],
+    "markush_envelope_count": 0,
+    "markush_envelopes": [],
+    "markush_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "provider_attempts": [],
+    "receipt_sha256": "c049a8353ddd5391188c8263fba80cc9c5bc272b0e50edd5baa8c9420935c4c1",
+    "required": false,
+    "retrieval_coverage": {
+      "coverage_fraction": 0.0,
+      "external_live_structure_provider_count": 0,
+      "external_provider_attempt_count": 0,
+      "external_provider_failure_count": 0,
+      "min_exclusions": 1,
+      "patent_record_count": 60,
+      "patents_with_any_structure": 0,
+      "patents_with_trusted_structure": 0,
+      "provider_attempt_count": 0,
+      "provider_failure_count": 0,
+      "provider_outage_degraded": false,
+      "receipt_sha256": "1d75c0a2f2bcb4f292ccf51ffa0d9095275291d7ada57c0d2a6c0e27739f6ac3",
+      "required": false,
+      "schema": "oracle.noveltyforge.structure_coverage.v4",
+      "shortfall": 1,
+      "status": "PARTIAL",
+      "trusted_exclusion_count": 0,
+      "untrusted_evidence_count": 0
+    },
+    "retrieval_evidence_count": 0,
+    "retrieval_evidence_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "schema": "oracle.noveltyforge.structured_prior_art.v4",
+    "status": "COMPLETE_NO_RELEVANT_PATENT_COLLISIONS",
+    "structured_collision_set": []
+  },
+  "temporal_eligibility": {
+    "boundary": "No critical date supplied; temporal prior-art eligibility was not asserted.",
+    "critical_date": null,
+    "eligible_count": 90,
+    "enabled": false,
+    "excluded_post_critical_count": 0,
+    "policy": "public_availability",
+    "receipt_sha256": "6f61d344bbc810882249304e04bd55aa992bef937c8bfd0b9ddd5ded53e20983",
+    "rows": [],
+    "schema": "oracle.noveltyforge.temporal_gate.v1",
+    "uncertain_count": 0
+  },
+  "terminal_mode": "NOVELTY_INADMISSIBLE_NOT_A_DISCOVERY",
+  "top_collisions": [
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [],
+      "evidence_factor": 1.0,
+      "evidence_grade": "A",
+      "evidence_note": "family_elements_split_across_members",
+      "facet_collisions": {
+        "entities": 0.119587,
+        "mechanism": 0.227517,
+        "method": 0.221925,
+        "outcome": 0.295706,
+        "problem": 0.0
+      },
+      "identifier": "US10162857",
+      "overall_collision": 0.206531,
+      "raw_facet_collisions": {
+        "entities": 0.119587,
+        "mechanism": 0.227517,
+        "method": 0.221925,
+        "outcome": 0.295706,
+        "problem": 0.0
+      },
+      "record_id": "US10162857",
+      "shared_terms": {},
+      "source": "patent",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "OPTIMIZED INEQUALITY JOIN METHOD",
+      "year": 2016
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [],
+      "evidence_factor": 1.0,
+      "evidence_grade": "A",
+      "evidence_note": "family_elements_split_across_members",
+      "facet_collisions": {
+        "entities": 0.119587,
+        "mechanism": 0.345911,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.0
+      },
+      "identifier": "US10116326",
+      "overall_collision": 0.1256,
+      "raw_facet_collisions": {
+        "entities": 0.119587,
+        "mechanism": 0.345911,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.0
+      },
+      "record_id": "US10116326",
+      "shared_terms": {},
+      "source": "patent",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "SEMI-EXHAUSTIVE RECURSIVE BLOCK DECODING METHOD AND DEVICE",
+      "year": 2016
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [],
+      "evidence_factor": 1.0,
+      "evidence_grade": "A",
+      "evidence_note": "family_elements_split_across_members",
+      "facet_collisions": {
+        "entities": 0.238212,
+        "mechanism": 0.0,
+        "method": 0.221925,
+        "outcome": 0.168485,
+        "problem": 0.0
+      },
+      "identifier": "US10902346",
+      "overall_collision": 0.124133,
+      "raw_facet_collisions": {
+        "entities": 0.238212,
+        "mechanism": 0.0,
+        "method": 0.221925,
+        "outcome": 0.168485,
+        "problem": 0.0
+      },
+      "record_id": "US10902346",
+      "shared_terms": {},
+      "source": "patent",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "EFFICIENT SEMI-SUPERVISED CONCEPT ORGANIZATION ACCELERATED VIA AN INEQUALITY PROCESS",
+      "year": 2017
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.439002,
+        "mechanism": 0.0,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.653302
+      },
+      "identifier": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.153.3235",
+      "overall_collision": 0.115089,
+      "raw_facet_collisions": {
+        "entities": 0.439002,
+        "mechanism": 0.0,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.653302
+      },
+      "record_id": "https://openalex.org/W2184347621",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1097
+          ],
+          [
+            "combinatorics",
+            2.1097
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Additive Combinatorics and Theoretical Computer Science",
+      "year": 2009
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [],
+      "evidence_factor": 1.0,
+      "evidence_grade": "A",
+      "evidence_note": "family_elements_split_across_members",
+      "facet_collisions": {
+        "entities": 0.119587,
+        "mechanism": 0.127374,
+        "method": 0.172592,
+        "outcome": 0.0,
+        "problem": 0.0
+      },
+      "identifier": "US10235482",
+      "overall_collision": 0.10019,
+      "raw_facet_collisions": {
+        "entities": 0.119587,
+        "mechanism": 0.127374,
+        "method": 0.172592,
+        "outcome": 0.0,
+        "problem": 0.0
+      },
+      "record_id": "US10235482",
+      "shared_terms": {},
+      "source": "patent",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "EXHAUSTIVE INPUT VECTOR STIMULI FOR SIGNAL ELECTROMIGRATION ANALYSIS",
+      "year": 2017
+    },
+    {
+      "anticipates": false,
+      "anticipating_member": "",
+      "anticipation_eligible": true,
+      "colliding_facets": [
+        "problem"
+      ],
+      "evidence_factor": 1.0,
+      "evidence_grade": "",
+      "evidence_note": "non_patent_reference",
+      "facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.127374,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.654217
+      },
+      "identifier": "10.1145/2591796.2591804",
+      "overall_collision": 0.095315,
+      "raw_facet_collisions": {
+        "entities": 0.0,
+        "mechanism": 0.127374,
+        "method": 0.0,
+        "outcome": 0.0,
+        "problem": 0.654217
+      },
+      "record_id": "https://openalex.org/W1981712957",
+      "shared_terms": {
+        "problem": [
+          [
+            "additive",
+            2.1097
+          ],
+          [
+            "combinatorics",
+            2.1097
+          ]
+        ]
+      },
+      "source": "paper",
+      "structure_candidates": [],
+      "structure_coverage": {},
+      "structure_evidence": [],
+      "title": "Non-malleable codes from additive combinatorics",
+      "year": 2014
+    }
+  ],
+  "version": "4.0.0",
+  "whitespace": {
+    "crowded_cells": [
+      {
+        "axis": "combination with orthogonal modality",
+        "facet": "mechanism",
+        "max_collision": 0.357036,
+        "novelty": 0.642964
+      },
+      {
+        "axis": "pediatric population",
+        "facet": "mechanism",
+        "max_collision": 0.291628,
+        "novelty": 0.708372
+      },
+      {
+        "axis": "federated multi-site",
+        "facet": "mechanism",
+        "max_collision": 0.291628,
+        "novelty": 0.708372
+      },
+      {
+        "axis": "out-of-distribution shift",
+        "facet": "mechanism",
+        "max_collision": 0.291628,
+        "novelty": 0.708372
+      },
+      {
+        "axis": "prospective deployment",
+        "facet": "mechanism",
+        "max_collision": 0.291628,
+        "novelty": 0.708372
+      },
+      {
+        "axis": "resource-constrained edge",
+        "facet": "mechanism",
+        "max_collision": 0.291628,
+        "novelty": 0.708372
+      }
+    ],
+    "note": "coarse facet x regime map for prioritization; not an exhaustive freedom-to-operate search.",
+    "steer_toward": {
+      "axis": "real-time online closed-loop",
+      "facet": "method",
+      "max_collision": 0.148222,
+      "novelty": 0.851778
+    },
+    "whitespace_cells": [
+      {
+        "axis": "real-time online closed-loop",
+        "facet": "method",
+        "max_collision": 0.148222,
+        "novelty": 0.851778
+      },
+      {
+        "axis": "combination with orthogonal modality",
+        "facet": "method",
+        "max_collision": 0.148222,
+        "novelty": 0.851778
+      },
+      {
+        "axis": "low-dose sustained regime",
+        "facet": "method",
+        "max_collision": 0.159309,
+        "novelty": 0.840691
+      },
+      {
+        "axis": "geriatric frail population",
+        "facet": "method",
+        "max_collision": 0.159309,
+        "novelty": 0.840691
+      },
+      {
+        "axis": "single-cell resolution",
+        "facet": "method",
+        "max_collision": 0.161136,
+        "novelty": 0.838864
+      },
+      {
+        "axis": "pediatric population",
+        "facet": "method",
+        "max_collision": 0.175847,
+        "novelty": 0.824153
+      },
+      {
+        "axis": "federated multi-site",
+        "facet": "method",
+        "max_collision": 0.175847,
+        "novelty": 0.824153
+      },
+      {
+        "axis": "out-of-distribution shift",
+        "facet": "method",
+        "max_collision": 0.175847,
+        "novelty": 0.824153
+      },
+      {
+        "axis": "prospective deployment",
+        "facet": "method",
+        "max_collision": 0.175847,
+        "novelty": 0.824153
+      },
+      {
+        "axis": "resource-constrained edge",
+        "facet": "method",
+        "max_collision": 0.175847,
+        "novelty": 0.824153
+      }
+    ]
+  }
+}
